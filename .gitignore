@@ -22,3 +22,9 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Zenodo deposit artefacts (never commit the token or the split volumes)
+kpy_dfu_deposit.zip
+kpy_dfu_deposit.zip.*
+00_REASSEMBLE.txt
+zenodo_token.txt
