@@ -1,0 +1,1262 @@
+[
+  {
+    "gene_symbol": "HAT1",
+    "module": "M1_Kpy_machinery",
+    "submodule": "writer/eraser/substrate",
+    "role": "writer",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "组蛋白乙酰转移酶 HAT1 被证实催化丙酮酰辅酶A生成 Kpy（体外+细胞内验证）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "EP300",
+    "module": "M1_Kpy_machinery",
+    "submodule": "writer/eraser/substrate",
+    "role": "writer",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "p300 被证实催化 Kpy 生成；p300/CBP 家族为经典酰基转移酶",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "SIRT3",
+    "module": "M1_Kpy_machinery",
+    "submodule": "writer/eraser/substrate",
+    "role": "eraser",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "NAD+依赖去酰化酶 SIRT3 负责去除 Kpy（可逆调控环路）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "STAT1",
+    "module": "M1_Kpy_machinery",
+    "submodule": "writer/eraser/substrate",
+    "role": "substrate",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023)",
+    "evidence": "STAT1-K201 为实验鉴定的丙酮酰化位点（+70.0468 Da）；PKM2 依赖；阻断 STAT1-STAT2 二聚化; 同时为 M4 IFN-I 读出轴核心（跨模块基因，主模块记 M1）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACSS1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:84532; acetyl-coenzyme A synthetase 2-like, mitochondrial isoform 1 precursor [EC:6.2.1); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACSS2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:55902; acetyl-coenzyme A synthetase, cytoplasmic isoform 1 [EC:6.2.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH1A",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:124; alcohol dehydrogenase 1A [EC:1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH1B",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:125; all-trans-retinol dehydrogenase [NAD(+)] ADH1B isoform 1 [EC:1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH1C",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:126; alcohol dehydrogenase 1C [EC:1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH4",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:127; all-trans-retinol dehydrogenase [NAD(+)] ADH4 isoform 2 [EC:1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH5",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:128; alcohol dehydrogenase class-3 [EC:1.1.1.284 1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH6",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:130; alcohol dehydrogenase 6 isoform 2 [EC:1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADH7",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:131; all-trans-retinol dehydrogenase [NAD(+)] ADH7 isoform 2 [EC:1.1.1.1]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ADPGK",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:83440; ADP-dependent glucokinase isoform 4 precursor [EC:2.7.1.147])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH1B1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:219; aldehyde dehydrogenase X, mitochondrial precursor [EC:1.2.1.3]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:217; aldehyde dehydrogenase, mitochondrial isoform 1 precursor [EC:1.2.1.3]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH3A1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:218; aldehyde dehydrogenase, dimeric NADP-preferring isoform 1 [EC:1.2.1.5])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH3A2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:224; aldehyde dehydrogenase family 3 member A2 isoform 2 [EC:1.2.1.3]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH3B1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:221; aldehyde dehydrogenase family 3 member B1 isoform a [EC:1.2.1.5])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH3B2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:222; aldehyde dehydrogenase family 3 member B2 isoform a [EC:1.2.1.5])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH7A1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:501; alpha-aminoadipic semialdehyde dehydrogenase isoform 1 precursor [EC:1.2.1.31 1.); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH9A1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:223; 4-trimethylaminobutyraldehyde dehydrogenase isoform 1 precursor [EC:1.2.1.47 1.2); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDOA",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:226; fructose-bisphosphate aldolase A isoform 1 [EC:4.1.2.13])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDOB",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:229; fructose-bisphosphate aldolase B [EC:4.1.2.13])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDOC",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:230; fructose-bisphosphate aldolase C [EC:4.1.2.13])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "BPGM",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:669; bisphosphoglycerate mutase [EC:5.4.2.4 5.4.2.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "DLAT",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:1737; dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenas); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "DLD",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:1738; dihydrolipoyl dehydrogenase, mitochondrial isoform 1 precursor [EC:1.8.1.4]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ENO1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2023; alpha-enolase isoform 1 [EC:4.2.1.11]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ENO2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2026; gamma-enolase [EC:4.2.1.11]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ENO3",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2027; beta-enolase isoform 1 [EC:4.2.1.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ENO4",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:387712; enolase 4)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "FBP1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2203; fructose-1,6-bisphosphatase 1 [EC:3.1.3.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "FBP2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:8789; fructose-1,6-bisphosphatase isozyme 2 [EC:3.1.3.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "G6PC1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2538; glucose-6-phosphatase catalytic subunit 1 isoform 1 [EC:3.1.3.9])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "G6PC2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:57818; glucose-6-phosphatase 2 isoform 1 [EC:3.1.3.9])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "G6PC3",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:92579; glucose-6-phosphatase 3 isoform 1 [EC:3.1.3.9])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GALM",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:130589; galactose mutarotase [EC:5.1.3.3])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GAPDH",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2597; glyceraldehyde-3-phosphate dehydrogenase isoform 1 [EC:1.2.1.12])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GAPDHS",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:26330; glyceraldehyde-3-phosphate dehydrogenase, testis-specific [EC:1.2.1.12])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GCK",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2645; hexokinase-4 isoform 1 [EC:2.7.1.2]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen: 敲低解除 IFN 抑制",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GPI",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:2821; glucose-6-phosphate isomerase isoform 2 [EC:5.3.1.9])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "HK1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:3098; hexokinase-1 isoform HKI [EC:2.7.1.1]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen: 敲低解除 IFN 抑制",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "HK2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:3099; hexokinase-2 isoform 1 [EC:2.7.1.1]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen: 敲低解除 IFN 抑制",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "HK3",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:3101; hexokinase-3 [EC:2.7.1.1])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "HKDC1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:80201; hexokinase HKDC1 [EC:2.7.1.1])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LDHA",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "pyruvate consumption (lactate branch)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:3939; L-lactate dehydrogenase A chain isoform 1 [EC:1.1.1.27]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 敲低 LDHA 不解除 IFN 抑制 → LDH 位于 Kpy 节点下游; 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LDHAL6A",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:160287; L-lactate dehydrogenase A-like 6A [EC:1.1.1.27]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LDHAL6B",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:92483; L-lactate dehydrogenase A-like 6B [EC:1.1.1.27]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LDHB",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "pyruvate consumption (lactate branch)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:3945; L-lactate dehydrogenase B chain isoform LDHB [EC:1.1.1.27]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 敲低 LDHA 不解除 IFN 抑制 → LDH 位于 Kpy 节点下游; 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LDHC",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:3948; L-lactate dehydrogenase C chain [EC:1.1.1.27]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MINPP1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:9562; multiple inositol polyphosphate phosphatase 1 isoform 1 precursor [EC:3.1.3.62 3)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PCK1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5105; phosphoenolpyruvate carboxykinase, cytosolic [GTP] [EC:4.1.1.32]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PCK2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5106; phosphoenolpyruvate carboxykinase [GTP], mitochondrial isoform 1 precursor [EC:4); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PDHA1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5160; pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial i); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PDHA2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5161; pyruvate dehydrogenase E1 component subunit alpha, testis-specific form, mitocho); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PDHB",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5162; pyruvate dehydrogenase E1 component subunit beta, mitochondrial isoform 1 precur); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PFKL",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5211; ATP-dependent 6-phosphofructokinase, liver type isoform b [EC:2.7.1.11]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen (PFK1)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PFKM",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5213; ATP-dependent 6-phosphofructokinase, muscle type isoform 2 [EC:2.7.1.11]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen (PFK1)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PFKP",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme (upstream of pyruvate; Cell 2026 shRNA screen)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5214; ATP-dependent 6-phosphofructokinase, platelet type isoform 1 [EC:2.7.1.11]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) shRNA screen (PFK1)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGAM1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5223; phosphoglycerate mutase 1 isoform 1 [EC:5.4.2.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGAM2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5224; phosphoglycerate mutase 2 [EC:5.4.2.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGAM4",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:441531; phosphoglycerate mutase 4 [EC:5.4.2.11])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGK1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5230; phosphoglycerate kinase 1 [EC:2.7.2.3])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGK2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5232; phosphoglycerate kinase 2 [EC:2.7.2.3])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGM1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5236; phosphoglucomutase-1 isoform 1 [EC:5.4.2.2])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PGM2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:55276; phosphopentomutase [EC:5.4.2.2 5.4.2.7])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PKLR",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5313; pyruvate kinase PKLR isoform 1 [EC:2.7.1.40]); 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PKM",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010 + KEGG:hsa00620",
+    "role": "pyruvate-producing enzyme (PKM2 isoform)",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:5315; pyruvate kinase PKM isoform a [EC:2.7.1.40]); Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): PKM2 催化产生丙酮酸为 Kpy 直接供体；敲低 PKM2 解除 IFN 抑制; 亦属 KEGG hsa00620 Pyruvate metabolism",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "TPI1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00010",
+    "role": "glycolysis enzyme",
+    "source": "KEGG hsa00010",
+    "evidence": "KEGG hsa00010 Glycolysis/Gluconeogenesis (kegg:7167; triosephosphate isomerase isoform 1 [EC:5.3.1.1])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACACA",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:31; acetyl-CoA carboxylase 1 isoform 2 [EC:6.4.1.2 6.3.4.14 2.1.3.15])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACACB",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:32; acetyl-CoA carboxylase 2 isoform a [EC:6.4.1.2 6.3.4.14 2.1.3.15])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACAT1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:38; acetyl-CoA acetyltransferase, mitochondrial isoform b precursor [EC:2.3.1.9])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACAT2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:39; acetyl-CoA acetyltransferase, cytosolic isoform 1 [EC:2.3.1.9])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACOT12",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:134526; acetyl-coenzyme A thioesterase [EC:3.1.2.1])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACYP1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:97; acylphosphatase-1 isoform a [EC:3.6.1.7])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ACYP2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:98; acylphosphatase-2 isoform 3 [EC:3.6.1.7])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "FAHD2A",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:51011; oxaloacetate tautomerase FAHD2A, mitochondrial)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "FAHD2B",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:151313; oxaloacetate tautomerase FAHD2B, mitochondrial isoform a)",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "FH",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:2271; fumarate hydratase, mitochondrial [EC:4.2.1.2])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GLO1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:2739; lactoylglutathione lyase [EC:4.4.1.5])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GRHPR",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:9380; glyoxylate reductase/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "HAGH",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:3029; hydroxyacylglutathione hydrolase, mitochondrial isoform 1 precursor [EC:3.1.2.6])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LDHD",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:197257; probable D-lactate dehydrogenase, mitochondrial isoform 1 precursor [EC:1.1.2.4])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MDH1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:4190; malate dehydrogenase, cytoplasmic isoform MDH1 [EC:1.1.1.37])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MDH2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:4191; malate dehydrogenase, mitochondrial isoform 1 precursor [EC:1.1.1.37])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ME1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:4199; NADP-dependent malic enzyme [EC:1.1.1.40])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ME2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:4200; NAD-dependent malic enzyme, mitochondrial isoform 1 precursor [EC:1.1.1.38])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ME3",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:10873; NADP-dependent malic enzyme, mitochondrial isoform 1 [EC:1.1.1.40])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "PC",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "KEGG:hsa00620",
+    "role": "pyruvate metabolism enzyme",
+    "source": "KEGG hsa00620",
+    "evidence": "KEGG hsa00620 Pyruvate metabolism (kegg:5091; pyruvate carboxylase, mitochondrial precursor [EC:6.4.1.1])",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MPC1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "MPC/transport (literature)",
+    "role": "pyruvate transport",
+    "source": "Literature (Nat Cell Biol 2025; Nat Metab 2026)",
+    "evidence": "线粒体丙酮酸载体亚基1（Bricker et al. 2012 / Herzig et al. 2012, Science）；Nat Cell Biol 2025 (Hsu et al.) 提示 ALDH4A1 为 MPC 复合体活性组分",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MPC2",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "MPC/transport (literature)",
+    "role": "pyruvate transport",
+    "source": "Literature (Nat Cell Biol 2025; Nat Metab 2026)",
+    "evidence": "线粒体丙酮酸载体亚基2；同上",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "SLC16A1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "MPC/transport (literature)",
+    "role": "pyruvate transport",
+    "source": "Literature (Nat Cell Biol 2025; Nat Metab 2026)",
+    "evidence": "质膜单羧酸转运体 MCT1，介导丙酮酸/乳酸跨膜转运；Nat Metab 2026 提及丙酮酸分配（routing）决定 Kpy 蓄积",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ALDH4A1",
+    "module": "M2_Pyruvate_supply",
+    "submodule": "MPC/transport (literature)",
+    "role": "pyruvate transport",
+    "source": "Literature (Nat Cell Biol 2025; Nat Metab 2026)",
+    "evidence": "Nat Cell Biol 2025 (Hsu et al.)：ALDH4A1 为 MPC 复合体活性组分，维持线粒体丙酮酸输入",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "FGFR4",
+    "module": "M3_Kpy_targets",
+    "submodule": "CUT&Tag+RNA-seq targets",
+    "role": "Kpy target gene",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "启动子区 Kpy 富集且与转录激活正相关（CUT&Tag + RNA-seq 联合分析）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "LGALS8",
+    "module": "M3_Kpy_targets",
+    "submodule": "CUT&Tag+RNA-seq targets",
+    "role": "Kpy target gene",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "启动子区 Kpy 富集且与转录激活正相关（CUT&Tag + RNA-seq 联合分析）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "RSPH4A",
+    "module": "M3_Kpy_targets",
+    "submodule": "CUT&Tag+RNA-seq targets",
+    "role": "Kpy target gene",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "启动子区 Kpy 富集且与转录激活正相关（CUT&Tag + RNA-seq 联合分析）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFNAR1",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "IFN-I receptor subunit 1",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴; KEGG hsa04630 JAK-STAT member",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFNAR2",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "IFN-I receptor subunit 2",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴; KEGG hsa04630 JAK-STAT member",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "JAK1",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "receptor-associated kinase (IFN-I)",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴; KEGG hsa04630 JAK-STAT member",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "TYK2",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "receptor-associated kinase (IFN-I)",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴; KEGG hsa04630 JAK-STAT member",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "STAT2",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "STAT1 dimerization partner; K201 修饰阻断 STAT1-STAT2 结合",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴; KEGG hsa04630 JAK-STAT member",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IRF9",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "ISGF3 component",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴; KEGG hsa04630 JAK-STAT member",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IRF1",
+    "module": "M4_IFNI_readout",
+    "submodule": "IFN-I signaling",
+    "role": "ISG transcription factor",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + KEGG hsa04630",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): IFN-I 信号通路核心组分，STAT1-K201 丙酮酰化的功能读出轴",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFIT1",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出（Cell 2026 明确点名的 ISG）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFIT2",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFIT3",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFITM1",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFITM3",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MX1",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "MX2",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "OAS1",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "OAS2",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "OAS3",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "OASL",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ISG15",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出（Cell 2026 明确点名的 ISG）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "ISG20",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFI6",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFI16",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFI27",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFI44",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "IFI44L",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "RSAD2",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出（Cell 2026 明确点名的 ISG）",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "DDX58",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "DHX58",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "EIF2AK2",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "CXCL10",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "GBP1",
+    "module": "M4_IFNI_readout",
+    "submodule": "ISG",
+    "role": "interferon-stimulated gene",
+    "source": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023) + canonical ISG list",
+    "evidence": "Cell 2026 (Zuo et al., doi:10.1016/j.cell.2026.01.023): 高糖条件下受抑制的干扰素刺激基因（ISG）类；Kpy-STAT1 修饰的功能读出",
+    "scoring_include": "Yes"
+  },
+  {
+    "gene_symbol": "HIST1H1C",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST1H2AC",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST1H2AM",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST1H2BO",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST1H3B",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST1H4C",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST1H4E",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST2H2AC",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST2H2BE",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST2H3C",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "HIST2H3D",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  },
+  {
+    "gene_symbol": "H2AFZ",
+    "module": "M5_Histone_carriers",
+    "submodule": "histone substrate carrier",
+    "role": "substrate carrier",
+    "source": "Nat Metab 2026 (Song et al., doi:10.1038/s42255-026-01556-2)",
+    "evidence": "Nat Metab 2026 在哺乳动物细胞鉴定 10 个组蛋白 Kpy 位点（组蛋白 Kpy 富集于启动子）；本模块为组蛋白家族代表性基因。注意：组蛋白 mRNA 受细胞周期调控，不纳入表达评分（scoring_include=No），具体位点-组蛋白对应关系以原文为准。",
+    "scoring_include": "No"
+  }
+]

@@ -1,0 +1,17 @@
+Cell Type,cond,LDHA,FAHD2B,ADH1B,DHX58,ALDH3A2,GBP1
+Blood Vessels,diabetic,1.366,0.0,0.0,0.0,0.0,0.0
+Blood Vessels,non_diabetic,1.7189,0.0,0.0,0.0,0.0,0.0
+Fibroblasts,diabetic,1.9248,0.0,0.0,0.0,0.0,0.0
+Fibroblasts,non_diabetic,1.9366,0.0,0.0,0.0,0.0,0.0
+Keratinocytes,diabetic,2.228,0.0,0.0,0.0,0.0,0.0
+Keratinocytes,non_diabetic,2.4573,0.0,0.0,0.0,0.0,0.0
+Lymphatic Vessels,diabetic,1.3657,0.0,0.0,0.0,0.0,0.0
+Lymphatic Vessels,non_diabetic,1.2789,0.0,0.0,0.0,0.0,0.0
+Lymphocytes,diabetic,1.0608,0.0,0.0,0.0,0.0,0.0
+Lymphocytes,non_diabetic,0.0,0.0,0.0,0.0,0.0,0.0
+Macrophages,diabetic,0.914,0.0,0.0,0.0,0.0,0.0
+Macrophages,non_diabetic,0.0,0.0,0.0,0.0,0.0,0.0
+Mast Cells,diabetic,1.2426,0.0,0.0,0.0,0.0,0.0
+Mast Cells,non_diabetic,0.0,0.0,0.0,0.0,0.0,0.0
+Pericytes,diabetic,1.696,0.0,0.0,0.0,0.0,0.0
+Pericytes,non_diabetic,2.058,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,20 @@
+{
+  "n_cells": 167837,
+  "foot_skin_donors_by_group": {
+    "DFU|DFU-healer": 9,
+    "DFU|DFU-nonhealer": 5,
+    "nonDFU|Non-DFU Diabetic": 8,
+    "nonDFU|Non-diabetic": 11
+  },
+  "composition_files": [
+    "composition_Foot_skin_DFU_vs_nonDFU.csv",
+    "composition_Forearm_skin_DFU_vs_nonDFU.csv",
+    "composition_PBMCs_DFU_vs_nonDFU.csv",
+    "composition_Foot_skin_4group_kruskal.csv",
+    "composition_Foot_skin_healer_vs_nonhealer.csv"
+  ],
+  "pseudobulk_min_cells": 100,
+  "pseudobulk_rows": 285,
+  "pseudobulk_sig_tests": 57,
+  "runtime_sec": 9.7
+}

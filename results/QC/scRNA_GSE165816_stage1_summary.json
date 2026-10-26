@@ -1,0 +1,558 @@
+{
+  "n_files": 54,
+  "per_sample": {
+    "GSM5050521": {
+      "tissue": "Forearm skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 3054,
+      "cells_pass": 3054,
+      "pass_rate": 1.0,
+      "median_n_genes": 1225.0,
+      "median_pct_mt": 4.9,
+      "genes_kept": 18436
+    },
+    "GSM5050522": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 985,
+      "cells_pass": 985,
+      "pass_rate": 1.0,
+      "median_n_genes": 1232.0,
+      "median_pct_mt": 1.804,
+      "genes_kept": 14364
+    },
+    "GSM5050523": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 3951,
+      "cells_pass": 3951,
+      "pass_rate": 1.0,
+      "median_n_genes": 1631.0,
+      "median_pct_mt": 3.118,
+      "genes_kept": 18098
+    },
+    "GSM5050524": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 542,
+      "cells_pass": 542,
+      "pass_rate": 1.0,
+      "median_n_genes": 1632.5,
+      "median_pct_mt": 2.442,
+      "genes_kept": 14513
+    },
+    "GSM5050525": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 1984,
+      "cells_pass": 1984,
+      "pass_rate": 1.0,
+      "median_n_genes": 1557.0,
+      "median_pct_mt": 2.785,
+      "genes_kept": 17535
+    },
+    "GSM5050526": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 1011,
+      "cells_pass": 1011,
+      "pass_rate": 1.0,
+      "median_n_genes": 1411.0,
+      "median_pct_mt": 2.871,
+      "genes_kept": 14939
+    },
+    "GSM5050527": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 2865,
+      "cells_pass": 2865,
+      "pass_rate": 1.0,
+      "median_n_genes": 1978.0,
+      "median_pct_mt": 2.792,
+      "genes_kept": 18238
+    },
+    "GSM5050528": {
+      "tissue": "Forearm skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 1384,
+      "cells_pass": 1384,
+      "pass_rate": 1.0,
+      "median_n_genes": 1606.5,
+      "median_pct_mt": 4.556,
+      "genes_kept": 16738
+    },
+    "GSM5050529": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 2630,
+      "cells_pass": 2630,
+      "pass_rate": 1.0,
+      "median_n_genes": 1727.5,
+      "median_pct_mt": 3.046,
+      "genes_kept": 18502
+    },
+    "GSM5050530": {
+      "tissue": "Foot skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 2279,
+      "cells_pass": 2279,
+      "pass_rate": 1.0,
+      "median_n_genes": 1397.0,
+      "median_pct_mt": 2.99,
+      "genes_kept": 17749
+    },
+    "GSM5050531": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 1775,
+      "cells_pass": 1775,
+      "pass_rate": 1.0,
+      "median_n_genes": 1973.0,
+      "median_pct_mt": 3.297,
+      "genes_kept": 17971
+    },
+    "GSM5050532": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 2417,
+      "cells_pass": 2417,
+      "pass_rate": 1.0,
+      "median_n_genes": 1896.0,
+      "median_pct_mt": 3.608,
+      "genes_kept": 17826
+    },
+    "GSM5050533": {
+      "tissue": "Foot skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 4290,
+      "cells_pass": 4290,
+      "pass_rate": 1.0,
+      "median_n_genes": 1691.5,
+      "median_pct_mt": 3.249,
+      "genes_kept": 18470
+    },
+    "GSM5050534": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 4825,
+      "cells_pass": 4825,
+      "pass_rate": 1.0,
+      "median_n_genes": 1598.0,
+      "median_pct_mt": 3.275,
+      "genes_kept": 19180
+    },
+    "GSM5050535": {
+      "tissue": "Forearm skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 1620,
+      "cells_pass": 1620,
+      "pass_rate": 1.0,
+      "median_n_genes": 2545.0,
+      "median_pct_mt": 7.134,
+      "genes_kept": 17893
+    },
+    "GSM5050536": {
+      "tissue": "Forearm skin",
+      "disease": "DFU-healer",
+      "cells_raw": 3566,
+      "cells_pass": 3566,
+      "pass_rate": 1.0,
+      "median_n_genes": 2344.0,
+      "median_pct_mt": 7.598,
+      "genes_kept": 19235
+    },
+    "GSM5050537": {
+      "tissue": "Forearm skin",
+      "disease": "DFU-healer",
+      "cells_raw": 4289,
+      "cells_pass": 4289,
+      "pass_rate": 1.0,
+      "median_n_genes": 2484.0,
+      "median_pct_mt": 7.138,
+      "genes_kept": 20185
+    },
+    "GSM5050538": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 5399,
+      "cells_pass": 5399,
+      "pass_rate": 1.0,
+      "median_n_genes": 1555.0,
+      "median_pct_mt": 8.929,
+      "genes_kept": 19979
+    },
+    "GSM5050539": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 2250,
+      "cells_pass": 2250,
+      "pass_rate": 1.0,
+      "median_n_genes": 1871.5,
+      "median_pct_mt": 7.226,
+      "genes_kept": 18338
+    },
+    "GSM5050540": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 2922,
+      "cells_pass": 2922,
+      "pass_rate": 1.0,
+      "median_n_genes": 2508.5,
+      "median_pct_mt": 3.729,
+      "genes_kept": 19074
+    },
+    "GSM5050541": {
+      "tissue": "Forearm skin",
+      "disease": "DFU-healer",
+      "cells_raw": 4404,
+      "cells_pass": 4404,
+      "pass_rate": 1.0,
+      "median_n_genes": 1747.0,
+      "median_pct_mt": 8.64,
+      "genes_kept": 18465
+    },
+    "GSM5050542": {
+      "tissue": "Forearm skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 3774,
+      "cells_pass": 3774,
+      "pass_rate": 1.0,
+      "median_n_genes": 1832.5,
+      "median_pct_mt": 9.128,
+      "genes_kept": 19888
+    },
+    "GSM5050543": {
+      "tissue": "PBMCs",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 3870,
+      "cells_pass": 3870,
+      "pass_rate": 1.0,
+      "median_n_genes": 981.5,
+      "median_pct_mt": 9.909,
+      "genes_kept": 16216
+    },
+    "GSM5050544": {
+      "tissue": "PBMCs",
+      "disease": "Non-diabetic",
+      "cells_raw": 3377,
+      "cells_pass": 3377,
+      "pass_rate": 1.0,
+      "median_n_genes": 1289.0,
+      "median_pct_mt": 11.224,
+      "genes_kept": 16347
+    },
+    "GSM5050545": {
+      "tissue": "PBMCs",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 3812,
+      "cells_pass": 3812,
+      "pass_rate": 1.0,
+      "median_n_genes": 1421.5,
+      "median_pct_mt": 9.843,
+      "genes_kept": 16373
+    },
+    "GSM5050546": {
+      "tissue": "PBMCs",
+      "disease": "DFU-healer",
+      "cells_raw": 3006,
+      "cells_pass": 3006,
+      "pass_rate": 1.0,
+      "median_n_genes": 1690.5,
+      "median_pct_mt": 9.428,
+      "genes_kept": 16171
+    },
+    "GSM5050547": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 4630,
+      "cells_pass": 4630,
+      "pass_rate": 1.0,
+      "median_n_genes": 2256.0,
+      "median_pct_mt": 5.36,
+      "genes_kept": 19601
+    },
+    "GSM5050548": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 3515,
+      "cells_pass": 3515,
+      "pass_rate": 1.0,
+      "median_n_genes": 1883.0,
+      "median_pct_mt": 6.927,
+      "genes_kept": 19218
+    },
+    "GSM5050549": {
+      "tissue": "PBMCs",
+      "disease": "DFU-healer",
+      "cells_raw": 4278,
+      "cells_pass": 4278,
+      "pass_rate": 1.0,
+      "median_n_genes": 1411.0,
+      "median_pct_mt": 8.481,
+      "genes_kept": 16475
+    },
+    "GSM5050550": {
+      "tissue": "PBMCs",
+      "disease": "Non-diabetic",
+      "cells_raw": 3669,
+      "cells_pass": 3669,
+      "pass_rate": 1.0,
+      "median_n_genes": 1116.0,
+      "median_pct_mt": 10.054,
+      "genes_kept": 16103
+    },
+    "GSM5050551": {
+      "tissue": "PBMCs",
+      "disease": "DFU-healer",
+      "cells_raw": 4609,
+      "cells_pass": 4609,
+      "pass_rate": 1.0,
+      "median_n_genes": 1096.0,
+      "median_pct_mt": 9.781,
+      "genes_kept": 16457
+    },
+    "GSM5050552": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 2483,
+      "cells_pass": 2483,
+      "pass_rate": 1.0,
+      "median_n_genes": 2360.0,
+      "median_pct_mt": 6.123,
+      "genes_kept": 18539
+    },
+    "GSM5050553": {
+      "tissue": "Forearm skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 4837,
+      "cells_pass": 4837,
+      "pass_rate": 1.0,
+      "median_n_genes": 1670.0,
+      "median_pct_mt": 8.279,
+      "genes_kept": 19352
+    },
+    "GSM5050554": {
+      "tissue": "PBMCs",
+      "disease": "Non-diabetic",
+      "cells_raw": 4527,
+      "cells_pass": 4527,
+      "pass_rate": 1.0,
+      "median_n_genes": 1526.0,
+      "median_pct_mt": 8.148,
+      "genes_kept": 16488
+    },
+    "GSM5050555": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 3465,
+      "cells_pass": 3465,
+      "pass_rate": 1.0,
+      "median_n_genes": 2137.0,
+      "median_pct_mt": 6.099,
+      "genes_kept": 20288
+    },
+    "GSM5050556": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 4192,
+      "cells_pass": 4192,
+      "pass_rate": 1.0,
+      "median_n_genes": 2035.5,
+      "median_pct_mt": 4.779,
+      "genes_kept": 20528
+    },
+    "GSM5050557": {
+      "tissue": "Foot skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 4268,
+      "cells_pass": 4268,
+      "pass_rate": 1.0,
+      "median_n_genes": 2021.5,
+      "median_pct_mt": 9.231,
+      "genes_kept": 20323
+    },
+    "GSM5050558": {
+      "tissue": "Foot skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 3413,
+      "cells_pass": 3413,
+      "pass_rate": 1.0,
+      "median_n_genes": 2148.0,
+      "median_pct_mt": 7.914,
+      "genes_kept": 19981
+    },
+    "GSM5050559": {
+      "tissue": "Forearm skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 2902,
+      "cells_pass": 2902,
+      "pass_rate": 1.0,
+      "median_n_genes": 2302.0,
+      "median_pct_mt": 7.224,
+      "genes_kept": 20240
+    },
+    "GSM5050560": {
+      "tissue": "Forearm skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 5248,
+      "cells_pass": 5248,
+      "pass_rate": 1.0,
+      "median_n_genes": 2189.0,
+      "median_pct_mt": 7.016,
+      "genes_kept": 20993
+    },
+    "GSM5050561": {
+      "tissue": "PBMCs",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 7537,
+      "cells_pass": 7537,
+      "pass_rate": 1.0,
+      "median_n_genes": 1360.0,
+      "median_pct_mt": 7.94,
+      "genes_kept": 17635
+    },
+    "GSM5050562": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 1475,
+      "cells_pass": 1174,
+      "pass_rate": 0.7959,
+      "median_n_genes": 2941.0,
+      "median_pct_mt": 9.573,
+      "genes_kept": 17492
+    },
+    "GSM5050563": {
+      "tissue": "Foot skin",
+      "disease": "DFU-nonhealer",
+      "cells_raw": 2899,
+      "cells_pass": 2453,
+      "pass_rate": 0.8462,
+      "median_n_genes": 2624.0,
+      "median_pct_mt": 7.642,
+      "genes_kept": 18437
+    },
+    "GSM5050564": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 2590,
+      "cells_pass": 1707,
+      "pass_rate": 0.6591,
+      "median_n_genes": 2047.0,
+      "median_pct_mt": 11.46,
+      "genes_kept": 18212
+    },
+    "GSM5050565": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 2437,
+      "cells_pass": 1815,
+      "pass_rate": 0.7448,
+      "median_n_genes": 2169.0,
+      "median_pct_mt": 8.343,
+      "genes_kept": 17954
+    },
+    "GSM5050566": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 2235,
+      "cells_pass": 1822,
+      "pass_rate": 0.8152,
+      "median_n_genes": 1888.0,
+      "median_pct_mt": 5.851,
+      "genes_kept": 18215
+    },
+    "GSM5050567": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 1092,
+      "cells_pass": 776,
+      "pass_rate": 0.7106,
+      "median_n_genes": 3193.5,
+      "median_pct_mt": 8.227,
+      "genes_kept": 17484
+    },
+    "GSM5050568": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 2074,
+      "cells_pass": 1430,
+      "pass_rate": 0.6895,
+      "median_n_genes": 2251.5,
+      "median_pct_mt": 10.329,
+      "genes_kept": 18193
+    },
+    "GSM5050569": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 4202,
+      "cells_pass": 3361,
+      "pass_rate": 0.7999,
+      "median_n_genes": 2862.0,
+      "median_pct_mt": 7.889,
+      "genes_kept": 18900
+    },
+    "GSM5050570": {
+      "tissue": "Foot skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 1659,
+      "cells_pass": 1160,
+      "pass_rate": 0.6992,
+      "median_n_genes": 2519.0,
+      "median_pct_mt": 9.457,
+      "genes_kept": 17872
+    },
+    "GSM5050571": {
+      "tissue": "PBMCs",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 4770,
+      "cells_pass": 4603,
+      "pass_rate": 0.965,
+      "median_n_genes": 1646.0,
+      "median_pct_mt": 9.344,
+      "genes_kept": 15850
+    },
+    "GSM5050572": {
+      "tissue": "Forearm skin",
+      "disease": "Non-DFU Diabetic",
+      "cells_raw": 2104,
+      "cells_pass": 1828,
+      "pass_rate": 0.8688,
+      "median_n_genes": 2409.0,
+      "median_pct_mt": 7.085,
+      "genes_kept": 18535
+    },
+    "GSM5050573": {
+      "tissue": "Foot skin",
+      "disease": "DFU-healer",
+      "cells_raw": 4040,
+      "cells_pass": 2914,
+      "pass_rate": 0.7213,
+      "median_n_genes": 2195.0,
+      "median_pct_mt": 8.537,
+      "genes_kept": 19030
+    },
+    "GSM5050574": {
+      "tissue": "Foot skin",
+      "disease": "Non-diabetic",
+      "cells_raw": 3531,
+      "cells_pass": 2940,
+      "pass_rate": 0.8326,
+      "median_n_genes": 2310.0,
+      "median_pct_mt": 8.937,
+      "genes_kept": 18708
+    }
+  },
+  "total_cells_raw": 174962,
+  "total_cells_pass": 167837,
+  "pass_rate_overall": 0.9593,
+  "ensg_prefixed_ids": 0,
+  "id_system": "gene_symbol",
+  "duplicate_symbol_rows_summed": 0,
+  "qc_rule": "200<=n_genes<=8000 & pct_mt<=20.0",
+  "runtime_sec": 913.0,
+  "fixes": [
+    "barcode header off-by-one (header[1:] -> header, col-count assertion)",
+    "gene IDs are symbols already (ensg map is no-op)",
+    "chunked read + sparse vstack (peak <500MB) + per-sample disk-backed stage"
+  ]
+}

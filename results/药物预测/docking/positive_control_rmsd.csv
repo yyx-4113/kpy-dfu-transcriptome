@@ -1,0 +1,9 @@
+target,site,pos_lig,n_atoms,rmsd,note
+PKM2,C-pocket (allosteric),1OX,42,0.0,"heavy-atom RMSD, model 1, index-paired"
+PKM2,A-pocket (FBP site),FBP,27,0.0,"heavy-atom RMSD, model 1, index-paired"
+EP300,acetyl-CoA substrate site,ACO,61,0.0,"heavy-atom RMSD, model 1, index-paired"
+SIRT3,ADP-ribose/NAD+ C-pocket,AR6,45,0.0,"heavy-atom RMSD, model 1, index-paired"
+LDHA,active site,ZHK,37,0.0,"heavy-atom RMSD, model 1, index-paired"
+PDK2,ATP pocket,PV2,22,0.0,"heavy-atom RMSD, model 1, index-paired"
+PDK2,pyruvate site (R-domain),TF4,7,0.0,"heavy-atom RMSD, model 1, index-paired"
+PDK2,R-domain N-terminal site,TF1,28,0.0,"heavy-atom RMSD, model 1, index-paired"

@@ -1,0 +1,7 @@
+gene,META1_pooled_logFC,META1_pooled_se,META1_z,META1_padj,META1_I2_pct,n_cohorts_pos,n_cohorts_neg,cohen_d,n_paired_primary,n_per_group_independent,n_paired_conservative_50pct_effect,n_per_group_independent_conservative_50pct_effect,heterogeneity_flag
+LDHA,0.9987,0.1492,6.695,1.0890730909455e-09,0.0,2,0,6.695,5,1,5,2,LOW/MODERATE — reliable verification target
+DHX58,-0.7372,0.1635,-4.5083,8.59416068840669e-05,57.21,0,2,-4.508,5,1,6,4,LOW/MODERATE — reliable verification target
+FAHD2B,-1.1177,0.2544,-4.3936,0.0001376027480403,87.13,0,2,-4.394,5,1,6,4,"HIGH (I2>80) — pooled effect unstable, replication failure would NOT falsify the core claim"
+GBP1,0.8406,0.2213,3.7981,0.0012505537357636,0.0,2,0,3.798,5,2,7,5,LOW/MODERATE — reliable verification target
+ALDH3A2,-1.6264,0.6191,-2.627,0.0374750504834281,91.18,0,2,-2.627,6,3,9,10,"HIGH (I2>80) — pooled effect unstable, replication failure would NOT falsify the core claim"
+ADH1B,-4.4223,1.745,-2.5343,0.0465600531283316,90.17,0,2,-2.534,6,3,9,10,"HIGH (I2>80) — pooled effect unstable, replication failure would NOT falsify the core claim"

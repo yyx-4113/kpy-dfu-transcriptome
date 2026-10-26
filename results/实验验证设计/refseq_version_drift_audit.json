@@ -1,0 +1,1651 @@
+{
+ "date": "2026-10-25",
+ "script": "02_脚本/audit_refseq_version_drift.py",
+ "summary": [
+  {
+   "gene": "LDHA",
+   "role": "target",
+   "gene_id": 3939,
+   "design_accession": "NM_001135239.1",
+   "current_accession": "NM_001135239.2",
+   "version_changed": true,
+   "design_len": 2052,
+   "current_len": 2067,
+   "seq_positional_identity": 0.2524,
+   "n_refseq_tx": 6,
+   "n_coding_tx": 5,
+   "n_noncoding_tx": 1,
+   "n_coding_tx_covered": 0,
+   "coverage_coding": "0/5",
+   "all_coding_covered": false,
+   "F_in_CDS_all_coding": false,
+   "R_in_CDS_all_coding": false,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "FAHD2B",
+   "role": "target",
+   "gene_id": 151313,
+   "design_accession": "NM_001320848.2",
+   "current_accession": "NM_001320848.2",
+   "version_changed": false,
+   "design_len": 1431,
+   "current_len": 1431,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 29,
+   "n_coding_tx": 29,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 15,
+   "coverage_coding": "15/29",
+   "all_coding_covered": false,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "ADH1B",
+   "role": "target",
+   "gene_id": 125,
+   "design_accession": "NM_000668.5",
+   "current_accession": "NM_000668.6",
+   "version_changed": true,
+   "design_len": 2707,
+   "current_len": 4067,
+   "seq_positional_identity": 0.2627,
+   "n_refseq_tx": 2,
+   "n_coding_tx": 2,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 2,
+   "coverage_coding": "2/2",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "DHX58",
+   "role": "target",
+   "gene_id": 79132,
+   "design_accession": "NM_024119.3",
+   "current_accession": "NM_024119.3",
+   "version_changed": false,
+   "design_len": 2591,
+   "current_len": 2591,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 9,
+   "n_coding_tx": 9,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 9,
+   "coverage_coding": "9/9",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "OK"
+  },
+  {
+   "gene": "ALDH3A2",
+   "role": "target",
+   "gene_id": 224,
+   "design_accession": "NM_000382.3",
+   "current_accession": "NM_000382.3",
+   "version_changed": false,
+   "design_len": 3703,
+   "current_len": 3703,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 13,
+   "n_coding_tx": 13,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 11,
+   "coverage_coding": "11/13",
+   "all_coding_covered": false,
+   "F_in_CDS_all_coding": false,
+   "R_in_CDS_all_coding": false,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "GBP1",
+   "role": "target",
+   "gene_id": 2633,
+   "design_accession": "NM_002053.3",
+   "current_accession": "NM_002053.3",
+   "version_changed": false,
+   "design_len": 2883,
+   "current_len": 2883,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 1,
+   "n_coding_tx": 1,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 1,
+   "coverage_coding": "1/1",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": false,
+   "R_in_CDS_all_coding": true,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "ACTB",
+   "role": "reference_candidate",
+   "gene_id": 60,
+   "design_accession": "NM_001101.3",
+   "current_accession": "NM_001101.5",
+   "version_changed": true,
+   "design_len": 1852,
+   "current_len": 1812,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 1,
+   "n_coding_tx": 1,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 1,
+   "coverage_coding": "1/1",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "GAPDH",
+   "role": "reference_candidate",
+   "gene_id": 2597,
+   "design_accession": "NM_002046.6",
+   "current_accession": "NM_002046.7",
+   "version_changed": true,
+   "design_len": 1309,
+   "current_len": 1285,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 6,
+   "n_coding_tx": 5,
+   "n_noncoding_tx": 1,
+   "n_coding_tx_covered": 4,
+   "coverage_coding": "4/5",
+   "all_coding_covered": false,
+   "F_in_CDS_all_coding": false,
+   "R_in_CDS_all_coding": true,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "TBP",
+   "role": "reference_candidate",
+   "gene_id": 6908,
+   "design_accession": "NM_003194.5",
+   "current_accession": "NM_003194.5",
+   "version_changed": false,
+   "design_len": 1857,
+   "current_len": 1857,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 2,
+   "n_coding_tx": 2,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 1,
+   "coverage_coding": "1/2",
+   "all_coding_covered": false,
+   "F_in_CDS_all_coding": false,
+   "R_in_CDS_all_coding": true,
+   "status": "NEEDS_REDESIGN"
+  },
+  {
+   "gene": "HPRT1",
+   "role": "reference_candidate",
+   "gene_id": 3251,
+   "design_accession": "NM_000194.3",
+   "current_accession": "NM_000194.3",
+   "version_changed": false,
+   "design_len": 1395,
+   "current_len": 1395,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 1,
+   "n_coding_tx": 1,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 1,
+   "coverage_coding": "1/1",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "OK"
+  },
+  {
+   "gene": "RPLP0",
+   "role": "reference_candidate",
+   "gene_id": 6175,
+   "design_accession": "NM_001002.4",
+   "current_accession": "NM_001002.4",
+   "version_changed": false,
+   "design_len": 1105,
+   "current_len": 1105,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 2,
+   "n_coding_tx": 2,
+   "n_noncoding_tx": 0,
+   "n_coding_tx_covered": 2,
+   "coverage_coding": "2/2",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "OK"
+  },
+  {
+   "gene": "SDHA",
+   "role": "reference_candidate",
+   "gene_id": 6389,
+   "design_accession": "NM_004168.4",
+   "current_accession": "NM_004168.4",
+   "version_changed": false,
+   "design_len": 2693,
+   "current_len": 2693,
+   "seq_positional_identity": 1.0,
+   "n_refseq_tx": 10,
+   "n_coding_tx": 9,
+   "n_noncoding_tx": 1,
+   "n_coding_tx_covered": 9,
+   "coverage_coding": "9/9",
+   "all_coding_covered": true,
+   "F_in_CDS_all_coding": true,
+   "R_in_CDS_all_coding": true,
+   "status": "OK"
+  }
+ ],
+ "per_transcript": {
+  "LDHA": [
+   {
+    "acc": "NM_001135239.2",
+    "title": "Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 2, mRNA",
+    "len": 2067,
+    "cds": [
+     [
+      99,
+      923
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 61,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_001165414.2",
+    "title": "Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 3, mRNA",
+    "len": 2427,
+    "cds": [
+     [
+      198,
+      1283
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_001165415.2",
+    "title": "Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 4, mRNA",
+    "len": 1762,
+    "cds": [
+     [
+      99,
+      923
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 61,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_001165416.2",
+    "title": "Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 5, mRNA",
+    "len": 2117,
+    "cds": [
+     [
+      99,
+      824
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 61,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_005566.4",
+    "title": "Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 1, mRNA",
+    "len": 2241,
+    "cds": [
+     [
+      99,
+      1097
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 61,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NR_028500.2",
+    "title": "Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 6, non-coding RNA",
+    "len": 2123,
+    "cds": [],
+    "is_coding": false,
+    "F_pos": -1,
+    "R_rc_pos": 61,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   }
+  ],
+  "FAHD2B": [
+   {
+    "acc": "NM_001320848.2",
+    "title": "Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant 1, mRNA; nuclear gene for mitochondrial product",
+    "len": 1431,
+    "cds": [
+     [
+      315,
+      1259
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001320849.2",
+    "title": "Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant 3, mRNA; nuclear gene for mitochondrial product",
+    "len": 1183,
+    "cds": [
+     [
+      189,
+      707
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_199336.3",
+    "title": "Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant 2, mRNA; nuclear gene for mitochondrial product",
+    "len": 1305,
+    "cds": [
+     [
+      189,
+      1133
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 787,
+    "R_rc_pos": 924,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011510745.3",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X1, mRNA",
+    "len": 5057,
+    "cds": [
+     [
+      315,
+      1325
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011510746.3",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X3, mRNA",
+    "len": 5167,
+    "cds": [
+     [
+      425,
+      1435
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1023,
+    "R_rc_pos": 1160,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011510747.4",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X2, mRNA",
+    "len": 4931,
+    "cds": [
+     [
+      189,
+      1199
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 787,
+    "R_rc_pos": 924,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011510748.3",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X5, mRNA",
+    "len": 1732,
+    "cds": [
+     [
+      315,
+      1289
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011510750.3",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X10, mRNA",
+    "len": 885,
+    "cds": [
+     [
+      315,
+      791
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 827,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_017003471.2",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X4, mRNA",
+    "len": 4959,
+    "cds": [
+     [
+      315,
+      1301
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_024452730.2",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X6, mRNA",
+    "len": 1542,
+    "cds": [
+     [
+      426,
+      1370
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1024,
+    "R_rc_pos": 1161,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_047443514.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X7, mRNA",
+    "len": 875,
+    "cds": [
+     [
+      315,
+      860
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_047443515.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X8, mRNA",
+    "len": 945,
+    "cds": [
+     [
+      315,
+      851
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 887,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_047443516.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X9, mRNA",
+    "len": 819,
+    "cds": [
+     [
+      189,
+      725
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 761,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_047443517.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X11, mRNA",
+    "len": 759,
+    "cds": [
+     [
+      189,
+      665
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 701,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054332907.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X6, mRNA",
+    "len": 1542,
+    "cds": [
+     [
+      426,
+      1370
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1024,
+    "R_rc_pos": 1161,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054332908.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X7, mRNA",
+    "len": 875,
+    "cds": [
+     [
+      315,
+      860
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054332909.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X8, mRNA",
+    "len": 945,
+    "cds": [
+     [
+      315,
+      851
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 887,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054332910.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X9, mRNA",
+    "len": 819,
+    "cds": [
+     [
+      189,
+      725
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 761,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054340780.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X1, mRNA",
+    "len": 2559,
+    "cds": [
+     [
+      315,
+      1325
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054340781.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X2, mRNA",
+    "len": 2433,
+    "cds": [
+     [
+      189,
+      1199
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 787,
+    "R_rc_pos": 924,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054340782.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X3, mRNA",
+    "len": 2669,
+    "cds": [
+     [
+      425,
+      1435
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1023,
+    "R_rc_pos": 1160,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054340783.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X4, mRNA",
+    "len": 2461,
+    "cds": [
+     [
+      315,
+      1301
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054340784.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X5, mRNA",
+    "len": 2278,
+    "cds": [
+     [
+      315,
+      1289
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 913,
+    "R_rc_pos": 1050,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054340785.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X6, mRNA",
+    "len": 1542,
+    "cds": [
+     [
+      426,
+      1370
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1024,
+    "R_rc_pos": 1161,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054340786.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X7, mRNA",
+    "len": 875,
+    "cds": [
+     [
+      315,
+      860
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054340787.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X8, mRNA",
+    "len": 945,
+    "cds": [
+     [
+      315,
+      851
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 887,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054340788.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X9, mRNA",
+    "len": 819,
+    "cds": [
+     [
+      189,
+      725
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 761,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054340789.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X10, mRNA",
+    "len": 885,
+    "cds": [
+     [
+      315,
+      791
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 827,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_054340790.1",
+    "title": "PREDICTED: Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant X11, mRNA",
+    "len": 759,
+    "cds": [
+     [
+      189,
+      665
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": 701,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   }
+  ],
+  "ADH1B": [
+   {
+    "acc": "NM_000668.6",
+    "title": "Homo sapiens alcohol dehydrogenase 1B (class I), beta polypeptide (ADH1B), transcript variant 1, mRNA",
+    "len": 4067,
+    "cds": [
+     [
+      71,
+      1198
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 542,
+    "R_rc_pos": 646,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001286650.2",
+    "title": "Homo sapiens alcohol dehydrogenase 1B (class I), beta polypeptide (ADH1B), transcript variant 2, mRNA",
+    "len": 4189,
+    "cds": [
+     [
+      313,
+      1320
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 664,
+    "R_rc_pos": 768,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "DHX58": [
+   {
+    "acc": "NM_024119.3",
+    "title": "Homo sapiens DExH-box helicase 58 (DHX58), mRNA",
+    "len": 2591,
+    "cds": [
+     [
+      205,
+      2241
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 494,
+    "R_rc_pos": 611,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_047436724.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X4, mRNA",
+    "len": 2593,
+    "cds": [
+     [
+      207,
+      2243
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 496,
+    "R_rc_pos": 613,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_047436725.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X1, mRNA",
+    "len": 2900,
+    "cds": [
+     [
+      514,
+      2550
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 803,
+    "R_rc_pos": 920,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_047436726.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X2, mRNA",
+    "len": 1864,
+    "cds": [
+     [
+      205,
+      1779
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 494,
+    "R_rc_pos": 611,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_047436727.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X3, mRNA",
+    "len": 1749,
+    "cds": [
+     [
+      604,
+      1734
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 893,
+    "R_rc_pos": 1010,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054317164.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X5, mRNA",
+    "len": 3005,
+    "cds": [
+     [
+      619,
+      2655
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 908,
+    "R_rc_pos": 1025,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054317165.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X1, mRNA",
+    "len": 2908,
+    "cds": [
+     [
+      522,
+      2558
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 811,
+    "R_rc_pos": 928,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054317166.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X2, mRNA",
+    "len": 1864,
+    "cds": [
+     [
+      205,
+      1779
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 494,
+    "R_rc_pos": 611,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054317167.1",
+    "title": "PREDICTED: Homo sapiens DExH-box helicase 58 (DHX58), transcript variant X3, mRNA",
+    "len": 1759,
+    "cds": [
+     [
+      614,
+      1744
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 903,
+    "R_rc_pos": 1020,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "ALDH3A2": [
+   {
+    "acc": "NM_000382.3",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 2, mRNA",
+    "len": 3703,
+    "cds": [
+     [
+      222,
+      1679
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2635,
+    "R_rc_pos": 2744,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001031806.2",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 1, mRNA",
+    "len": 3828,
+    "cds": [
+     [
+      222,
+      1748
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2760,
+    "R_rc_pos": 2869,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001369136.1",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 4, mRNA",
+    "len": 3737,
+    "cds": [
+     [
+      131,
+      1657
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2669,
+    "R_rc_pos": 2778,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001369137.2",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 3, mRNA",
+    "len": 3774,
+    "cds": [
+     [
+      168,
+      1694
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2706,
+    "R_rc_pos": 2815,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001369138.2",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 5, mRNA",
+    "len": 3649,
+    "cds": [
+     [
+      168,
+      1625
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2581,
+    "R_rc_pos": 2690,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001369139.1",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 6, mRNA",
+    "len": 3612,
+    "cds": [
+     [
+      131,
+      1588
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2544,
+    "R_rc_pos": 2653,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001369146.2",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 7, mRNA",
+    "len": 3413,
+    "cds": [
+     [
+      168,
+      1442
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2345,
+    "R_rc_pos": 2454,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001369148.2",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 8, mRNA",
+    "len": 3758,
+    "cds": [
+     [
+      856,
+      1734
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2690,
+    "R_rc_pos": 2799,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001444980.1",
+    "title": "Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 9, mRNA",
+    "len": 3467,
+    "cds": [
+     [
+      222,
+      1496
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2399,
+    "R_rc_pos": 2508,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_024450651.2",
+    "title": "PREDICTED: Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant X2, mRNA",
+    "len": 1206,
+    "cds": [
+     [
+      218,
+      1165
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "XM_047435622.1",
+    "title": "PREDICTED: Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant X1, mRNA",
+    "len": 3467,
+    "cds": [
+     [
+      222,
+      1496
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2399,
+    "R_rc_pos": 2508,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054315478.1",
+    "title": "PREDICTED: Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant X1, mRNA",
+    "len": 3467,
+    "cds": [
+     [
+      222,
+      1496
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 2399,
+    "R_rc_pos": 2508,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054315479.1",
+    "title": "PREDICTED: Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant X2, mRNA",
+    "len": 1206,
+    "cds": [
+     [
+      218,
+      1165
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   }
+  ],
+  "GBP1": [
+   {
+    "acc": "NM_002053.3",
+    "title": "Homo sapiens guanylate binding protein 1 (GBP1), mRNA",
+    "len": 2883,
+    "cds": [
+     [
+      69,
+      1847
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 51,
+    "R_rc_pos": 176,
+    "F_in_CDS": false,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "ACTB": [
+   {
+    "acc": "NM_001101.5",
+    "title": "Homo sapiens actin beta (ACTB), mRNA",
+    "len": 1812,
+    "cds": [
+     [
+      85,
+      1212
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1008,
+    "R_rc_pos": 1160,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "GAPDH": [
+   {
+    "acc": "NM_001256799.3",
+    "title": "Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 2, mRNA",
+    "len": 1386,
+    "cds": [
+     [
+      304,
+      1185
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 205,
+    "R_rc_pos": 354,
+    "F_in_CDS": false,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001289745.3",
+    "title": "Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 3, mRNA",
+    "len": 1377,
+    "cds": [
+     [
+      169,
+      1176
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 196,
+    "R_rc_pos": 345,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001289746.2",
+    "title": "Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 4, mRNA",
+    "len": 1525,
+    "cds": [
+     [
+      317,
+      1324
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 344,
+    "R_rc_pos": 493,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001357943.2",
+    "title": "Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 7, mRNA",
+    "len": 1231,
+    "cds": [
+     [
+      77,
+      1030
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 104,
+    "R_rc_pos": -1,
+    "F_in_CDS": true,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_002046.7",
+    "title": "Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 1, mRNA",
+    "len": 1285,
+    "cds": [
+     [
+      77,
+      1084
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 104,
+    "R_rc_pos": 253,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NR_152150.2",
+    "title": "Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 6, non-coding RNA",
+    "len": 763,
+    "cds": [],
+    "is_coding": false,
+    "F_pos": 104,
+    "R_rc_pos": 253,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   }
+  ],
+  "TBP": [
+   {
+    "acc": "NM_001172085.2",
+    "title": "Homo sapiens TATA-box binding protein (TBP), transcript variant 2, mRNA",
+    "len": 1655,
+    "cds": [
+     [
+      102,
+      1061
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": -1,
+    "R_rc_pos": -1,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": false
+   },
+   {
+    "acc": "NM_003194.5",
+    "title": "Homo sapiens TATA-box binding protein (TBP), transcript variant 1, mRNA",
+    "len": 1857,
+    "cds": [
+     [
+      244,
+      1263
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 143,
+    "R_rc_pos": 247,
+    "F_in_CDS": false,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "HPRT1": [
+   {
+    "acc": "NM_000194.3",
+    "title": "Homo sapiens hypoxanthine phosphoribosyltransferase 1 (HPRT1), mRNA",
+    "len": 1395,
+    "cds": [
+     [
+      148,
+      804
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 582,
+    "R_rc_pos": 647,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "RPLP0": [
+   {
+    "acc": "NM_001002.4",
+    "title": "Homo sapiens ribosomal protein lateral stalk subunit P0 (RPLP0), transcript variant 1, mRNA",
+    "len": 1105,
+    "cds": [
+     [
+      78,
+      1031
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 514,
+    "R_rc_pos": 638,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_053275.4",
+    "title": "Homo sapiens ribosomal protein lateral stalk subunit P0 (RPLP0), transcript variant 2, mRNA",
+    "len": 1165,
+    "cds": [
+     [
+      138,
+      1091
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 574,
+    "R_rc_pos": 698,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   }
+  ],
+  "SDHA": [
+   {
+    "acc": "NM_001294332.2",
+    "title": "Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant 2, mRNA; nuclear gene for mitochondrial product",
+    "len": 2549,
+    "cds": [
+     [
+      37,
+      1887
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 958,
+    "R_rc_pos": 1028,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_001330758.2",
+    "title": "Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant 3, mRNA; nuclear gene for mitochondrial product",
+    "len": 2450,
+    "cds": [
+     [
+      37,
+      1788
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "NM_004168.4",
+    "title": "Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant 1, mRNA; nuclear gene for mitochondrial product",
+    "len": 2693,
+    "cds": [
+     [
+      37,
+      2031
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011514072.3",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X1, mRNA",
+    "len": 2926,
+    "cds": [
+     [
+      37,
+      2079
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_011514073.3",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X4, mRNA",
+    "len": 2683,
+    "cds": [
+     [
+      37,
+      1836
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_047417467.1",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X3, mRNA",
+    "len": 2782,
+    "cds": [
+     [
+      37,
+      1935
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 958,
+    "R_rc_pos": 1028,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054353043.1",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X1, mRNA",
+    "len": 3452,
+    "cds": [
+     [
+      37,
+      2079
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054353044.1",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X3, mRNA",
+    "len": 3308,
+    "cds": [
+     [
+      37,
+      1935
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 958,
+    "R_rc_pos": 1028,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XM_054353045.1",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X4, mRNA",
+    "len": 3209,
+    "cds": [
+     [
+      37,
+      1836
+     ]
+    ],
+    "is_coding": true,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": true,
+    "R_in_CDS": true,
+    "primers_present": true
+   },
+   {
+    "acc": "XR_007058614.1",
+    "title": "PREDICTED: Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant X2, misc_RNA",
+    "len": 6874,
+    "cds": [],
+    "is_coding": false,
+    "F_pos": 1102,
+    "R_rc_pos": 1172,
+    "F_in_CDS": false,
+    "R_in_CDS": false,
+    "primers_present": true
+   }
+  ]
+ }
+}

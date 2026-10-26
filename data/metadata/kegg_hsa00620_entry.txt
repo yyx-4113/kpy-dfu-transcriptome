@@ -1,0 +1,117 @@
+ENTRY       hsa00620                    Pathway
+NAME        Pyruvate metabolism - Homo sapiens (human)
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP hsa00620  Pyruvate metabolism
+MODULE      hsa_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:hsa00620]
+NETWORK     nt06024  Valine, leucine and isoleucine degradation
+            nt06031  Citrate cycle and pyruvate metabolism
+            nt06032  Lipoic acid metabolism
+  ELEMENT   N01603  Pyruvate oxidation
+            N01605  Gluconeogenesis
+            N01606  Glycolysis
+            N01616  Dihydrolipoamide dehydrogenase
+DRUG        D00123  Cyanamide (JP19)
+            D00131  Disulfiram (JP19/USP/INN)
+            D11408  Mitapivat sulfate (USAN)
+            D12362  Etavopivat (USAN/INN)
+            D13032  Tebapivat (USAN/INN)
+DBLINKS     GO: 0006090
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        10327  AKR1A1; aldo-keto reductase family 1 member A1 [KO:K00002] [EC:1.1.1.2]
+            10873  ME3; NADP-dependent malic enzyme, mitochondrial isoform 1 [KO:K00029] [EC:1.1.1.40]
+            124  ADH1A; alcohol dehydrogenase 1A [KO:K13951] [EC:1.1.1.1]
+            124900512  [KO:K29029]
+            125  ADH1B; all-trans-retinol dehydrogenase [NAD(+)] ADH1B isoform 1 [KO:K13951] [EC:1.1.1.1]
+            126  ADH1C; alcohol dehydrogenase 1C [KO:K13951] [EC:1.1.1.1]
+            127  ADH4; all-trans-retinol dehydrogenase [NAD(+)] ADH4 isoform 2 [KO:K13980] [EC:1.1.1.1]
+            128  ADH5; alcohol dehydrogenase class-3 [KO:K00121] [EC:1.1.1.284 1.1.1.1]
+            130  ADH6; alcohol dehydrogenase 6 isoform 2 [KO:K13952] [EC:1.1.1.1]
+            131  ADH7; all-trans-retinol dehydrogenase [NAD(+)] ADH7 isoform 2 [KO:K13951] [EC:1.1.1.1]
+            134526  ACOT12; acetyl-coenzyme A thioesterase [KO:K01067] [EC:3.1.2.1]
+            151313  FAHD2B; oxaloacetate tautomerase FAHD2B, mitochondrial isoform a [KO:K29029]
+            160287  LDHAL6A; L-lactate dehydrogenase A-like 6A [KO:K00016] [EC:1.1.1.27]
+            1737  DLAT; dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial isoform 2 precursor [KO:K00627] [EC:2.3.1.12]
+            1738  DLD; dihydrolipoyl dehydrogenase, mitochondrial isoform 1 precursor [KO:K00382] [EC:1.8.1.4]
+            197257  LDHD; probable D-lactate dehydrogenase, mitochondrial isoform 1 precursor [KO:K00102] [EC:1.1.2.4]
+            217  ALDH2; aldehyde dehydrogenase, mitochondrial isoform 1 precursor [KO:K00128] [EC:1.2.1.3]
+            219  ALDH1B1; aldehyde dehydrogenase X, mitochondrial precursor [KO:K00128] [EC:1.2.1.3]
+            223  ALDH9A1; 4-trimethylaminobutyraldehyde dehydrogenase isoform 1 precursor [KO:K00149] [EC:1.2.1.47 1.2.1.3]
+            224  ALDH3A2; aldehyde dehydrogenase family 3 member A2 isoform 2 [KO:K00128] [EC:1.2.1.3]
+            2271  FH; fumarate hydratase, mitochondrial [KO:K01679] [EC:4.2.1.2]
+            2739  GLO1; lactoylglutathione lyase [KO:K01759] [EC:4.4.1.5]
+            3029  HAGH; hydroxyacylglutathione hydrolase, mitochondrial isoform 1 precursor [KO:K01069] [EC:3.1.2.6]
+            31  ACACA; acetyl-CoA carboxylase 1 isoform 2 [KO:K11262] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            32  ACACB; acetyl-CoA carboxylase 2 isoform a [KO:K01946] [EC:6.4.1.2 6.3.4.14 2.1.3.15]
+            38  ACAT1; acetyl-CoA acetyltransferase, mitochondrial isoform b precursor [KO:K00626] [EC:2.3.1.9]
+            39  ACAT2; acetyl-CoA acetyltransferase, cytosolic isoform 1 [KO:K00626] [EC:2.3.1.9]
+            3939  LDHA; L-lactate dehydrogenase A chain isoform 1 [KO:K00016] [EC:1.1.1.27]
+            3945  LDHB; L-lactate dehydrogenase B chain isoform LDHB [KO:K00016] [EC:1.1.1.27]
+            3948  LDHC; L-lactate dehydrogenase C chain [KO:K00016] [EC:1.1.1.27]
+            4190  MDH1; malate dehydrogenase, cytoplasmic isoform MDH1 [KO:K00025] [EC:1.1.1.37]
+            4191  MDH2; malate dehydrogenase, mitochondrial isoform 1 precursor [KO:K00026] [EC:1.1.1.37]
+            4199  ME1; NADP-dependent malic enzyme [KO:K00029] [EC:1.1.1.40]
+            4200  ME2; NAD-dependent malic enzyme, mitochondrial isoform 1 precursor [KO:K00027] [EC:1.1.1.38]
+            501  ALDH7A1; alpha-aminoadipic semialdehyde dehydrogenase isoform 1 precursor [KO:K14085] [EC:1.2.1.31 1.2.1.8 1.2.1.3]
+            5091  PC; pyruvate carboxylase, mitochondrial precursor [KO:K01958] [EC:6.4.1.1]
+            51011  FAHD2A; oxaloacetate tautomerase FAHD2A, mitochondrial [KO:K29029]
+            5105  PCK1; phosphoenolpyruvate carboxykinase, cytosolic [GTP] [KO:K01596] [EC:4.1.1.32]
+            5106  PCK2; phosphoenolpyruvate carboxykinase [GTP], mitochondrial isoform 1 precursor [KO:K01596] [EC:4.1.1.32]
+            5160  PDHA1; pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial isoform 1 precursor [KO:K00161] [EC:1.2.4.1]
+            5161  PDHA2; pyruvate dehydrogenase E1 component subunit alpha, testis-specific form, mitochondrial precursor [KO:K00161] [EC:1.2.4.1]
+            5162  PDHB; pyruvate dehydrogenase E1 component subunit beta, mitochondrial isoform 1 precursor [KO:K00162] [EC:1.2.4.1]
+            5313  PKLR; pyruvate kinase PKLR isoform 1 [KO:K12406] [EC:2.7.1.40]
+            5315  PKM; pyruvate kinase PKM isoform a [KO:K00873] [EC:2.7.1.40]
+            55902  ACSS2; acetyl-coenzyme A synthetase, cytoplasmic isoform 1 [KO:K01895] [EC:6.2.1.1]
+            84532  ACSS1; acetyl-coenzyme A synthetase 2-like, mitochondrial isoform 1 precursor [KO:K01895] [EC:6.2.1.1]
+            92483  LDHAL6B; L-lactate dehydrogenase A-like 6B [KO:K00016] [EC:1.1.1.27]
+            9380  GRHPR; glyoxylate reductase/hydroxypyruvate reductase [KO:K00049] [EC:1.1.1.79 1.1.1.81]
+            97  ACYP1; acylphosphatase-1 isoform a [KO:K01512] [EC:3.6.1.7]
+            98  ACYP2; acylphosphatase-2 isoform 3 [KO:K01512] [EC:3.6.1.7]
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00033  Acetate
+            C00036  Oxaloacetate
+            C00042  Succinate
+            C00058  Formate
+            C00068  Thiamin diphosphate
+            C00074  Phosphoenolpyruvate
+            C00083  Malonyl-CoA
+            C00084  Acetaldehyde
+            C00122  Fumarate
+            C00149  (S)-Malate
+            C00186  (S)-Lactate
+            C00227  Acetyl phosphate
+            C00256  (R)-Lactate
+            C00332  Acetoacetyl-CoA
+            C00424  (S)-Lactaldehyde
+            C00469  Ethanol
+            C00546  Methylglyoxal
+            C00937  (R)-Lactaldehyde
+            C01251  (R)-2-Hydroxybutane-1,2,4-tricarboxylate
+            C02488  (R)-2-Ethylmalate
+            C02504  alpha-Isopropylmalate
+            C03248  Acetylenedicarboxylate
+            C03451  (R)-S-Lactoylglutathione
+            C03981  2-Hydroxyethylenedicarboxylate
+            C05125  2-(alpha-Hydroxyethyl)thiamine diphosphate
+            C05993  Acetyl adenylate
+            C05994  2-Propylmalate
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C16255  [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REL_PATHWAY hsa00010  Glycolysis / Gluconeogenesis
+            hsa00020  Citrate cycle (TCA cycle)
+            hsa00061  Fatty acid biosynthesis
+            hsa00250  Alanine, aspartate and glutamate metabolism
+            hsa00260  Glycine, serine and threonine metabolism
+            hsa00290  Valine, leucine and isoleucine biosynthesis
+            hsa00630  Glyoxylate and dicarboxylate metabolism
+            hsa00640  Propanoate metabolism
+            hsa00650  Butanoate metabolism
+            hsa00760  Nicotinate and nicotinamide metabolism
+KO_PATHWAY  ko00620
+///

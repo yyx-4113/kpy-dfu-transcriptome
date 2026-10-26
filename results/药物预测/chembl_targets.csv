@@ -1,0 +1,7 @@
+gene,chembl_target_id,pref_name,role
+PKM,CHEMBL1075189,Pyruvate kinase PKM,丙酮酸生成酶（PKM2）
+EP300,CHEMBL6066577,Histone acetyltransferase p300/Histone acetyltransferase type B catalytic subunit,Kpy 写入酶 p300 HAT 域
+SIRT3,CHEMBL4461,"NAD-dependent protein deacetylase sirtuin-3, mitochondrial",Kpy 擦除酶 SIRT3
+LDHA,CHEMBL4835,L-lactate dehydrogenase A chain,丙酮酸分流（乳酸脱氢酶 A）
+PDK2,CHEMBL3861,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",丙酮酸进入 TCA 的闸门 PDK2
+STAT1,CHEMBL6101,Signal transducer and activator of transcription 1-alpha/beta,IFN-I 读出 STAT1

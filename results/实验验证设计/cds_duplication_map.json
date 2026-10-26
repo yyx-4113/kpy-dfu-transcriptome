@@ -1,0 +1,1399 @@
+{
+ "date": "2026-10-25",
+ "script": "02_脚本/map_cds_duplication.py",
+ "database": "core_nt + ENTREZ_QUERY='txid9606[Organism:exp]'",
+ "criteria": {
+  "repeat_mask": "非目标/非假基因人源 RefSeq 转录本，identity ≥ 95.0%，Hsp 覆盖 CDS ≥ 20 nt"
+ },
+ "genes": {
+  "LDHA": {
+   "accession": "NM_001165414.2",
+   "cds_len": 1086,
+   "cds_coords": [
+    [
+     198,
+     1283
+    ]
+   ],
+   "rid": "DVCB8G6T016",
+   "n_repeat_hsp": 15,
+   "repeat_masked_segments": [
+    [
+     63,
+     1086
+    ]
+   ],
+   "repeat_masked_nt": 1024,
+   "safe_segments": [
+    [
+     1,
+     62
+    ]
+   ],
+   "longest_safe_segment": 62,
+   "offtarget_genes": {
+    "LOC105375980": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.7,
+     "n_accessions": 2,
+     "example_accs": [
+      "NR_202040",
+      "NR_202041"
+     ]
+    },
+    "THRB": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.45,
+     "n_accessions": 2,
+     "example_accs": [
+      "XM_024453737",
+      "XM_054347697"
+     ]
+    },
+    "UMODL1": {
+     "n_hsp": 8,
+     "max_identity_pct": 95.24,
+     "n_accessions": 8,
+     "example_accs": [
+      "NM_001004416",
+      "NM_001199527",
+      "NM_001199528",
+      "NM_173568",
+      "XM_011529797",
+      "XM_017028507"
+     ]
+    },
+    "LOC105371004": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.24,
+     "n_accessions": 2,
+     "example_accs": [
+      "XR_007085505",
+      "XR_932680"
+     ]
+    },
+    "ACTR3C": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_005250043"
+     ]
+    }
+   }
+  },
+  "FAHD2B": {
+   "accession": "NM_001320848.2",
+   "cds_len": 945,
+   "cds_coords": [
+    [
+     315,
+     1259
+    ]
+   ],
+   "rid": "DVCBD8G9014",
+   "n_repeat_hsp": 98,
+   "repeat_masked_segments": [
+    [
+     1,
+     945
+    ]
+   ],
+   "repeat_masked_nt": 945,
+   "safe_segments": [],
+   "longest_safe_segment": 0,
+   "offtarget_genes": {
+    "FAHD2A": {
+     "n_hsp": 55,
+     "max_identity_pct": 98.66,
+     "n_accessions": 37,
+     "example_accs": [
+      "NM_016044",
+      "XM_011511283",
+      "XM_011511284",
+      "XM_011511285",
+      "XM_011511286",
+      "XM_011511287"
+     ]
+    },
+    "LOC124900512": {
+     "n_hsp": 8,
+     "max_identity_pct": 99.07,
+     "n_accessions": 4,
+     "example_accs": [
+      "XM_047443949",
+      "XM_047443950",
+      "XM_047446739",
+      "XM_047446740"
+     ]
+    },
+    "PTPRR": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.07,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_073474"
+     ]
+    },
+    "PPL": {
+     "n_hsp": 7,
+     "max_identity_pct": 95.65,
+     "n_accessions": 7,
+     "example_accs": [
+      "NM_002705",
+      "XM_006720902",
+      "XM_017023374",
+      "XM_017023375",
+      "XM_054380583",
+      "XM_054380584"
+     ]
+    },
+    "FNDC3B": {
+     "n_hsp": 5,
+     "max_identity_pct": 100.0,
+     "n_accessions": 5,
+     "example_accs": [
+      "XM_047448754",
+      "XM_047448757",
+      "XM_054347592",
+      "XM_054347595",
+      "XM_054347599"
+     ]
+    },
+    "ZNF577": {
+     "n_hsp": 8,
+     "max_identity_pct": 100.0,
+     "n_accessions": 8,
+     "example_accs": [
+      "NM_001135590",
+      "NM_001370447",
+      "NM_001370448",
+      "NM_001370449",
+      "NM_001370450",
+      "NM_032679"
+     ]
+    },
+    "LOC102724720": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_157807"
+     ]
+    },
+    "TMEM63C": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_020431"
+     ]
+    },
+    "CNTN2": {
+     "n_hsp": 10,
+     "max_identity_pct": 95.65,
+     "n_accessions": 10,
+     "example_accs": [
+      "NM_001346083",
+      "NM_005076",
+      "NR_144350",
+      "XM_017002199",
+      "XM_047429102",
+      "XM_047429104"
+     ]
+    },
+    "RELB": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_047439190"
+     ]
+    },
+    "OR13C4": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001001919"
+     ]
+    }
+   }
+  },
+  "ADH1B": {
+   "accession": "NM_000668.6",
+   "cds_len": 1128,
+   "cds_coords": [
+    [
+     71,
+     1198
+    ]
+   ],
+   "rid": "DVCBJBYG016",
+   "n_repeat_hsp": 161,
+   "repeat_masked_segments": [
+    [
+     1,
+     1128
+    ]
+   ],
+   "repeat_masked_nt": 1128,
+   "safe_segments": [],
+   "longest_safe_segment": 0,
+   "offtarget_genes": {
+    "ADH1C": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.66,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_000669"
+     ]
+    },
+    "LOC100507053": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.8,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_037884"
+     ]
+    },
+    "TXNL1": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.83,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_024451289"
+     ]
+    },
+    "MGME1": {
+     "n_hsp": 26,
+     "max_identity_pct": 95.65,
+     "n_accessions": 26,
+     "example_accs": [
+      "NM_001310338",
+      "NM_001310339",
+      "NM_001363738",
+      "NM_052865",
+      "XM_005260867",
+      "XM_005260870"
+     ]
+    },
+    "TMEM161B": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.65,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_047416808"
+     ]
+    },
+    "UBXN2A": {
+     "n_hsp": 11,
+     "max_identity_pct": 95.24,
+     "n_accessions": 11,
+     "example_accs": [
+      "NM_181713",
+      "XM_005264166",
+      "XM_005264167",
+      "XM_005264168",
+      "XM_005264169",
+      "XM_011532633"
+     ]
+    },
+    "CADPS": {
+     "n_hsp": 91,
+     "max_identity_pct": 95.65,
+     "n_accessions": 91,
+     "example_accs": [
+      "NM_001437891",
+      "NM_001438347",
+      "NM_001438348",
+      "NM_001438349",
+      "NM_001438350",
+      "NM_001438351"
+     ]
+    },
+    "SELP": {
+     "n_hsp": 13,
+     "max_identity_pct": 95.24,
+     "n_accessions": 13,
+     "example_accs": [
+      "NM_003005",
+      "XM_005245435",
+      "XM_005245436",
+      "XM_005245438",
+      "XM_005245439",
+      "XM_005245440"
+     ]
+    },
+    "INTS7": {
+     "n_hsp": 7,
+     "max_identity_pct": 95.24,
+     "n_accessions": 7,
+     "example_accs": [
+      "NM_001199809",
+      "NM_001199811",
+      "NM_001199812",
+      "NM_015434",
+      "NR_037667",
+      "XM_047417179"
+     ]
+    },
+    "AP3S2": {
+     "n_hsp": 3,
+     "max_identity_pct": 95.24,
+     "n_accessions": 3,
+     "example_accs": [
+      "NM_005829",
+      "NR_023361",
+      "NR_037582"
+     ]
+    },
+    "LOC105375836": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_188096"
+     ]
+    },
+    "ARPIN-AP3S2": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001199058"
+     ]
+    },
+    "LINC02658": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_134483"
+     ]
+    },
+    "OPRK1": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.24,
+     "n_accessions": 2,
+     "example_accs": [
+      "NM_000912",
+      "NM_001282904"
+     ]
+    },
+    "HABP4": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_005251812"
+     ]
+    }
+   }
+  },
+  "ALDH3A2": {
+   "accession": "NM_001031806.2",
+   "cds_len": 1527,
+   "cds_coords": [
+    [
+     222,
+     1748
+    ]
+   ],
+   "rid": "DVCBPJ9B016",
+   "n_repeat_hsp": 143,
+   "repeat_masked_segments": [
+    [
+     70,
+     95
+    ],
+    [
+     190,
+     216
+    ],
+    [
+     297,
+     318
+    ],
+    [
+     497,
+     517
+    ],
+    [
+     554,
+     575
+    ],
+    [
+     587,
+     607
+    ],
+    [
+     616,
+     636
+    ],
+    [
+     664,
+     684
+    ],
+    [
+     778,
+     798
+    ],
+    [
+     802,
+     841
+    ],
+    [
+     1128,
+     1156
+    ],
+    [
+     1279,
+     1298
+    ]
+   ],
+   "repeat_masked_nt": 291,
+   "safe_segments": [
+    [
+     1,
+     69
+    ],
+    [
+     96,
+     189
+    ],
+    [
+     217,
+     296
+    ],
+    [
+     319,
+     496
+    ],
+    [
+     518,
+     553
+    ],
+    [
+     576,
+     586
+    ],
+    [
+     608,
+     615
+    ],
+    [
+     637,
+     663
+    ],
+    [
+     685,
+     777
+    ],
+    [
+     799,
+     801
+    ],
+    [
+     842,
+     1127
+    ],
+    [
+     1157,
+     1278
+    ],
+    [
+     1299,
+     1527
+    ]
+   ],
+   "longest_safe_segment": 286,
+   "offtarget_genes": {
+    "DISP2": {
+     "n_hsp": 1,
+     "max_identity_pct": 100.0,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_033510"
+     ]
+    },
+    "ABCA13": {
+     "n_hsp": 58,
+     "max_identity_pct": 100.0,
+     "n_accessions": 58,
+     "example_accs": [
+      "NM_152701",
+      "XM_011515130",
+      "XM_011515131",
+      "XM_011515132",
+      "XM_011515133",
+      "XM_011515134"
+     ]
+    },
+    "EML6": {
+     "n_hsp": 19,
+     "max_identity_pct": 95.45,
+     "n_accessions": 19,
+     "example_accs": [
+      "NM_001039753",
+      "XM_017004098",
+      "XM_017004100",
+      "XM_017004101",
+      "XM_017004102",
+      "XM_047444299"
+     ]
+    },
+    "SLC39A14": {
+     "n_hsp": 4,
+     "max_identity_pct": 95.45,
+     "n_accessions": 4,
+     "example_accs": [
+      "XM_054360224",
+      "XM_054360225",
+      "XM_054360226",
+      "XM_054360227"
+     ]
+    },
+    "LOC124903536": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.83,
+     "n_accessions": 1,
+     "example_accs": [
+      "XR_007085753"
+     ]
+    },
+    "DOCK2": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.45,
+     "n_accessions": 2,
+     "example_accs": [
+      "XM_011534451",
+      "XM_054351954"
+     ]
+    },
+    "MEAK7": {
+     "n_hsp": 4,
+     "max_identity_pct": 95.24,
+     "n_accessions": 4,
+     "example_accs": [
+      "NM_020947",
+      "XM_005256075",
+      "XM_017023511",
+      "XM_047434410"
+     ]
+    },
+    "PALD1": {
+     "n_hsp": 18,
+     "max_identity_pct": 95.24,
+     "n_accessions": 18,
+     "example_accs": [
+      "NM_014431",
+      "XM_011539637",
+      "XM_011539638",
+      "XM_017016072",
+      "XM_047425055",
+      "XM_047425056"
+     ]
+    },
+    "SYNC": {
+     "n_hsp": 14,
+     "max_identity_pct": 95.24,
+     "n_accessions": 14,
+     "example_accs": [
+      "NM_001161708",
+      "NM_030786",
+      "XM_024450010",
+      "XM_024450011",
+      "XM_024450013",
+      "XM_047431210"
+     ]
+    },
+    "LINC01243": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_135134"
+     ]
+    },
+    "OCEL1": {
+     "n_hsp": 5,
+     "max_identity_pct": 95.24,
+     "n_accessions": 5,
+     "example_accs": [
+      "NM_024578",
+      "XM_006722899",
+      "XM_047439440",
+      "XM_054322154",
+      "XM_054322155"
+     ]
+    },
+    "SPOPL": {
+     "n_hsp": 5,
+     "max_identity_pct": 95.24,
+     "n_accessions": 5,
+     "example_accs": [
+      "NM_001001664",
+      "XM_047444115",
+      "XM_047444116",
+      "XM_054341697",
+      "XM_054341698"
+     ]
+    },
+    "KPNA7": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.24,
+     "n_accessions": 2,
+     "example_accs": [
+      "XM_017012211",
+      "XM_054332121"
+     ]
+    },
+    "LINC02662": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.24,
+     "n_accessions": 2,
+     "example_accs": [
+      "NR_184093",
+      "NR_184094"
+     ]
+    },
+    "KCTD8": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_011513690"
+     ]
+    },
+    "ADGRL1": {
+     "n_hsp": 4,
+     "max_identity_pct": 95.24,
+     "n_accessions": 4,
+     "example_accs": [
+      "XM_024451420",
+      "XM_047438414",
+      "XM_054320206",
+      "XM_054320211"
+     ]
+    },
+    "LOC107986736": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "XR_001745014"
+     ]
+    },
+    "CCR2": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001123396"
+     ]
+    }
+   }
+  },
+  "DHX58": {
+   "accession": "NM_024119.3",
+   "cds_len": 2037,
+   "cds_coords": [
+    [
+     205,
+     2241
+    ]
+   ],
+   "rid": "DVCBV1D5014",
+   "n_repeat_hsp": 112,
+   "repeat_masked_segments": [
+    [
+     81,
+     100
+    ],
+    [
+     449,
+     471
+    ],
+    [
+     600,
+     636
+    ],
+    [
+     653,
+     674
+    ],
+    [
+     775,
+     796
+    ],
+    [
+     814,
+     836
+    ],
+    [
+     848,
+     869
+    ],
+    [
+     1152,
+     1181
+    ],
+    [
+     1215,
+     1237
+    ],
+    [
+     1508,
+     1529
+    ],
+    [
+     1636,
+     1655
+    ],
+    [
+     1844,
+     1863
+    ],
+    [
+     1974,
+     1993
+    ]
+   ],
+   "repeat_masked_nt": 304,
+   "safe_segments": [
+    [
+     1,
+     80
+    ],
+    [
+     101,
+     448
+    ],
+    [
+     472,
+     599
+    ],
+    [
+     637,
+     652
+    ],
+    [
+     675,
+     774
+    ],
+    [
+     797,
+     813
+    ],
+    [
+     837,
+     847
+    ],
+    [
+     870,
+     1151
+    ],
+    [
+     1182,
+     1214
+    ],
+    [
+     1238,
+     1507
+    ],
+    [
+     1530,
+     1635
+    ],
+    [
+     1656,
+     1843
+    ],
+    [
+     1864,
+     1973
+    ],
+    [
+     1994,
+     2037
+    ]
+   ],
+   "longest_safe_segment": 348,
+   "offtarget_genes": {
+    "LOC102724261": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.65,
+     "n_accessions": 2,
+     "example_accs": [
+      "XR_007083337",
+      "XR_429056"
+     ]
+    },
+    "LOC112268009": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.65,
+     "n_accessions": 1,
+     "example_accs": [
+      "XR_002956577"
+     ]
+    },
+    "GNAS": {
+     "n_hsp": 37,
+     "max_identity_pct": 100.0,
+     "n_accessions": 37,
+     "example_accs": [
+      "NM_000516",
+      "NM_001077488",
+      "NM_001077489",
+      "NM_001077490",
+      "NM_001309840",
+      "NM_001309861"
+     ]
+    },
+    "EBF1": {
+     "n_hsp": 30,
+     "max_identity_pct": 100.0,
+     "n_accessions": 30,
+     "example_accs": [
+      "NM_001290360",
+      "NM_001324101",
+      "NM_001324103",
+      "NM_001324106",
+      "NM_001324107",
+      "NM_001324108"
+     ]
+    },
+    "MBP": {
+     "n_hsp": 5,
+     "max_identity_pct": 100.0,
+     "n_accessions": 5,
+     "example_accs": [
+      "XM_047437522",
+      "XM_047437524",
+      "XM_047437525",
+      "XM_054318644",
+      "XM_054318645"
+     ]
+    },
+    "MAOA": {
+     "n_hsp": 1,
+     "max_identity_pct": 100.0,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001270458"
+     ]
+    },
+    "ANKZF1": {
+     "n_hsp": 9,
+     "max_identity_pct": 95.45,
+     "n_accessions": 9,
+     "example_accs": [
+      "NM_001042410",
+      "NM_001282792",
+      "NM_018089",
+      "XM_005246663",
+      "XM_011511392",
+      "XM_017004421"
+     ]
+    },
+    "PPP1R18": {
+     "n_hsp": 6,
+     "max_identity_pct": 95.45,
+     "n_accessions": 6,
+     "example_accs": [
+      "NM_001134870",
+      "NM_133471",
+      "XM_047418257",
+      "XM_047418258",
+      "XM_054329740",
+      "XM_054330528"
+     ]
+    },
+    "RASSF10": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.83,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001080521"
+     ]
+    },
+    "Hsp70": {
+     "n_hsp": 2,
+     "max_identity_pct": 95.45,
+     "n_accessions": 2,
+     "example_accs": [
+      "NM_005345",
+      "NM_005346"
+     ]
+    },
+    "MOB3B": {
+     "n_hsp": 4,
+     "max_identity_pct": 95.45,
+     "n_accessions": 4,
+     "example_accs": [
+      "XM_047423891",
+      "XM_047423894",
+      "XM_054363857",
+      "XM_054363860"
+     ]
+    },
+    "SLX4IP": {
+     "n_hsp": 3,
+     "max_identity_pct": 95.45,
+     "n_accessions": 3,
+     "example_accs": [
+      "NM_001009608",
+      "XM_054322966",
+      "XM_054322967"
+     ]
+    },
+    "LOC124900414": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "XR_007066784"
+     ]
+    },
+    "LOC107987457": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_003403597"
+     ]
+    },
+    "ZNF281": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_054335706"
+     ]
+    },
+    "FGFR4": {
+     "n_hsp": 3,
+     "max_identity_pct": 95.45,
+     "n_accessions": 3,
+     "example_accs": [
+      "NM_001354984",
+      "NM_002011",
+      "NM_213647"
+     ]
+    },
+    "LINC01694": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_146912"
+     ]
+    },
+    "SLC15A3": {
+     "n_hsp": 4,
+     "max_identity_pct": 95.45,
+     "n_accessions": 4,
+     "example_accs": [
+      "NM_016582",
+      "NR_027391",
+      "XM_011545095",
+      "XR_007062485"
+     ]
+    }
+   }
+  },
+  "GBP1": {
+   "accession": "NM_002053.3",
+   "cds_len": 1779,
+   "cds_coords": [
+    [
+     69,
+     1847
+    ]
+   ],
+   "rid": "DVCC1YM8014",
+   "n_repeat_hsp": 0,
+   "repeat_masked_segments": [],
+   "repeat_masked_nt": 0,
+   "safe_segments": [
+    [
+     1,
+     1779
+    ]
+   ],
+   "longest_safe_segment": 1779,
+   "offtarget_genes": {}
+  },
+  "ACTB": {
+   "accession": "NM_001101.5",
+   "cds_len": 1128,
+   "cds_coords": [
+    [
+     85,
+     1212
+    ]
+   ],
+   "rid": "DVCC6FJZ016",
+   "n_repeat_hsp": 0,
+   "repeat_masked_segments": [],
+   "repeat_masked_nt": 0,
+   "safe_segments": [
+    [
+     1,
+     1128
+    ]
+   ],
+   "longest_safe_segment": 1128,
+   "offtarget_genes": {}
+  },
+  "GAPDH": {
+   "accession": "NM_001289745.3",
+   "cds_len": 1008,
+   "cds_coords": [
+    [
+     169,
+     1176
+    ]
+   ],
+   "rid": "DVCCB72Y014",
+   "n_repeat_hsp": 0,
+   "repeat_masked_segments": [],
+   "repeat_masked_nt": 0,
+   "safe_segments": [
+    [
+     1,
+     1008
+    ]
+   ],
+   "longest_safe_segment": 1008,
+   "offtarget_genes": {}
+  },
+  "TBP": {
+   "accession": "NM_003194.5",
+   "cds_len": 1020,
+   "cds_coords": [
+    [
+     244,
+     1263
+    ]
+   ],
+   "rid": "DVCCFAEA014",
+   "n_repeat_hsp": 0,
+   "repeat_masked_segments": [],
+   "repeat_masked_nt": 0,
+   "safe_segments": [
+    [
+     1,
+     1020
+    ]
+   ],
+   "longest_safe_segment": 1020,
+   "offtarget_genes": {}
+  },
+  "HPRT1": {
+   "accession": "NM_000194.3",
+   "cds_len": 657,
+   "cds_coords": [
+    [
+     148,
+     804
+    ]
+   ],
+   "rid": "DVCCNBF1014",
+   "n_repeat_hsp": 0,
+   "repeat_masked_segments": [],
+   "repeat_masked_nt": 0,
+   "safe_segments": [
+    [
+     1,
+     657
+    ]
+   ],
+   "longest_safe_segment": 657,
+   "offtarget_genes": {}
+  },
+  "RPLP0": {
+   "accession": "NM_001002.4",
+   "cds_len": 954,
+   "cds_coords": [
+    [
+     78,
+     1031
+    ]
+   ],
+   "rid": "DVCCU04E016",
+   "n_repeat_hsp": 59,
+   "repeat_masked_segments": [
+    [
+     336,
+     356
+    ],
+    [
+     404,
+     428
+    ],
+    [
+     502,
+     524
+    ],
+    [
+     857,
+     886
+    ]
+   ],
+   "repeat_masked_nt": 99,
+   "safe_segments": [
+    [
+     1,
+     335
+    ],
+    [
+     357,
+     403
+    ],
+    [
+     429,
+     501
+    ],
+    [
+     525,
+     856
+    ],
+    [
+     887,
+     954
+    ]
+   ],
+   "longest_safe_segment": 335,
+   "offtarget_genes": {
+    "MLLT3": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.24,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_004529"
+     ]
+    },
+    "GUCY2D": {
+     "n_hsp": 3,
+     "max_identity_pct": 96.15,
+     "n_accessions": 3,
+     "example_accs": [
+      "NM_000180",
+      "XM_011523816",
+      "XM_054315889"
+     ]
+    },
+    "TMCC1": {
+     "n_hsp": 9,
+     "max_identity_pct": 95.24,
+     "n_accessions": 9,
+     "example_accs": [
+      "NM_001017395",
+      "NM_001128224",
+      "NM_001349263",
+      "NM_001349264",
+      "NM_001349265",
+      "NM_001349266"
+     ]
+    },
+    "MAMLD1": {
+     "n_hsp": 11,
+     "max_identity_pct": 95.24,
+     "n_accessions": 11,
+     "example_accs": [
+      "NM_001177465",
+      "NM_001177466",
+      "NM_001400512",
+      "NM_001400513",
+      "NM_001400514",
+      "NM_001400515"
+     ]
+    },
+    "RBP5": {
+     "n_hsp": 3,
+     "max_identity_pct": 96.0,
+     "n_accessions": 3,
+     "example_accs": [
+      "XR_001748882",
+      "XR_007063132",
+      "XR_007063133"
+     ]
+    },
+    "C1RL-AS1": {
+     "n_hsp": 1,
+     "max_identity_pct": 96.0,
+     "n_accessions": 1,
+     "example_accs": [
+      "NR_026947"
+     ]
+    },
+    "DOP1B": {
+     "n_hsp": 8,
+     "max_identity_pct": 100.0,
+     "n_accessions": 8,
+     "example_accs": [
+      "NM_001320714",
+      "NM_005128",
+      "XM_017028509",
+      "XM_054324968",
+      "XR_007067795",
+      "XR_008485346"
+     ]
+    },
+    "SEMA4B": {
+     "n_hsp": 7,
+     "max_identity_pct": 100.0,
+     "n_accessions": 7,
+     "example_accs": [
+      "NM_001324031",
+      "NM_001324032",
+      "NM_001324034",
+      "NM_001393916",
+      "NM_020210",
+      "NM_198925"
+     ]
+    },
+    "ERN1": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.83,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001433"
+     ]
+    },
+    "ETF1": {
+     "n_hsp": 1,
+     "max_identity_pct": 100.0,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001256302"
+     ]
+    },
+    "BST1": {
+     "n_hsp": 12,
+     "max_identity_pct": 95.65,
+     "n_accessions": 12,
+     "example_accs": [
+      "NM_004334",
+      "XM_005248185",
+      "XM_005248186",
+      "XM_011513878",
+      "XM_011513879",
+      "XM_017008566"
+     ]
+    },
+    "SBSN": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.65,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_054320925"
+     ]
+    },
+    "LOC101928215": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.65,
+     "n_accessions": 1,
+     "example_accs": [
+      "XR_007087021"
+     ]
+    }
+   }
+  },
+  "SDHA": {
+   "accession": "NM_004168.4",
+   "cds_len": 1995,
+   "cds_coords": [
+    [
+     37,
+     2031
+    ]
+   ],
+   "rid": "DVCCZFMM016",
+   "n_repeat_hsp": 13,
+   "repeat_masked_segments": [
+    [
+     277,
+     298
+    ],
+    [
+     304,
+     325
+    ],
+    [
+     1200,
+     1222
+    ],
+    [
+     1310,
+     1331
+    ]
+   ],
+   "repeat_masked_nt": 89,
+   "safe_segments": [
+    [
+     1,
+     276
+    ],
+    [
+     299,
+     303
+    ],
+    [
+     326,
+     1199
+    ],
+    [
+     1223,
+     1309
+    ],
+    [
+     1332,
+     1995
+    ]
+   ],
+   "longest_safe_segment": 874,
+   "offtarget_genes": {
+    "ACACB": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.65,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_001093"
+     ]
+    },
+    "DST": {
+     "n_hsp": 10,
+     "max_identity_pct": 95.45,
+     "n_accessions": 10,
+     "example_accs": [
+      "NM_001144769",
+      "NM_001144770",
+      "NM_001374722",
+      "NM_001374729",
+      "NM_001374730",
+      "NM_001374734"
+     ]
+    },
+    "NCOA2": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "XM_054359563"
+     ]
+    },
+    "SPATA31H1": {
+     "n_hsp": 1,
+     "max_identity_pct": 95.45,
+     "n_accessions": 1,
+     "example_accs": [
+      "NM_032266"
+     ]
+    }
+   }
+  }
+ }
+}

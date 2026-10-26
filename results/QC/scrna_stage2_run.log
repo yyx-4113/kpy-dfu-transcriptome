@@ -1,0 +1,32 @@
+[07:11:12] lineages: 23; KpyRN scored genes: 128; modules: ['M1_Kpy_machinery', 'M2_Pyruvate_supply', 'M3_Kpy_targets', 'M4_IFNI_readout']
+[07:11:14] gene universe (union of 54 samples): 26862
+[07:11:14] WARN lineage Mono_CD16: only 1 markers present in dataset
+[07:11:14] KpyRN present in universe: 135/140
+[07:11:15] QC-pass cells: 167837/174962
+[07:11:31] scored 10/54 samples (19s)
+[07:12:01] scored 20/54 samples (49s)
+[07:12:30] scored 30/54 samples (78s)
+[07:13:07] scored 40/54 samples (115s)
+[07:13:35] scored 50/54 samples (143s)
+[07:13:48] scored 54/54 samples (156s)
+[07:14:00] --- tissue sanity (mean over samples) ---
+[07:14:00]              frac_blood frac_skin frac_ambiguous
+tissue                                          
+Foot skin      0.138694  0.733773       0.127539
+Forearm skin   0.094182  0.798236       0.107564
+PBMCs           0.84679   0.01443        0.13876
+[07:14:00] --- lineage composition (all cells) ---
+[07:14:00] lineage_parent
+Fibroblast      0.2182
+Keratinocyte    0.1916
+Ambiguous       0.1265
+Pericyte_SMC    0.1057
+T_CD4           0.0826
+Mono_CD14       0.0822
+B               0.0512
+Endothelial     0.0430
+NK              0.0275
+Mono_CD16       0.0207
+Adipocyte       0.0113
+Macrophage      0.0107
+[07:14:00] DONE: 167837 cells scored; ambiguous 12.7%; 168s

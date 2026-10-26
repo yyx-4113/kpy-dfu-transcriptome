@@ -1,0 +1,35 @@
+{
+  "n_samples": 38,
+  "stage_counts": {
+    "BEFORE": 20,
+    "AFTER": 18
+  },
+  "after_week": {
+    "8wk": 15,
+    "4wk": 3
+  },
+  "paired_inferred": {
+    "pairs": 17,
+    "unpaired": 4,
+    "note": "连续ID+同年龄+互补时点推断，无显式donor列；主分析非配对"
+  },
+  "outcome_contrast": "NOT_POSSIBLE: 愈合结局字段未在公开元数据提供",
+  "genes_ensg": 58288,
+  "genes_symbol": 57059,
+  "kpyrn_genes_in_matrix": 128,
+  "kpyrn_total": 140,
+  "kpyrn_missing": [
+    "H2AFZ",
+    "HIST1H1C",
+    "HIST1H2AC",
+    "HIST1H2AM",
+    "HIST1H2BO",
+    "HIST1H3B",
+    "HIST1H4C",
+    "HIST1H4E",
+    "HIST2H2AC",
+    "HIST2H2BE",
+    "HIST2H3C",
+    "HIST2H3D"
+  ]
+}

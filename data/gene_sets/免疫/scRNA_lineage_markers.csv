@@ -1,0 +1,87 @@
+﻿gene_symbol,lineage,tier,note
+CD3D,T_CD4,core,T cell receptor complex (canonical pan-T)
+CD3E,T_CD4,core,T cell receptor complex (canonical pan-T)
+CD4,T_CD4,core,helper T lineage
+IL7R,T_CD4,support,naive/memory T
+CD3D,T_CD8,core,T cell receptor complex (canonical pan-T)
+CD3E,T_CD8,core,T cell receptor complex (canonical pan-T)
+CD8A,T_CD8,core,cytotoxic T lineage
+CD8B,T_CD8,core,cytotoxic T lineage
+GZMB,T_CD8,support,cytotoxic granules (also NK)
+NCAM1,NK,core,CD56 canonical NK
+NKG7,NK,core,natural killer cell granules
+GNLY,NK,core,granulysin canonical NK/T
+KLRD1,NK,core,CD94 NK receptor
+KLRF1,NK,support,NCAM16 NK receptor
+CD79A,B,core,B cell receptor complex
+MS4A1,B,core,CD20 canonical B
+CD19,B,core,B cell co-receptor
+CD74,B,support,HLA class II invariant chain (also macro/DC)
+MZB1,Plasma,support,ER chaperone plasma cells
+SDC1,Plasma,core,CD138 canonical plasma
+JCHAIN,Plasma,support,immunoglobulin joining chain
+IGHG1,Plasma,support,class-switched IgG
+XBP1,Plasma,support,UPR plasma cells
+CD14,Mono_CD14,core,CD14 canonical monocyte
+LYZ,Mono_CD14,core,lysozyme monocyte/granulocyte
+S100A8,Mono_CD14,support,calprotectin mono/neutro
+S100A9,Mono_CD14,support,calprotectin mono/neutro
+S100A12,Mono_CD14,support,calgranulin C mono/neutro
+FCGR3A,Mono_CD16,support,CD16 non-classical mono (also NK)
+CD68,Macrophage,core,lysosomal marker macrophage
+CD163,Macrophage,core,M2-like macrophage canonical
+MRC1,Macrophage,support,mannose receptor M2-like
+MSR1,Macrophage,support,scavenger receptor macrophage
+FCER1A,cDC,core,CD1a/FceRI cDC2 canonical
+CLEC9A,cDC,core,BDCA2/CLEC9A cDC1 canonical
+CD1C,cDC,support,cDC2 canonical
+ITGAX,cDC,support,CD11c dendritic/myeloid
+LILRA4,pDC,core,ILT7 pDC canonical
+IL3RA,pDC,core,CD123 pDC canonical
+GZMB,pDC,support,also cytotoxic lineages
+FCGR3B,Neutrophil,core,CD16b neutrophil-specific (GPIIb-linked)
+CXCR2,Neutrophil,support,CXCR2 neutrophil trafficking
+CSF3R,Neutrophil,core,G-CSF receptor neutrophil lineage
+CEACAM8,Neutrophil,support,CD66b neutrophil-specific
+TPSAB1,Mast,core,tryptase alpha/beta mast-specific
+TPSB2,Mast,core,tryptase beta mast-specific
+CPA3,Mast,core,carboxypeptidase A3 mast-specific
+MS4A2,Mast,support,Fc epsilon RI beta mast/basophil
+KIT,Mast,support,CD117 mast/stem
+COL1A1,Fibroblast,core,collagen I canonical fibroblast
+COL1A2,Fibroblast,core,collagen I canonical fibroblast
+COL3A1,Fibroblast,core,collagen III canonical fibroblast
+DCN,Fibroblast,core,decorin canonical fibroblast
+LUM,Fibroblast,support,lumican fibroblast
+APCDD1,Fibroblast_papillary,support,papillary dermal fibroblast
+COL23A1,Fibroblast_papillary,support,papillary dermal fibroblast
+PI16,Fibroblast_reticular,support,reticular dermal fibroblast
+COMP,Fibroblast_reticular,support,reticular dermal fibroblast
+KRT1,Keratinocyte_suprabasal,core,involucrin-layer keratin
+KRT10,Keratinocyte_suprabasal,core,suprabasal keratin
+KRT5,Keratinocyte_basal,core,basal layer keratin
+KRT14,Keratinocyte_basal,core,basal layer keratin
+KRT15,Keratinocyte_basal,support,hair follicle bulge keratin
+PECAM1,Endothelial,core,CD31 canonical endothelial
+VWF,Endothelial,core,von Willebrand factor endothelial
+CDH5,Endothelial,core,VE-cadherin endothelial
+CLDN5,Endothelial,support,claudin-5 endothelial junction
+PROX1,Endothelial_lymphatic,core,lymphatic endothelial master TF
+LYVE1,Endothelial_lymphatic,support,lymphatic vessel endothelial
+PDPN,Endothelial_lymphatic,support,podoplanin lymphatic/fibroblast
+RGS5,Pericyte_SMC,core,RGS5 canonical pericyte
+ACTA2,Pericyte_SMC,support,alpha-SMA SMC/activated fibroblast
+TAGLN,Pericyte_SMC,support,transgelin SMC
+PDGFRB,Pericyte_SMC,support,PDGFR-beta pericyte/mesenchymal
+NOTCH3,Pericyte_SMC,support,NOTCH3 pericyte
+MPZ,Schwann_neural,core,myelin protein zero Schwann
+MBP,Schwann_neural,core,myelin basic protein Schwann/oligodendrocyte
+SOX10,Schwann_neural,support,neural crest TF Schwann
+PLP1,Schwann_neural,support,myelin PLP Schwann
+S100B,Schwann_neural,support,S100B Schwann (also melano)
+ADIPOQ,Adipocyte,core,adiponectin adipocyte-specific
+LEP,Adipocyte,support,leptin adipocyte
+FABP4,Adipocyte,support,fatty acid binding protein adipocyte/macro
+PLIN1,Adipocyte,support,perilipin-1 adipocyte lipid droplet
+AQP5,Eccrine,support,aquaporin-5 eccrine gland
+KRT77,Eccrine,support,keratin 77 sweat gland

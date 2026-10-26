@@ -1,0 +1,13 @@
+module,ngenes,direction,p,fdr,model
+M4_IFNI_readout,31,Down,0.0042297972367881,0.0094017958993875,main_unpaired
+M3_Kpy_targets,3,Down,0.0047008979496937,0.0094017958993875,main_unpaired
+M2_Pyruvate_supply,90,Down,0.0457840706694812,0.0610454275593083,main_unpaired
+M1_Kpy_machinery,4,Down,0.134391158084256,0.134391158084256,main_unpaired
+M3_Kpy_targets,3,Down,0.0051733432961029,0.0206933731844118,paired_inferred
+M4_IFNI_readout,31,Down,0.0259440933384295,0.051888186676859,paired_inferred
+M1_Kpy_machinery,4,Down,0.321689536886129,0.428919382514838,paired_inferred
+M2_Pyruvate_supply,90,Down,0.493599730616217,0.493599730616217,paired_inferred
+M4_IFNI_readout,31,Down,0.0003903848871419,0.0015615395485677,after8wk_only
+M2_Pyruvate_supply,90,Down,0.0076065404737918,0.0152130809475837,after8wk_only
+M3_Kpy_targets,3,Down,0.0118946970905761,0.0158595961207682,after8wk_only
+M1_Kpy_machinery,4,Down,0.0567013787259889,0.0567013787259889,after8wk_only

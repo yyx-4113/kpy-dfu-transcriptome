@@ -1,0 +1,13 @@
+﻿gsm,title,type,platform,characteristics
+GSM2114231,Diabetic Foot Ulcer 07,RNA,GPL16686,tissue=foot ulcer | disease state=diabetic
+GSM2114232,Diabetic Foot Ulcer 14,RNA,GPL16686,tissue=foot ulcer | disease state=diabetic
+GSM2114233,Diabetic Foot Ulcer 15,RNA,GPL16686,tissue=foot ulcer | disease state=diabetic
+GSM2114234,Diabetic Foot Ulcer 24,RNA,GPL16686,tissue=foot ulcer | disease state=diabetic
+GSM2114235,Diabetic Foot Ulcer 27,RNA,GPL16686,tissue=foot ulcer | disease state=diabetic
+GSM2114236,Diabetic Foot Ulcer 31,RNA,GPL16686,tissue=foot ulcer | disease state=diabetic
+GSM2114237,Diabetic Foot Skin 01,RNA,GPL16686,tissue=foot skin | disease state=diabetic
+GSM2114238,Diabetic Foot Skin 02,RNA,GPL16686,tissue=foot skin | disease state=diabetic
+GSM2114239,Diabetic Foot Skin 03,RNA,GPL16686,tissue=foot skin | disease state=diabetic
+GSM2114240,non-Diabetic Foot Skin 01,RNA,GPL16686,tissue=foot skin | disease state=non-diabetic
+GSM2114241,non-Diabetic Foot Skin 02,RNA,GPL16686,tissue=foot skin | disease state=non-diabetic
+GSM2114242,non-Diabetic Foot Skin 03,RNA,GPL16686,tissue=foot skin | disease state=non-diabetic

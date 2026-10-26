@@ -1,0 +1,56 @@
+target,gene,pdb,site,ligand,role,affinity_kcal_mol,rmsd_lower_bound,box,pos_control_affinity,delta_vs_pos
+PKM2,PKM,4JPG,C-pocket (allosteric),POS_PKM2_C-pocket_1OX,positive_control,-20.3,0.0,"9.0,4.4,11.9 22x22x22",-20.3,0.0
+PKM2,PKM,4JPG,C-pocket (allosteric),NEG_sucrose,negative_control,-6.956,0.0,"9.0,4.4,11.9 22x22x22",-20.3,13.344000000000001
+PKM2,PKM,4JPG,C-pocket (allosteric),LIG_TEPP-46,candidate,-10.25,0.0,"9.0,4.4,11.9 22x22x22",-20.3,10.05
+PKM2,PKM,4JPG,C-pocket (allosteric),LIG_shikonin,candidate,-10.11,0.0,"9.0,4.4,11.9 22x22x22",-20.3,10.190000000000001
+PKM2,PKM,4JPG,C-pocket (allosteric),LIG_CHEMBL5590652,candidate,-9.773,0.0,"9.0,4.4,11.9 22x22x22",-20.3,10.527000000000001
+PKM2,PKM,4JPG,C-pocket (allosteric),LIG_CHEMBL5569778,candidate,-9.983,0.0,"9.0,4.4,11.9 22x22x22",-20.3,10.317
+PKM2,PKM,4JPG,C-pocket (allosteric),LIG_CHEMBL5573729,candidate,-7.755,0.0,"9.0,4.4,11.9 22x22x22",-20.3,12.545000000000002
+PKM2,PKM,4JPG,A-pocket (FBP site),POS_PKM2_A-pocket_FBP,positive_control,-12.22,0.0,"-20.8,-16.5,13.9 22x22x22",-12.22,0.0
+PKM2,PKM,4JPG,A-pocket (FBP site),NEG_sucrose,negative_control,-5.378,0.0,"-20.8,-16.5,13.9 22x22x22",-12.22,6.8420000000000005
+PKM2,PKM,4JPG,A-pocket (FBP site),LIG_TEPP-46,candidate,-6.335,0.0,"-20.8,-16.5,13.9 22x22x22",-12.22,5.885000000000001
+PKM2,PKM,4JPG,A-pocket (FBP site),LIG_shikonin,candidate,-6.419,0.0,"-20.8,-16.5,13.9 22x22x22",-12.22,5.801000000000001
+PKM2,PKM,4JPG,A-pocket (FBP site),LIG_CHEMBL5590652,candidate,-8.924,0.0,"-20.8,-16.5,13.9 22x22x22",-12.22,3.296000000000001
+PKM2,PKM,4JPG,A-pocket (FBP site),LIG_CHEMBL5569778,candidate,-7.871,0.0,"-20.8,-16.5,13.9 22x22x22",-12.22,4.349
+EP300,EP300,4PZS,acetyl-CoA substrate site,POS_EP300_acetyl-CoA_ACO,positive_control,-17.1,0.0,"14.4,43.3,1.4 24x26x22",-17.1,0.0
+EP300,EP300,4PZS,acetyl-CoA substrate site,NEG_sucrose,negative_control,-7.448,0.0,"14.4,43.3,1.4 24x26x22",-17.1,9.652000000000001
+EP300,EP300,4PZS,acetyl-CoA substrate site,LIG_A-485,candidate,-10.58,0.0,"14.4,43.3,1.4 24x26x22",-17.1,6.520000000000001
+EP300,EP300,4PZS,acetyl-CoA substrate site,LIG_C646,candidate,-10.17,0.0,"14.4,43.3,1.4 24x26x22",-17.1,6.9300000000000015
+EP300,EP300,4PZS,acetyl-CoA substrate site,LIG_curcumin,candidate,-9.189,0.0,"14.4,43.3,1.4 24x26x22",-17.1,7.911000000000001
+EP300,EP300,4PZS,acetyl-CoA substrate site,LIG_CHEMBL5948549,candidate,-10.3,0.0,"14.4,43.3,1.4 24x26x22",-17.1,6.800000000000001
+EP300,EP300,4PZS,acetyl-CoA substrate site,LIG_CHEMBL6021203,candidate,-10.79,0.0,"14.4,43.3,1.4 24x26x22",-17.1,6.310000000000002
+EP300,EP300,4PZS,acetyl-CoA substrate site,LIG_CHEMBL5770805,candidate,-10.54,0.0,"14.4,43.3,1.4 24x26x22",-17.1,6.560000000000002
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,POS_SIRT3_ADP-riboseNAD_AR6,positive_control,-21.26,0.0,"9.8,3.3,4.6 24x24x24",-21.26,0.0
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,NEG_sucrose,negative_control,-6.919,0.0,"9.8,3.3,4.6 24x24x24",-21.26,14.341000000000001
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_nicotinamide,candidate,-6.254,0.0,"9.8,3.3,4.6 24x24x24",-21.26,15.006000000000002
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_honokiol,candidate,-8.903,0.0,"9.8,3.3,4.6 24x24x24",-21.26,12.357000000000001
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_resveratrol,candidate,-8.852,0.0,"9.8,3.3,4.6 24x24x24",-21.26,12.408000000000001
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_quercetin,candidate,-9.614,0.0,"9.8,3.3,4.6 24x24x24",-21.26,11.646
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_sirtinol,candidate,-8.696,0.0,"9.8,3.3,4.6 24x24x24",-21.26,12.564000000000002
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_CHEMBL2332041,candidate,-11.5,0.0,"9.8,3.3,4.6 24x24x24",-21.26,9.760000000000002
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_CHEMBL2332039,candidate,-10.5,0.0,"9.8,3.3,4.6 24x24x24",-21.26,10.760000000000002
+SIRT3,SIRT3,4BN4,ADP-ribose/NAD+ C-pocket,LIG_CHEMBL2338810,candidate,-9.534,0.0,"9.8,3.3,4.6 24x24x24",-21.26,11.726
+LDHA,LDHA,4JNK,active site,POS_LDHA_active_ZHK,positive_control,-13.16,0.0,"43.3,21.3,48.1 20x20x20",-13.16,0.0
+LDHA,LDHA,4JNK,active site,NEG_sucrose,negative_control,-6.63,0.0,"43.3,21.3,48.1 20x20x20",-13.16,6.53
+LDHA,LDHA,4JNK,active site,LIG_oxamicacid,candidate,-4.065,0.0,"43.3,21.3,48.1 20x20x20",-13.16,9.094999999999999
+LDHA,LDHA,4JNK,active site,LIG_FX11,candidate,-7.979,0.0,"43.3,21.3,48.1 20x20x20",-13.16,5.181
+LDHA,LDHA,4JNK,active site,LIG_galloflavin,candidate,-7.879,0.0,"43.3,21.3,48.1 20x20x20",-13.16,5.281000000000001
+LDHA,LDHA,4JNK,active site,LIG_CHEMBL4859303,candidate,-10.29,0.0,"43.3,21.3,48.1 20x20x20",-13.16,2.870000000000001
+LDHA,LDHA,4JNK,active site,LIG_CHEMBL4782843,candidate,-10.35,0.0,"43.3,21.3,48.1 20x20x20",-13.16,2.8100000000000005
+LDHA,LDHA,4JNK,active site,LIG_CHEMBL4850573,candidate,-9.03,0.0,"43.3,21.3,48.1 20x20x20",-13.16,4.130000000000001
+PDK2,PDK2,4MPC,ATP pocket,POS_PDK2_ATP_PV2,positive_control,-9.579,0.0,"13.9,2.1,-37.3 20x20x20",-9.579,0.0
+PDK2,PDK2,4MPC,ATP pocket,NEG_sucrose,negative_control,-6.031,0.0,"13.9,2.1,-37.3 20x20x20",-9.579,3.548000000000001
+PDK2,PDK2,4MPC,ATP pocket,LIG_CHEMBL5896437,candidate,-7.864,0.0,"13.9,2.1,-37.3 20x20x20",-9.579,1.7150000000000007
+PDK2,PDK2,4MPC,ATP pocket,LIG_CHEMBL6011956,candidate,-8.01,0.0,"13.9,2.1,-37.3 20x20x20",-9.579,1.5690000000000008
+PDK2,PDK2,4MPC,ATP pocket,LIG_CHEMBL5777543,candidate,-7.813,0.0,"13.9,2.1,-37.3 20x20x20",-9.579,1.766000000000001
+PDK2,PDK2,2BU8,pyruvate site (R-domain),POS_PDK2_pyruvate_TF4,positive_control,-4.082,0.0,"56.35,44.81,80.86 20x20x20",-4.082,0.0
+PDK2,PDK2,2BU8,pyruvate site (R-domain),NEG_sucrose,negative_control,-4.015,0.0,"56.35,44.81,80.86 20x20x20",-4.082,0.06700000000000017
+PDK2,PDK2,2BU8,pyruvate site (R-domain),LIG_pyruvicacid,candidate,-4.221,0.0,"56.35,44.81,80.86 20x20x20",-4.082,-0.13900000000000023
+PDK2,PDK2,2BU8,pyruvate site (R-domain),LIG_CHEMBL5896437,candidate,-2.466,0.0,"56.35,44.81,80.86 20x20x20",-4.082,1.6159999999999997
+PDK2,PDK2,2BU8,pyruvate site (R-domain),LIG_CHEMBL6011956,candidate,-2.963,0.0,"56.35,44.81,80.86 20x20x20",-4.082,1.1189999999999998
+PDK2,PDK2,2BU8,pyruvate site (R-domain),LIG_CHEMBL5777543,candidate,-4.815,0.0,"56.35,44.81,80.86 20x20x20",-4.082,-0.7330000000000005
+PDK2,PDK2,2BU5,R-domain N-terminal site,POS_PDK2_R-domain_TF1,positive_control,-11.39,0.0,"56.5,60.92,78.74 22x22x22",-11.39,0.0
+PDK2,PDK2,2BU5,R-domain N-terminal site,NEG_sucrose,negative_control,-6.222,0.0,"56.5,60.92,78.74 22x22x22",-11.39,5.168
+PDK2,PDK2,2BU5,R-domain N-terminal site,LIG_CHEMBL5896437,candidate,-9.06,0.0,"56.5,60.92,78.74 22x22x22",-11.39,2.33
+PDK2,PDK2,2BU5,R-domain N-terminal site,LIG_CHEMBL6011956,candidate,-8.77,0.0,"56.5,60.92,78.74 22x22x22",-11.39,2.620000000000001
+PDK2,PDK2,2BU5,R-domain N-terminal site,LIG_CHEMBL5777543,candidate,-8.769,0.0,"56.5,60.92,78.74 22x22x22",-11.39,2.6210000000000004

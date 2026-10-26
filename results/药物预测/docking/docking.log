@@ -1,0 +1,156 @@
+======================================================================
+docking_pipeline.py — Kpy 轴分子对接（Vina 1.2.7）
+======================================================================
+
+[1] 受体准备
+  受体 4JPG: 已存在，跳过重转换（18889 atoms, 1.5 MB）
+  受体 4PZS: 已存在，跳过重转换（3343 atoms, 0.3 MB）
+  受体 4BN4: 已存在，跳过重转换（2961 atoms, 0.2 MB）
+  受体 4JNK: 已存在，跳过重转换（12873 atoms, 1.0 MB）
+  受体 4MPC: 已存在，跳过重转换（3742 atoms, 0.3 MB）
+  受体 2BU8: 已存在，跳过重转换（3517 atoms, 0.3 MB）
+  受体 2BU5: 已存在，跳过重转换（3473 atoms, 0.3 MB）
+
+[2] 配体准备
+  阳性对照 POS_PKM2_C-pocket_1OX: POS_PKM2_C-pocket_1OX.pdbqt
+  阳性对照 POS_PKM2_A-pocket_FBP: POS_PKM2_A-pocket_FBP.pdbqt
+  阳性对照 POS_EP300_acetyl-CoA_ACO: POS_EP300_acetyl-CoA_ACO.pdbqt
+  阳性对照 POS_SIRT3_ADP-riboseNAD_AR6: POS_SIRT3_ADP-riboseNAD_AR6.pdbqt
+  阳性对照 POS_LDHA_active_ZHK: POS_LDHA_active_ZHK.pdbqt
+  阳性对照 POS_PDK2_ATP_PV2: POS_PDK2_ATP_PV2.pdbqt
+  阳性对照 POS_PDK2_pyruvate_TF4: POS_PDK2_pyruvate_TF4.pdbqt
+  阳性对照 POS_PDK2_R-domain_TF1: POS_PDK2_R-domain_TF1.pdbqt
+  负面对照 NEG_sucrose ✓
+  配体就绪: 38 个；失败 0 个
+
+[3] Vina 对接
+  4JPG C-pocket (al POS_PKM2_C-pocket_1OX                      aff=-20.3
+  4JPG C-pocket (al NEG_sucrose                                aff=-6.956
+  4JPG C-pocket (al LIG_TEPP-46                                aff=-10.25
+  4JPG C-pocket (al LIG_shikonin                               aff=-10.11
+  4JPG C-pocket (al LIG_CHEMBL5590652                          aff=-9.773
+  4JPG C-pocket (al LIG_CHEMBL5569778                          aff=-9.983
+  4JPG C-pocket (al LIG_CHEMBL5573729                          aff=-7.755
+  4JPG A-pocket (FB POS_PKM2_A-pocket_FBP                      aff=-12.22
+  4JPG A-pocket (FB NEG_sucrose                                aff=-5.378
+  4JPG A-pocket (FB LIG_TEPP-46                                aff=-6.335
+  4JPG A-pocket (FB LIG_shikonin                               aff=-6.419
+  4JPG A-pocket (FB LIG_CHEMBL5590652                          aff=-8.924
+  4JPG A-pocket (FB LIG_CHEMBL5569778                          aff=-7.871
+  4PZS acetyl-CoA s POS_EP300_acetyl-CoA_ACO                   aff=-17.1
+  4PZS acetyl-CoA s NEG_sucrose                                aff=-7.448
+  4PZS acetyl-CoA s LIG_A-485                                  aff=-10.58
+  4PZS acetyl-CoA s LIG_C646                                   aff=-10.17
+  4PZS acetyl-CoA s LIG_curcumin                               aff=-9.189
+  4PZS acetyl-CoA s LIG_CHEMBL5948549                          aff=-10.3
+  4PZS acetyl-CoA s LIG_CHEMBL6021203                          aff=-10.79
+  4PZS acetyl-CoA s LIG_CHEMBL5770805                          aff=-10.54
+  4BN4 ADP-ribose/N POS_SIRT3_ADP-riboseNAD_AR6                aff=-21.26
+  4BN4 ADP-ribose/N NEG_sucrose                                aff=-6.919
+  4BN4 ADP-ribose/N LIG_nicotinamide                           aff=-6.254
+  4BN4 ADP-ribose/N LIG_honokiol                               aff=-8.903
+  4BN4 ADP-ribose/N LIG_resveratrol                            aff=-8.852
+  4BN4 ADP-ribose/N LIG_quercetin                              aff=-9.614
+  4BN4 ADP-ribose/N LIG_sirtinol                               aff=-8.696
+  4BN4 ADP-ribose/N LIG_CHEMBL2332041                          aff=-11.5
+  4BN4 ADP-ribose/N LIG_CHEMBL2332039                          aff=-10.5
+  4BN4 ADP-ribose/N LIG_CHEMBL2338810                          aff=-9.534
+  4JNK active site  POS_LDHA_active_ZHK                        aff=-13.16
+  4JNK active site  NEG_sucrose                                aff=-6.63
+  4JNK active site  LIG_oxamicacid                             aff=-4.065
+  4JNK active site  LIG_FX11                                   aff=-7.979
+  4JNK active site  LIG_galloflavin                            aff=-7.879
+  4JNK active site  LIG_CHEMBL4859303                          aff=-10.29
+  4JNK active site  LIG_CHEMBL4782843                          aff=-10.35
+  4JNK active site  LIG_CHEMBL4850573                          aff=-9.03
+  4MPC ATP pocket   POS_PDK2_ATP_PV2                           aff=-9.579
+  4MPC ATP pocket   NEG_sucrose                                aff=-6.031
+  4MPC ATP pocket   LIG_CHEMBL5896437                          aff=-7.864
+  4MPC ATP pocket   LIG_CHEMBL6011956                          aff=-8.01
+  4MPC ATP pocket   LIG_CHEMBL5777543                          aff=-7.813
+  2BU8 pyruvate sit POS_PDK2_pyruvate_TF4                      aff=-4.082
+  2BU8 pyruvate sit NEG_sucrose                                aff=-4.015
+  2BU8 pyruvate sit LIG_pyruvicacid                            aff=-4.221
+  2BU8 pyruvate sit LIG_CHEMBL5896437                          aff=-2.466
+  2BU8 pyruvate sit LIG_CHEMBL6011956                          aff=-2.963
+  2BU8 pyruvate sit LIG_CHEMBL5777543                          aff=-4.815
+  2BU5 R-domain N-t POS_PDK2_R-domain_TF1                      aff=-11.39
+  2BU5 R-domain N-t NEG_sucrose                                aff=-6.222
+  2BU5 R-domain N-t LIG_CHEMBL5896437                          aff=-9.06
+  2BU5 R-domain N-t LIG_CHEMBL6011956                          aff=-8.77
+  2BU5 R-domain N-t LIG_CHEMBL5777543                          aff=-8.769
+
+对接完成: 55 runs (1885s)
+
+[4] 阳性对照重对接 RMSD
+  PKM2 A-pocket (FBP site)  FBP: RMSD=0.00 Å (n=27)
+  EP300 acetyl-CoA substrate ACO: RMSD=0.00 Å (n=61)
+  SIRT3 ADP-ribose/NAD+ C-po AR6: RMSD=0.00 Å (n=45)
+  LDHA active site          ZHK: RMSD=0.00 Å (n=37)
+
+[5] 汇总（按体系）
+--- EP300 / acetyl-CoA substrate site ---
+   positive_control   POS_EP300_acetyl-CoA_ACO                       -17.10 Δ= +0.00
+   candidate          LIG_CHEMBL6021203                              -10.79 Δ= +6.31
+   candidate          LIG_A-485                                      -10.58 Δ= +6.52
+   candidate          LIG_CHEMBL5770805                              -10.54 Δ= +6.56
+   candidate          LIG_CHEMBL5948549                              -10.30 Δ= +6.80
+   candidate          LIG_C646                                       -10.17 Δ= +6.93
+   candidate          LIG_curcumin                                    -9.19 Δ= +7.91
+   negative_control   NEG_sucrose                                     -7.45 Δ= +9.65
+--- LDHA / active site ---
+   positive_control   POS_LDHA_active_ZHK                            -13.16 Δ= +0.00
+   candidate          LIG_CHEMBL4782843                              -10.35 Δ= +2.81
+   candidate          LIG_CHEMBL4859303                              -10.29 Δ= +2.87
+   candidate          LIG_CHEMBL4850573                               -9.03 Δ= +4.13
+   candidate          LIG_FX11                                        -7.98 Δ= +5.18
+   candidate          LIG_galloflavin                                 -7.88 Δ= +5.28
+   negative_control   NEG_sucrose                                     -6.63 Δ= +6.53
+   candidate          LIG_oxamicacid                                  -4.07 Δ= +9.09
+--- PDK2 / ATP pocket ---
+   positive_control   POS_PDK2_ATP_PV2                                -9.58 Δ= +0.00
+   candidate          LIG_CHEMBL6011956                               -8.01 Δ= +1.57
+   candidate          LIG_CHEMBL5896437                               -7.86 Δ= +1.72
+   candidate          LIG_CHEMBL5777543                               -7.81 Δ= +1.77
+   negative_control   NEG_sucrose                                     -6.03 Δ= +3.55
+--- PDK2 / R-domain N-terminal site ---
+   positive_control   POS_PDK2_R-domain_TF1                          -11.39 Δ= +0.00
+   candidate          LIG_CHEMBL5896437                               -9.06 Δ= +2.33
+   candidate          LIG_CHEMBL6011956                               -8.77 Δ= +2.62
+   candidate          LIG_CHEMBL5777543                               -8.77 Δ= +2.62
+   negative_control   NEG_sucrose                                     -6.22 Δ= +5.17
+--- PDK2 / pyruvate site (R-domain) ---
+   candidate          LIG_CHEMBL5777543                               -4.82 Δ= -0.73
+   candidate          LIG_pyruvicacid                                 -4.22 Δ= -0.14
+   positive_control   POS_PDK2_pyruvate_TF4                           -4.08 Δ= +0.00
+   negative_control   NEG_sucrose                                     -4.01 Δ= +0.07
+   candidate          LIG_CHEMBL6011956                               -2.96 Δ= +1.12
+   candidate          LIG_CHEMBL5896437                               -2.47 Δ= +1.62
+--- PKM2 / A-pocket (FBP site) ---
+   positive_control   POS_PKM2_A-pocket_FBP                          -12.22 Δ= +0.00
+   candidate          LIG_CHEMBL5590652                               -8.92 Δ= +3.30
+   candidate          LIG_CHEMBL5569778                               -7.87 Δ= +4.35
+   candidate          LIG_shikonin                                    -6.42 Δ= +5.80
+   candidate          LIG_TEPP-46                                     -6.33 Δ= +5.89
+   negative_control   NEG_sucrose                                     -5.38 Δ= +6.84
+--- PKM2 / C-pocket (allosteric) ---
+   positive_control   POS_PKM2_C-pocket_1OX                          -20.30 Δ= +0.00
+   candidate          LIG_TEPP-46                                    -10.25 Δ=+10.05
+   candidate          LIG_shikonin                                   -10.11 Δ=+10.19
+   candidate          LIG_CHEMBL5569778                               -9.98 Δ=+10.32
+   candidate          LIG_CHEMBL5590652                               -9.77 Δ=+10.53
+   candidate          LIG_CHEMBL5573729                               -7.75 Δ=+12.55
+   negative_control   NEG_sucrose                                     -6.96 Δ=+13.34
+--- SIRT3 / ADP-ribose/NAD+ C-pocket ---
+   positive_control   POS_SIRT3_ADP-riboseNAD_AR6                    -21.26 Δ= +0.00
+   candidate          LIG_CHEMBL2332041                              -11.50 Δ= +9.76
+   candidate          LIG_CHEMBL2332039                              -10.50 Δ=+10.76
+   candidate          LIG_quercetin                                   -9.61 Δ=+11.65
+   candidate          LIG_CHEMBL2338810                               -9.53 Δ=+11.73
+   candidate          LIG_honokiol                                    -8.90 Δ=+12.36
+   candidate          LIG_resveratrol                                 -8.85 Δ=+12.41
+   candidate          LIG_sirtinol                                    -8.70 Δ=+12.56
+   negative_control   NEG_sucrose                                     -6.92 Δ=+14.34
+   candidate          LIG_nicotinamide                                -6.25 Δ=+15.01
+
+DONE — docking_pipeline.py (1888s)

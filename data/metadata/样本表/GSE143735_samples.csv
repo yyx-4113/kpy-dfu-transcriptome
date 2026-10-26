@@ -1,0 +1,14 @@
+﻿gsm,title,type,platform,characteristics
+GSM4273445,"forearm, no ulcer, X201_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - No Ulcer | age=57 | Sex=M | tissue=forearm whole skin
+GSM4273446,"forearm, no ulcer, X202_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - No Ulcer | age=61 | Sex=M | tissue=forearm whole skin
+GSM4273447,"forearm, no ulcer, X203_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - No Ulcer | age=61 | Sex=M | tissue=forearm whole skin
+GSM4273448,"forearm, no ulcer, X204_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - No Ulcer | age=60 | Sex=M | tissue=forearm whole skin
+GSM4273449,"forearm, ulcer healer, X206_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Healer | age=59 | Sex=M | tissue=forearm whole skin
+GSM4273450,"forearm, ulcer healer, X207_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Healer | age=65 | Sex=M | tissue=forearm whole skin
+GSM4273451,"forearm, ulcer healer, X208_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Healer | age=61 | Sex=M | tissue=forearm whole skin
+GSM4273452,"forearm, ulcer healer, X209_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Healer | age=50 | Sex=M | tissue=forearm whole skin
+GSM4273453,"forearm, ulcer healer, X210_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Healer | age=52 | Sex=F | tissue=forearm whole skin
+GSM4273454,"forearm, ulcer nonhealer, X211_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Non Healer | age=55 | Sex=M | tissue=forearm whole skin
+GSM4273455,"forearm, ulcer nonhealer, X212_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Non Healer | age=53 | Sex=M | tissue=forearm whole skin
+GSM4273456,"forearm, ulcer nonhealer, X213_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Non Healer | age=55 | Sex=M | tissue=forearm whole skin
+GSM4273457,"forearm, ulcer nonhealer, X215_s",SRA,GPL11154,disease state=Diabetes | group=Diabetes - Ulcer - Non Healer | age=53 | Sex=F | tissue=forearm whole skin

@@ -1,0 +1,7 @@
+{
+ "generated": "2026-10-26T07:59:11.393987",
+ "n_facts": 660,
+ "script": "02_脚本/build_audit_facts.py",
+ "script_sha256": "a70b55ba969e9fce54b4679495c020ad68fd360c7c1aae45be5c51711f2b1bee",
+ "principle": "本文件是稿件正文数字的唯一真源；每个 fact 均记录源文件与提取表达式。审计追踪脚本按 fact id 反向核对正文数值，期望值一律由本文件动态派生，不硬编码。"
+}

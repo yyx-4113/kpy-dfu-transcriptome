@@ -1,0 +1,24 @@
+﻿gsm,title,type,platform,characteristics
+GSM5061969,A02,SRA,GPL21697,tissue=skin | subject id=Subject 1 | ulcer location=plantar right foot | roi location=Ulcer edge | Sex=F | age=59 | healing status=Non-Healer
+GSM5061970,A03,SRA,GPL21697,tissue=skin | subject id=Subject 1 | ulcer location=plantar right foot | roi location=Ulcer edge | Sex=F | age=59 | healing status=Non-Healer
+GSM5061971,A04,SRA,GPL21697,tissue=skin | subject id=Subject 1 | ulcer location=plantar right foot | roi location=Ulcer edge | Sex=F | age=59 | healing status=Non-Healer
+GSM5061972,A05,SRA,GPL21697,tissue=skin | subject id=Subject 1 | ulcer location=plantar right foot | roi location=Non-ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061973,A06,SRA,GPL21697,tissue=skin | subject id=Subject 1 | ulcer location=plantar right foot | roi location=Ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061974,A07,SRA,GPL21697,tissue=skin | subject id=Subject 1 | ulcer location=plantar right foot | roi location=Non-Ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061975,A08,SRA,GPL21697,tissue=skin | subject id=Subject 2 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=50 | healing status=Healer
+GSM5061976,A09,SRA,GPL21697,tissue=skin | subject id=Subject 2 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=50 | healing status=Healer
+GSM5061977,A10,SRA,GPL21697,tissue=skin | subject id=Subject 2 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=50 | healing status=Healer
+GSM5061978,A11,SRA,GPL21697,tissue=skin | subject id=Subject 2 | ulcer location=plantar left foot | roi location=Epidermis | Sex=F | age=50 | healing status=Healer
+GSM5061979,A12,SRA,GPL21697,tissue=skin | subject id=Subject 2 | ulcer location=plantar left foot | roi location=Ulcer edge | Sex=F | age=50 | healing status=Healer
+GSM5061980,B01,SRA,GPL21697,tissue=skin | subject id=Subject 2 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=50 | healing status=Healer
+GSM5061981,B02,SRA,GPL21697,tissue=skin | subject id=Subject 3 | ulcer location=plantar left foot | roi location=Non-ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061982,B03,SRA,GPL21697,tissue=skin | subject id=Subject 3 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061983,B04,SRA,GPL21697,tissue=skin | subject id=Subject 3 | ulcer location=plantar left foot | roi location=Non-ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061984,B05,SRA,GPL21697,tissue=skin | subject id=Subject 3 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061985,B06,SRA,GPL21697,tissue=skin | subject id=Subject 3 | ulcer location=plantar left foot | roi location=Ulcer | Sex=F | age=59 | healing status=Non-Healer
+GSM5061986,B08,SRA,GPL21697,tissue=skin | subject id=Subject 4 | ulcer location=plantar left foot | roi location=Ulcer | Sex=M | age=59 | healing status=Healer
+GSM5061987,B09,SRA,GPL21697,tissue=skin | subject id=Subject 4 | ulcer location=plantar left foot | roi location=Ulcer edge | Sex=M | age=59 | healing status=Healer
+GSM5061988,B10,SRA,GPL21697,tissue=skin | subject id=Subject 4 | ulcer location=plantar left foot | roi location=Ulcer | Sex=M | age=59 | healing status=Healer
+GSM5061989,B11,SRA,GPL21697,tissue=skin | subject id=Subject 4 | ulcer location=plantar left foot | roi location=Ulcer | Sex=M | age=59 | healing status=Healer
+GSM5061990,B12,SRA,GPL21697,tissue=skin | subject id=Subject 4 | ulcer location=plantar left foot | roi location=Ulcer | Sex=M | age=59 | healing status=Healer
+GSM5061991,C01,SRA,GPL21697,tissue=skin | subject id=Subject 4 | ulcer location=plantar left foot | roi location=Ulcer | Sex=M | age=59 | healing status=Healer

@@ -1,0 +1,39 @@
+候选池: 26 基因
+
+===== TaskA_diagnosis =====
+训练: GSE134431 n=21 (pos=13, neg=8), 特征=26
+  [CV] LASSO: OOF AUC = 0.983 ± 0.022 (n=10)
+  [CV] RF: OOF AUC = 0.969 ± 0.021 (n=10)
+  [CV] SVM-RFE: OOF AUC = 0.955 ± 0.029 (n=10)
+  [CV] XGBoost: OOF AUC = 0.911 ± 0.067 (n=10)
+  共识基因（>=3/4 算法，跨 10 种子）: 6 -> ['ADH1B', 'ALDH3A2', 'DHX58', 'FAHD2B', 'GBP1', 'LDHA']
+  [EXT] LASSO -> GSE199939: AUC=0.991 (95%CI 0.967-1.000), n=21, feats=4
+  [EXT] LASSO -> GSE143735: AUC=0.100 (95%CI 0.000-0.301), n=9, feats=4
+  [EXT] LASSO -> GSE143735: AUC=0.500 (95%CI 0.076-0.924), n=8, feats=4
+  [EXT] RF -> GSE199939: AUC=0.991 (95%CI 0.967-1.000), n=21, feats=7
+  [EXT] RF -> GSE143735: AUC=0.350 (95%CI 0.018-0.682), n=9, feats=7
+  [EXT] RF -> GSE143735: AUC=0.312 (95%CI 0.000-0.637), n=8, feats=7
+  [EXT] SVM-RFE -> GSE199939: AUC=0.991 (95%CI 0.967-1.000), n=21, feats=7
+  [EXT] SVM-RFE -> GSE143735: AUC=0.200 (95%CI 0.000-0.491), n=9, feats=7
+  [EXT] SVM-RFE -> GSE143735: AUC=0.812 (95%CI 0.477-1.000), n=8, feats=7
+  [EXT] XGBoost -> GSE199939: AUC=0.500 (95%CI 0.500-0.500), n=21, feats=7
+  [EXT] XGBoost -> GSE143735: AUC=0.500 (95%CI 0.223-0.777), n=9, feats=7
+  [EXT] XGBoost -> GSE143735: AUC=0.469 (95%CI 0.159-0.778), n=8, feats=7
+  [EXT] Consensus-LR(6 genes) -> GSE199939: AUC=1.000 (95%CI 1.000-1.000)
+  [EXT] Consensus-LR(6 genes) -> GSE143735: AUC=0.050 (95%CI 0.000-0.172)
+  [EXT] Consensus-LR(6 genes) -> GSE143735: AUC=0.688 (95%CI 0.310-1.000)
+
+===== TaskB_healing =====
+训练: GSE134431 n=13 (pos=7, neg=6), 特征=26
+  [CV] LASSO: OOF AUC = 0.499 ± 0.114 (n=10)
+  [CV] RF: OOF AUC = 0.552 ± 0.058 (n=10)
+  [CV] SVM-RFE: OOF AUC = 0.389 ± 0.104 (n=10)
+  [CV] XGBoost: OOF AUC = 0.420 ± 0.067 (n=10)
+  共识基因（>=3/4 算法，跨 10 种子）: 6 -> ['ALDH3A2', 'DHX58', 'FAHD2A', 'FAHD2B', 'LDHB', 'MPC2']
+  [EXT] LASSO -> GSE143735: AUC=0.500 (95%CI 0.096-0.904), n=9, feats=10
+  [EXT] RF -> GSE143735: AUC=0.400 (95%CI 0.018-0.782), n=9, feats=7
+  [EXT] SVM-RFE -> GSE143735: AUC=0.850 (95%CI 0.574-1.000), n=9, feats=7
+  [EXT] XGBoost -> GSE143735: AUC=0.500 (95%CI 0.500-0.500), n=9, feats=7
+  [EXT] Consensus-LR(6 genes) -> GSE143735: AUC=1.000 (95%CI 1.000-1.000)
+
+ML DONE

@@ -1,0 +1,1041 @@
+[
+  {
+    "n": 1,
+    "raw": "Chinese Medical Association Branch of Burn Surgery, et al. Guidelines for the prevention and treatment of diabetic foot ulcers in China (I). Zhonghua Shao Shang Yu Chuang He Fu Za Zhi. 2025;41(11):1029–1049.",
+    "ms_title": "Guidelines for the prevention and treatment of diabetic foot ulcers in China (I)",
+    "ms_jyr": "Zhonghua Shao Shang Yu Chuang He Fu Za Zhi. 2025;41(11):1029–1049.",
+    "crossref": {
+      "title": "The effectiveness of Diabetic Foot Clinic in prevention and healing of diabetic foot ulcers",
+      "journal": "The Foot",
+      "year": 2021,
+      "volume": "48",
+      "issue": null,
+      "page": "101836",
+      "doi": "10.1016/j.foot.2021.101836",
+      "first_author": "Koonalinthip",
+      "n_authors": 3,
+      "type": "journal-article"
+    },
+    "cr_score": 0.308,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 2,
+    "raw": "Zuo Y, Wang Q, Tian W, et al. Pyruvate is a natural suppressor of interferon signaling by inducing STAT1 protein pyruvylation. Cell. 2026. doi:10.1016/j.cell.2026.01.023",
+    "ms_title": "Pyruvate is a natural suppressor of interferon signaling by inducing STAT1 protein pyruvylation",
+    "ms_jyr": "Cell. 2026. doi:10.1016/j.cell.2026.01.023",
+    "crossref": {
+      "title": "Pyruvate is a natural suppressor of interferon signaling by inducing STAT1 protein pyruvylation",
+      "journal": "Cell",
+      "year": 2026,
+      "volume": "189",
+      "issue": "10",
+      "page": "3175",
+      "doi": "10.1016/j.cell.2026.04.018",
+      "first_author": "Zuo",
+      "n_authors": 16,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Structured Filler-Enabled Pore-Interface Engineering in Polydimethylsiloxane for Passive Radiative Cooling.",
+      "journal": "ACS Appl Mater Interfaces",
+      "pubdate": "2026 Oct 26",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1021/acsami.6c14868",
+      "first_author": "Yin Y",
+      "n_authors": 8,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "42925554",
+    "pm_score": 0.074,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 3,
+    "raw": "Song X, et al. Lysine pyruvylation couples glycolytic flux to epigenetic regulation. Nat Metab. 2026;8(7):1495–1507. doi:10.1038/s42255-026-01556-2",
+    "ms_title": "Lysine pyruvylation couples glycolytic flux to epigenetic regulation",
+    "ms_jyr": "Nat Metab. 2026;8(7):1495–1507. doi:10.1038/s42255-026-01556-2",
+    "crossref": {
+      "title": "Lysine pyruvylation couples glycolytic flux to epigenetic regulation",
+      "journal": "Nature Metabolism",
+      "year": 2026,
+      "volume": "8",
+      "issue": "7",
+      "page": "1495-1507",
+      "doi": "10.1038/s42255-026-01556-2",
+      "first_author": "Song",
+      "n_authors": 10,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Impacts of different SETD1A mutations and genetic backgrounds on human induced pluripotent stem cell-derived hippocampal neurons.",
+      "journal": "bioRxiv",
+      "pubdate": "2026 Oct 11",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.64898/2026.10.07.756381",
+      "first_author": "Hong Y",
+      "n_authors": 18,
+      "pubtype": [
+        "Journal Article",
+        "Preprint"
+      ]
+    },
+    "pubmed_pmid": "42926749",
+    "pm_score": 0.118,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 4,
+    "raw": "Park JS, Lee SJ. Pyruvylation expands the redox repertoire of lysine acylation. Trends Biochem Sci. 2026. doi:10.1016/j.tibs.2026.08.008",
+    "ms_title": "Pyruvylation expands the redox repertoire of lysine acylation",
+    "ms_jyr": "Trends Biochem Sci. 2026. doi:10.1016/j.tibs.2026.08.008",
+    "crossref": {
+      "title": "Pyruvylation expands the redox repertoire of lysine acylation",
+      "journal": "Trends in Biochemical Sciences",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "doi": "10.1016/j.tibs.2026.08.008",
+      "first_author": "Park",
+      "n_authors": 2,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Can Generative Video Address the Clinical Video Data Gap? Evaluation of Synthetic Parkinsonian Hand Motions.",
+      "journal": "medRxiv",
+      "pubdate": "2026 Oct 7",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.64898/2026.10.05.26363719",
+      "first_author": "Feng Y",
+      "n_authors": 6,
+      "pubtype": [
+        "Journal Article",
+        "Preprint"
+      ]
+    },
+    "pubmed_pmid": "42926828",
+    "pm_score": 0.098,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 5,
+    "raw": "GEO GSE134431. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE134431",
+    "geo_title": "Deregulated immune signature orchestrated by FOXM1 impairs human diabetic wound healing",
+    "geo_n": 21,
+    "geo_type": "Expression profiling by high throughput sequencing",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 6,
+    "raw": "Jiang N, et al. Comprehensive transcriptomic analysis of immune-related genes in diabetic foot ulcers. Int Immunopharmacol. 2024;139:112638.",
+    "ms_title": "Comprehensive transcriptomic analysis of immune-related genes in diabetic foot ulcers",
+    "ms_jyr": "Int Immunopharmacol. 2024;139:112638.",
+    "crossref": {
+      "title": "Comprehensive transcriptomic analysis of immune-related genes in diabetic foot ulcers: New insights into mechanisms and therapeutic targets",
+      "journal": "International Immunopharmacology",
+      "year": 2024,
+      "volume": "139",
+      "issue": null,
+      "page": "112638",
+      "doi": "10.1016/j.intimp.2024.112638",
+      "first_author": "Jiang",
+      "n_authors": 11,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Right Patient, Right Specialist, Right Time: Retrieval Augmented Generation for Specialty Referral Routing.",
+      "journal": "AMIA Annu Symp Proc",
+      "pubdate": "2024",
+      "volume": "2024",
+      "issue": "",
+      "pages": "443-450",
+      "doi": null,
+      "first_author": "Haredasht FN",
+      "n_authors": 20,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "41726438",
+    "pm_score": 0.094,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 7,
+    "raw": "GEO GSE143735. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE143735",
+    "geo_title": "RNA-sequencing analysis of forearm skin in diabetic patients with or without foot ulcerations",
+    "geo_n": 13,
+    "geo_type": "Expression profiling by high throughput sequencing",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 8,
+    "raw": "GEO GSE80178. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE80178",
+    "geo_title": "Genomic Profiling of Diabetic Foot Ulcers Identifies miR-15b-5p as a Major Regulator that Leads to Suboptimal Inflammatory Response and Diminished DNA Repair Mechanisms",
+    "geo_n": 12,
+    "geo_type": "Expression profiling by array",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 9,
+    "raw": "GEO GSE68183. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE68183",
+    "geo_title": "Comparative genomic, microRNA, and tissue analyses reveal subtle differences between non-diabetic and diabetic foot skin [gene expression]",
+    "geo_n": 6,
+    "geo_type": "Expression profiling by array",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 10,
+    "raw": "GEO GSE68186. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE68186",
+    "geo_title": "Comparative genomic, microRNA, and tissue analyses reveal subtle differences between non-diabetic and diabetic foot skin",
+    "geo_n": 20,
+    "geo_type": "Expression profiling by array; Other; Non-coding RNA profiling by array",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 11,
+    "raw": "GEO GSE165816. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE165816",
+    "geo_title": "Single Cell Transcriptomic Landscape of Diabetic Foot Ulcers",
+    "geo_n": 54,
+    "geo_type": "Expression profiling by high throughput sequencing",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 12,
+    "raw": "Theocharidis A, et al. Single-cell analysis of human diabetic foot ulcer and healthy skin reveals molecular heterogeneity. Nat Commun. 2022.",
+    "ms_title": "Single-cell analysis of human diabetic foot ulcer and healthy skin reveals molecular heterogeneity",
+    "ms_jyr": "Nat Commun. 2022.",
+    "crossref": {
+      "title": "Living Skin Equivalents for the Diabetic Foot Ulcer",
+      "journal": "Contemporary Diabetes",
+      "year": null,
+      "volume": null,
+      "issue": null,
+      "page": "459-471",
+      "doi": "10.1007/978-1-59745-075-1_21",
+      "first_author": "Dinh",
+      "n_authors": 2,
+      "type": "book-chapter"
+    },
+    "cr_score": 0.204,
+    "pubmed": {
+      "title": "Future Directions in Research in Transcriptomics in the Healing of Diabetic Foot Ulcers.",
+      "journal": "Adv Ther",
+      "pubdate": "2023 Jan",
+      "volume": "40",
+      "issue": "1",
+      "pages": "67-75",
+      "doi": "10.1007/s12325-022-02348-2",
+      "first_author": "Sumpio BJ",
+      "n_authors": 6,
+      "pubtype": [
+        "Journal Article",
+        "Review",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    "pubmed_pmid": "36264535",
+    "pm_score": 0.204,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 13,
+    "raw": "GEO GSE166120. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE166120",
+    "geo_title": "Spatial transcriptomics of healing and non-healing diabetic foot ulcers",
+    "geo_n": 23,
+    "geo_type": "Expression profiling by high throughput sequencing; Other",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 14,
+    "raw": "Lavery B, et al. Longitudinal immune profiling of diabetic foot ulcer infection. 2023. PMID: 37434783.",
+    "ms_title": "Longitudinal immune profiling of diabetic foot ulcer infection",
+    "ms_jyr": "2023. PMID: 37434783.",
+    "crossref": {
+      "title": "Diabetic Foot: Ulcer, Infection, Ischemic Gangrene",
+      "journal": "Foot and Ankle Disorders",
+      "year": 2016,
+      "volume": null,
+      "issue": null,
+      "page": "555-584",
+      "doi": "10.1007/978-3-642-54493-4_18",
+      "first_author": "Park",
+      "n_authors": 2,
+      "type": "book-chapter"
+    },
+    "cr_score": 0.468,
+    "pubmed": {
+      "title": "WHS (Wound Healing Society) guidelines update: Diabetic foot ulcer treatment guidelines.",
+      "journal": "Wound Repair Regen",
+      "pubdate": "2024 Jan-Feb",
+      "volume": "32",
+      "issue": "1",
+      "pages": "34-46",
+      "doi": "10.1111/wrr.13133",
+      "first_author": "Lavery LA",
+      "n_authors": 8,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "38032324",
+    "pm_score": 0.339,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 15,
+    "raw": "GEO GSE223964. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE223964",
+    "geo_title": "Gene expression profile as single cell level of chronic diabetic foot ulcers and chronic non-diabetic foot ulcer",
+    "geo_n": 8,
+    "geo_type": "Expression profiling by high throughput sequencing",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 16,
+    "raw": "GEO GSE230426. Gene Expression Omnibus, NCBI. Accessed 2026-10-25.",
+    "kind": "GEO",
+    "accession": "GSE230426",
+    "geo_title": "Transcriptomic Identification of Genes expressed in Invasive S. aureus Diabetes Foot Ulcer infection",
+    "geo_n": 38,
+    "geo_type": "Expression profiling by high throughput sequencing",
+    "verdict": "GEO_OK"
+  },
+  {
+    "n": 17,
+    "raw": "Benjamini Y, Hochberg Y. Controlling the false discovery rate. J R Stat Soc Series B. 1995;57(1):289–300.",
+    "ms_title": "Controlling the false discovery rate",
+    "ms_jyr": "J R Stat Soc Series B. 1995;57(1):289–300.",
+    "crossref": {
+      "title": "Enhancing sensitivity and controlling false discovery rate in somatic indel discovery",
+      "journal": "",
+      "year": 2019,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "doi": "10.1101/741256",
+      "first_author": "Köster",
+      "n_authors": 4,
+      "type": "posted-content"
+    },
+    "cr_score": 0.583,
+    "pubmed": {
+      "title": "Mathematical formulae for the prediction of the residual beta cell function during the first two years of disease in children and adolescents with insulin-dependent diabetes mellitus.",
+      "journal": "Med Hypotheses",
+      "pubdate": "1995 Nov",
+      "volume": "45",
+      "issue": "5",
+      "pages": "486-90",
+      "doi": "10.1016/0306-9877(95)90228-7",
+      "first_author": "Klipper-Aurbach Y",
+      "n_authors": 10,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    "pubmed_pmid": "8748093",
+    "pm_score": 0.25,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 18,
+    "raw": "Ritchie ME, et al. limma powers differential expression analyses. Nucleic Acids Res. 2015;43(14):e47.",
+    "ms_title": "limma powers differential expression analyses",
+    "ms_jyr": "Nucleic Acids Res. 2015;43(14):e47.",
+    "crossref": {
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "journal": "Nucleic Acids Research",
+      "year": 2015,
+      "volume": "43",
+      "issue": "7",
+      "page": "e47-e47",
+      "doi": "10.1093/nar/gkv007",
+      "first_author": "Ritchie",
+      "n_authors": 7,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "The Biomarker GlycA Is Associated with Chronic Inflammation and Predicts Long-Term Risk of Severe Infection.",
+      "journal": "Cell Syst",
+      "pubdate": "2015 Oct 28",
+      "volume": "1",
+      "issue": "4",
+      "pages": "293-301",
+      "doi": "10.1016/j.cels.2015.09.007",
+      "first_author": "Ritchie SC",
+      "n_authors": 26,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "27136058",
+    "pm_score": 0.133,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 19,
+    "raw": "Viechtbauer W. Conducting meta-analyses in R with the metafor package. J Stat Softw. 2010;36(3):1–48.",
+    "ms_title": "Conducting meta-analyses in R with the metafor package",
+    "ms_jyr": "J Stat Softw. 2010;36(3):1–48.",
+    "crossref": {
+      "title": "Conducting Meta-Analyses in\n                    <i>R</i>\n                    with the\n                    <b>metafor</b>\n                    Package",
+      "journal": "Journal of Statistical Software",
+      "year": 2010,
+      "volume": "36",
+      "issue": "3",
+      "page": null,
+      "doi": "10.18637/jss.v036.i03",
+      "first_author": "Viechtbauer",
+      "n_authors": 1,
+      "type": "journal-article"
+    },
+    "cr_score": 0.519,
+    "pubmed": {
+      "title": "The influence of the assessment method on the incidence of visual field progression in glaucoma: a network meta-analysis.",
+      "journal": "Acta Ophthalmol",
+      "pubdate": "2012 Feb",
+      "volume": "90",
+      "issue": "1",
+      "pages": "10-9",
+      "doi": "10.1111/j.1755-3768.2010.01995.x",
+      "first_author": "Ernest PJ",
+      "n_authors": 7,
+      "pubtype": [
+        "Journal Article",
+        "Network Meta-Analysis",
+        "Systematic Review"
+      ]
+    },
+    "pubmed_pmid": "20942855",
+    "pm_score": 0.222,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 20,
+    "raw": "Langfelder P, Horvath S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics. 2008;9:559.",
+    "ms_title": "WGCNA: an R package for weighted correlation network analysis",
+    "ms_jyr": "BMC Bioinformatics. 2008;9:559.",
+    "crossref": {
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "journal": "BMC Bioinformatics",
+      "year": 2008,
+      "volume": "9",
+      "issue": "1",
+      "page": null,
+      "doi": "10.1186/1471-2105-9-559",
+      "first_author": "Langfelder",
+      "n_authors": 2,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "WGCNA: an R package for weighted correlation network analysis.",
+      "journal": "BMC Bioinformatics",
+      "pubdate": "2008 Dec 29",
+      "volume": "9",
+      "issue": "",
+      "pages": "559",
+      "doi": "10.1186/1471-2105-9-559",
+      "first_author": "Langfelder P",
+      "n_authors": 2,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "pubmed_pmid": "19114008",
+    "pm_score": 1.0,
+    "verdict": "MATCH"
+  },
+  {
+    "n": 21,
+    "raw": "Geurts S, et al. Extremely randomized trees. Mach Learn. 2006;63(1):3–42.",
+    "ms_title": "Extremely randomized trees",
+    "ms_jyr": "Mach Learn. 2006;63(1):3–42.",
+    "crossref": {
+      "title": "17 Extremely Randomized Trees",
+      "journal": "Data Science for Supply Chain Forecasting",
+      "year": 2021,
+      "volume": null,
+      "issue": null,
+      "page": "150-154",
+      "doi": "10.1515/9783110671124-017",
+      "first_author": "",
+      "n_authors": 0,
+      "type": "book-chapter"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Dynamic Prediction of Venous Thromboembolism in Gynecological Surgery Using Perioperative Biomarkers and an Extremely Randomized Trees Model: A Retrospective Case-Control Study.",
+      "journal": "Clin Appl Thromb Hemost",
+      "pubdate": "2026 Jan-Dec",
+      "volume": "32",
+      "issue": "",
+      "pages": "10760296261468442",
+      "doi": "10.1177/10760296261468442",
+      "first_author": "Yao Y",
+      "n_authors": 8,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "42429068",
+    "pm_score": 1.0,
+    "verdict": "MISMATCH:期刊 CR=Data Science for Supply Chain Forecasting / PM=Clin Appl Thromb Hemost; 年份 CR=2021 / PM=2026"
+  },
+  {
+    "n": 22,
+    "raw": "Friedman J, Hastie T, Tibshirani R. Regularization paths for generalized linear models via coordinate descent. J Stat Softw. 2010;33(1):1–22.",
+    "ms_title": "Regularization paths for generalized linear models via coordinate descent",
+    "ms_jyr": "J Stat Softw. 2010;33(1):1–22.",
+    "crossref": {
+      "title": "Regularization Paths for Generalized Linear Models via Coordinate Descent",
+      "journal": "Journal of Statistical Software",
+      "year": 2010,
+      "volume": "33",
+      "issue": "1",
+      "page": null,
+      "doi": "10.18637/jss.v033.i01",
+      "first_author": "Friedman",
+      "n_authors": 3,
+      "type": "journal-article"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Evaluation of a transition to practice program for neurosurgery residents: creating a safe transition from resident to independent practitioner.",
+      "journal": "J Grad Med Educ",
+      "pubdate": "2010 Sep",
+      "volume": "2",
+      "issue": "3",
+      "pages": "366-72",
+      "doi": "10.4300/JGME-D-10-00078.1",
+      "first_author": "Lister JR",
+      "n_authors": 5,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "21976085",
+    "pm_score": 0.082,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 23,
+    "raw": "Chen T, Guestrin C. XGBoost: a scalable tree boosting system. Proc KDD. 2016:785–794.",
+    "ms_title": "XGBoost: a scalable tree boosting system",
+    "ms_jyr": "Proc KDD. 2016:785–794.",
+    "crossref": {
+      "title": "Robust Detection of Static and Moving Chipless RFID Tags Using Scalable Tree Boosting System",
+      "journal": "2023 IEEE 9th International Women in Engineering (WIE) Conference on Electrical and Computer Engineering (WIECON-ECE)",
+      "year": 2023,
+      "volume": null,
+      "issue": null,
+      "page": "1-5",
+      "doi": "10.1109/wiecon-ece60392.2023.10456432",
+      "first_author": "Afrin",
+      "n_authors": 2,
+      "type": "proceedings-article"
+    },
+    "cr_score": 0.769,
+    "pubmed": {
+      "title": "Hypoglycaemic activity of 2-dodecyl-6-methoxycyclohexa-2,5-diene-1,4-dione in streptozotocin-induced diabetic mice through ameliorating metabolic function and regulating peroxisome proliferator-activated receptor γ.",
+      "journal": "Arch Med Sci",
+      "pubdate": "2018 Aug",
+      "volume": "14",
+      "issue": "5",
+      "pages": "1163-1172",
+      "doi": "10.5114/aoms.2016.63285",
+      "first_author": "Kintoko K",
+      "n_authors": 9,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "30154901",
+    "pm_score": 0.128,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 24,
+    "raw": "R-project. R: A language and environment for statistical computing. https://www.R-project.org/",
+    "ms_title": "R: A language and environment for statistical computing",
+    "ms_jyr": "https://www.R-project.org/",
+    "crossref": {
+      "title": "A Multi-Language Computing Environment for Literate Programming and Reproducible Research",
+      "journal": "Journal of Statistical Software",
+      "year": 2012,
+      "volume": "46",
+      "issue": "3",
+      "page": null,
+      "doi": "10.18637/jss.v046.i03",
+      "first_author": "Schulte",
+      "n_authors": 4,
+      "type": "journal-article"
+    },
+    "cr_score": 0.315,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 25,
+    "raw": "Newman J, et al. Consensus machine learning for molecular disease. Sci Rep. 2018;8:15852.",
+    "ms_title": "Consensus machine learning for molecular disease",
+    "ms_jyr": "Sci Rep. 2018;8:15852.",
+    "pubmed": {
+      "title": "Probabilistic Learning by Positive and Negative Reinforcement in Generalized Anxiety Disorder.",
+      "journal": "Clin Psychol Sci",
+      "pubdate": "2019 May",
+      "volume": "7",
+      "issue": "3",
+      "pages": "502-515",
+      "doi": "10.1177/2167702618809366",
+      "first_author": "LaFreniere LS",
+      "n_authors": 2,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "31448183",
+    "pm_score": 0.208,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 26,
+    "raw": "Aran D, Hu M, Gascot J. EPIC: estimating the proportion of immune cells in bulk expression through deconvolution. BMC Bioinformatics. 2017;18(1):389.",
+    "ms_title": "EPIC: estimating the proportion of immune cells in bulk expression through deconvolution",
+    "ms_jyr": "BMC Bioinformatics. 2017;18(1):389.",
+    "crossref": {
+      "title": "Improved cell composition deconvolution method of bulk gene expression profiles to quantify subsets of immune cells",
+      "journal": "BMC Medical Genomics",
+      "year": 2019,
+      "volume": "12",
+      "issue": "S8",
+      "page": null,
+      "doi": "10.1186/s12920-019-0613-5",
+      "first_author": "Chiu",
+      "n_authors": 3,
+      "type": "journal-article"
+    },
+    "cr_score": 0.184,
+    "pubmed": {
+      "title": "A cross-sectional study examining the expression of splice variants K-RAS4A and K-RAS4B in advanced non-small-cell lung cancer patients.",
+      "journal": "Lung Cancer",
+      "pubdate": "2018 Feb",
+      "volume": "116",
+      "issue": "",
+      "pages": "7-14",
+      "doi": "10.1016/j.lungcan.2017.12.005",
+      "first_author": "Aran V",
+      "n_authors": 7,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    "pubmed_pmid": "29413054",
+    "pm_score": 0.138,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 27,
+    "raw": "Becht E, et al. Combining expression of immune cell populations. BMC Syst Biol. 2016;10(1):53.",
+    "ms_title": "Combining expression of immune cell populations",
+    "ms_jyr": "BMC Syst Biol. 2016;10(1):53.",
+    "pubmed": {
+      "title": "Erratum to: Estimating the population abundance of tissue-infiltrating immune and stromal cell populations using gene expression.",
+      "journal": "Genome Biol",
+      "pubdate": "2016 Dec 1",
+      "volume": "17",
+      "issue": "1",
+      "pages": "249",
+      "doi": "10.1186/s13059-016-1113-y",
+      "first_author": "Becht E",
+      "n_authors": 11,
+      "pubtype": [
+        "Journal Article",
+        "Published Erratum"
+      ]
+    },
+    "pubmed_pmid": "27908289",
+    "pm_score": 0.362,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 28,
+    "raw": "Yoshihara N, et al. High-resolution spatial transcriptomics reveals the architecture of the tumor microenvironment. Nat Med. 2020;26(1):127–134.",
+    "ms_title": "High-resolution spatial transcriptomics reveals the architecture of the tumor microenvironment",
+    "ms_jyr": "Nat Med. 2020;26(1):127–134.",
+    "crossref": {
+      "title": "Spatially resolved transcriptomics reveals the architecture of the tumor/microenvironment interface",
+      "journal": "",
+      "year": 2020,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "doi": "10.1101/2020.11.05.368753",
+      "first_author": "Hunter",
+      "n_authors": 5,
+      "type": "posted-content"
+    },
+    "cr_score": 0.755,
+    "pubmed": {
+      "title": "[A Case of Pancreatotomy of the Pancreatic Tail with a Preserved Residual Stomach Using ICG Fluorescence Method for Pancreatic Cancer after Gastrectomy of the Pyloric Side].",
+      "journal": "Gan To Kagaku Ryoho",
+      "pubdate": "2020 Dec",
+      "volume": "47",
+      "issue": "13",
+      "pages": "2415-2417",
+      "doi": null,
+      "first_author": "Ogasawara K",
+      "n_authors": 6,
+      "pubtype": [
+        "Case Reports",
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "33468979",
+    "pm_score": 0.085,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 29,
+    "raw": "Griesmer A, et al. Re-analysis of an MHC class I signature. Nat Commun. 2019;10(1):1066.",
+    "ms_title": "Re-analysis of an MHC class I signature",
+    "ms_jyr": "Nat Commun. 2019;10(1):1066.",
+    "crossref": {
+      "title": "Omicron B.A 2: Vaccine Construction with MHC Class-I, MHC Class-II by using Bioinformatics Tools",
+      "journal": "Virology &amp; Immunology Journal",
+      "year": 2024,
+      "volume": "8",
+      "issue": "2",
+      "page": "1-6",
+      "doi": "10.23880/vij-16000345",
+      "first_author": "Mazhar",
+      "n_authors": 1,
+      "type": "journal-article"
+    },
+    "cr_score": 0.333,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 30,
+    "raw": "Zivanovic V, et al. Mendelian randomization: bridging genetics and clinical research. Annu Rev Genomics Hum Genet. 2022;23:389–411.",
+    "ms_title": "Mendelian randomization: bridging genetics and clinical research",
+    "ms_jyr": "Annu Rev Genomics Hum Genet. 2022;23:389–411.",
+    "crossref": {
+      "title": "Mendelian randomization: a premature burial?",
+      "journal": "",
+      "year": 2015,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "doi": "10.1101/021386",
+      "first_author": "Davey Smith",
+      "n_authors": 1,
+      "type": "posted-content"
+    },
+    "cr_score": 0.381,
+    "pubmed": {
+      "title": "Outcomes and long-term follow-up by treatment type for patients with advanced-stage ovarian cancer managed at a tertiary cancer center: A Memorial Sloan Kettering Cancer Center Team Ovary study.",
+      "journal": "Gynecol Oncol",
+      "pubdate": "2023 Feb",
+      "volume": "169",
+      "issue": "",
+      "pages": "118-124",
+      "doi": "10.1016/j.ygyno.2022.12.009",
+      "first_author": "Ehmann S",
+      "n_authors": 12,
+      "pubtype": [
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "pubmed_pmid": "36565685",
+    "pm_score": 0.095,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 31,
+    "raw": "Trott O, Olson AJ. AutoDock Vina. J Comput Chem. 2010;31(2):455–461.",
+    "ms_title": "AutoDock Vina",
+    "ms_jyr": "J Comput Chem. 2010;31(2):455–461.",
+    "pubmed": {
+      "title": "Unveiling novel drug-target couples: an empowered automated pipeline for enhanced virtual screening using AutoDock Vina.",
+      "journal": "Bioinform Adv",
+      "pubdate": "2025",
+      "volume": "5",
+      "issue": "1",
+      "pages": "vbaf267",
+      "doi": "10.1093/bioadv/vbaf267",
+      "first_author": "Bonomi S",
+      "n_authors": 6,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "41394085",
+    "pm_score": 1.0,
+    "verdict": "MATCH"
+  },
+  {
+    "n": 32,
+    "raw": "Eberhardt J, et al. AutoDock Vina 1.2.0. J Chem Inf Model. 2021;61(8):3891–3900.",
+    "ms_title": "AutoDock Vina 1.2.0",
+    "ms_jyr": "J Chem Inf Model. 2021;61(8):3891–3900.",
+    "pubmed": {
+      "title": "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings.",
+      "journal": "J Chem Inf Model",
+      "pubdate": "2021 Aug 23",
+      "volume": "61",
+      "issue": "8",
+      "pages": "3891-3898",
+      "doi": "10.1021/acs.jcim.1c00203",
+      "first_author": "Eberhardt J",
+      "n_authors": 4,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "pubmed_pmid": "34278794",
+    "pm_score": 1.0,
+    "verdict": "MATCH"
+  },
+  {
+    "n": 33,
+    "raw": "Open Babel Development Team. Open Babel. https://openbabel.org/",
+    "ms_title": "Open Babel",
+    "ms_jyr": "https://openbabel.org/",
+    "crossref": {
+      "title": "Open Babel for Python scripts",
+      "journal": "",
+      "year": 2008,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "doi": "10.63485/bje0d-mj414",
+      "first_author": "Suber",
+      "n_authors": 1,
+      "type": "posted-content"
+    },
+    "cr_score": 1.0,
+    "pubmed": {
+      "title": "Fast, efficient fragment-based coordinate generation for Open Babel.",
+      "journal": "J Cheminform",
+      "pubdate": "2019 Aug 1",
+      "volume": "11",
+      "issue": "1",
+      "pages": "49",
+      "doi": "10.1186/s13321-019-0372-5",
+      "first_author": "Yoshikawa N",
+      "n_authors": 2,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "31372768",
+    "pm_score": 1.0,
+    "verdict": "MISMATCH:期刊 CR= / PM=J Cheminform; 年份 CR=2008 / PM=2019"
+  },
+  {
+    "n": 34,
+    "raw": "Untergasser A, et al. primer3-py. Bioinformatics. 2012;28(2):256–257.",
+    "ms_title": "primer3-py",
+    "ms_jyr": "Bioinformatics. 2012;28(2):256–257.",
+    "crossref": {
+      "title": "Primer3—new capabilities and interfaces",
+      "journal": "Nucleic Acids Research",
+      "year": 2012,
+      "volume": "40",
+      "issue": "15",
+      "page": "e115-e115",
+      "doi": "10.1093/nar/gks596",
+      "first_author": "Untergasser",
+      "n_authors": 7,
+      "type": "journal-article"
+    },
+    "cr_score": 0.8,
+    "pubmed": {
+      "title": "One-step Agrobacterium mediated transformation of eight genes essential for rhizobium symbiotic signaling using the novel binary vector system pHUGE.",
+      "journal": "PLoS One",
+      "pubdate": "2012",
+      "volume": "7",
+      "issue": "10",
+      "pages": "e47885",
+      "doi": "10.1371/journal.pone.0047885",
+      "first_author": "Untergasser A",
+      "n_authors": 6,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    "pubmed_pmid": "23112864",
+    "pm_score": 0.2,
+    "verdict": "MATCH (仅 Crossref 证实)"
+  },
+  {
+    "n": 35,
+    "raw": "Bustin SA, et al. The MIQE guidelines. Clin Chem. 2009;55(4):611–622.",
+    "ms_title": "The MIQE guidelines",
+    "ms_jyr": "Clin Chem. 2009;55(4):611–622.",
+    "pubmed": {
+      "title": "Why the need for qPCR publication guidelines?--The case for MIQE.",
+      "journal": "Methods",
+      "pubdate": "2010 Apr",
+      "volume": "50",
+      "issue": "4",
+      "pages": "217-26",
+      "doi": "10.1016/j.ymeth.2009.12.006",
+      "first_author": "Bustin SA",
+      "n_authors": 1,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    "pubmed_pmid": "20025972",
+    "pm_score": 0.579,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 36,
+    "raw": "Vandesompele J, et al. geNorm. Genome Biol. 2002;3(12):research0034.",
+    "ms_title": "geNorm",
+    "ms_jyr": "Genome Biol. 2002;3(12):research0034.",
+    "crossref": {
+      "title": "Family resemblances",
+      "journal": "Genome Biology",
+      "year": 2002,
+      "volume": "3",
+      "issue": "12",
+      "page": null,
+      "doi": "10.1186/gb-2002-3-12-reports0063",
+      "first_author": "D'Haeze",
+      "n_authors": 1,
+      "type": "journal-article"
+    },
+    "cr_score": 0.167,
+    "pubmed": {
+      "title": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes.",
+      "journal": "Genome Biol",
+      "pubdate": "2002 Jun 18",
+      "volume": "3",
+      "issue": "7",
+      "pages": "RESEARCH0034",
+      "doi": "10.1186/gb-2002-3-7-research0034",
+      "first_author": "Vandesompele J",
+      "n_authors": 7,
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    "pubmed_pmid": "12184808",
+    "pm_score": 0.667,
+    "verdict": "MATCH"
+  },
+  {
+    "n": 37,
+    "raw": "Eisen MB, et al. The graphical display of estimated expression ratios. BMC Bioinformatics. 2003;4:34.",
+    "ms_title": "The graphical display of estimated expression ratios",
+    "ms_jyr": "BMC Bioinformatics. 2003;4:34.",
+    "crossref": {
+      "title": "A note on graphical presentation of estimated odds ratios from several clinical trials",
+      "journal": "Statistics in Medicine",
+      "year": 1988,
+      "volume": "7",
+      "issue": "8",
+      "page": "889-894",
+      "doi": "10.1002/sim.4780070807",
+      "first_author": "Galbraith",
+      "n_authors": 1,
+      "type": "journal-article"
+    },
+    "cr_score": 0.269,
+    "pubmed": {
+      "title": "Effect of ascorbic acid and acute heat exposure on heat shock protein 70 expression by young white Leghorn chickens.",
+      "journal": "Comp Biochem Physiol C Toxicol Pharmacol",
+      "pubdate": "2003 Dec",
+      "volume": "136",
+      "issue": "4",
+      "pages": "329-35",
+      "doi": "10.1016/j.cca.2003.10.006",
+      "first_author": "Mahmoud KZ",
+      "n_authors": 4,
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "15012904",
+    "pm_score": 0.231,
+    "verdict": "NOT_FOUND"
+  },
+  {
+    "n": 38,
+    "raw": "Therneau TM, Cox NH. Cox Models for Survival. 1997.",
+    "ms_title": "Cox Models for Survival",
+    "ms_jyr": "1997.",
+    "crossref": {
+      "title": "Penalized Cox models",
+      "journal": "Dynamic Prediction in Clinical Survival Analysis",
+      "year": 2011,
+      "volume": null,
+      "issue": null,
+      "page": "187-200",
+      "doi": "10.1201/b11311-18",
+      "first_author": "",
+      "n_authors": 0,
+      "type": "book-chapter"
+    },
+    "cr_score": 0.435,
+    "pubmed": {
+      "title": "Personalized prediction of survival rate with combination of penalized Cox models in patients with colorectal cancer.",
+      "journal": "Medicine (Baltimore)",
+      "pubdate": "2024 Jun 14",
+      "volume": "103",
+      "issue": "24",
+      "pages": "e38584",
+      "doi": "10.1097/MD.0000000000038584",
+      "first_author": "Lee SH",
+      "n_authors": 3,
+      "pubtype": [
+        "Journal Article"
+      ]
+    },
+    "pubmed_pmid": "38875378",
+    "pm_score": 0.478,
+    "verdict": "NOT_FOUND"
+  }
+]

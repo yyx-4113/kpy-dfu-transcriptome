@@ -1,0 +1,760 @@
+{
+ "date": "2026-10-25",
+ "script": "02_脚本/adjudicate_blast_offtargets.py",
+ "criteria": {
+  "P0": "全长匹配 + 人源 RefSeq 转录本 + 非目标 + 非旁系同源 + 非假基因 + 3'端末5nt 全匹配 + identity ≥ 95%",
+  "P1": "同上但 90% ≤ identity < 95%",
+  "P2": "其余（3'端有错配或 identity < 90%）→ 判为噪声",
+  "PARTIAL": "align_len < 引物长度 → 无法完全退火，判为噪声"
+ },
+ "per_primer": {
+  "ACTB_reverse": {
+   "gene": "ACTB",
+   "primer": "reverse",
+   "query": "CGGACTCGTCATACTCCTGC",
+   "n_hits_total": 845,
+   "n_hits_human": 759,
+   "n_full_length_human": 59,
+   "n_partial_human": 700,
+   "counts": {
+    "TARGET": 10,
+    "PARALOG": 0,
+    "PSEUDO": 4,
+    "P0": 0,
+    "P1": 1,
+    "P2": 44,
+    "PARTIAL": 700
+   },
+   "target_full_match_refseq_tx": 1,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {
+    "ACTA1": 1
+   },
+   "P0_accessions": {},
+   "usable": true
+  },
+  "LDHA_forward": {
+   "gene": "LDHA",
+   "primer": "forward",
+   "query": "AGCTGTTCCACTTAAGGCCC",
+   "n_hits_total": 2301,
+   "n_hits_human": 2019,
+   "n_full_length_human": 23,
+   "n_partial_human": 1996,
+   "counts": {
+    "TARGET": 1,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 0,
+    "P1": 0,
+    "P2": 22,
+    "PARTIAL": 1996
+   },
+   "target_full_match_refseq_tx": 0,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {},
+   "P0_accessions": {},
+   "usable": false
+  },
+  "LDHA_reverse": {
+   "gene": "LDHA",
+   "primer": "reverse",
+   "query": "AAGGAATCGGGAATGCACGT",
+   "n_hits_total": 637,
+   "n_hits_human": 547,
+   "n_full_length_human": 38,
+   "n_partial_human": 509,
+   "counts": {
+    "TARGET": 5,
+    "PARALOG": 0,
+    "PSEUDO": 2,
+    "P0": 8,
+    "P1": 0,
+    "P2": 23,
+    "PARTIAL": 509
+   },
+   "target_full_match_refseq_tx": 5,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {
+    "LYST": 8
+   },
+   "P1_genes": {},
+   "P0_accessions": {
+    "LYST": [
+     "XM_054334019",
+     "XM_047443038",
+     "XM_054334017",
+     "XM_054334020",
+     "XM_047443040",
+     "XM_011544037",
+     "XM_054334018",
+     "XM_047443046"
+    ]
+   },
+   "usable": false
+  },
+  "FAHD2B_forward": {
+   "gene": "FAHD2B",
+   "primer": "forward",
+   "query": "CAATGGGAAACAGTGGCTGC",
+   "n_hits_total": 5312,
+   "n_hits_human": 4612,
+   "n_full_length_human": 59,
+   "n_partial_human": 4553,
+   "counts": {
+    "TARGET": 13,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 4,
+    "P1": 18,
+    "P2": 24,
+    "PARTIAL": 4553
+   },
+   "target_full_match_refseq_tx": 13,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {
+    "LOC124900512": 4
+   },
+   "P1_genes": {
+    "RORA": 18
+   },
+   "P0_accessions": {
+    "LOC124900512": [
+     "XM_047443949",
+     "XM_047446740",
+     "XM_047446739",
+     "XM_047443950"
+    ]
+   },
+   "usable": false
+  },
+  "FAHD2B_reverse": {
+   "gene": "FAHD2B",
+   "primer": "reverse",
+   "query": "CATCTGGTTGGTGTTGCTGC",
+   "n_hits_total": 4756,
+   "n_hits_human": 4298,
+   "n_full_length_human": 104,
+   "n_partial_human": 4194,
+   "counts": {
+    "TARGET": 17,
+    "PARALOG": 0,
+    "PSEUDO": 2,
+    "P0": 0,
+    "P1": 10,
+    "P2": 75,
+    "PARTIAL": 4194
+   },
+   "target_full_match_refseq_tx": 17,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {
+    "LOC101928421": 9,
+    "SMCR8": 1
+   },
+   "P0_accessions": {},
+   "usable": true
+  },
+  "ADH1B_forward": {
+   "gene": "ADH1B",
+   "primer": "forward",
+   "query": "TGGCCAAAATTGATGCAGCC",
+   "n_hits_total": 2799,
+   "n_hits_human": 2371,
+   "n_full_length_human": 60,
+   "n_partial_human": 2311,
+   "counts": {
+    "TARGET": 4,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 2,
+    "P1": 0,
+    "P2": 54,
+    "PARTIAL": 2311
+   },
+   "target_full_match_refseq_tx": 2,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {
+    "ADH1C": 2
+   },
+   "P1_genes": {},
+   "P0_accessions": {
+    "ADH1C": [
+     "NM_000669",
+     "NR_133005"
+    ]
+   },
+   "usable": false
+  },
+  "ADH1B_reverse": {
+   "gene": "ADH1B",
+   "primer": "reverse",
+   "query": "AACACAGCACAGGTAGAGCC",
+   "n_hits_total": 4021,
+   "n_hits_human": 3534,
+   "n_full_length_human": 96,
+   "n_partial_human": 3438,
+   "counts": {
+    "TARGET": 4,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 1,
+    "P1": 0,
+    "P2": 91,
+    "PARTIAL": 3438
+   },
+   "target_full_match_refseq_tx": 2,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {
+    "ADH1A": 1
+   },
+   "P1_genes": {},
+   "P0_accessions": {
+    "ADH1A": [
+     "NM_000667"
+    ]
+   },
+   "usable": false
+  },
+  "DHX58_forward": {
+   "gene": "DHX58",
+   "primer": "forward",
+   "query": "TGACCTGCTCATCTGCACAG",
+   "n_hits_total": 5279,
+   "n_hits_human": 4698,
+   "n_full_length_human": 52,
+   "n_partial_human": 4646,
+   "counts": {
+    "TARGET": 16,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 0,
+    "P1": 1,
+    "P2": 35,
+    "PARTIAL": 4646
+   },
+   "target_full_match_refseq_tx": 8,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {
+    "LOC127898556": 1
+   },
+   "P0_accessions": {},
+   "usable": true
+  },
+  "DHX58_reverse": {
+   "gene": "DHX58",
+   "primer": "reverse",
+   "query": "TGTAGACGGTGTCCTTGTGC",
+   "n_hits_total": 1201,
+   "n_hits_human": 1048,
+   "n_full_length_human": 50,
+   "n_partial_human": 998,
+   "counts": {
+    "TARGET": 16,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 0,
+    "P1": 0,
+    "P2": 34,
+    "PARTIAL": 998
+   },
+   "target_full_match_refseq_tx": 8,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {},
+   "P0_accessions": {},
+   "usable": true
+  },
+  "ALDH3A2_forward": {
+   "gene": "ALDH3A2",
+   "primer": "forward",
+   "query": "TGTGTTCCCAGCTGCTTAGG",
+   "n_hits_total": 6586,
+   "n_hits_human": 5544,
+   "n_full_length_human": 3111,
+   "n_partial_human": 2433,
+   "counts": {
+    "TARGET": 10,
+    "PARALOG": 0,
+    "PSEUDO": 24,
+    "P0": 0,
+    "P1": 67,
+    "P2": 3010,
+    "PARTIAL": 2433
+   },
+   "target_full_match_refseq_tx": 9,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {
+    "CCNB1IP1": 3,
+    "EPM2AIP1": 1,
+    "FABP7": 2,
+    "HIGD1C": 4,
+    "IL6R": 1,
+    "KIAA1586": 2,
+    "KNL1": 3,
+    "LINC01055": 1,
+    "LOC105374711": 5,
+    "LOC105376045": 2,
+    "LOC124903581": 1,
+    "MANSC4": 3,
+    "MARCHF11-DT": 1,
+    "PRPF38B": 18,
+    "PRRG4": 4,
+    "PTPRD-DT": 1,
+    "RFC3": 6,
+    "SLC11A1": 1,
+    "ZFAND5": 8
+   },
+   "P0_accessions": {},
+   "usable": true
+  },
+  "ALDH3A2_reverse": {
+   "gene": "ALDH3A2",
+   "primer": "reverse",
+   "query": "TTTCGGAGACAGGGTCTTGC",
+   "n_hits_total": 23753,
+   "n_hits_human": 20445,
+   "n_full_length_human": 4713,
+   "n_partial_human": 15732,
+   "counts": {
+    "TARGET": 10,
+    "PARALOG": 0,
+    "PSEUDO": 24,
+    "P0": 210,
+    "P1": 15,
+    "P2": 4454,
+    "PARTIAL": 15732
+   },
+   "target_full_match_refseq_tx": 9,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {
+    "A1CF": 20,
+    "ARHGAP26": 1,
+    "ARSD": 1,
+    "B3GALT9": 2,
+    "BNC2": 1,
+    "BRI3": 3,
+    "C14orf39": 1,
+    "CACNG8": 1,
+    "CFDP1": 5,
+    "COMMD1": 2,
+    "CR1": 3,
+    "DUSP19": 3,
+    "DYM": 48,
+    "FRMD8": 1,
+    "FUZ": 1,
+    "HACD1": 3,
+    "IMMP2L": 2,
+    "KIF1C": 3,
+    "KIF6": 6,
+    "LOC105372112": 3,
+    "LOC105374711": 3,
+    "LOC105378480": 1,
+    "LOC107985360": 2,
+    "LOC112268025": 1,
+    "LOC124901725": 1,
+    "LOC124904078": 2,
+    "LOC124905999": 1,
+    "LOC124907426": 1,
+    "LOC124909415": 1,
+    "LOC283028": 1,
+    "LRCH3": 16,
+    "LRRC7": 6,
+    "MAL-AS1": 4,
+    "MATR3": 2,
+    "MPC1-DT": 1,
+    "NMNAT1": 4,
+    "OPRM1": 1,
+    "OR52A1": 1,
+    "PCAT7": 5,
+    "PSMB2": 3,
+    "RAB3GAP2": 1,
+    "RNF125": 2,
+    "SBF2-AS1": 1,
+    "SCRG1": 2,
+    "SETBP1": 9,
+    "SLC31A1": 1,
+    "SUN2": 11,
+    "THG1L": 2,
+    "TMEM67": 10,
+    "VPS13B-DT": 1,
+    "ZNF44": 2,
+    "ZNF660": 1
+   },
+   "P1_genes": {
+    "APAF1": 7,
+    "DYM": 1,
+    "HDLBP": 7
+   },
+   "P0_accessions": {
+    "SUN2": [
+     "XM_047441311",
+     "NM_001394431",
+     "XM_054325484",
+     "XM_054325480",
+     "XM_047441312",
+     "XM_047441313",
+     "XM_017028748",
+     "XM_047441310",
+     "XM_054325483",
+     "XM_054325481",
+     "XM_054325482"
+    ],
+    "LOC107985360": [
+     "XR_001738520",
+     "XR_007071180"
+    ],
+    "PSMB2": [
+     "NM_001199779",
+     "NM_002794",
+     "NM_001199780"
+    ],
+    "LRCH3": [
+     "XM_054348136",
+     "NM_001365717",
+     "NM_001365715",
+     "NR_158582",
+     "NM_001365718",
+     "XM_005269367",
+     "XM_054348138",
+     "NM_001363887",
+     "XM_054348139",
+     "XM_047449082",
+     "XM_054348137",
+     "NM_001365716",
+     "XM_047449081",
+     "XM_017007352",
+     "XM_054348135",
+     "XM_047449083"
+    ],
+    "A1CF": [
+     "XM_047425131",
+     "NM_138932",
+     "NM_014576",
+     "XM_011539729",
+     "XM_054365678",
+     "NM_001198818",
+     "XM_054365674",
+     "NM_001198820",
+     "XM_005269718",
+     "NM_001370131",
+     "XM_054365676",
+     "XM_047425130",
+     "XM_054365679",
+     "NM_001198819",
+     "XM_054365677",
+     "NM_138933",
+     "XM_054365675",
+     "XM_047425129",
+     "NM_001370130",
+     "XM_047425127"
+    ],
+    "DYM": [
+     "XM_047437553",
+     "NM_001374429",
+     "NM_001353210",
+     "XM_047437555",
+     "XM_011526038",
+     "NM_001353215",
+     "NM_001374432",
+     "NM_017653",
+     "XM_054318709",
+     "NM_001374436",
+     "XM_047437559",
+     "XM_011526036",
+     "NM_001353212",
+     "XM_054318704",
+     "XM_011526041",
+     "XM_047437554",
+     "XM_047437556",
+     "XM_054318702",
+     "NM_001374428",
+     "NM_001374435",
+     "NM_001374443",
+     "NM_001374440",
+     "XM_054318707",
+     "XM_011526037",
+     "NM_001374437",
+     "XM_017025795",
+     "XM_047437558",
+     "NM_001353214",
+     "NM_001374430",
+     "XM_054318697",
+     "NM_001353211",
+     "XM_054318699",
+     "XM_054318711",
+     "NM_001374444",
+     "XM_054318710",
+     "NM_001353216",
+     "XM_054318698",
+     "NM_001374431",
+     "NM_001374441",
+     "XM_054318706",
+     "NM_001374439",
+     "NM_001374433",
+     "NM_001353213",
+     "XM_054318705",
+     "XM_054318700",
+     "NM_001374438",
+     "NM_001374442",
+     "NM_001374434"
+    ],
+    "SETBP1": [
+     "XM_024451157",
+     "XM_047437480",
+     "XM_054318522",
+     "XM_054318520",
+     "XM_054318518",
+     "XM_054318517",
+     "XM_047437481",
+     "XM_054318519",
+     "XM_047437479"
+    ],
+    "TMEM67": [
+     "XM_054361486",
+     "XM_006716686",
+     "XM_047422410",
+     "XM_054361488",
+     "XM_047422409",
+     "NM_153704",
+     "XM_054361485",
+     "NM_001142301",
+     "XM_011517363",
+     "XM_054361487"
+    ],
+    "LOC124901725": [
+     "XR_007060477"
+    ],
+    "KIF1C": [
+     "XM_005256424",
+     "NM_006612",
+     "XM_054314745"
+    ],
+    "MAL-AS1": [
+     "XR_007072302",
+     "XR_007072300",
+     "XR_007087136",
+     "XR_007087137"
+    ],
+    "OR52A1": [
+     "NM_012375"
+    ],
+    "LRRC7": [
+     "NM_001366839",
+     "NM_001366838",
+     "NM_001370785",
+     "NM_001350216",
+     "NM_001330635",
+     "NM_001366841"
+    ],
+    "LOC105372112": [
+     "XR_007088411",
+     "XR_007066363",
+     "XR_007066364"
+    ],
+    "KIF6": [
+     "XM_054354574",
+     "NM_001289020",
+     "NM_145027",
+     "NM_001289021",
+     "XM_054354576",
+     "NM_001289024"
+    ],
+    "BRI3": [
+     "XM_054357764",
+     "XM_054357759",
+     "XR_008487553"
+    ],
+    "RNF125": [
+     "NM_017831",
+     "XM_011526046"
+    ],
+    "CFDP1": [
+     "XM_054379389",
+     "XM_054379387",
+     "XM_054379388",
+     "XR_008489045",
+     "XR_008489046"
+    ],
+    "PCAT7": [
+     "NR_185902",
+     "NR_185898",
+     "NR_185905",
+     "NR_185899",
+     "NR_185903"
+    ],
+    "B3GALT9": [
+     "NM_001386823",
+     "NR_172066"
+    ],
+    "LOC112268025": [
+     "XR_007078850"
+    ],
+    "LOC105378480": [
+     "XR_946315"
+    ],
+    "ZNF44": [
+     "XR_007066867",
+     "XM_047446905"
+    ],
+    "LOC124905999": [
+     "XR_007086303"
+    ],
+    "LOC105374711": [
+     "XR_925897",
+     "XR_007058715",
+     "XR_007058716"
+    ],
+    "NMNAT1": [
+     "XM_054338311",
+     "XM_047428076",
+     "XM_047428080",
+     "XM_054338308"
+    ],
+    "IMMP2L": [
+     "XM_047420926",
+     "XM_017012703"
+    ],
+    "SLC31A1": [
+     "NM_001859"
+    ],
+    "VPS13B-DT": [
+     "NR_187478"
+    ],
+    "BNC2": [
+     "XM_047423497"
+    ],
+    "HACD1": [
+     "XM_054367141",
+     "XM_005252641",
+     "NM_014241"
+    ],
+    "THG1L": [
+     "XM_054352876",
+     "XM_017009603"
+    ],
+    "LOC124907426": [
+     "XR_007085087"
+    ],
+    "MATR3": [
+     "NM_001400465",
+     "NM_001400456"
+    ],
+    "MPC1-DT": [
+     "NR_189630"
+    ],
+    "LOC124904078": [
+     "XR_007087762",
+     "XR_007065934"
+    ],
+    "CR1": [
+     "NM_001381851",
+     "NM_000573",
+     "NM_000651"
+    ],
+    "ARSD": [
+     "NM_009589"
+    ],
+    "LOC124909415": [
+     "XR_007096015"
+    ],
+    "OPRM1": [
+     "XM_017010907"
+    ],
+    "CACNG8": [
+     "NM_031895"
+    ],
+    "ARHGAP26": [
+     "XM_047416992"
+    ],
+    "FUZ": [
+     "XR_007067016"
+    ],
+    "ZNF660": [
+     "NM_173658"
+    ],
+    "C14orf39": [
+     "XM_017021250"
+    ],
+    "FRMD8": [
+     "XR_008488469"
+    ],
+    "SBF2-AS1": [
+     "NR_036485"
+    ],
+    "DUSP19": [
+     "NM_080876",
+     "NR_135688",
+     "NM_001321519"
+    ],
+    "LOC283028": [
+     "NR_136644"
+    ],
+    "SCRG1": [
+     "XM_054348845",
+     "NM_001329597"
+    ],
+    "RAB3GAP2": [
+     "NM_012414"
+    ],
+    "COMMD1": [
+     "XM_054340659",
+     "XM_011532558"
+    ]
+   },
+   "usable": false
+  },
+  "GBP1_forward": {
+   "gene": "GBP1",
+   "primer": "forward",
+   "query": "AAGGGAACAGCCTGGACATG",
+   "n_hits_total": 5388,
+   "n_hits_human": 4766,
+   "n_full_length_human": 41,
+   "n_partial_human": 4725,
+   "counts": {
+    "TARGET": 2,
+    "PARALOG": 0,
+    "PSEUDO": 0,
+    "P0": 0,
+    "P1": 0,
+    "P2": 39,
+    "PARTIAL": 4725
+   },
+   "target_full_match_refseq_tx": 1,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {},
+   "P0_accessions": {},
+   "usable": true
+  },
+  "GBP1_reverse": {
+   "gene": "GBP1",
+   "primer": "reverse",
+   "query": "ATTGCCACCACCACCATAGG",
+   "n_hits_total": 8745,
+   "n_hits_human": 7785,
+   "n_full_length_human": 114,
+   "n_partial_human": 7671,
+   "counts": {
+    "TARGET": 5,
+    "PARALOG": 0,
+    "PSEUDO": 3,
+    "P0": 0,
+    "P1": 0,
+    "P2": 106,
+    "PARTIAL": 7671
+   },
+   "target_full_match_refseq_tx": 1,
+   "target_max_identity_pct": 100.0,
+   "P0_genes": {},
+   "P1_genes": {},
+   "P0_accessions": {},
+   "usable": true
+  }
+ }
+}

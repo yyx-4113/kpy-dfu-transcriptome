@@ -1,0 +1,78 @@
+[07:15:44] cells: 167837; kpyrn counts matrix: (167837, 140); genes: 140
+[07:15:44] [A] Foot skin: {'DFU': 14, 'nonDFU': 19}
+[07:15:44] [A] Foot skin: 4 lineages FDR<0.05: [{'lineage': 'Mono_CD16', 'mean_prop_DFU': 0.007768860760139165, 'mean_prop_nonDFU': 0.0015590413000344911, 'q': 0.0059673185974117825}, {'lineage': 'Mono_CD14', 'mean_prop_DFU': 0.031449326285330495, 'mean_prop_nonDFU': 0.003420692700314362, 'q': 0.0059673185974117825}, {'lineage': 'Schwann_neural', 'mean_prop_DFU': 0.0009054712314168921, 'mean_prop_nonDFU': 0.005241199571347557, 'q': 0.01740666903268867}, {'lineage': 'NK', 'mean_prop_DFU': 0.009672492513772297, 'mean_prop_nonDFU': 0.002433888049861468, 'q': 0.03661477854880706}]
+[07:15:44] [A] Forearm skin: {'DFU': 5, 'nonDFU': 6}
+[07:15:44] [A] Forearm skin: 0 lineages FDR<0.05: none
+[07:15:44] [A] PBMCs: {'DFU': 5, 'nonDFU': 5}
+[07:15:45] [A] PBMCs: 0 lineages FDR<0.05: none
+[07:15:45] [A] Foot skin 4-group KW: 0 lineages FDR<0.05
+[07:15:45] [B] pseudobulk aggregation...
+[07:15:45] [B] pseudobulk rows (sample x lineage): 285; tissues: {'Foot skin': 167, 'PBMCs': 64, 'Forearm skin': 54}
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_composition_stats.py:189: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  pb[f"module__{mod}"] = pb[use].mean(axis=1)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_composition_stats.py:189: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  pb[f"module__{mod}"] = pb[use].mean(axis=1)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_composition_stats.py:189: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  pb[f"module__{mod}"] = pb[use].mean(axis=1)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_composition_stats.py:189: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  pb[f"module__{mod}"] = pb[use].mean(axis=1)
+[07:15:51] [B] foot skin pseudobulk FDR<0.05 tests: 57
+[07:15:51]      lineage feature   median1   median2        q
+   Ambiguous   ACACB  2.658285  3.968055 0.019723
+   Ambiguous    MPC1  5.913178  6.200348 0.019723
+   Ambiguous    PGM1  3.877167  4.246215 0.021076
+   Ambiguous   ADH1B  0.750128  3.980524 0.049954
+   Ambiguous    PCK1  0.639446  0.000000 0.049954
+   Ambiguous    TPI1  8.777336  8.137927 0.049954
+   Ambiguous    OASL  3.372143  2.308131 0.049954
+  Fibroblast   ADH1B  2.368651  6.565269 0.037784
+  Fibroblast    PCK1  0.517605  0.000000 0.037784
+  Fibroblast    LDHD  0.459217  1.268678 0.037784
+  Fibroblast  IFITM3 11.112218 10.044619 0.037784
+  Fibroblast   ISG20  5.057127  3.596454 0.037784
+  Fibroblast   IFI16  8.008487  7.776332 0.037784
+  Fibroblast   ACAT1  5.380692  5.875261 0.045979
+  Fibroblast  FAHD2B  2.988307  4.065815 0.045979
+  Fibroblast    PCK2  2.653084  3.462420 0.045985
+Keratinocyte   ACAT1  4.737702  5.597007 0.004997
+Keratinocyte    MPC1  5.483775  6.312347 0.016949
+Keratinocyte   ACSS1  1.980726  3.308741 0.018610
+Keratinocyte   ADH1B  0.000000  1.011123 0.018610
+Keratinocyte   PGAM1  8.369819  7.288804 0.018610
+Keratinocyte    TPI1  9.256254  8.519519 0.018610
+Keratinocyte  FAHD2A  3.399561  4.123900 0.018610
+Keratinocyte    LDHA  9.989801  9.298249 0.020303
+Keratinocyte    LDHD  0.757300  1.444305 0.020303
+Keratinocyte    JAK1  5.494344  6.105841 0.020303
+Keratinocyte  IFITM3  8.560615  7.443987 0.020303
+Keratinocyte    ENO1  9.850207  9.077187 0.020458
+Keratinocyte    GALM  1.505721  2.883587 0.020458
+Keratinocyte     PKM  9.859875  8.874142 0.024954
+Keratinocyte  FAHD2B  2.544057  3.662002 0.024954
+Keratinocyte   ACACB  1.009890  2.169112 0.026023
+Keratinocyte    GLO1  6.347112  5.840145 0.026023
+Keratinocyte  IFNAR1  4.399174  4.820652 0.028976
+Keratinocyte     HK2  4.118977  2.583417 0.032283
+Keratinocyte    PGM2  5.511053  4.858906 0.034265
+Keratinocyte    IRF9  2.555529  3.551966 0.034265
+Keratinocyte   GAPDH 11.965054 11.270790 0.038275
+Keratinocyte   ACYP2  3.980407  4.593129 0.040956
+Keratinocyte  IFITM1  5.071978  3.701324 0.040956
+Keratinocyte     HK1  5.467724  5.998982 0.044022
+Keratinocyte EIF2AK2  4.075207  4.716682 0.044022
+Keratinocyte    ENO3  0.706183  1.011123 0.047482
+Keratinocyte    MDH1  6.540970  7.006198 0.047482
+Pericyte_SMC   ADH1B  0.670499  3.403304 0.022496
+Pericyte_SMC   ALDH2  5.375366  6.606627 0.043967
+Pericyte_SMC   GAPDH 11.404773 11.020990 0.043967
+Pericyte_SMC     GCK  2.036691  2.836868 0.043967
+Pericyte_SMC    PDHB  6.884792  6.533460 0.043967
+Pericyte_SMC    PGM1  4.091030  4.673567 0.043967
+Pericyte_SMC   ACAT1  5.655634  5.985126 0.043967
+Pericyte_SMC     ME3  3.668375  2.810760 0.043967
+Pericyte_SMC   IFIT2  4.732586  3.779076 0.043967
+Pericyte_SMC  IFITM3 11.564916 10.348895 0.043967
+Pericyte_SMC   ISG20  5.189723  2.430032 0.043967
+Pericyte_SMC   IFI16  8.276190  7.484462 0.043967
+Pericyte_SMC    LDHC  0.727744  0.000000 0.047820
+[07:15:51] DONE stage3 (10s)

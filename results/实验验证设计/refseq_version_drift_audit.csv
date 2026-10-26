@@ -1,0 +1,13 @@
+gene,role,gene_id,design_accession,current_accession,version_changed,design_len,current_len,seq_positional_identity,n_refseq_tx,n_coding_tx,n_noncoding_tx,n_coding_tx_covered,coverage_coding,all_coding_covered,F_in_CDS_all_coding,R_in_CDS_all_coding,status
+LDHA,target,3939,NM_001135239.1,NM_001135239.2,True,2052,2067,0.2524,6,5,1,0,0/5,False,False,False,NEEDS_REDESIGN
+FAHD2B,target,151313,NM_001320848.2,NM_001320848.2,False,1431,1431,1.0,29,29,0,15,15/29,False,True,True,NEEDS_REDESIGN
+ADH1B,target,125,NM_000668.5,NM_000668.6,True,2707,4067,0.2627,2,2,0,2,2/2,True,True,True,NEEDS_REDESIGN
+DHX58,target,79132,NM_024119.3,NM_024119.3,False,2591,2591,1.0,9,9,0,9,9/9,True,True,True,OK
+ALDH3A2,target,224,NM_000382.3,NM_000382.3,False,3703,3703,1.0,13,13,0,11,11/13,False,False,False,NEEDS_REDESIGN
+GBP1,target,2633,NM_002053.3,NM_002053.3,False,2883,2883,1.0,1,1,0,1,1/1,True,False,True,NEEDS_REDESIGN
+ACTB,reference_candidate,60,NM_001101.3,NM_001101.5,True,1852,1812,1.0,1,1,0,1,1/1,True,True,True,NEEDS_REDESIGN
+GAPDH,reference_candidate,2597,NM_002046.6,NM_002046.7,True,1309,1285,1.0,6,5,1,4,4/5,False,False,True,NEEDS_REDESIGN
+TBP,reference_candidate,6908,NM_003194.5,NM_003194.5,False,1857,1857,1.0,2,2,0,1,1/2,False,False,True,NEEDS_REDESIGN
+HPRT1,reference_candidate,3251,NM_000194.3,NM_000194.3,False,1395,1395,1.0,1,1,0,1,1/1,True,True,True,OK
+RPLP0,reference_candidate,6175,NM_001002.4,NM_001002.4,False,1105,1105,1.0,2,2,0,2,2/2,True,True,True,OK
+SDHA,reference_candidate,6389,NM_004168.4,NM_004168.4,False,2693,2693,1.0,10,9,1,9,9/9,True,True,True,OK

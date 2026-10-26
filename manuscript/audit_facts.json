@@ -1,0 +1,5297 @@
+{
+ "kpyrn.module.M1_Kpy_machinery.n": {
+  "id": "kpyrn.module.M1_Kpy_machinery.n",
+  "value": 4,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "groupby('module').size()['M1_Kpy_machinery']",
+  "note": "模块中文名：M1 写入/擦除机器"
+ },
+ "kpyrn.module.M2_Pyruvate_supply.n": {
+  "id": "kpyrn.module.M2_Pyruvate_supply.n",
+  "value": 90,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "groupby('module').size()['M2_Pyruvate_supply']",
+  "note": "模块中文名：M2 丙酮酸供应与分流"
+ },
+ "kpyrn.module.M3_Kpy_targets.n": {
+  "id": "kpyrn.module.M3_Kpy_targets.n",
+  "value": 3,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "groupby('module').size()['M3_Kpy_targets']",
+  "note": "模块中文名：M3 已鉴定 Kpy 靶基因"
+ },
+ "kpyrn.module.M4_IFNI_readout.n": {
+  "id": "kpyrn.module.M4_IFNI_readout.n",
+  "value": 31,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "groupby('module').size()['M4_IFNI_readout']",
+  "note": "模块中文名：M4 IFN-I 读出"
+ },
+ "kpyrn.module.M5_Histone_carriers.n": {
+  "id": "kpyrn.module.M5_Histone_carriers.n",
+  "value": 12,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "groupby('module').size()['M5_Histone_carriers']",
+  "note": "模块中文名：M5 组蛋白载体（不计分）"
+ },
+ "kpyrn.n_total": {
+  "id": "kpyrn.n_total",
+  "value": 140,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "len(df)",
+  "note": "唯一基因条目总数"
+ },
+ "kpyrn.n_scored": {
+  "id": "kpyrn.n_scored",
+  "value": 128,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "(scoring_include=='Yes').sum()",
+  "note": "纳入评分的基因数（M5 组蛋白载体除外）"
+ },
+ "kpyrn.scored.M1_Kpy_machinery.n": {
+  "id": "kpyrn.scored.M1_Kpy_machinery.n",
+  "value": 4,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "scoring_include=='Yes' 且 module=='M1_Kpy_machinery' 的行数",
+  "note": ""
+ },
+ "kpyrn.scored.M2_Pyruvate_supply.n": {
+  "id": "kpyrn.scored.M2_Pyruvate_supply.n",
+  "value": 90,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "scoring_include=='Yes' 且 module=='M2_Pyruvate_supply' 的行数",
+  "note": ""
+ },
+ "kpyrn.scored.M3_Kpy_targets.n": {
+  "id": "kpyrn.scored.M3_Kpy_targets.n",
+  "value": 3,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "scoring_include=='Yes' 且 module=='M3_Kpy_targets' 的行数",
+  "note": ""
+ },
+ "kpyrn.scored.M4_IFNI_readout.n": {
+  "id": "kpyrn.scored.M4_IFNI_readout.n",
+  "value": 31,
+  "type": "number",
+  "source": "01_数据/基因集/KpyRN_modules.csv",
+  "expr": "scoring_include=='Yes' 且 module=='M4_IFNI_readout' 的行数",
+  "note": ""
+ },
+ "deg.GSE134431.DFU_vs_DFS.n_deg": {
+  "id": "deg.GSE134431.DFU_vs_DFS.n_deg",
+  "value": 2814,
+  "type": "number",
+  "source": "03_结果/DEG/GSE134431_DFU_vs_DFS_limma.csv",
+  "expr": "FDR<0.05 且 logFC≠0 的行数（记录值）",
+  "note": "上调 817 / 下调 1997"
+ },
+ "deg.GSE134431.DFU_vs_DFS.n_tested": {
+  "id": "deg.GSE134431.DFU_vs_DFS.n_tested",
+  "value": 12450,
+  "type": "number",
+  "source": "03_结果/DEG/GSE134431_DFU_vs_DFS_limma.csv",
+  "expr": "参与检验的基因数（记录值）",
+  "note": ""
+ },
+ "deg.GSE199939.DFU_vs_control.n_deg": {
+  "id": "deg.GSE199939.DFU_vs_control.n_deg",
+  "value": 9773,
+  "type": "number",
+  "source": "03_结果/DEG/GSE199939_DFU_vs_control_limma.csv",
+  "expr": "FDR<0.05 且 logFC≠0 的行数（记录值）",
+  "note": "上调 3958 / 下调 5815"
+ },
+ "deg.GSE199939.DFU_vs_control.n_tested": {
+  "id": "deg.GSE199939.DFU_vs_control.n_tested",
+  "value": 17239,
+  "type": "number",
+  "source": "03_结果/DEG/GSE199939_DFU_vs_control_limma.csv",
+  "expr": "参与检验的基因数（记录值）",
+  "note": ""
+ },
+ "deg.GSE134431.Healer_vs_Nonhealer.n_deg": {
+  "id": "deg.GSE134431.Healer_vs_Nonhealer.n_deg",
+  "value": 0,
+  "type": "number",
+  "source": "D:/2026.10/丙酮酰化与神经病理性疼痛/丙酮酰化与糖尿病足/03_结果/DEG/GSE134431_Healer_vs_Nonhealer_limma.csv",
+  "expr": "(adj.P.Val<0.05).sum()",
+  "note": "阴性结果：0 个 FDR<0.05"
+ },
+ "deg.GSE143735.Healer_vs_Nonhealer.n_deg": {
+  "id": "deg.GSE143735.Healer_vs_Nonhealer.n_deg",
+  "value": 0,
+  "type": "number",
+  "source": "D:/2026.10/丙酮酰化与神经病理性疼痛/丙酮酰化与糖尿病足/03_结果/DEG/GSE143735_Healer_vs_Nonhealer_limma.csv",
+  "expr": "(adj.P.Val<0.05).sum()",
+  "note": "阴性结果：0 个 FDR<0.05"
+ },
+ "deg.GSE143735.DFU_vs_DM_no_ulcer.n_deg": {
+  "id": "deg.GSE143735.DFU_vs_DM_no_ulcer.n_deg",
+  "value": 0,
+  "type": "number",
+  "source": "D:/2026.10/丙酮酰化与神经病理性疼痛/丙酮酰化与糖尿病足/03_结果/DEG/GSE143735_DFU_vs_DM_no_ulcer_limma.csv",
+  "expr": "(adj.P.Val<0.05).sum()",
+  "note": "阴性结果：0 个 FDR<0.05"
+ },
+ "meta.META1.n_tested": {
+  "id": "meta.META1.n_tested",
+  "value": 11615,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "len(df)",
+  "note": "REM(REML) 随机效应，2 队列"
+ },
+ "meta.META1.n_deg": {
+  "id": "meta.META1.n_deg",
+  "value": 2863,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "(padj<0.05).sum()",
+  "note": ""
+ },
+ "meta.META2.n_tested": {
+  "id": "meta.META2.n_tested",
+  "value": 10300,
+  "type": "number",
+  "source": "03_结果/meta/META2_Healer_vs_Nonhealer.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "meta.META2.n_deg": {
+  "id": "meta.META2.n_deg",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/meta/META2_Healer_vs_Nonhealer.csv",
+  "expr": "(padj<0.05).sum()",
+  "note": ""
+ },
+ "meta.kpyrn.META1.n_sig": {
+  "id": "meta.kpyrn.META1.n_sig",
+  "value": 26,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "(scoring_include=='Yes') & (META1_padj<0.05) 的行数",
+  "note": ""
+ },
+ "meta.kpyrn.META1.direction_agree": {
+  "id": "meta.kpyrn.META1.direction_agree",
+  "value": 26,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv + KpyRN_meta_overview.csv",
+  "expr": "26 个 KpyRN 显著基因中 sign(logFC_GSE134431)==sign(logFC_GSE199939) 的个数",
+  "note": "分母 26（方向一致率 26/26）"
+ },
+ "meta.kpyrn.META1.direction_agree_total": {
+  "id": "meta.kpyrn.META1.direction_agree_total",
+  "value": 26,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "参与方向一致性判定的基因数",
+  "note": ""
+ },
+ "meta.kpyrn.META1.n_represented": {
+  "id": "meta.kpyrn.META1.n_represented",
+  "value": 97,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "scoring_include=='Yes' 且 META1_padj 非缺失（128 计分基因中 31 个无 META1 数据）",
+  "note": ""
+ },
+ "meta.kpyrn.META1.rate": {
+  "id": "meta.kpyrn.META1.rate",
+  "value": 0.268,
+  "type": "number",
+  "source": "由 KpyRN_meta_overview.csv 与 META1_DFU_vs_control.csv 派生",
+  "expr": "26/97",
+  "note": ""
+ },
+ "meta.kpyrn.META1.rate_pct": {
+  "id": "meta.kpyrn.META1.rate_pct",
+  "value": 26.8,
+  "type": "number",
+  "source": "由 KpyRN_meta_overview.csv 与 META1_DFU_vs_control.csv 派生",
+  "expr": "26/97 × 100",
+  "note": ""
+ },
+ "meta.META1.background_rate": {
+  "id": "meta.META1.background_rate",
+  "value": 0.2465,
+  "type": "number",
+  "source": "由 META1_DFU_vs_control.csv 计算",
+  "expr": "2863/11615",
+  "note": ""
+ },
+ "meta.META1.background_rate_pct": {
+  "id": "meta.META1.background_rate_pct",
+  "value": 24.6,
+  "type": "number",
+  "source": "由 META1_DFU_vs_control.csv 计算",
+  "expr": "2863/11615 × 100",
+  "note": ""
+ },
+ "meta.META1.background_nonkpyrn_n_sig": {
+  "id": "meta.META1.background_nonkpyrn_n_sig",
+  "value": 2837,
+  "type": "number",
+  "source": "由 META1_DFU_vs_control.csv 与 KpyRN_meta_overview.csv 派生",
+  "expr": "2863 - 26",
+  "note": ""
+ },
+ "meta.META1.background_nonkpyrn_n_tested": {
+  "id": "meta.META1.background_nonkpyrn_n_tested",
+  "value": 11518,
+  "type": "number",
+  "source": "由 META1_DFU_vs_control.csv 与 KpyRN_meta_overview.csv 派生",
+  "expr": "11615 - 97",
+  "note": ""
+ },
+ "meta.kpyrn.META1.fisher_OR": {
+  "id": "meta.kpyrn.META1.fisher_OR",
+  "value": 1.12,
+  "type": "number",
+  "source": "由 2×2 表 Fisher 精确检验派生（scipy.stats.fisher_exact）",
+  "expr": "26*8681/((71)*2837)",
+  "note": ""
+ },
+ "meta.kpyrn.META1.fisher_p": {
+  "id": "meta.kpyrn.META1.fisher_p",
+  "value": 0.64,
+  "type": "number",
+  "source": "由 2×2 表 Fisher 精确检验派生（scipy.stats.fisher_exact, two-sided）",
+  "expr": "two-sided p",
+  "note": ""
+ },
+ "meta.kpyrn.META1.fisher_ci_low": {
+  "id": "meta.kpyrn.META1.fisher_ci_low",
+  "value": 0.71,
+  "type": "number",
+  "source": "由 2×2 表 Fisher 精确条件 CI 派生（R fisher.test 'P<=Pobs' 两尾反演）",
+  "expr": "95% CI 下限",
+  "note": ""
+ },
+ "meta.kpyrn.META1.fisher_ci_high": {
+  "id": "meta.kpyrn.META1.fisher_ci_high",
+  "value": 1.77,
+  "type": "number",
+  "source": "由 2×2 表 Fisher 精确条件 CI 派生（R fisher.test 'P<=Pobs' 两尾反演）",
+  "expr": "95% CI 上限",
+  "note": ""
+ },
+ "meta.software.limma": {
+  "id": "meta.software.limma",
+  "value": 3.62,
+  "type": "number",
+  "source": "manuscript_en.md §2 methods（limma 3.62.2）",
+  "expr": "软件版本 major.minor，方法参数",
+  "note": "方法学常数，非结果数字"
+ },
+ "meta.kpyrn.BPGM.logFC": {
+  "id": "meta.kpyrn.BPGM.logFC",
+  "value": 0.827,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_logFC'] where gene=='BPGM'",
+  "note": ""
+ },
+ "meta.kpyrn.BPGM.padj": {
+  "id": "meta.kpyrn.BPGM.padj",
+  "value": 0.0258,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_padj'] where gene=='BPGM'",
+  "note": ""
+ },
+ "meta.kpyrn.LDHA.logFC": {
+  "id": "meta.kpyrn.LDHA.logFC",
+  "value": 0.999,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_logFC'] where gene=='LDHA'",
+  "note": ""
+ },
+ "meta.kpyrn.LDHA.padj": {
+  "id": "meta.kpyrn.LDHA.padj",
+  "value": 1.09e-09,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_padj'] where gene=='LDHA'",
+  "note": ""
+ },
+ "meta.kpyrn.PFKP.logFC": {
+  "id": "meta.kpyrn.PFKP.logFC",
+  "value": 0.901,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_logFC'] where gene=='PFKP'",
+  "note": ""
+ },
+ "meta.kpyrn.PFKP.padj": {
+  "id": "meta.kpyrn.PFKP.padj",
+  "value": 3.29e-07,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_padj'] where gene=='PFKP'",
+  "note": ""
+ },
+ "meta.kpyrn.PGAM1.logFC": {
+  "id": "meta.kpyrn.PGAM1.logFC",
+  "value": 1.247,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_logFC'] where gene=='PGAM1'",
+  "note": ""
+ },
+ "meta.kpyrn.PGAM1.padj": {
+  "id": "meta.kpyrn.PGAM1.padj",
+  "value": 1.48e-32,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_padj'] where gene=='PGAM1'",
+  "note": ""
+ },
+ "meta.kpyrn.PGM2.logFC": {
+  "id": "meta.kpyrn.PGM2.logFC",
+  "value": 0.665,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_logFC'] where gene=='PGM2'",
+  "note": ""
+ },
+ "meta.kpyrn.PGM2.padj": {
+  "id": "meta.kpyrn.PGM2.padj",
+  "value": 0.00241,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_padj'] where gene=='PGM2'",
+  "note": ""
+ },
+ "meta.kpyrn.TPI1.logFC": {
+  "id": "meta.kpyrn.TPI1.logFC",
+  "value": 1.286,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_logFC'] where gene=='TPI1'",
+  "note": ""
+ },
+ "meta.kpyrn.TPI1.padj": {
+  "id": "meta.kpyrn.TPI1.padj",
+  "value": 1.41e-06,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "row['META1_padj'] where gene=='TPI1'",
+  "note": ""
+ },
+ "meta.kpyrn.PGAM1.logFC_exact": {
+  "id": "meta.kpyrn.PGAM1.logFC_exact",
+  "value": 1.25,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='PGAM1'",
+  "note": ""
+ },
+ "meta.kpyrn.PGAM1.padj_exact": {
+  "id": "meta.kpyrn.PGAM1.padj_exact",
+  "value": 1.5e-32,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='PGAM1'",
+  "note": ""
+ },
+ "meta.kpyrn.TPI1.logFC_exact": {
+  "id": "meta.kpyrn.TPI1.logFC_exact",
+  "value": 1.29,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='TPI1'",
+  "note": ""
+ },
+ "meta.kpyrn.TPI1.padj_exact": {
+  "id": "meta.kpyrn.TPI1.padj_exact",
+  "value": 1.4e-06,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='TPI1'",
+  "note": ""
+ },
+ "meta.kpyrn.GAPDH.logFC_exact": {
+  "id": "meta.kpyrn.GAPDH.logFC_exact",
+  "value": 1.32,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='GAPDH'",
+  "note": ""
+ },
+ "meta.kpyrn.GAPDH.padj_exact": {
+  "id": "meta.kpyrn.GAPDH.padj_exact",
+  "value": 0.01,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='GAPDH'",
+  "note": ""
+ },
+ "meta.kpyrn.PGK1.logFC_exact": {
+  "id": "meta.kpyrn.PGK1.logFC_exact",
+  "value": 1.07,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='PGK1'",
+  "note": ""
+ },
+ "meta.kpyrn.PGK1.padj_exact": {
+  "id": "meta.kpyrn.PGK1.padj_exact",
+  "value": 1.4e-15,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='PGK1'",
+  "note": ""
+ },
+ "meta.kpyrn.LDHA.logFC_exact": {
+  "id": "meta.kpyrn.LDHA.logFC_exact",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='LDHA'",
+  "note": ""
+ },
+ "meta.kpyrn.LDHA.padj_exact": {
+  "id": "meta.kpyrn.LDHA.padj_exact",
+  "value": 1.1e-09,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='LDHA'",
+  "note": ""
+ },
+ "meta.kpyrn.PFKP.logFC_exact": {
+  "id": "meta.kpyrn.PFKP.logFC_exact",
+  "value": 0.9,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='PFKP'",
+  "note": ""
+ },
+ "meta.kpyrn.PFKP.padj_exact": {
+  "id": "meta.kpyrn.PFKP.padj_exact",
+  "value": 3.3e-07,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='PFKP'",
+  "note": ""
+ },
+ "meta.kpyrn.SLC16A1.logFC_exact": {
+  "id": "meta.kpyrn.SLC16A1.logFC_exact",
+  "value": 0.83,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='SLC16A1'",
+  "note": ""
+ },
+ "meta.kpyrn.SLC16A1.padj_exact": {
+  "id": "meta.kpyrn.SLC16A1.padj_exact",
+  "value": 0.00024,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='SLC16A1'",
+  "note": ""
+ },
+ "meta.kpyrn.LDHB.logFC_exact": {
+  "id": "meta.kpyrn.LDHB.logFC_exact",
+  "value": 0.75,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='LDHB'",
+  "note": ""
+ },
+ "meta.kpyrn.LDHB.padj_exact": {
+  "id": "meta.kpyrn.LDHB.padj_exact",
+  "value": 0.021,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='LDHB'",
+  "note": ""
+ },
+ "meta.kpyrn.PGM2.logFC_exact": {
+  "id": "meta.kpyrn.PGM2.logFC_exact",
+  "value": 0.67,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='PGM2'",
+  "note": ""
+ },
+ "meta.kpyrn.PGM2.padj_exact": {
+  "id": "meta.kpyrn.PGM2.padj_exact",
+  "value": 0.0024,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='PGM2'",
+  "note": ""
+ },
+ "meta.kpyrn.ALDOA.logFC_exact": {
+  "id": "meta.kpyrn.ALDOA.logFC_exact",
+  "value": 0.66,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='ALDOA'",
+  "note": ""
+ },
+ "meta.kpyrn.ALDOA.padj_exact": {
+  "id": "meta.kpyrn.ALDOA.padj_exact",
+  "value": 0.046,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='ALDOA'",
+  "note": ""
+ },
+ "meta.kpyrn.ENO1.logFC_exact": {
+  "id": "meta.kpyrn.ENO1.logFC_exact",
+  "value": 1.24,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='ENO1'",
+  "note": ""
+ },
+ "meta.kpyrn.ENO1.padj_exact": {
+  "id": "meta.kpyrn.ENO1.padj_exact",
+  "value": 0.032,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='ENO1'",
+  "note": ""
+ },
+ "meta.kpyrn.PDHB.logFC_exact": {
+  "id": "meta.kpyrn.PDHB.logFC_exact",
+  "value": 0.26,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='PDHB'",
+  "note": ""
+ },
+ "meta.kpyrn.PDHB.padj_exact": {
+  "id": "meta.kpyrn.PDHB.padj_exact",
+  "value": 0.032,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='PDHB'",
+  "note": ""
+ },
+ "meta.kpyrn.IFI44L.logFC_exact": {
+  "id": "meta.kpyrn.IFI44L.logFC_exact",
+  "value": -1.09,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='IFI44L'",
+  "note": ""
+ },
+ "meta.kpyrn.IFI44L.padj_exact": {
+  "id": "meta.kpyrn.IFI44L.padj_exact",
+  "value": 1.3e-06,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='IFI44L'",
+  "note": ""
+ },
+ "meta.kpyrn.IFI27.logFC_exact": {
+  "id": "meta.kpyrn.IFI27.logFC_exact",
+  "value": -1.02,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='IFI27'",
+  "note": ""
+ },
+ "meta.kpyrn.IFI27.padj_exact": {
+  "id": "meta.kpyrn.IFI27.padj_exact",
+  "value": 1.8e-06,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='IFI27'",
+  "note": ""
+ },
+ "meta.kpyrn.DHX58.logFC_exact": {
+  "id": "meta.kpyrn.DHX58.logFC_exact",
+  "value": -0.74,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='DHX58'",
+  "note": ""
+ },
+ "meta.kpyrn.DHX58.padj_exact": {
+  "id": "meta.kpyrn.DHX58.padj_exact",
+  "value": 8.6e-05,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='DHX58'",
+  "note": ""
+ },
+ "meta.kpyrn.DDX58.logFC_exact": {
+  "id": "meta.kpyrn.DDX58.logFC_exact",
+  "value": -0.47,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='DDX58'",
+  "note": ""
+ },
+ "meta.kpyrn.DDX58.padj_exact": {
+  "id": "meta.kpyrn.DDX58.padj_exact",
+  "value": 0.0091,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='DDX58'",
+  "note": ""
+ },
+ "meta.kpyrn.STAT2.logFC_exact": {
+  "id": "meta.kpyrn.STAT2.logFC_exact",
+  "value": -0.41,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='STAT2'",
+  "note": ""
+ },
+ "meta.kpyrn.STAT2.padj_exact": {
+  "id": "meta.kpyrn.STAT2.padj_exact",
+  "value": 0.0035,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='STAT2'",
+  "note": ""
+ },
+ "meta.kpyrn.MPC2.logFC_exact": {
+  "id": "meta.kpyrn.MPC2.logFC_exact",
+  "value": -0.45,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='MPC2'",
+  "note": ""
+ },
+ "meta.kpyrn.MPC2.padj_exact": {
+  "id": "meta.kpyrn.MPC2.padj_exact",
+  "value": 0.003,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='MPC2'",
+  "note": ""
+ },
+ "meta.kpyrn.ISG20.logFC_exact": {
+  "id": "meta.kpyrn.ISG20.logFC_exact",
+  "value": 0.88,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='ISG20'",
+  "note": ""
+ },
+ "meta.kpyrn.ISG20.padj_exact": {
+  "id": "meta.kpyrn.ISG20.padj_exact",
+  "value": 0.0039,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='ISG20'",
+  "note": ""
+ },
+ "meta.kpyrn.GBP1.logFC_exact": {
+  "id": "meta.kpyrn.GBP1.logFC_exact",
+  "value": 0.84,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='GBP1'",
+  "note": ""
+ },
+ "meta.kpyrn.GBP1.padj_exact": {
+  "id": "meta.kpyrn.GBP1.padj_exact",
+  "value": 0.0013,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='GBP1'",
+  "note": ""
+ },
+ "meta.kpyrn.ADH1B.logFC_exact": {
+  "id": "meta.kpyrn.ADH1B.logFC_exact",
+  "value": -4.42,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.kpyrn.ADH1B.padj_exact": {
+  "id": "meta.kpyrn.ADH1B.padj_exact",
+  "value": 0.047,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.kpyrn.ALDH3A2.logFC_exact": {
+  "id": "meta.kpyrn.ALDH3A2.logFC_exact",
+  "value": -1.63,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.kpyrn.ALDH3A2.padj_exact": {
+  "id": "meta.kpyrn.ALDH3A2.padj_exact",
+  "value": 0.037,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.kpyrn.FAHD2B.logFC_exact": {
+  "id": "meta.kpyrn.FAHD2B.logFC_exact",
+  "value": -1.12,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_logFC where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.kpyrn.FAHD2B.padj_exact": {
+  "id": "meta.kpyrn.FAHD2B.padj_exact",
+  "value": 0.00014,
+  "type": "number",
+  "source": "03_结果/meta/KpyRN_meta_overview.csv",
+  "expr": "META1_padj where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.I2.ADH1B": {
+  "id": "meta.I2.ADH1B",
+  "value": 90.2,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "I2 where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.ADH1B.GSE134431.logFC": {
+  "id": "meta.ADH1B.GSE134431.logFC",
+  "value": -2.79,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "logFC_GSE134431 where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.ADH1B.GSE134431.se": {
+  "id": "meta.ADH1B.GSE134431.se",
+  "value": 0.44,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "se_GSE134431 where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.ADH1B.GSE199939.logFC": {
+  "id": "meta.ADH1B.GSE199939.logFC",
+  "value": -6.29,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "logFC_GSE199939 where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.ADH1B.GSE199939.se": {
+  "id": "meta.ADH1B.GSE199939.se",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "se_GSE199939 where gene=='ADH1B'",
+  "note": ""
+ },
+ "meta.I2.ALDH3A2": {
+  "id": "meta.I2.ALDH3A2",
+  "value": 91.2,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "I2 where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.ALDH3A2.GSE134431.logFC": {
+  "id": "meta.ALDH3A2.GSE134431.logFC",
+  "value": -1.0,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "logFC_GSE134431 where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.ALDH3A2.GSE134431.se": {
+  "id": "meta.ALDH3A2.GSE134431.se",
+  "value": 0.28,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "se_GSE134431 where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.ALDH3A2.GSE199939.logFC": {
+  "id": "meta.ALDH3A2.GSE199939.logFC",
+  "value": -2.24,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "logFC_GSE199939 where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.ALDH3A2.GSE199939.se": {
+  "id": "meta.ALDH3A2.GSE199939.se",
+  "value": 0.23,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "se_GSE199939 where gene=='ALDH3A2'",
+  "note": ""
+ },
+ "meta.I2.FAHD2B": {
+  "id": "meta.I2.FAHD2B",
+  "value": 87.1,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "I2 where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.FAHD2B.GSE134431.logFC": {
+  "id": "meta.FAHD2B.GSE134431.logFC",
+  "value": -0.87,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "logFC_GSE134431 where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.FAHD2B.GSE134431.se": {
+  "id": "meta.FAHD2B.GSE134431.se",
+  "value": 0.12,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "se_GSE134431 where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.FAHD2B.GSE199939.logFC": {
+  "id": "meta.FAHD2B.GSE199939.logFC",
+  "value": -1.38,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "logFC_GSE199939 where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.FAHD2B.GSE199939.se": {
+  "id": "meta.FAHD2B.GSE199939.se",
+  "value": 0.14,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "se_GSE199939 where gene=='FAHD2B'",
+  "note": ""
+ },
+ "meta.I2.median": {
+  "id": "meta.I2.median",
+  "value": 61.2,
+  "type": "number",
+  "source": "03_结果/meta/META1_DFU_vs_control.csv",
+  "expr": "I2.median()（全部 11,615 个检验基因）",
+  "note": ""
+ },
+ "wgcna.n_modules": {
+  "id": "wgcna.n_modules",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "len(df) = module-trait 相关模块数",
+  "note": ""
+ },
+ "wgcna.n_module_colors_total": {
+  "id": "wgcna.n_module_colors_total",
+  "value": 10,
+  "type": "number",
+  "source": "03_结果/WGCNA/gene_module_membership.csv",
+  "expr": "nunique(module)",
+  "note": "含 grey 模块（不参与相关检验）"
+ },
+ "wgcna.module.magenta.r": {
+  "id": "wgcna.module.magenta.r",
+  "value": -0.79,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==9 (labels2colors→magenta) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.magenta.p": {
+  "id": "wgcna.module.magenta.p",
+  "value": 2.07e-05,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==9 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.magenta.num": {
+  "id": "wgcna.module.magenta.num",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.magenta.r_healer": {
+  "id": "wgcna.module.magenta.r_healer",
+  "value": 0.06,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==9 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.yellow.r": {
+  "id": "wgcna.module.yellow.r",
+  "value": -0.74,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==4 (labels2colors→yellow) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.yellow.p": {
+  "id": "wgcna.module.yellow.p",
+  "value": 0.000127,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==4 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.yellow.num": {
+  "id": "wgcna.module.yellow.num",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.yellow.r_healer": {
+  "id": "wgcna.module.yellow.r_healer",
+  "value": 0.3,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==4 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.red.r": {
+  "id": "wgcna.module.red.r",
+  "value": -0.73,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==6 (labels2colors→red) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.red.p": {
+  "id": "wgcna.module.red.p",
+  "value": 0.000168,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==6 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.red.num": {
+  "id": "wgcna.module.red.num",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.red.r_healer": {
+  "id": "wgcna.module.red.r_healer",
+  "value": -0.16,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==6 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.blue.r": {
+  "id": "wgcna.module.blue.r",
+  "value": 0.7,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==2 (labels2colors→blue) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.blue.p": {
+  "id": "wgcna.module.blue.p",
+  "value": 0.000466,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==2 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.blue.num": {
+  "id": "wgcna.module.blue.num",
+  "value": 2,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.blue.r_healer": {
+  "id": "wgcna.module.blue.r_healer",
+  "value": -0.03,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==2 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.pink.r": {
+  "id": "wgcna.module.pink.r",
+  "value": 0.39,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==8 (labels2colors→pink) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.pink.p": {
+  "id": "wgcna.module.pink.p",
+  "value": 0.0779,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==8 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.pink.num": {
+  "id": "wgcna.module.pink.num",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.pink.r_healer": {
+  "id": "wgcna.module.pink.r_healer",
+  "value": 0.45,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==8 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.brown.r": {
+  "id": "wgcna.module.brown.r",
+  "value": 0.28,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==3 (labels2colors→brown) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.brown.p": {
+  "id": "wgcna.module.brown.p",
+  "value": 0.216,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==3 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.brown.num": {
+  "id": "wgcna.module.brown.num",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.brown.r_healer": {
+  "id": "wgcna.module.brown.r_healer",
+  "value": 0.46,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==3 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.turquoise.r": {
+  "id": "wgcna.module.turquoise.r",
+  "value": -0.22,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==1 (labels2colors→turquoise) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.turquoise.p": {
+  "id": "wgcna.module.turquoise.p",
+  "value": 0.329,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==1 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.turquoise.num": {
+  "id": "wgcna.module.turquoise.num",
+  "value": 1,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.turquoise.r_healer": {
+  "id": "wgcna.module.turquoise.r_healer",
+  "value": 0.44,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==1 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.black.r": {
+  "id": "wgcna.module.black.r",
+  "value": 0.16,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==7 (labels2colors→black) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.black.p": {
+  "id": "wgcna.module.black.p",
+  "value": 0.483,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==7 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.black.num": {
+  "id": "wgcna.module.black.num",
+  "value": 7,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.black.r_healer": {
+  "id": "wgcna.module.black.r_healer",
+  "value": 0.21,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==7 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.module.green.r": {
+  "id": "wgcna.module.green.r",
+  "value": -0.05,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==5 (labels2colors→green) 的 cor_DFU",
+  "note": ""
+ },
+ "wgcna.module.green.p": {
+  "id": "wgcna.module.green.p",
+  "value": 0.832,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==5 的 p_DFU",
+  "note": ""
+ },
+ "wgcna.module.green.num": {
+  "id": "wgcna.module.green.num",
+  "value": 5,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module 编号",
+  "note": ""
+ },
+ "wgcna.module.green.r_healer": {
+  "id": "wgcna.module.green.r_healer",
+  "value": -0.07,
+  "type": "number",
+  "source": "03_结果/WGCNA/module_trait_cor.csv",
+  "expr": "module==5 的 cor_Healer",
+  "note": ""
+ },
+ "wgcna.candidate_pool.n": {
+  "id": "wgcna.candidate_pool.n",
+  "value": 26,
+  "type": "number",
+  "source": "03_结果/WGCNA/ML_candidate_pool.csv",
+  "expr": "len(df)",
+  "note": "ML 候选池 = 两层交集 ∪ 三层交集"
+ },
+ "wgcna.three_layer_intersection.n": {
+  "id": "wgcna.three_layer_intersection.n",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/分析摘要.md §4（由 DEG∩WGCNA∩KpyRN 逐层求交得出）",
+  "expr": "set(META1_DEG) ∩ set(WGCNA模块基因) ∩ set(KpyRN)",
+  "note": "6 个基因全部为糖酵解酶"
+ },
+ "ml.taskA.LASSO.cv_auc_mean": {
+  "id": "ml.taskA.LASSO.cv_auc_mean",
+  "value": 0.983,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.LASSO.cv_auc_sd": {
+  "id": "ml.taskA.LASSO.cv_auc_sd",
+  "value": 0.022,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_sd",
+  "note": ""
+ },
+ "ml.taskA.LASSO.ext_auc": {
+  "id": "ml.taskA.LASSO.ext_auc",
+  "value": 0.991,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.LASSO.ext_ci_low": {
+  "id": "ml.taskA.LASSO.ext_ci_low",
+  "value": 0.967,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_low",
+  "note": ""
+ },
+ "ml.taskA.LASSO.ext_ci_high": {
+  "id": "ml.taskA.LASSO.ext_ci_high",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_high",
+  "note": ""
+ },
+ "ml.taskA.RF.cv_auc_mean": {
+  "id": "ml.taskA.RF.cv_auc_mean",
+  "value": 0.969,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.RF.cv_auc_sd": {
+  "id": "ml.taskA.RF.cv_auc_sd",
+  "value": 0.021,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_sd",
+  "note": ""
+ },
+ "ml.taskA.RF.ext_auc": {
+  "id": "ml.taskA.RF.ext_auc",
+  "value": 0.991,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.RF.ext_ci_low": {
+  "id": "ml.taskA.RF.ext_ci_low",
+  "value": 0.967,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_low",
+  "note": ""
+ },
+ "ml.taskA.RF.ext_ci_high": {
+  "id": "ml.taskA.RF.ext_ci_high",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_high",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.cv_auc_mean": {
+  "id": "ml.taskA.SVM-RFE.cv_auc_mean",
+  "value": 0.955,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.cv_auc_sd": {
+  "id": "ml.taskA.SVM-RFE.cv_auc_sd",
+  "value": 0.029,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_sd",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.ext_auc": {
+  "id": "ml.taskA.SVM-RFE.ext_auc",
+  "value": 0.991,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.ext_ci_low": {
+  "id": "ml.taskA.SVM-RFE.ext_ci_low",
+  "value": 0.967,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_low",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.ext_ci_high": {
+  "id": "ml.taskA.SVM-RFE.ext_ci_high",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_high",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.cv_auc_mean": {
+  "id": "ml.taskA.XGBoost.cv_auc_mean",
+  "value": 0.911,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.cv_auc_sd": {
+  "id": "ml.taskA.XGBoost.cv_auc_sd",
+  "value": 0.067,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_sd",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.ext_auc": {
+  "id": "ml.taskA.XGBoost.ext_auc",
+  "value": 0.5,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.ext_ci_low": {
+  "id": "ml.taskA.XGBoost.ext_ci_low",
+  "value": 0.5,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_low",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.ext_ci_high": {
+  "id": "ml.taskA.XGBoost.ext_ci_high",
+  "value": 0.5,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ext_GSE199939 行 ci_high",
+  "note": ""
+ },
+ "ml.taskA.ConsensusLR.ext_auc": {
+  "id": "ml.taskA.ConsensusLR.ext_auc",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "Consensus-LR ext_GSE199939 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.ConsensusLR.ext_ci_low": {
+  "id": "ml.taskA.ConsensusLR.ext_ci_low",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ci_low",
+  "note": ""
+ },
+ "ml.taskA.ConsensusLR.ext_ci_high": {
+  "id": "ml.taskA.ConsensusLR.ext_ci_high",
+  "value": 1.0,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "ci_high",
+  "note": ""
+ },
+ "ml.taskA.ConsensusLR.n_features": {
+  "id": "ml.taskA.ConsensusLR.n_features",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "n_features_used",
+  "note": ""
+ },
+ "ml.taskB.LASSO.cv_auc_mean": {
+  "id": "ml.taskB.LASSO.cv_auc_mean",
+  "value": 0.499,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.RF.cv_auc_mean": {
+  "id": "ml.taskB.RF.cv_auc_mean",
+  "value": 0.552,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.SVM-RFE.cv_auc_mean": {
+  "id": "ml.taskB.SVM-RFE.cv_auc_mean",
+  "value": 0.389,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.XGBoost.cv_auc_mean": {
+  "id": "ml.taskB.XGBoost.cv_auc_mean",
+  "value": 0.42,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "train_repeated5foldCV 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.consensus_genes": {
+  "id": "ml.taskA.consensus_genes",
+  "value": [
+   "ADH1B",
+   "ALDH3A2",
+   "DHX58",
+   "FAHD2B",
+   "GBP1",
+   "LDHA"
+  ],
+  "type": "list",
+  "source": "03_结果/ML/TaskA_diagnosis_gene_selection.csv",
+  "expr": "consensus==True 的 gene 列表",
+  "note": "6 个共识枢纽基因"
+ },
+ "ml.taskA.n_candidates": {
+  "id": "ml.taskA.n_candidates",
+  "value": 26,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_gene_selection.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "ml.taskB.cv_auc_range_min": {
+  "id": "ml.taskB.cv_auc_range_min",
+  "value": 0.39,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "四算法 train CV AUC 最小值",
+  "note": ""
+ },
+ "ml.taskB.cv_auc_range_max": {
+  "id": "ml.taskB.cv_auc_range_max",
+  "value": 0.55,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "四算法 train CV AUC 最大值",
+  "note": ""
+ },
+ "ml.taskB.LASSO.ext_gse143735_auc": {
+  "id": "ml.taskB.LASSO.ext_gse143735_auc",
+  "value": 0.5,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "LASSO 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.LASSO.ext_gse143735_n": {
+  "id": "ml.taskB.LASSO.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "LASSO 的 ext_GSE143735 行 n（外部队列样本数）",
+  "note": ""
+ },
+ "ml.taskB.RF.ext_gse143735_auc": {
+  "id": "ml.taskB.RF.ext_gse143735_auc",
+  "value": 0.4,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "RF 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.RF.ext_gse143735_n": {
+  "id": "ml.taskB.RF.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "RF 的 ext_GSE143735 行 n（外部队列样本数）",
+  "note": ""
+ },
+ "ml.taskB.SVM-RFE.ext_gse143735_auc": {
+  "id": "ml.taskB.SVM-RFE.ext_gse143735_auc",
+  "value": 0.85,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "SVM-RFE 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.SVM-RFE.ext_gse143735_n": {
+  "id": "ml.taskB.SVM-RFE.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "SVM-RFE 的 ext_GSE143735 行 n（外部队列样本数）",
+  "note": ""
+ },
+ "ml.taskB.XGBoost.ext_gse143735_auc": {
+  "id": "ml.taskB.XGBoost.ext_gse143735_auc",
+  "value": 0.5,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "XGBoost 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskB.XGBoost.ext_gse143735_n": {
+  "id": "ml.taskB.XGBoost.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "XGBoost 的 ext_GSE143735 行 n（外部队列样本数）",
+  "note": ""
+ },
+ "ml.taskB.ext_n": {
+  "id": "ml.taskB.ext_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskB_healing_performance.csv",
+  "expr": "ext_GSE143735 的 n",
+  "note": ""
+ },
+ "ml.taskA.LASSO.ext_gse143735_auc": {
+  "id": "ml.taskA.LASSO.ext_gse143735_auc",
+  "value": 0.1,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "LASSO 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.LASSO.ext_gse143735_n": {
+  "id": "ml.taskA.LASSO.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "LASSO 的 ext_GSE143735 行 n",
+  "note": ""
+ },
+ "ml.taskA.RF.ext_gse143735_auc": {
+  "id": "ml.taskA.RF.ext_gse143735_auc",
+  "value": 0.35,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "RF 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.RF.ext_gse143735_n": {
+  "id": "ml.taskA.RF.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "RF 的 ext_GSE143735 行 n",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.ext_gse143735_auc": {
+  "id": "ml.taskA.SVM-RFE.ext_gse143735_auc",
+  "value": 0.2,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "SVM-RFE 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.SVM-RFE.ext_gse143735_n": {
+  "id": "ml.taskA.SVM-RFE.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "SVM-RFE 的 ext_GSE143735 行 n",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.ext_gse143735_auc": {
+  "id": "ml.taskA.XGBoost.ext_gse143735_auc",
+  "value": 0.5,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "XGBoost 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.XGBoost.ext_gse143735_n": {
+  "id": "ml.taskA.XGBoost.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "XGBoost 的 ext_GSE143735 行 n",
+  "note": ""
+ },
+ "ml.taskA.Consensus-LR.ext_gse143735_auc": {
+  "id": "ml.taskA.Consensus-LR.ext_gse143735_auc",
+  "value": 0.05,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "Consensus-LR 的 ext_GSE143735 行 auc_mean",
+  "note": ""
+ },
+ "ml.taskA.Consensus-LR.ext_gse143735_n": {
+  "id": "ml.taskA.Consensus-LR.ext_gse143735_n",
+  "value": 9,
+  "type": "number",
+  "source": "03_结果/ML/TaskA_diagnosis_performance.csv",
+  "expr": "Consensus-LR 的 ext_GSE143735 行 n",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.n_fdr05": {
+  "id": "immune.GSE134431.DFS_vs_DFU.n_fdr05",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "(p_fdr<0.05).sum()",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.EPIC_CD8_Tcells.fdr": {
+  "id": "immune.GSE134431.DFS_vs_DFU.EPIC_CD8_Tcells.fdr",
+  "value": 0.00629,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==EPIC_CD8_Tcells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.EPIC_CD8_Tcells.mean1": {
+  "id": "immune.GSE134431.DFS_vs_DFU.EPIC_CD8_Tcells.mean1",
+  "value": 0.0536,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==EPIC_CD8_Tcells 的 mean_DFS",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.EPIC_CD8_Tcells.mean2": {
+  "id": "immune.GSE134431.DFS_vs_DFU.EPIC_CD8_Tcells.mean2",
+  "value": 0.0338,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==EPIC_CD8_Tcells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_T_cells.fdr": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_T_cells.fdr",
+  "value": 0.009239,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_T cells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_T_cells.mean1": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_T_cells.mean1",
+  "value": 0.7671,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_T cells 的 mean_DFS",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_T_cells.mean2": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_T_cells.mean2",
+  "value": 0.5395,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_T cells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_CD8_T_cells.fdr": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_CD8_T_cells.fdr",
+  "value": 0.00629,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_CD8 T cells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_CD8_T_cells.mean1": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_CD8_T_cells.mean1",
+  "value": 0.487,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_CD8 T cells 的 mean_DFS",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_CD8_T_cells.mean2": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_CD8_T_cells.mean2",
+  "value": 0.1315,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_CD8 T cells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_Cytotoxic_lymphocytes.fdr": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_Cytotoxic_lymphocytes.fdr",
+  "value": 0.00629,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_Cytotoxic lymphocytes 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_Cytotoxic_lymphocytes.mean1": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_Cytotoxic_lymphocytes.mean1",
+  "value": 0.4016,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_Cytotoxic lymphocytes 的 mean_DFS",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_Cytotoxic_lymphocytes.mean2": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_Cytotoxic_lymphocytes.mean2",
+  "value": 0.1569,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_Cytotoxic lymphocytes 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_NK_cells.fdr": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_NK_cells.fdr",
+  "value": 0.01014,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_NK cells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_NK_cells.mean1": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_NK_cells.mean1",
+  "value": 0.1233,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_NK cells 的 mean_DFS",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_NK_cells.mean2": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_NK_cells.mean2",
+  "value": 0.0607,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_NK cells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_Myeloid_dendritic_cells.fdr": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_Myeloid_dendritic_cells.fdr",
+  "value": 0.01514,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_Myeloid dendritic cells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_Myeloid_dendritic_cells.mean1": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_Myeloid_dendritic_cells.mean1",
+  "value": 1.2854,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_Myeloid dendritic cells 的 mean_DFS",
+  "note": ""
+ },
+ "immune.GSE134431.DFS_vs_DFU.MCP_Myeloid_dendritic_cells.mean2": {
+  "id": "immune.GSE134431.DFS_vs_DFU.MCP_Myeloid_dendritic_cells.mean2",
+  "value": 0.753,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_DFS_vs_DFU_immune_stats.csv",
+  "expr": "metric==MCP_Myeloid dendritic cells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE134431.Healer_vs_Nonhealer.n_fdr05": {
+  "id": "immune.GSE134431.Healer_vs_Nonhealer.n_fdr05",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_Healer_vs_Nonhealer_immune_stats.csv",
+  "expr": "(p_fdr<0.05).sum()",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.n_fdr05": {
+  "id": "immune.GSE199939.DFU_vs_control.n_fdr05",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "(p_fdr<0.05).sum()",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_CD4_Tcells.fdr": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_CD4_Tcells.fdr",
+  "value": 0.01151,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_CD4_Tcells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_CD4_Tcells.mean1": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_CD4_Tcells.mean1",
+  "value": 0.1437,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_CD4_Tcells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_CD4_Tcells.mean2": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_CD4_Tcells.mean2",
+  "value": 0.111,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_CD4_Tcells 的 mean_control",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_Neutrophils.fdr": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_Neutrophils.fdr",
+  "value": 0.04142,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_Neutrophils 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_Neutrophils.mean1": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_Neutrophils.mean1",
+  "value": 0.1536,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_Neutrophils 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_Neutrophils.mean2": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_Neutrophils.mean2",
+  "value": 0.0923,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_Neutrophils 的 mean_control",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_otherCells.fdr": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_otherCells.fdr",
+  "value": 0.02683,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_otherCells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_otherCells.mean1": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_otherCells.mean1",
+  "value": 0.5588,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_otherCells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.EPIC_otherCells.mean2": {
+  "id": "immune.GSE199939.DFU_vs_control.EPIC_otherCells.mean2",
+  "value": 0.6543,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==EPIC_otherCells 的 mean_control",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Monocytic_lineage.fdr": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Monocytic_lineage.fdr",
+  "value": 0.002483,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Monocytic lineage 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Monocytic_lineage.mean1": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Monocytic_lineage.mean1",
+  "value": 4.5609,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Monocytic lineage 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Monocytic_lineage.mean2": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Monocytic_lineage.mean2",
+  "value": 3.141,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Monocytic lineage 的 mean_control",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Myeloid_dendritic_cells.fdr": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Myeloid_dendritic_cells.fdr",
+  "value": 0.02683,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Myeloid dendritic cells 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Myeloid_dendritic_cells.mean1": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Myeloid_dendritic_cells.mean1",
+  "value": 1.7786,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Myeloid dendritic cells 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Myeloid_dendritic_cells.mean2": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Myeloid_dendritic_cells.mean2",
+  "value": 3.5468,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Myeloid dendritic cells 的 mean_control",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Fibroblasts.fdr": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Fibroblasts.fdr",
+  "value": 0.01151,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Fibroblasts 的 p_fdr",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Fibroblasts.mean1": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Fibroblasts.mean1",
+  "value": 9.5854,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Fibroblasts 的 mean_DFU",
+  "note": ""
+ },
+ "immune.GSE199939.DFU_vs_control.MCP_Fibroblasts.mean2": {
+  "id": "immune.GSE199939.DFU_vs_control.MCP_Fibroblasts.mean2",
+  "value": 8.4981,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_DFU_vs_control_immune_stats.csv",
+  "expr": "metric==MCP_Fibroblasts 的 mean_control",
+  "note": ""
+ },
+ "immune.GSE134431.hub_corr.n_fdr05": {
+  "id": "immune.GSE134431.hub_corr.n_fdr05",
+  "value": 60,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_hubgene_immune_corr.csv",
+  "expr": "(p_fdr<0.05).sum()",
+  "note": ""
+ },
+ "immune.GSE134431.hub_corr.n_total": {
+  "id": "immune.GSE134431.hub_corr.n_total",
+  "value": 300,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_hubgene_immune_corr.csv",
+  "expr": "len(df)",
+  "note": "16 枢纽 × 免疫指标"
+ },
+ "immune.GSE199939.hub_corr.n_fdr05": {
+  "id": "immune.GSE199939.hub_corr.n_fdr05",
+  "value": 62,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE199939_hubgene_immune_corr.csv",
+  "expr": "(p_fdr<0.05).sum()",
+  "note": ""
+ },
+ "immune.top.DHX58_CD8_rho": {
+  "id": "immune.top.DHX58_CD8_rho",
+  "value": 0.84,
+  "type": "number",
+  "source": "03_结果/免疫浸润/GSE134431_hubgene_immune_corr.csv",
+  "expr": "FDR<0.05 中 |rho| 最大的行",
+  "note": "DHX58 ~ MCP_CD8 T cells"
+ },
+ "scrna165816.n_raw_cells": {
+  "id": "scrna165816.n_raw_cells",
+  "value": 174962,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "total_cells_raw",
+  "note": ""
+ },
+ "scrna165816.n_post_qc_cells": {
+  "id": "scrna165816.n_post_qc_cells",
+  "value": 167837,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "total_cells_pass",
+  "note": ""
+ },
+ "scrna165816.pass_rate": {
+  "id": "scrna165816.pass_rate",
+  "value": 0.9593,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "pass_rate_overall",
+  "note": ""
+ },
+ "scrna165816.n_samples": {
+  "id": "scrna165816.n_samples",
+  "value": 54,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "n_files",
+  "note": ""
+ },
+ "scrna165816.id_system": {
+  "id": "scrna165816.id_system",
+  "value": "gene_symbol",
+  "type": "text",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "id_system",
+  "note": "基因 ID 本就是基因符号，映射为空操作"
+ },
+ "scrna165816.tissue_samples.Forearm_skin": {
+  "id": "scrna165816.tissue_samples.Forearm_skin",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "per_sample 中 tissue 的样本计数",
+  "note": ""
+ },
+ "scrna165816.tissue_samples.Foot_skin": {
+  "id": "scrna165816.tissue_samples.Foot_skin",
+  "value": 33,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "per_sample 中 tissue 的样本计数",
+  "note": ""
+ },
+ "scrna165816.tissue_samples.PBMCs": {
+  "id": "scrna165816.tissue_samples.PBMCs",
+  "value": 10,
+  "type": "number",
+  "source": "03_结果/QC/scRNA_GSE165816_stage1_summary.json",
+  "expr": "per_sample 中 tissue 的样本计数",
+  "note": ""
+ },
+ "scrna165816.n_cells_pass": {
+  "id": "scrna165816.n_cells_pass",
+  "value": 167837,
+  "type": "number",
+  "source": "01_数据/处理后数据/scRNA/scRNA_GSE165816_cell_scores.csv",
+  "expr": "len(df)",
+  "note": "通过 QC 的细胞总数"
+ },
+ "scrna165816.n_cells_ambiguous": {
+  "id": "scrna165816.n_cells_ambiguous",
+  "value": 21235,
+  "type": "number",
+  "source": "01_数据/处理后数据/scRNA/scRNA_GSE165816_cell_scores.csv",
+  "expr": "(lineage=='Ambiguous').sum()",
+  "note": ""
+ },
+ "scrna165816.ambiguous_frac": {
+  "id": "scrna165816.ambiguous_frac",
+  "value": 0.127,
+  "type": "number",
+  "source": "01_数据/处理后数据/scRNA/scRNA_GSE165816_cell_scores.csv",
+  "expr": "(lineage=='Ambiguous').sum() / len(df)",
+  "note": "Ambiguous 细胞占比（top1−top2 判据）"
+ },
+ "scrna165816.foot_skin.dfu_vs_nondfu.n_fdr05": {
+  "id": "scrna165816.foot_skin.dfu_vs_nondfu.n_fdr05",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "(q<0.05).sum()",
+  "note": "受试体级中位占比，BH-FDR"
+ },
+ "scrna165816.composition.Mono_CD16.dfu_median": {
+  "id": "scrna165816.composition.Mono_CD16.dfu_median",
+  "value": 0.00708,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Mono_CD16 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD16.nondfu_median": {
+  "id": "scrna165816.composition.Mono_CD16.nondfu_median",
+  "value": 0.00021,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Mono_CD16 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD16.q": {
+  "id": "scrna165816.composition.Mono_CD16.q",
+  "value": 0.00597,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "Mono_CD16 的 q",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD16.effect_rb": {
+  "id": "scrna165816.composition.Mono_CD16.effect_rb",
+  "value": -0.699,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Mono_CD16 的 effect_rb (rank-biserial)",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD14.dfu_median": {
+  "id": "scrna165816.composition.Mono_CD14.dfu_median",
+  "value": 0.00993,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Mono_CD14 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD14.nondfu_median": {
+  "id": "scrna165816.composition.Mono_CD14.nondfu_median",
+  "value": 0.00102,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Mono_CD14 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD14.q": {
+  "id": "scrna165816.composition.Mono_CD14.q",
+  "value": 0.00597,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "Mono_CD14 的 q",
+  "note": ""
+ },
+ "scrna165816.composition.Mono_CD14.effect_rb": {
+  "id": "scrna165816.composition.Mono_CD14.effect_rb",
+  "value": -0.729,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Mono_CD14 的 effect_rb (rank-biserial)",
+  "note": ""
+ },
+ "scrna165816.composition.Schwann_neural.dfu_median": {
+  "id": "scrna165816.composition.Schwann_neural.dfu_median",
+  "value": 0.0005,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Schwann_neural 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.Schwann_neural.nondfu_median": {
+  "id": "scrna165816.composition.Schwann_neural.nondfu_median",
+  "value": 0.00259,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Schwann_neural 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.Schwann_neural.q": {
+  "id": "scrna165816.composition.Schwann_neural.q",
+  "value": 0.0174,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "Schwann_neural 的 q",
+  "note": ""
+ },
+ "scrna165816.composition.Schwann_neural.effect_rb": {
+  "id": "scrna165816.composition.Schwann_neural.effect_rb",
+  "value": 0.624,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==Schwann_neural 的 effect_rb (rank-biserial)",
+  "note": ""
+ },
+ "scrna165816.composition.NK.dfu_median": {
+  "id": "scrna165816.composition.NK.dfu_median",
+  "value": 0.00471,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==NK 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.NK.nondfu_median": {
+  "id": "scrna165816.composition.NK.nondfu_median",
+  "value": 0.0017,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==NK 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.composition.NK.q": {
+  "id": "scrna165816.composition.NK.q",
+  "value": 0.0366,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "NK 的 q",
+  "note": ""
+ },
+ "scrna165816.composition.NK.effect_rb": {
+  "id": "scrna165816.composition.NK.effect_rb",
+  "value": -0.556,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "lineage==NK 的 effect_rb (rank-biserial)",
+  "note": ""
+ },
+ "scrna165816.foot_skin.dfu_n": {
+  "id": "scrna165816.foot_skin.dfu_n",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.foot_skin.nondfu_n": {
+  "id": "scrna165816.foot_skin.nondfu_n",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/composition_Foot_skin_DFU_vs_nonDFU.csv",
+  "expr": "n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGAM1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGAM1.dfu_median",
+  "value": 8.37,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGAM1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGAM1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGAM1.nondfu_median",
+  "value": 7.29,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGAM1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGAM1.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGAM1.q",
+  "value": 0.0186,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGAM1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGAM1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGAM1.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGAM1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGAM1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGAM1.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGAM1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.TPI1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.TPI1.dfu_median",
+  "value": 9.26,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='TPI1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.TPI1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.TPI1.nondfu_median",
+  "value": 8.52,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='TPI1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.TPI1.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.TPI1.q",
+  "value": 0.0186,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='TPI1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.TPI1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.TPI1.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='TPI1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.TPI1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.TPI1.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='TPI1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.LDHA.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.LDHA.dfu_median",
+  "value": 9.99,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='LDHA' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.LDHA.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.LDHA.nondfu_median",
+  "value": 9.3,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='LDHA' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.LDHA.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.LDHA.q",
+  "value": 0.0203,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='LDHA' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.LDHA.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.LDHA.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='LDHA' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.LDHA.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.LDHA.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='LDHA' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ENO1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ENO1.dfu_median",
+  "value": 9.85,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ENO1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ENO1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ENO1.nondfu_median",
+  "value": 9.08,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ENO1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ENO1.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ENO1.q",
+  "value": 0.0205,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ENO1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ENO1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ENO1.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ENO1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ENO1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ENO1.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ENO1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PKM.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PKM.dfu_median",
+  "value": 9.86,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PKM' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PKM.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PKM.nondfu_median",
+  "value": 8.87,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PKM' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PKM.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PKM.q",
+  "value": 0.025,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PKM' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PKM.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PKM.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PKM' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PKM.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PKM.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PKM' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.GAPDH.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.GAPDH.dfu_median",
+  "value": 11.97,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='GAPDH' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.GAPDH.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.GAPDH.nondfu_median",
+  "value": 11.27,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='GAPDH' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.GAPDH.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.GAPDH.q",
+  "value": 0.0383,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='GAPDH' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.GAPDH.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.GAPDH.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='GAPDH' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.GAPDH.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.GAPDH.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='GAPDH' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.HK2.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.HK2.dfu_median",
+  "value": 4.12,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='HK2' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.HK2.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.HK2.nondfu_median",
+  "value": 2.58,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='HK2' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.HK2.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.HK2.q",
+  "value": 0.0323,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='HK2' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.HK2.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.HK2.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='HK2' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.HK2.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.HK2.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='HK2' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGM2.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGM2.dfu_median",
+  "value": 5.51,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGM2' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGM2.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGM2.nondfu_median",
+  "value": 4.86,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGM2' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGM2.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGM2.q",
+  "value": 0.0343,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGM2' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGM2.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGM2.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGM2' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.PGM2.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.PGM2.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='PGM2' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ADH1B.dfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ADH1B.dfu_median",
+  "value": 0.0,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ADH1B' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ADH1B.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ADH1B.nondfu_median",
+  "value": 1.01,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ADH1B' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ADH1B.q": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ADH1B.q",
+  "value": 0.0186,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ADH1B' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ADH1B.n_dfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ADH1B.n_dfu",
+  "value": 11,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ADH1B' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Keratinocyte.ADH1B.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Keratinocyte.ADH1B.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Keratinocyte' & feature=='ADH1B' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGAM1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGAM1.dfu_median",
+  "value": 7.94,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGAM1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGAM1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGAM1.nondfu_median",
+  "value": 7.54,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGAM1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGAM1.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGAM1.q",
+  "value": 0.0944,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGAM1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGAM1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGAM1.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGAM1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGAM1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGAM1.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGAM1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.TPI1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.TPI1.dfu_median",
+  "value": 9.06,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='TPI1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.TPI1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.TPI1.nondfu_median",
+  "value": 8.14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='TPI1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.TPI1.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.TPI1.q",
+  "value": 0.0665,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='TPI1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.TPI1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.TPI1.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='TPI1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.TPI1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.TPI1.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='TPI1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.LDHA.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.LDHA.dfu_median",
+  "value": 9.6,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='LDHA' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.LDHA.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.LDHA.nondfu_median",
+  "value": 9.18,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='LDHA' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.LDHA.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.LDHA.q",
+  "value": 0.0944,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='LDHA' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.LDHA.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.LDHA.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='LDHA' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.LDHA.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.LDHA.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='LDHA' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ENO1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ENO1.dfu_median",
+  "value": 8.86,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ENO1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ENO1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ENO1.nondfu_median",
+  "value": 8.17,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ENO1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ENO1.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ENO1.q",
+  "value": 0.161,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ENO1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ENO1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ENO1.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ENO1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ENO1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ENO1.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ENO1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PKM.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PKM.dfu_median",
+  "value": 9.18,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PKM' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PKM.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PKM.nondfu_median",
+  "value": 8.08,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PKM' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PKM.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PKM.q",
+  "value": 0.113,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PKM' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PKM.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PKM.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PKM' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PKM.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PKM.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PKM' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.GAPDH.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.GAPDH.dfu_median",
+  "value": 11.2,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='GAPDH' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.GAPDH.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.GAPDH.nondfu_median",
+  "value": 10.25,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='GAPDH' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.GAPDH.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.GAPDH.q",
+  "value": 0.0609,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='GAPDH' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.GAPDH.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.GAPDH.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='GAPDH' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.GAPDH.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.GAPDH.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='GAPDH' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.HK2.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.HK2.dfu_median",
+  "value": 2.13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='HK2' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.HK2.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.HK2.nondfu_median",
+  "value": 0.86,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='HK2' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.HK2.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.HK2.q",
+  "value": 0.0609,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='HK2' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.HK2.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.HK2.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='HK2' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.HK2.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.HK2.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='HK2' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGM2.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGM2.dfu_median",
+  "value": 3.26,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGM2' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGM2.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGM2.nondfu_median",
+  "value": 3.26,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGM2' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGM2.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGM2.q",
+  "value": 0.529,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGM2' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGM2.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGM2.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGM2' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.PGM2.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.PGM2.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='PGM2' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ADH1B.dfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ADH1B.dfu_median",
+  "value": 2.37,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ADH1B' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ADH1B.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ADH1B.nondfu_median",
+  "value": 6.57,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ADH1B' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ADH1B.q": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ADH1B.q",
+  "value": 0.0378,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ADH1B' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ADH1B.n_dfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ADH1B.n_dfu",
+  "value": 14,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ADH1B' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Fibroblast.ADH1B.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Fibroblast.ADH1B.n_nondfu",
+  "value": 19,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Fibroblast' & feature=='ADH1B' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.dfu_median",
+  "value": 7.74,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGAM1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.nondfu_median",
+  "value": 7.45,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGAM1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.q",
+  "value": 0.0579,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGAM1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGAM1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGAM1.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGAM1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.TPI1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.TPI1.dfu_median",
+  "value": 8.91,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='TPI1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.TPI1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.TPI1.nondfu_median",
+  "value": 8.41,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='TPI1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.TPI1.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.TPI1.q",
+  "value": 0.0532,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='TPI1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.TPI1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.TPI1.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='TPI1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.TPI1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.TPI1.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='TPI1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.LDHA.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.LDHA.dfu_median",
+  "value": 9.51,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='LDHA' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.LDHA.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.LDHA.nondfu_median",
+  "value": 9.13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='LDHA' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.LDHA.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.LDHA.q",
+  "value": 0.154,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='LDHA' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.LDHA.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.LDHA.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='LDHA' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.LDHA.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.LDHA.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='LDHA' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ENO1.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ENO1.dfu_median",
+  "value": 8.27,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ENO1' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ENO1.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ENO1.nondfu_median",
+  "value": 7.89,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ENO1' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ENO1.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ENO1.q",
+  "value": 0.0704,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ENO1' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ENO1.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ENO1.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ENO1' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ENO1.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ENO1.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ENO1' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PKM.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PKM.dfu_median",
+  "value": 8.52,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PKM' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PKM.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PKM.nondfu_median",
+  "value": 8.18,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PKM' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PKM.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PKM.q",
+  "value": 0.0532,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PKM' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PKM.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PKM.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PKM' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PKM.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PKM.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PKM' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.dfu_median",
+  "value": 11.4,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='GAPDH' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.nondfu_median",
+  "value": 11.02,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='GAPDH' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.q",
+  "value": 0.044,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='GAPDH' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='GAPDH' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.GAPDH.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='GAPDH' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.HK2.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.HK2.dfu_median",
+  "value": 0.68,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='HK2' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.HK2.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.HK2.nondfu_median",
+  "value": 0.17,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='HK2' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.HK2.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.HK2.q",
+  "value": 0.4,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='HK2' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.HK2.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.HK2.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='HK2' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.HK2.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.HK2.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='HK2' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGM2.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGM2.dfu_median",
+  "value": 4.49,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGM2' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGM2.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGM2.nondfu_median",
+  "value": 4.21,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGM2' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGM2.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGM2.q",
+  "value": 0.4,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGM2' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGM2.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGM2.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGM2' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.PGM2.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.PGM2.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='PGM2' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.dfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.dfu_median",
+  "value": 0.67,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ADH1B' 的 median1 (DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.nondfu_median": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.nondfu_median",
+  "value": 3.4,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ADH1B' 的 median2 (非 DFU)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.q": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.q",
+  "value": 0.0225,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ADH1B' 的 q (BH-FDR)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.n_dfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.n_dfu",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ADH1B' 的 n1 (DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.n_nondfu": {
+  "id": "scrna165816.pseudobulk.Pericyte_SMC.ADH1B.n_nondfu",
+  "value": 15,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "lineage=='Pericyte_SMC' & feature=='ADH1B' 的 n2 (非 DFU 样本数)",
+  "note": ""
+ },
+ "scrna165816.pseudobulk.keratinocyte.glycolytic_n_fdr05": {
+  "id": "scrna165816.pseudobulk.keratinocyte.glycolytic_n_fdr05",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/单细胞/pseudobulk_Foot_skin_DFU_vs_nonDFU_by_lineage.csv",
+  "expr": "Keratinocyte 的 8 个糖酵解核心酶中 q<0.05 的个数",
+  "note": ""
+ },
+ "mr.n_pairs": {
+  "id": "mr.n_pairs",
+  "value": 34,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "mr.n_fdr05": {
+  "id": "mr.n_fdr05",
+  "value": 1,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "(p_fdr<0.05).sum()",
+  "note": ""
+ },
+ "mr.DHX58.T2D.beta": {
+  "id": "mr.DHX58.T2D.beta",
+  "value": -0.0712,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome contains Xue",
+  "note": ""
+ },
+ "mr.DHX58.T2D.se": {
+  "id": "mr.DHX58.T2D.se",
+  "value": 0.0195,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "wald_se",
+  "note": ""
+ },
+ "mr.DHX58.T2D.p": {
+  "id": "mr.DHX58.T2D.p",
+  "value": 0.00026,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "wald_p",
+  "note": ""
+ },
+ "mr.DHX58.T2D.fdr": {
+  "id": "mr.DHX58.T2D.fdr",
+  "value": 0.00883,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "p_fdr",
+  "note": ""
+ },
+ "mr.DHX58.T2D.OR": {
+  "id": "mr.DHX58.T2D.OR",
+  "value": 0.931,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "OR",
+  "note": ""
+ },
+ "mr.DHX58.T2D.ci_low": {
+  "id": "mr.DHX58.T2D.ci_low",
+  "value": 0.896,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "exp(wald_beta - 1.96*wald_se)",
+  "note": ""
+ },
+ "mr.DHX58.T2D.ci_high": {
+  "id": "mr.DHX58.T2D.ci_high",
+  "value": 0.968,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "exp(wald_beta + 1.96*wald_se)",
+  "note": ""
+ },
+ "mr.DHX58.F": {
+  "id": "mr.DHX58.F",
+  "value": 1189.0,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "F",
+  "note": ""
+ },
+ "mr.DHX58.T2D2.beta": {
+  "id": "mr.DHX58.T2D2.beta",
+  "value": -0.0446,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_GCST90018926",
+  "note": ""
+ },
+ "mr.DHX58.T2D2.p": {
+  "id": "mr.DHX58.T2D2.p",
+  "value": 0.0081,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "wald_p",
+  "note": ""
+ },
+ "mr.n_instruments": {
+  "id": "mr.n_instruments",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/MR/mr_instruments.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "mr.n_genes_skipped": {
+  "id": "mr.n_genes_skipped",
+  "value": 2,
+  "type": "number",
+  "source": "02_脚本/mr_eqtl_glycemic.py（HUB_GENES）对照 03_结果/MR/mr_results.csv（gene 列）",
+  "expr": "len(候选基因全集) - len(mr_results 中出现的 gene)",
+  "note": "跳过：ADH1B, PKM（无显著 cis-eQTL）"
+ },
+ "mr.n_candidate_genes": {
+  "id": "mr.n_candidate_genes",
+  "value": 15,
+  "type": "number",
+  "source": "02_脚本/mr_eqtl_glycemic.py",
+  "expr": "len(HUB_GENES)",
+  "note": "预注册 MR 候选基因总数"
+ },
+ "mr.F_min": {
+  "id": "mr.F_min",
+  "value": 51.0,
+  "type": "number",
+  "source": "03_结果/MR/mr_instruments.csv",
+  "expr": "F.min()",
+  "note": ""
+ },
+ "mr.F_max": {
+  "id": "mr.F_max",
+  "value": 2186.0,
+  "type": "number",
+  "source": "03_结果/MR/mr_instruments.csv",
+  "expr": "F.max()",
+  "note": ""
+ },
+ "mr.harmonization.rows": {
+  "id": "mr.harmonization.rows",
+  "value": 39,
+  "type": "number",
+  "source": "03_结果/MR/mr_harmonization_audit.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "mr.nominal.DHX58_T2D_Xue2018_GCST006867.beta": {
+  "id": "mr.nominal.DHX58_T2D_Xue2018_GCST006867.beta",
+  "value": -0.0712,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_Xue2018_GCST006867 的 wald_beta",
+  "note": ""
+ },
+ "mr.nominal.DHX58_T2D_Xue2018_GCST006867.p": {
+  "id": "mr.nominal.DHX58_T2D_Xue2018_GCST006867.p",
+  "value": 0.00026,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_Xue2018_GCST006867 的 wald_p",
+  "note": ""
+ },
+ "mr.nominal.DHX58_T2D_Xue2018_GCST006867.fdr": {
+  "id": "mr.nominal.DHX58_T2D_Xue2018_GCST006867.fdr",
+  "value": 0.00883,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_Xue2018_GCST006867 的 p_fdr",
+  "note": ""
+ },
+ "mr.nominal.DHX58_T2D_GCST90018926.beta": {
+  "id": "mr.nominal.DHX58_T2D_GCST90018926.beta",
+  "value": -0.0446,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_GCST90018926 的 wald_beta",
+  "note": ""
+ },
+ "mr.nominal.DHX58_T2D_GCST90018926.p": {
+  "id": "mr.nominal.DHX58_T2D_GCST90018926.p",
+  "value": 0.0081,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_GCST90018926 的 wald_p",
+  "note": ""
+ },
+ "mr.nominal.DHX58_T2D_GCST90018926.fdr": {
+  "id": "mr.nominal.DHX58_T2D_GCST90018926.fdr",
+  "value": 0.138,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==T2D_GCST90018926 的 p_fdr",
+  "note": ""
+ },
+ "mr.nominal.DHX58_FI_GCST90002238.beta": {
+  "id": "mr.nominal.DHX58_FI_GCST90002238.beta",
+  "value": -0.0104,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==FI_GCST90002238 的 wald_beta",
+  "note": ""
+ },
+ "mr.nominal.DHX58_FI_GCST90002238.p": {
+  "id": "mr.nominal.DHX58_FI_GCST90002238.p",
+  "value": 0.0459,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==FI_GCST90002238 的 wald_p",
+  "note": ""
+ },
+ "mr.nominal.DHX58_FI_GCST90002238.fdr": {
+  "id": "mr.nominal.DHX58_FI_GCST90002238.fdr",
+  "value": 0.26,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==DHX58 & outcome==FI_GCST90002238 的 p_fdr",
+  "note": ""
+ },
+ "mr.nominal.PGAM1_T2D_GCST90018926.beta": {
+  "id": "mr.nominal.PGAM1_T2D_GCST90018926.beta",
+  "value": -0.0266,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==PGAM1 & outcome==T2D_GCST90018926 的 wald_beta",
+  "note": ""
+ },
+ "mr.nominal.PGAM1_T2D_GCST90018926.p": {
+  "id": "mr.nominal.PGAM1_T2D_GCST90018926.p",
+  "value": 0.0404,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==PGAM1 & outcome==T2D_GCST90018926 的 wald_p",
+  "note": ""
+ },
+ "mr.nominal.PGAM1_T2D_GCST90018926.fdr": {
+  "id": "mr.nominal.PGAM1_T2D_GCST90018926.fdr",
+  "value": 0.26,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==PGAM1 & outcome==T2D_GCST90018926 的 p_fdr",
+  "note": ""
+ },
+ "mr.nominal.LDHA_FI_GCST90002238.beta": {
+  "id": "mr.nominal.LDHA_FI_GCST90002238.beta",
+  "value": 0.0269,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==LDHA & outcome==FI_GCST90002238 的 wald_beta",
+  "note": ""
+ },
+ "mr.nominal.LDHA_FI_GCST90002238.p": {
+  "id": "mr.nominal.LDHA_FI_GCST90002238.p",
+  "value": 0.0231,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==LDHA & outcome==FI_GCST90002238 的 wald_p",
+  "note": ""
+ },
+ "mr.nominal.LDHA_FI_GCST90002238.fdr": {
+  "id": "mr.nominal.LDHA_FI_GCST90002238.fdr",
+  "value": 0.26,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==LDHA & outcome==FI_GCST90002238 的 p_fdr",
+  "note": ""
+ },
+ "mr.nominal.SIRT3_FI_GCST90002238.beta": {
+  "id": "mr.nominal.SIRT3_FI_GCST90002238.beta",
+  "value": -0.0261,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==SIRT3 & outcome==FI_GCST90002238 的 wald_beta",
+  "note": ""
+ },
+ "mr.nominal.SIRT3_FI_GCST90002238.p": {
+  "id": "mr.nominal.SIRT3_FI_GCST90002238.p",
+  "value": 0.0316,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==SIRT3 & outcome==FI_GCST90002238 的 wald_p",
+  "note": ""
+ },
+ "mr.nominal.SIRT3_FI_GCST90002238.fdr": {
+  "id": "mr.nominal.SIRT3_FI_GCST90002238.fdr",
+  "value": 0.26,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "gene==SIRT3 & outcome==FI_GCST90002238 的 p_fdr",
+  "note": ""
+ },
+ "mr.n_nominal_only": {
+  "id": "mr.n_nominal_only",
+  "value": 5,
+  "type": "number",
+  "source": "03_结果/MR/mr_results.csv",
+  "expr": "名义 p<0.05 但 FDR>=0.05 的配对数",
+  "note": ""
+ },
+ "docking.n_docking_runs": {
+  "id": "docking.n_docking_runs",
+  "value": 55,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "len(df)",
+  "note": "55 次对接"
+ },
+ "docking.n_systems": {
+  "id": "docking.n_systems",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "groupby(['pdb','site']).ngroups",
+  "note": "结合位点体系数（7 个 PDB → 8 个位点）"
+ },
+ "docking.n_pdb": {
+  "id": "docking.n_pdb",
+  "value": 7,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "nunique(pdb)",
+  "note": "受体 PDB 数"
+ },
+ "docking.n_unique_candidates": {
+  "id": "docking.n_unique_candidates",
+  "value": 29,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role=='candidate' 的 ligand.nunique()",
+  "note": "唯一候选化合物数"
+ },
+ "docking.n_positive_controls": {
+  "id": "docking.n_positive_controls",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role=='positive_control' 的 ligand.nunique()",
+  "note": "共晶配体阳性对照数（每体系 1 个）"
+ },
+ "docking.n_negative_controls": {
+  "id": "docking.n_negative_controls",
+  "value": 1,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role=='negative_control' 的 ligand.nunique()",
+  "note": "蔗糖负面对照数（每体系 1 次）"
+ },
+ "docking.n_candidate_runs": {
+  "id": "docking.n_candidate_runs",
+  "value": 39,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role=='candidate' 的行数",
+  "note": ""
+ },
+ "docking.rmsd.n_pass": {
+  "id": "docking.rmsd.n_pass",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/positive_control_rmsd.csv",
+  "expr": "(rmsd<2.0).sum()",
+  "note": ""
+ },
+ "docking.rmsd.n_total": {
+  "id": "docking.rmsd.n_total",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/positive_control_rmsd.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "docking.rmsd.max": {
+  "id": "docking.rmsd.max",
+  "value": 0.0,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/positive_control_rmsd.csv",
+  "expr": "rmsd.max()",
+  "note": ""
+ },
+ "docking.negative_control.affinity_min": {
+  "id": "docking.negative_control.affinity_min",
+  "value": -7.45,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role==negative_control (蔗糖) 的 affinity 最小值（最强）",
+  "note": ""
+ },
+ "docking.negative_control.affinity_max": {
+  "id": "docking.negative_control.affinity_max",
+  "value": -4.01,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role==negative_control (蔗糖) 的 affinity 最大值（最弱）",
+  "note": ""
+ },
+ "docking.negative_control.n": {
+  "id": "docking.negative_control.n",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "role==negative_control 行数",
+  "note": "每体系 1 次，共 8 次"
+ },
+ "docking.PKM2__C_pocket_allosteric.positive_affinity": {
+  "id": "docking.PKM2__C_pocket_allosteric.positive_affinity",
+  "value": -20.3,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/C-pocket (allosteric) role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PKM2__C_pocket_allosteric.negative_affinity": {
+  "id": "docking.PKM2__C_pocket_allosteric.negative_affinity",
+  "value": -6.96,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/C-pocket (allosteric) role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PKM2__C_pocket_allosteric.best_candidate": {
+  "id": "docking.PKM2__C_pocket_allosteric.best_candidate",
+  "value": "LIG_TEPP-46",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/C-pocket (allosteric) 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.PKM2__C_pocket_allosteric.best_affinity": {
+  "id": "docking.PKM2__C_pocket_allosteric.best_affinity",
+  "value": -10.25,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/C-pocket (allosteric) 最优候选 affinity",
+  "note": ""
+ },
+ "docking.PKM2__C_pocket_allosteric.best_delta": {
+  "id": "docking.PKM2__C_pocket_allosteric.best_delta",
+  "value": 10.05,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/C-pocket (allosteric) 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.PKM2__C_pocket_allosteric.n_candidates": {
+  "id": "docking.PKM2__C_pocket_allosteric.n_candidates",
+  "value": 5,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/C-pocket (allosteric) role==candidate 行数",
+  "note": ""
+ },
+ "docking.PKM2__A_pocket_FBP_site.positive_affinity": {
+  "id": "docking.PKM2__A_pocket_FBP_site.positive_affinity",
+  "value": -12.22,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/A-pocket (FBP site) role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PKM2__A_pocket_FBP_site.negative_affinity": {
+  "id": "docking.PKM2__A_pocket_FBP_site.negative_affinity",
+  "value": -5.38,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/A-pocket (FBP site) role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PKM2__A_pocket_FBP_site.best_candidate": {
+  "id": "docking.PKM2__A_pocket_FBP_site.best_candidate",
+  "value": "LIG_CHEMBL5590652",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/A-pocket (FBP site) 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.PKM2__A_pocket_FBP_site.best_affinity": {
+  "id": "docking.PKM2__A_pocket_FBP_site.best_affinity",
+  "value": -8.92,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/A-pocket (FBP site) 最优候选 affinity",
+  "note": ""
+ },
+ "docking.PKM2__A_pocket_FBP_site.best_delta": {
+  "id": "docking.PKM2__A_pocket_FBP_site.best_delta",
+  "value": 3.3,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/A-pocket (FBP site) 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.PKM2__A_pocket_FBP_site.n_candidates": {
+  "id": "docking.PKM2__A_pocket_FBP_site.n_candidates",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PKM2/A-pocket (FBP site) role==candidate 行数",
+  "note": ""
+ },
+ "docking.EP300__acetyl_CoA_substrate_site.positive_affinity": {
+  "id": "docking.EP300__acetyl_CoA_substrate_site.positive_affinity",
+  "value": -17.1,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "EP300/acetyl-CoA substrate site role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.EP300__acetyl_CoA_substrate_site.negative_affinity": {
+  "id": "docking.EP300__acetyl_CoA_substrate_site.negative_affinity",
+  "value": -7.45,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "EP300/acetyl-CoA substrate site role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.EP300__acetyl_CoA_substrate_site.best_candidate": {
+  "id": "docking.EP300__acetyl_CoA_substrate_site.best_candidate",
+  "value": "LIG_CHEMBL6021203",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "EP300/acetyl-CoA substrate site 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.EP300__acetyl_CoA_substrate_site.best_affinity": {
+  "id": "docking.EP300__acetyl_CoA_substrate_site.best_affinity",
+  "value": -10.79,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "EP300/acetyl-CoA substrate site 最优候选 affinity",
+  "note": ""
+ },
+ "docking.EP300__acetyl_CoA_substrate_site.best_delta": {
+  "id": "docking.EP300__acetyl_CoA_substrate_site.best_delta",
+  "value": 6.31,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "EP300/acetyl-CoA substrate site 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.EP300__acetyl_CoA_substrate_site.n_candidates": {
+  "id": "docking.EP300__acetyl_CoA_substrate_site.n_candidates",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "EP300/acetyl-CoA substrate site role==candidate 行数",
+  "note": ""
+ },
+ "docking.SIRT3__ADP_ribose_NADplus_C_pocket.positive_affinity": {
+  "id": "docking.SIRT3__ADP_ribose_NADplus_C_pocket.positive_affinity",
+  "value": -21.26,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "SIRT3/ADP-ribose/NAD+ C-pocket role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.SIRT3__ADP_ribose_NADplus_C_pocket.negative_affinity": {
+  "id": "docking.SIRT3__ADP_ribose_NADplus_C_pocket.negative_affinity",
+  "value": -6.92,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "SIRT3/ADP-ribose/NAD+ C-pocket role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.SIRT3__ADP_ribose_NADplus_C_pocket.best_candidate": {
+  "id": "docking.SIRT3__ADP_ribose_NADplus_C_pocket.best_candidate",
+  "value": "LIG_CHEMBL2332041",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "SIRT3/ADP-ribose/NAD+ C-pocket 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.SIRT3__ADP_ribose_NADplus_C_pocket.best_affinity": {
+  "id": "docking.SIRT3__ADP_ribose_NADplus_C_pocket.best_affinity",
+  "value": -11.5,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "SIRT3/ADP-ribose/NAD+ C-pocket 最优候选 affinity",
+  "note": ""
+ },
+ "docking.SIRT3__ADP_ribose_NADplus_C_pocket.best_delta": {
+  "id": "docking.SIRT3__ADP_ribose_NADplus_C_pocket.best_delta",
+  "value": 9.76,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "SIRT3/ADP-ribose/NAD+ C-pocket 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.SIRT3__ADP_ribose_NADplus_C_pocket.n_candidates": {
+  "id": "docking.SIRT3__ADP_ribose_NADplus_C_pocket.n_candidates",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "SIRT3/ADP-ribose/NAD+ C-pocket role==candidate 行数",
+  "note": ""
+ },
+ "docking.LDHA__active_site.positive_affinity": {
+  "id": "docking.LDHA__active_site.positive_affinity",
+  "value": -13.16,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "LDHA/active site role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.LDHA__active_site.negative_affinity": {
+  "id": "docking.LDHA__active_site.negative_affinity",
+  "value": -6.63,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "LDHA/active site role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.LDHA__active_site.best_candidate": {
+  "id": "docking.LDHA__active_site.best_candidate",
+  "value": "LIG_CHEMBL4782843",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "LDHA/active site 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.LDHA__active_site.best_affinity": {
+  "id": "docking.LDHA__active_site.best_affinity",
+  "value": -10.35,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "LDHA/active site 最优候选 affinity",
+  "note": ""
+ },
+ "docking.LDHA__active_site.best_delta": {
+  "id": "docking.LDHA__active_site.best_delta",
+  "value": 2.81,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "LDHA/active site 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.LDHA__active_site.n_candidates": {
+  "id": "docking.LDHA__active_site.n_candidates",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "LDHA/active site role==candidate 行数",
+  "note": ""
+ },
+ "docking.PDK2__ATP_pocket.positive_affinity": {
+  "id": "docking.PDK2__ATP_pocket.positive_affinity",
+  "value": -9.58,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/ATP pocket role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PDK2__ATP_pocket.negative_affinity": {
+  "id": "docking.PDK2__ATP_pocket.negative_affinity",
+  "value": -6.03,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/ATP pocket role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PDK2__ATP_pocket.best_candidate": {
+  "id": "docking.PDK2__ATP_pocket.best_candidate",
+  "value": "LIG_CHEMBL6011956",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/ATP pocket 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.PDK2__ATP_pocket.best_affinity": {
+  "id": "docking.PDK2__ATP_pocket.best_affinity",
+  "value": -8.01,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/ATP pocket 最优候选 affinity",
+  "note": ""
+ },
+ "docking.PDK2__ATP_pocket.best_delta": {
+  "id": "docking.PDK2__ATP_pocket.best_delta",
+  "value": 1.57,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/ATP pocket 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.PDK2__ATP_pocket.n_candidates": {
+  "id": "docking.PDK2__ATP_pocket.n_candidates",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/ATP pocket role==candidate 行数",
+  "note": ""
+ },
+ "docking.PDK2__pyruvate_site_R_domain.positive_affinity": {
+  "id": "docking.PDK2__pyruvate_site_R_domain.positive_affinity",
+  "value": -4.08,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/pyruvate site (R-domain) role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PDK2__pyruvate_site_R_domain.negative_affinity": {
+  "id": "docking.PDK2__pyruvate_site_R_domain.negative_affinity",
+  "value": -4.01,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/pyruvate site (R-domain) role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PDK2__pyruvate_site_R_domain.best_candidate": {
+  "id": "docking.PDK2__pyruvate_site_R_domain.best_candidate",
+  "value": "LIG_CHEMBL5777543",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/pyruvate site (R-domain) 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.PDK2__pyruvate_site_R_domain.best_affinity": {
+  "id": "docking.PDK2__pyruvate_site_R_domain.best_affinity",
+  "value": -4.82,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/pyruvate site (R-domain) 最优候选 affinity",
+  "note": ""
+ },
+ "docking.PDK2__pyruvate_site_R_domain.best_delta": {
+  "id": "docking.PDK2__pyruvate_site_R_domain.best_delta",
+  "value": -0.73,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/pyruvate site (R-domain) 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.PDK2__pyruvate_site_R_domain.n_candidates": {
+  "id": "docking.PDK2__pyruvate_site_R_domain.n_candidates",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/pyruvate site (R-domain) role==candidate 行数",
+  "note": ""
+ },
+ "docking.PDK2__R_domain_N_terminal_site.positive_affinity": {
+  "id": "docking.PDK2__R_domain_N_terminal_site.positive_affinity",
+  "value": -11.39,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/R-domain N-terminal site role==positive_control 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PDK2__R_domain_N_terminal_site.negative_affinity": {
+  "id": "docking.PDK2__R_domain_N_terminal_site.negative_affinity",
+  "value": -6.22,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/R-domain N-terminal site role==negative_control (蔗糖) 的 affinity_kcal_mol",
+  "note": ""
+ },
+ "docking.PDK2__R_domain_N_terminal_site.best_candidate": {
+  "id": "docking.PDK2__R_domain_N_terminal_site.best_candidate",
+  "value": "LIG_CHEMBL5896437",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/R-domain N-terminal site 候选中 affinity 最小者",
+  "note": ""
+ },
+ "docking.PDK2__R_domain_N_terminal_site.best_affinity": {
+  "id": "docking.PDK2__R_domain_N_terminal_site.best_affinity",
+  "value": -9.06,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/R-domain N-terminal site 最优候选 affinity",
+  "note": ""
+ },
+ "docking.PDK2__R_domain_N_terminal_site.best_delta": {
+  "id": "docking.PDK2__R_domain_N_terminal_site.best_delta",
+  "value": 2.33,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/R-domain N-terminal site 最优候选 delta_vs_pos",
+  "note": ""
+ },
+ "docking.PDK2__R_domain_N_terminal_site.n_candidates": {
+  "id": "docking.PDK2__R_domain_N_terminal_site.n_candidates",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "PDK2/R-domain N-terminal site role==candidate 行数",
+  "note": ""
+ },
+ "gse230426.n_before": {
+  "id": "gse230426.n_before",
+  "value": 20,
+  "type": "number",
+  "source": "01_数据/处理后数据/GSE230426_annotation.csv",
+  "expr": "(stage=='BEFORE').sum()",
+  "note": "主模型 BEFORE 组样本数"
+ },
+ "gse230426.n_after": {
+  "id": "gse230426.n_after",
+  "value": 18,
+  "type": "number",
+  "source": "01_数据/处理后数据/GSE230426_annotation.csv",
+  "expr": "(stage=='AFTER').sum()",
+  "note": "主模型 AFTER 组样本数"
+ },
+ "gse230426.n_after8": {
+  "id": "gse230426.n_after8",
+  "value": 15,
+  "type": "number",
+  "source": "01_数据/处理后数据/GSE230426_annotation.csv",
+  "expr": "((stage=='AFTER') & (week==8)).sum()",
+  "note": "after8wk_only 分析的 AFTER-8wk 样本数"
+ },
+ "gse230426.n_pairs_inferred": {
+  "id": "gse230426.n_pairs_inferred",
+  "value": 17,
+  "type": "number",
+  "source": "01_数据/处理后数据/GSE230426_annotation.csv",
+  "expr": "(donor_inferred!='unpaired').sum() // 2",
+  "note": "可配对推断的样本对数"
+ },
+ "gse230426.n_genes": {
+  "id": "gse230426.n_genes",
+  "value": 57059,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "main.n_genes",
+  "note": ""
+ },
+ "gse230426.n_deg_all_models": {
+  "id": "gse230426.n_deg_all_models",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "main.n_fdr05 + paired.n_fdr05 + after8.n_fdr05",
+  "note": "三个模型的 FDR<0.05 基因数之和（全基因组 DEG 阴性）"
+ },
+ "gse230426.n_deg.main": {
+  "id": "gse230426.n_deg.main",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "main.n_fdr05",
+  "note": ""
+ },
+ "gse230426.n_deg.paired": {
+  "id": "gse230426.n_deg.paired",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "paired.n_fdr05",
+  "note": ""
+ },
+ "gse230426.n_deg.after8": {
+  "id": "gse230426.n_deg.after8",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "after8.n_fdr05",
+  "note": ""
+ },
+ "gse230426.concordance.r": {
+  "id": "gse230426.concordance.r",
+  "value": 0.9304,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "KpyRN 128 基因 logFC Spearman",
+  "note": ""
+ },
+ "gse230426.concordance.dir": {
+  "id": "gse230426.concordance.dir",
+  "value": 0.8828,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/summary.json",
+  "expr": "KpyRN 方向一致率",
+  "note": ""
+ },
+ "gse230426.camera.M4_IFNI_readout.main-unpaired.fdr": {
+  "id": "gse230426.camera.M4_IFNI_readout.main-unpaired.fdr",
+  "value": 0.009402,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M4_IFNI_readout & model==main_unpaired 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M4_IFNI_readout.main-unpaired.direction": {
+  "id": "gse230426.camera.M4_IFNI_readout.main-unpaired.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M3_Kpy_targets.main-unpaired.fdr": {
+  "id": "gse230426.camera.M3_Kpy_targets.main-unpaired.fdr",
+  "value": 0.009402,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M3_Kpy_targets & model==main_unpaired 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M3_Kpy_targets.main-unpaired.direction": {
+  "id": "gse230426.camera.M3_Kpy_targets.main-unpaired.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M2_Pyruvate_supply.main-unpaired.fdr": {
+  "id": "gse230426.camera.M2_Pyruvate_supply.main-unpaired.fdr",
+  "value": 0.06105,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M2_Pyruvate_supply & model==main_unpaired 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M2_Pyruvate_supply.main-unpaired.direction": {
+  "id": "gse230426.camera.M2_Pyruvate_supply.main-unpaired.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M1_Kpy_machinery.main-unpaired.fdr": {
+  "id": "gse230426.camera.M1_Kpy_machinery.main-unpaired.fdr",
+  "value": 0.1344,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M1_Kpy_machinery & model==main_unpaired 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M1_Kpy_machinery.main-unpaired.direction": {
+  "id": "gse230426.camera.M1_Kpy_machinery.main-unpaired.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M3_Kpy_targets.paired-inferred.fdr": {
+  "id": "gse230426.camera.M3_Kpy_targets.paired-inferred.fdr",
+  "value": 0.02069,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M3_Kpy_targets & model==paired_inferred 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M3_Kpy_targets.paired-inferred.direction": {
+  "id": "gse230426.camera.M3_Kpy_targets.paired-inferred.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M4_IFNI_readout.paired-inferred.fdr": {
+  "id": "gse230426.camera.M4_IFNI_readout.paired-inferred.fdr",
+  "value": 0.05189,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M4_IFNI_readout & model==paired_inferred 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M4_IFNI_readout.paired-inferred.direction": {
+  "id": "gse230426.camera.M4_IFNI_readout.paired-inferred.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M1_Kpy_machinery.paired-inferred.fdr": {
+  "id": "gse230426.camera.M1_Kpy_machinery.paired-inferred.fdr",
+  "value": 0.4289,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M1_Kpy_machinery & model==paired_inferred 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M1_Kpy_machinery.paired-inferred.direction": {
+  "id": "gse230426.camera.M1_Kpy_machinery.paired-inferred.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M2_Pyruvate_supply.paired-inferred.fdr": {
+  "id": "gse230426.camera.M2_Pyruvate_supply.paired-inferred.fdr",
+  "value": 0.4936,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M2_Pyruvate_supply & model==paired_inferred 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M2_Pyruvate_supply.paired-inferred.direction": {
+  "id": "gse230426.camera.M2_Pyruvate_supply.paired-inferred.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M4_IFNI_readout.after8wk-only.fdr": {
+  "id": "gse230426.camera.M4_IFNI_readout.after8wk-only.fdr",
+  "value": 0.001562,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M4_IFNI_readout & model==after8wk_only 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M4_IFNI_readout.after8wk-only.direction": {
+  "id": "gse230426.camera.M4_IFNI_readout.after8wk-only.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M2_Pyruvate_supply.after8wk-only.fdr": {
+  "id": "gse230426.camera.M2_Pyruvate_supply.after8wk-only.fdr",
+  "value": 0.01521,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M2_Pyruvate_supply & model==after8wk_only 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M2_Pyruvate_supply.after8wk-only.direction": {
+  "id": "gse230426.camera.M2_Pyruvate_supply.after8wk-only.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M3_Kpy_targets.after8wk-only.fdr": {
+  "id": "gse230426.camera.M3_Kpy_targets.after8wk-only.fdr",
+  "value": 0.01586,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M3_Kpy_targets & model==after8wk_only 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M3_Kpy_targets.after8wk-only.direction": {
+  "id": "gse230426.camera.M3_Kpy_targets.after8wk-only.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.camera.M1_Kpy_machinery.after8wk-only.fdr": {
+  "id": "gse230426.camera.M1_Kpy_machinery.after8wk-only.fdr",
+  "value": 0.0567,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "module==M1_Kpy_machinery & model==after8wk_only 的 fdr",
+  "note": ""
+ },
+ "gse230426.camera.M1_Kpy_machinery.after8wk-only.direction": {
+  "id": "gse230426.camera.M1_Kpy_machinery.after8wk-only.direction",
+  "value": "Down",
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/camera_modules.csv",
+  "expr": "direction",
+  "note": ""
+ },
+ "gse230426.hub_genes.main_unpaired.n_sig": {
+  "id": "gse230426.hub_genes.main_unpaired.n_sig",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==main_unpaired 且 adj.P.Val<0.05 的行数",
+  "note": ""
+ },
+ "gse230426.hub_genes.main_unpaired.max_abs_logFC": {
+  "id": "gse230426.hub_genes.main_unpaired.max_abs_logFC",
+  "value": 0.4,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==main_unpaired 的 |logFC| 最大值",
+  "note": ""
+ },
+ "gse230426.hub_genes.main_unpaired.min_adjP": {
+  "id": "gse230426.hub_genes.main_unpaired.min_adjP",
+  "value": 0.49,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==main_unpaired 的 adj.P.Val 最小值",
+  "note": ""
+ },
+ "gse230426.hub_genes.paired_inferred.n_sig": {
+  "id": "gse230426.hub_genes.paired_inferred.n_sig",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==paired_inferred 且 adj.P.Val<0.05 的行数",
+  "note": ""
+ },
+ "gse230426.hub_genes.paired_inferred.max_abs_logFC": {
+  "id": "gse230426.hub_genes.paired_inferred.max_abs_logFC",
+  "value": 0.46,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==paired_inferred 的 |logFC| 最大值",
+  "note": ""
+ },
+ "gse230426.hub_genes.paired_inferred.min_adjP": {
+  "id": "gse230426.hub_genes.paired_inferred.min_adjP",
+  "value": 0.71,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==paired_inferred 的 adj.P.Val 最小值",
+  "note": ""
+ },
+ "gse230426.hub_genes.after8wk_only.n_sig": {
+  "id": "gse230426.hub_genes.after8wk_only.n_sig",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==after8wk_only 且 adj.P.Val<0.05 的行数",
+  "note": ""
+ },
+ "gse230426.hub_genes.after8wk_only.max_abs_logFC": {
+  "id": "gse230426.hub_genes.after8wk_only.max_abs_logFC",
+  "value": 0.52,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==after8wk_only 的 |logFC| 最大值",
+  "note": ""
+ },
+ "gse230426.hub_genes.after8wk_only.min_adjP": {
+  "id": "gse230426.hub_genes.after8wk_only.min_adjP",
+  "value": 0.4,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "model==after8wk_only 的 adj.P.Val 最小值",
+  "note": ""
+ },
+ "gse230426.hub_genes.n": {
+  "id": "gse230426.hub_genes.n",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/感染队列GSE230426/hub_genes.csv",
+  "expr": "nunique(gene)",
+  "note": "6 个 ML 共识枢纽基因"
+ },
+ "scrna223964.n_tests": {
+  "id": "scrna223964.n_tests",
+  "value": 32,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "len(df)",
+  "note": "细胞类型 × 模块对比数"
+ },
+ "scrna223964.n_fdr10": {
+  "id": "scrna223964.n_fdr10",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "(mwu_p_bf<0.10).sum()",
+  "note": ""
+ },
+ "scrna223964.n_nominal_p05": {
+  "id": "scrna223964.n_nominal_p05",
+  "value": 2,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "(mwu_p<0.05).sum()",
+  "note": "名义显著但 FDR 后不显著"
+ },
+ "scrna223964.n_celltypes": {
+  "id": "scrna223964.n_celltypes",
+  "value": 8,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "nunique(celltype)",
+  "note": ""
+ },
+ "scrna223964.n_modules": {
+  "id": "scrna223964.n_modules",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "nunique(module)",
+  "note": ""
+ },
+ "scrna223964.n_donors_diabetic": {
+  "id": "scrna223964.n_donors_diabetic",
+  "value": 5,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "n_diabetic.max()",
+  "note": "供体分组：diabetic / non_diabetic"
+ },
+ "scrna223964.n_donors_nondiabetic": {
+  "id": "scrna223964.n_donors_nondiabetic",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/pseudobulk_condition_stats.csv",
+  "expr": "n_nondiabetic.max()",
+  "note": ""
+ },
+ "scrna223964.n_cells": {
+  "id": "scrna223964.n_cells",
+  "value": 27998,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/module_scores_by_celltype.csv",
+  "expr": "drop_duplicates(['celltype','condition']).n_cells.sum()",
+  "note": "细胞总数"
+ },
+ "scrna223964.xcheck.n_perm_fdr10": {
+  "id": "scrna223964.xcheck.n_perm_fdr10",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/xcheck_pseudobulk_perm.csv",
+  "expr": "(perm_p_bf<0.10).sum()",
+  "note": "独立置换路径 (10000 次标签置换)"
+ },
+ "scrna223964.xcheck.n_perm_nominal10": {
+  "id": "scrna223964.xcheck.n_perm_nominal10",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/xcheck_pseudobulk_perm.csv",
+  "expr": "(perm_p<0.10).sum()",
+  "note": ""
+ },
+ "scrna223964.xcheck.n_tests": {
+  "id": "scrna223964.xcheck.n_tests",
+  "value": 32,
+  "type": "number",
+  "source": "03_结果/单细胞GSE223964/xcheck_pseudobulk_perm.csv",
+  "expr": "len(df)",
+  "note": ""
+ },
+ "geommx.n_roi": {
+  "id": "geommx.n_roi",
+  "value": 23,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "n_roi",
+  "note": ""
+ },
+ "geommx.n_subjects": {
+  "id": "geommx.n_subjects",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "n_subjects",
+  "note": ""
+ },
+ "geommx.n_healer": {
+  "id": "geommx.n_healer",
+  "value": 2,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "healing_groups",
+  "note": ""
+ },
+ "geommx.n_nonhealer": {
+  "id": "geommx.n_nonhealer",
+  "value": 2,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "healing_groups",
+  "note": ""
+ },
+ "geommx.roi.ulcer": {
+  "id": "geommx.roi.ulcer",
+  "value": 13,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "roi_locations['ulcer']",
+  "note": ""
+ },
+ "geommx.roi.ulcer_edge": {
+  "id": "geommx.roi.ulcer_edge",
+  "value": 5,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "roi_locations['ulcer edge']",
+  "note": ""
+ },
+ "geommx.roi.non-ulcer": {
+  "id": "geommx.roi.non-ulcer",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "roi_locations['non-ulcer']",
+  "note": ""
+ },
+ "geommx.roi.epidermis": {
+  "id": "geommx.roi.epidermis",
+  "value": 1,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "roi_locations['epidermis']",
+  "note": ""
+ },
+ "geommx.coverage.pct": {
+  "id": "geommx.coverage.pct",
+  "value": 42.2,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "kpyrn_coverage_pct",
+  "note": ""
+ },
+ "geommx.coverage.n_genes": {
+  "id": "geommx.coverage.n_genes",
+  "value": 54,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "kpyrn_scored_genes_in_board",
+  "note": ""
+ },
+ "geommx.coverage.total": {
+  "id": "geommx.coverage.total",
+  "value": 128,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "kpyrn_scored_genes_total",
+  "note": ""
+ },
+ "geommx.M4.coverage.pct": {
+  "id": "geommx.M4.coverage.pct",
+  "value": 83.9,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "module_coverage.M4_IFNI_readout.pct",
+  "note": ""
+ },
+ "geommx.M2.coverage.pct": {
+  "id": "geommx.M2.coverage.pct",
+  "value": 27.8,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "module_coverage.M2_Pyruvate_supply.pct",
+  "note": ""
+ },
+ "geommx.n_subject_sig": {
+  "id": "geommx.n_subject_sig",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "n_significant_subject_level_fdr10",
+  "note": ""
+ },
+ "geommx.n_roi_sig": {
+  "id": "geommx.n_roi_sig",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "n_significant_roi_level_fdr10_sensitivity",
+  "note": ""
+ },
+ "geommx.hub_in_board": {
+  "id": "geommx.hub_in_board",
+  "value": [
+   "LDHA",
+   "ADH1B",
+   "GBP1"
+  ],
+  "type": "list",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "hub_genes_in_board",
+  "note": ""
+ },
+ "geommx.hub_not_in_board": {
+  "id": "geommx.hub_not_in_board",
+  "value": [
+   "FAHD2B",
+   "DHX58",
+   "ALDH3A2"
+  ],
+  "type": "list",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "hub_genes_not_in_board",
+  "note": ""
+ },
+ "qpcr.n_target_genes": {
+  "id": "qpcr.n_target_genes",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/实验验证设计/qpcr_primers.csv",
+  "expr": "role=='target' 的 gene.nunique()",
+  "note": ""
+ },
+ "qpcr.n_primer_pairs": {
+  "id": "qpcr.n_primer_pairs",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/qpcr_primers.csv",
+  "expr": "len(df)",
+  "note": "目标 + 内参候选引物对总数"
+ },
+ "qpcr.n_reference_candidates": {
+  "id": "qpcr.n_reference_candidates",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/实验验证设计/qpcr_primers.csv",
+  "expr": "role=='reference_candidate' 的 gene.nunique()",
+  "note": ""
+ },
+ "qpcr.n_per_group": {
+  "id": "qpcr.n_per_group",
+  "value": 10,
+  "type": "number",
+  "source": "03_结果/实验验证设计/sample_size_calculation.json",
+  "expr": "target_n_per_group",
+  "note": "目标 n/组（基于真实效应量）"
+ },
+ "qpcr.n_recruit_per_group": {
+  "id": "qpcr.n_recruit_per_group",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/sample_size_calculation.json",
+  "expr": "target_n_per_group_with_20pct_attrition",
+  "note": "招募量（预留 20% 脱落）"
+ },
+ "qpcr.n_tissue_total": {
+  "id": "qpcr.n_tissue_total",
+  "value": 34,
+  "type": "number",
+  "source": "03_结果/实验验证设计/sample_size_calculation.json",
+  "expr": "design.total_tissue_samples",
+  "note": "组织样本合计"
+ },
+ "qpcr.alpha": {
+  "id": "qpcr.alpha",
+  "value": 0.05,
+  "type": "number",
+  "source": "03_结果/实验验证设计/sample_size_calculation.json",
+  "expr": "alpha",
+  "note": ""
+ },
+ "qpcr.power": {
+  "id": "qpcr.power",
+  "value": 0.8,
+  "type": "number",
+  "source": "03_结果/实验验证设计/sample_size_calculation.json",
+  "expr": "power",
+  "note": ""
+ },
+ "qpcr.status": {
+  "id": "qpcr.status",
+  "value": "pre-specified, not performed",
+  "type": "text",
+  "source": "06_补充材料/S4_RT-qPCR_验证方案.md",
+  "expr": "方案性质声明",
+  "note": ""
+ },
+ "qpcr.amplicon_min_bp": {
+  "id": "qpcr.amplicon_min_bp",
+  "value": 80,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_PRODUCT_SIZE_RANGE[0][0]",
+  "note": "产物长度下限（primer3 参数）"
+ },
+ "qpcr.amplicon_max_bp": {
+  "id": "qpcr.amplicon_max_bp",
+  "value": 180,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_PRODUCT_SIZE_RANGE[0][1]",
+  "note": "产物长度上限（primer3 参数）"
+ },
+ "qpcr.tm_min_c": {
+  "id": "qpcr.tm_min_c",
+  "value": 58,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_MIN_TM",
+  "note": "Tm 下限（primer3 参数）"
+ },
+ "qpcr.tm_max_c": {
+  "id": "qpcr.tm_max_c",
+  "value": 62,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_MAX_TM",
+  "note": "Tm 上限（primer3 参数）"
+ },
+ "qpcr.gc_min_pct": {
+  "id": "qpcr.gc_min_pct",
+  "value": 40,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_MIN_GC",
+  "note": "GC 下限（primer3 参数）"
+ },
+ "qpcr.gc_max_pct": {
+  "id": "qpcr.gc_max_pct",
+  "value": 60,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_MAX_GC",
+  "note": "GC 上限（primer3 参数）"
+ },
+ "qpcr.poly_x_max": {
+  "id": "qpcr.poly_x_max",
+  "value": 4,
+  "type": "number",
+  "source": "02_脚本/design_rtqpcr_primers.py",
+  "expr": "PRIMER_MAX_POLY_X",
+  "note": ""
+ },
+ "qpcr.secondary_structure_threshold_c": {
+  "id": "qpcr.secondary_structure_threshold_c",
+  "value": 0.0,
+  "type": "number",
+  "source": "02_脚本/verify_primers.py",
+  "expr": "max_secondary < 阈值",
+  "note": "二级结构/二聚体 Tm 验收阈值（预设，非实测）"
+ },
+ "qpcr.secondary_structure_max_observed_c": {
+  "id": "qpcr.secondary_structure_max_observed_c",
+  "value": 44.85,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_verification.csv",
+  "expr": "V2_max_secondary_structure_tm.max()",
+  "note": "实测二级结构 Tm 最大值"
+ },
+ "qpcr.secondary_structure_n_pass": {
+  "id": "qpcr.secondary_structure_n_pass",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_verification.csv",
+  "expr": "V2_no_strong_secondary_structure.sum()",
+  "note": ""
+ },
+ "qpcr.overall_pass_n": {
+  "id": "qpcr.overall_pass_n",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_verification.csv",
+  "expr": "overall_pass.sum()",
+  "note": "⚠ 受 BLAST v1 截断缺陷污染（V1_specific 恒 False），不作判定依据；特异性以 BLAST v6 为准（见 qpcr.v6.n_specific_pairs）"
+ },
+ "qpcr.v2v3_pass_n": {
+  "id": "qpcr.v2v3_pass_n",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_verification.csv",
+  "expr": "(V2_no_strong_secondary_structure & V3_gc_locked_and_tm_matched).sum()",
+  "note": "二级结构 + GC/Tm 两项合规数（不含被 v1 污染的特异性项）"
+ },
+ "qpcr.v3_gc_tm_pass_n": {
+  "id": "qpcr.v3_gc_tm_pass_n",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_verification.csv",
+  "expr": "V3_gc_locked_and_tm_matched.sum()",
+  "note": "GC 锁温 + Tm 匹配合规数"
+ },
+ "qpcr.amplicon_observed_min_bp": {
+  "id": "qpcr.amplicon_observed_min_bp",
+  "value": 85,
+  "type": "number",
+  "source": "03_结果/实验验证设计/qpcr_primers.csv",
+  "expr": "amplicon_bp.min()",
+  "note": ""
+ },
+ "qpcr.amplicon_observed_max_bp": {
+  "id": "qpcr.amplicon_observed_max_bp",
+  "value": 174,
+  "type": "number",
+  "source": "03_结果/实验验证设计/qpcr_primers.csv",
+  "expr": "amplicon_bp.max()",
+  "note": ""
+ },
+ "qpcr.v4.n_pairs_designed": {
+  "id": "qpcr.v4.n_pairs_designed",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "len(df)",
+  "note": "v4 三约束设计产出的引物对总数"
+ },
+ "qpcr.v4.n_curated_fully_covered": {
+  "id": "qpcr.v4.n_curated_fully_covered",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(n_curated_covered == n_curated_total).sum()",
+  "note": "全部 curated 蛋白编码转录本均被引物对覆盖的对数"
+ },
+ "qpcr.v4.n_curated_primer_in_cds": {
+  "id": "qpcr.v4.n_curated_primer_in_cds",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(n_curated_in_CDS == n_curated_total).sum()",
+  "note": "两条引物均完整位于各自转录本 CDS 内的对数"
+ },
+ "qpcr.v4.paralog_grade.BOTH_STRONG_n": {
+  "id": "qpcr.v4.paralog_grade.BOTH_STRONG_n",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(pair_paralog_grade=='BOTH_STRONG').sum()",
+  "note": "两条引物对旁系同源均达强区分（identity<90%）"
+ },
+ "qpcr.v4.paralog_grade.ONE_WEAK_n": {
+  "id": "qpcr.v4.paralog_grade.ONE_WEAK_n",
+  "value": 2,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(pair_paralog_grade=='ONE_WEAK').sum()",
+  "note": "至少一条为弱区分（90–95% 且 3'端有错配，P1 级）"
+ },
+ "qpcr.v4.paralog_grade.nan_n": {
+  "id": "qpcr.v4.paralog_grade.nan_n",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(pair_paralog_grade=='nan').sum()",
+  "note": ""
+ },
+ "qpcr.v4.paralog_grade.SOFT_n": {
+  "id": "qpcr.v4.paralog_grade.SOFT_n",
+  "value": 4,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(pair_paralog_grade=='SOFT').sum()",
+  "note": "参考基因族成员为假基因/同基因座重复拷贝（不作阻断）"
+ },
+ "qpcr.v4.n_both_strong": {
+  "id": "qpcr.v4.n_both_strong",
+  "value": 3,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "(pair_paralog_grade=='BOTH_STRONG').sum()",
+  "note": "旁系同源强区分对数"
+ },
+ "qpcr.v4.max_paralog_identity_pct": {
+  "id": "qpcr.v4.max_paralog_identity_pct",
+  "value": 100.0,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "max(f_max_id_vs_paralog, r_max_id_vs_paralog) 的全局最大值",
+  "note": "所选引物对旁系同源的最大 identity（越高越需警惕）"
+ },
+ "qpcr.v4.n_pairs_with_3p_anchor_mismatch": {
+  "id": "qpcr.v4.n_pairs_with_3p_anchor_mismatch",
+  "value": 5,
+  "type": "number",
+  "source": "03_结果/实验验证设计/final_primers_v4.csv",
+  "expr": "至少一条引物对最差旁系同源的 3'端末 5 nt 存在错配的对数",
+  "note": "3'端错配者无法有效起始延伸 → 实验上不共扩增"
+ },
+ "qpcr.v6.n_pairs_blast_checked": {
+  "id": "qpcr.v6.n_pairs_blast_checked",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "len(df)",
+  "note": "BLAST v6 全库复核覆盖的引物对数"
+ },
+ "qpcr.v6.n_specific_pairs": {
+  "id": "qpcr.v6.n_specific_pairs",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "specific.sum()",
+  "note": "P0=0 且目标全长匹配转录本≥1 且目标 identity≥90% 的对数"
+ },
+ "qpcr.v6.n_P0_hits_total": {
+  "id": "qpcr.v6.n_P0_hits_total",
+  "value": 223,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "n_P0_total.sum()",
+  "note": "全库复核发现的 P0 级（阻断）脱靶命中总数"
+ },
+ "qpcr.v6.n_P1_hits_total": {
+  "id": "qpcr.v6.n_P1_hits_total",
+  "value": 141,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "n_P1_total.sum()",
+  "note": "P1 级（需注意）脱靶命中总数"
+ },
+ "qpcr.v6.n_pairs_with_P0": {
+  "id": "qpcr.v6.n_pairs_with_P0",
+  "value": 6,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "(n_P0_total>0).sum()",
+  "note": "含至少一个 P0 命中的引物对数"
+ },
+ "qpcr.v6.min_target_identity_pct": {
+  "id": "qpcr.v6.min_target_identity_pct",
+  "value": 100.0,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "specific==True 的行中 forward/reverse target identity 的最小值",
+  "note": "合格引物对在目标转录本上的最低 identity"
+ },
+ "qpcr.v6.min_target_tx_covered": {
+  "id": "qpcr.v6.min_target_tx_covered",
+  "value": 1,
+  "type": "number",
+  "source": "03_结果/实验验证设计/primer_blast_v6.csv",
+  "expr": "specific==True 的行中 target_full_match_refseq_tx 的最小值",
+  "note": "合格引物对在目标基因上全长匹配的最少转录本数"
+ },
+ "qpcr.cds_map.n_genes_mapped": {
+  "id": "qpcr.cds_map.n_genes_mapped",
+  "value": 12,
+  "type": "number",
+  "source": "03_结果/实验验证设计/cds_duplication_map.json",
+  "expr": "len(genes)",
+  "note": "已完成全基因组重复图谱测绘的基因数"
+ },
+ "qpcr.cds_map.total_repeat_masked_nt": {
+  "id": "qpcr.cds_map.total_repeat_masked_nt",
+  "value": 3880,
+  "type": "number",
+  "source": "03_结果/实验验证设计/cds_duplication_map.json",
+  "expr": "sum(genes[*].repeat_masked_nt)",
+  "note": "12 条 CDS 中被全库 ≥95% 同源重复拷贝覆盖的碱基总数"
+ },
+ "qpcr.cds_map.min_longest_safe_segment": {
+  "id": "qpcr.cds_map.min_longest_safe_segment",
+  "value": 0,
+  "type": "number",
+  "source": "03_结果/实验验证设计/cds_duplication_map.json",
+  "expr": "min(genes[*].longest_safe_segment)",
+  "note": "各基因 CDS 中最长无重复掩码连续区段的最小值（低于一个引物长度即该基因无可用设计窗口）"
+ },
+ "method.mcpcounter.signature_genes": {
+  "id": "method.mcpcounter.signature_genes",
+  "value": 111,
+  "type": "number",
+  "source": "01_数据/基因集/免疫/MCPcounter_genes.txt",
+  "expr": "非空行数 - 1（表头）",
+  "note": "官方 MCP-counter 标记基因数"
+ },
+ "method.estimate.stromal_genes": {
+  "id": "method.estimate.stromal_genes",
+  "value": 140,
+  "type": "number",
+  "source": "01_数据/基因集/免疫/estimate_signatures.csv",
+  "expr": "signature=='StromalSignature' 的行数",
+  "note": "ESTIMATE 签名基因数"
+ },
+ "method.estimate.immune_genes": {
+  "id": "method.estimate.immune_genes",
+  "value": 140,
+  "type": "number",
+  "source": "01_数据/基因集/免疫/estimate_signatures.csv",
+  "expr": "signature=='ImmuneSignature' 的行数",
+  "note": "ESTIMATE 签名基因数"
+ },
+ "method.estimate.total_genes": {
+  "id": "method.estimate.total_genes",
+  "value": 280,
+  "type": "number",
+  "source": "01_数据/基因集/免疫/estimate_signatures.csv",
+  "expr": "len(df)",
+  "note": "ESTIMATE 签名基因合计"
+ },
+ "method.scrna_ambig_threshold": {
+  "id": "method.scrna_ambig_threshold",
+  "value": 0.25,
+  "type": "number",
+  "source": "02_脚本/scrna_annotate_score.py",
+  "expr": "MARGIN_MIN 常量",
+  "note": "Ambiguous 判定阈值（top1−top2），预注册"
+ },
+ "method.scrna_min_cells": {
+  "id": "method.scrna_min_cells",
+  "value": 100,
+  "type": "number",
+  "source": "02_脚本/scrna_composition_stats.py",
+  "expr": "MIN_CELLS_PB 常量",
+  "note": "pseudobulk 纳入的最小细胞数阈值"
+ },
+ "method.gse230426.perm_n": {
+  "id": "method.gse230426.perm_n",
+  "value": 10000,
+  "type": "number",
+  "source": "02_脚本/xcheck_gse223964.py",
+  "expr": "置换次数参数",
+  "note": "置换检验次数"
+ },
+ "method.wgcna.power": {
+  "id": "method.wgcna.power",
+  "value": 6,
+  "type": "number",
+  "source": "02_脚本/wgcna.R",
+  "expr": "power 参数",
+  "note": "软阈值 power（n=21 兜底）"
+ },
+ "wgcna.power": {
+  "id": "wgcna.power",
+  "value": 6,
+  "type": "number",
+  "source": "02_脚本/wgcna.R",
+  "expr": "power 参数",
+  "note": "软阈值 power（n=21 兜底）"
+ },
+ "method.wgcna.top_genes": {
+  "id": "method.wgcna.top_genes",
+  "value": 5000,
+  "type": "number",
+  "source": "02_脚本/wgcna.R",
+  "expr": "WGCNA 输入基因数（blockwiseModules maxBlockSize=5000）",
+  "note": ""
+ },
+ "method.geommx.neg_probes": {
+  "id": "method.geommx.neg_probes",
+  "value": 88,
+  "type": "number",
+  "source": "01_数据/原始数据/GSE166120/GSE166120_Alpha_CTA_v2.0.pkc.txt.gz",
+  "expr": "Targets[].Probes 中 DisplayName=='NegProbe' 的探针数",
+  "note": "ERCC/NegProbe 负对照探针数（已剔除）"
+ },
+ "method.geommx.probes": {
+  "id": "method.geommx.probes",
+  "value": 8670,
+  "type": "number",
+  "source": "03_结果/空间GSE166120/summary.json",
+  "expr": "probes_per_roi",
+  "note": "每 ROI 上报探针数"
+ },
+ "method.geommx.targets": {
+  "id": "method.geommx.targets",
+  "value": 1825,
+  "type": "number",
+  "source": "01_数据/原始数据/GSE166120/GSE166120_Alpha_CTA_v2.0.pkc.txt.gz",
+  "expr": "len(Targets)",
+  "note": "CTA v2.0 靶向板 target 数"
+ },
+ "method.geommx.pk_c_total_probes": {
+  "id": "method.geommx.pk_c_total_probes",
+  "value": 8684,
+  "type": "number",
+  "source": "01_数据/原始数据/GSE166120/GSE166120_Alpha_CTA_v2.0.pkc.txt.gz",
+  "expr": "sum(len(Targets[].Probes))",
+  "note": "PKC 文件总探针行数"
+ },
+ "docking.exhaustiveness": {
+  "id": "docking.exhaustiveness",
+  "value": 8,
+  "type": "number",
+  "source": "02_脚本/docking_pipeline.py",
+  "expr": "--exhaustiveness 参数",
+  "note": ""
+ },
+ "docking.seed": {
+  "id": "docking.seed",
+  "value": 42,
+  "type": "number",
+  "source": "02_脚本/docking_pipeline.py",
+  "expr": "--seed 参数",
+  "note": ""
+ },
+ "method.vina.exhaustiveness": {
+  "id": "method.vina.exhaustiveness",
+  "value": 8,
+  "type": "number",
+  "source": "02_脚本/docking_pipeline.py",
+  "expr": "--exhaustiveness",
+  "note": ""
+ },
+ "method.vina.seed": {
+  "id": "method.vina.seed",
+  "value": 42,
+  "type": "number",
+  "source": "02_脚本/docking_pipeline.py",
+  "expr": "--seed",
+  "note": ""
+ },
+ "method.vina.box_size": {
+  "id": "method.vina.box_size",
+  "value": 22,
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking_results.csv",
+  "expr": "对接盒边长（Å）",
+  "note": "所有体系统一 22 Å 立方盒"
+ },
+ "docking.vina_version": {
+  "id": "docking.vina_version",
+  "value": "1.2.7",
+  "type": "number",
+  "source": "03_结果/药物预测/docking/docking.log",
+  "expr": "Vina 版本号",
+  "note": ""
+ },
+ "dataset.GSE134431.n_samples": {
+  "id": "dataset.GSE134431.n_samples",
+  "value": 21,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE134431_samples.csv",
+  "expr": "len(df)",
+  "note": "RNA-seq (RPKM)；发现队列"
+ },
+ "dataset.GSE199939.n_samples": {
+  "id": "dataset.GSE199939.n_samples",
+  "value": 21,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE199939_samples.csv",
+  "expr": "len(df)",
+  "note": "RNA-seq (TPM)；发现/外部验证"
+ },
+ "dataset.GSE143735.n_samples": {
+  "id": "dataset.GSE143735.n_samples",
+  "value": 13,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE143735_samples.csv",
+  "expr": "len(df)",
+  "note": "RNA-seq (counts)；结局外验"
+ },
+ "dataset.GSE80178.n_samples": {
+  "id": "dataset.GSE80178.n_samples",
+  "value": 12,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE80178_samples.csv",
+  "expr": "len(df)",
+  "note": "microarray (CEL)；文献级交叉验证"
+ },
+ "dataset.GSE68183.n_samples": {
+  "id": "dataset.GSE68183.n_samples",
+  "value": 6,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE68183_samples.csv",
+  "expr": "len(df)",
+  "note": "microarray (CEL)；未用于计算"
+ },
+ "dataset.GSE68186.n_samples": {
+  "id": "dataset.GSE68186.n_samples",
+  "value": 20,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE68186_samples.csv",
+  "expr": "len(df)",
+  "note": "microarray (CEL)；未用于计算"
+ },
+ "dataset.GSE165816.n_samples": {
+  "id": "dataset.GSE165816.n_samples",
+  "value": 54,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE165816_samples.csv",
+  "expr": "len(df)",
+  "note": "scRNA-seq 10x；单细胞验证"
+ },
+ "dataset.GSE223964.n_samples": {
+  "id": "dataset.GSE223964.n_samples",
+  "value": 8,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE223964_samples.csv",
+  "expr": "len(df)",
+  "note": "scRNA-seq (h5ad)；单细胞验证"
+ },
+ "dataset.GSE166120.n_samples": {
+  "id": "dataset.GSE166120.n_samples",
+  "value": 23,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE166120_samples.csv",
+  "expr": "len(df)",
+  "note": "GeoMx DSP ROI；区域验证"
+ },
+ "dataset.GSE230426.n_samples": {
+  "id": "dataset.GSE230426.n_samples",
+  "value": 38,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/GSE230426_samples.csv",
+  "expr": "len(df)",
+  "note": "RNA-seq (counts)；感染队列次级分析"
+ },
+ "dataset.n_bulk": {
+  "id": "dataset.n_bulk",
+  "value": 5,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/",
+  "expr": "bulk 队列数（GSE68183/GSE68186 为同一研究的配对，计为 1 个队列）",
+  "note": ""
+ },
+ "dataset.n_sc": {
+  "id": "dataset.n_sc",
+  "value": 2,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/",
+  "expr": "单细胞队列数",
+  "note": ""
+ },
+ "dataset.n_spatial": {
+  "id": "dataset.n_spatial",
+  "value": 1,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/",
+  "expr": "空间/区域队列数",
+  "note": ""
+ },
+ "dataset.n_cohorts_total": {
+  "id": "dataset.n_cohorts_total",
+  "value": 10,
+  "type": "number",
+  "source": "01_数据/元数据/样本表/",
+  "expr": "登记队列总数",
+  "note": ""
+ }
+}

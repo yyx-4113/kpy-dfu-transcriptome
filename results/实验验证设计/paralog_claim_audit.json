@@ -1,0 +1,371 @@
+{
+ "date": "2026-10-25",
+ "script": "02_脚本/audit_v2_paralog_claims.py",
+ "method": {
+  "match": "穷举滑动窗口（numpy 向量化，零种子剪枝）",
+  "strand_rule": "正链命中→引物3'端=窗口后5nt；负链命中(rc(P)出现于S)→引物3'端=窗口前5nt",
+  "comparison_faces": "full=旁系同源全长转录本; cds=旁系同源编码区"
+ },
+ "genes": {
+  "LDHA": {
+   "gene": "LDHA",
+   "target_accession": "NM_001165414.2",
+   "v2_claim": {
+    "forward": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    },
+    "reverse": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    }
+   },
+   "audit": {
+    "forward": {
+     "full": {
+      "identity_pct": 65.0,
+      "mm_total": 7,
+      "mm_3p5": 2,
+      "strand": "+",
+      "worst_gene": "LDHB",
+      "worst_acc": "NM_001174097.3",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": 42
+    },
+    "reverse": {
+     "full": {
+      "identity_pct": 65.0,
+      "mm_total": 7,
+      "mm_3p5": 1,
+      "strand": "-",
+      "worst_gene": "LDHB",
+      "worst_acc": "XM_054372046.1",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": null
+    }
+   }
+  },
+  "FAHD2B": {
+   "gene": "FAHD2B",
+   "target_accession": "XM_054340782.1",
+   "v2_claim": {
+    "forward": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    },
+    "reverse": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    }
+   },
+   "audit": {
+    "forward": {
+     "full": {
+      "identity_pct": 70.0,
+      "mm_total": 6,
+      "mm_3p5": 1,
+      "strand": "+",
+      "worst_gene": "FAHD1",
+      "worst_acc": "XM_054314076.1",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": 1572
+    },
+    "reverse": {
+     "full": {
+      "identity_pct": 70.0,
+      "mm_total": 6,
+      "mm_3p5": 4,
+      "strand": "-",
+      "worst_gene": "FAHD2A",
+      "worst_acc": "XM_054342366.1",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": null
+    }
+   }
+  },
+  "ADH1B": {
+   "gene": "ADH1B",
+   "target_accession": "NM_000668.6",
+   "v2_claim": {
+    "forward": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    },
+    "reverse": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    }
+   },
+   "audit": {
+    "forward": {
+     "full": {
+      "identity_pct": 65.0,
+      "mm_total": 7,
+      "mm_3p5": 1,
+      "strand": "+",
+      "worst_gene": "ADH1A",
+      "worst_acc": "NM_000667.4",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": 2775
+    },
+    "reverse": {
+     "full": {
+      "identity_pct": 65.0,
+      "mm_total": 7,
+      "mm_3p5": 1,
+      "strand": "+",
+      "worst_gene": "ADH1A",
+      "worst_acc": "NM_000667.4",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": null
+    }
+   }
+  },
+  "ALDH3A2": {
+   "gene": "ALDH3A2",
+   "target_accession": "NM_001369137.2",
+   "v2_claim": {
+    "forward": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    },
+    "reverse": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    }
+   },
+   "audit": {
+    "forward": {
+     "full": {
+      "identity_pct": 75.0,
+      "mm_total": 5,
+      "mm_3p5": 2,
+      "strand": "-",
+      "worst_gene": "ALDH3A1",
+      "worst_acc": "XM_054315428.1",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": 2707
+    },
+    "reverse": {
+     "full": {
+      "identity_pct": 75.0,
+      "mm_total": 5,
+      "mm_3p5": 1,
+      "strand": "+",
+      "worst_gene": "ALDH3A1",
+      "worst_acc": "XM_054315428.1",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": null
+    }
+   }
+  },
+  "GBP1": {
+   "gene": "GBP1",
+   "target_accession": "NM_002053.3",
+   "v2_claim": {
+    "forward": {
+     "identity_pct": 80.0,
+     "min_mismatch": 4,
+     "mm_3p5": 0,
+     "worst_paralog": "GBP5"
+    },
+    "reverse": {
+     "identity_pct": 85.0,
+     "min_mismatch": 3,
+     "mm_3p5": 1,
+     "worst_paralog": "GBP3"
+    }
+   },
+   "audit": {
+    "forward": {
+     "full": {
+      "identity_pct": 80.0,
+      "mm_total": 4,
+      "mm_3p5": 0,
+      "strand": "+",
+      "worst_gene": "GBP5",
+      "worst_acc": "NM_052942.5",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": false,
+     "target_self_pos_1based": 52
+    },
+    "reverse": {
+     "full": {
+      "identity_pct": 85.0,
+      "mm_total": 3,
+      "mm_3p5": 0,
+      "strand": "-",
+      "worst_gene": "GBP3",
+      "worst_acc": "NM_001436844.1",
+      "grade": "STRONG"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": true,
+     "target_self_pos_1based": null
+    }
+   }
+  },
+  "DHX58": {
+   "gene": "DHX58",
+   "target_accession": "XM_054317165.1",
+   "v2_claim": {
+    "forward": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    },
+    "reverse": {
+     "identity_pct": 0.0,
+     "min_mismatch": 20,
+     "mm_3p5": 0,
+     "worst_paralog": ""
+    }
+   },
+   "audit": {
+    "forward": {
+     "full": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "strand": null,
+      "worst_gene": null,
+      "worst_acc": null,
+      "grade": "NA"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": true,
+     "target_self_pos_1based": 812
+    },
+    "reverse": {
+     "full": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "strand": null,
+      "worst_gene": null,
+      "worst_acc": null,
+      "grade": "NA"
+     },
+     "cds": {
+      "identity_pct": null,
+      "mm_total": null,
+      "mm_3p5": null,
+      "worst_gene": null,
+      "grade": "NA"
+     },
+     "target_in_CDS": true,
+     "target_self_pos_1based": null
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+subset,total_genes,genes_in_wgcna_background,observed_in_DFU_pool,expected,obs_over_exp,direction,p_value
+KpyRN_all,128,56,6,8.9,0.674,depleted,0.19078436682704952
+glycolysis_hsa00010,66,24,6,3.82,1.572,enriched,0.17013392644721645
+M1_Kpy_machinery,4,1,0,0.16,0.0,depleted,0.841
+M2_Pyruvate_supply,90,34,6,5.41,1.11,enriched,0.4609943774826912
+M3_Kpy_targets,3,0,0,0.0,,depleted,
+M4_IFNI_readout,31,21,0,3.34,0.0,depleted,0.02613707740729255
+nonM2_combined,38,22,0,3.5,,depleted,0.02196375414181804

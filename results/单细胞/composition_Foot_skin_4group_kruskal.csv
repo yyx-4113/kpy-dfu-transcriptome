@@ -1,0 +1,21 @@
+lineage,p,n_groups,median_prop_by_group,q
+Ambiguous,0.4739168851348031,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+B,0.48774187325867924,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Eccrine,0.3141111795077425,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Endothelial,0.44858315904782875,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Keratinocyte,0.2741686415580425,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Fibroblast,0.3805560277532151,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Macrophage,0.10810847318253236,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Mast,0.11888920864784515,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Schwann_neural,0.09476789863432798,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Mono_CD14,0.3349773263655029,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Mono_CD16,0.15106088721343605,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Neutrophil,0.375747612283354,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Pericyte_SMC,0.36446702346409404,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+cDC,0.5042856590057767,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+T_CD8,0.3966764477197927,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+T_CD4,0.522066020613158,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+pDC,0.425516254813906,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6141953183684212
+Adipocyte,0.5549518328992162,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.6166131476657958
+NK,0.6332805218657975,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.666611075648208
+Plasma,0.9049429996919157,4,"{'DFU-healer': 0.0, 'DFU-nonhealer': 0.0, 'Non-DFU Diabetic': 0.0, 'Non-diabetic': 0.0}",0.9049429996919157

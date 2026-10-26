@@ -1,0 +1,55 @@
+{
+ "technology": "GeoMx DSP, Alpha Cancer Transcriptome Atlas v2.0 (targeted, 1825 targets)",
+ "n_roi": 23,
+ "n_subjects": 4,
+ "healing_groups": {
+  "Healer": 2,
+  "Non-Healer": 2
+ },
+ "roi_locations": {
+  "ulcer": 13,
+  "ulcer edge": 5,
+  "non-ulcer": 4,
+  "epidermis": 1
+ },
+ "targets_parsed": 1837,
+ "probes_per_roi": 8670,
+ "kpyrn_scored_genes_total": 128,
+ "kpyrn_scored_genes_in_board": 54,
+ "kpyrn_coverage_pct": 42.2,
+ "module_coverage": {
+  "M1_Kpy_machinery": {
+   "n_in_board": 2,
+   "n_total": 4,
+   "pct": 50.0
+  },
+  "M2_Pyruvate_supply": {
+   "n_in_board": 25,
+   "n_total": 90,
+   "pct": 27.8
+  },
+  "M3_Kpy_targets": {
+   "n_in_board": 1,
+   "n_total": 3,
+   "pct": 33.3
+  },
+  "M4_IFNI_readout": {
+   "n_in_board": 26,
+   "n_total": 31,
+   "pct": 83.9
+  }
+ },
+ "hub_genes_in_board": [
+  "LDHA",
+  "ADH1B",
+  "GBP1"
+ ],
+ "hub_genes_not_in_board": [
+  "FAHD2B",
+  "DHX58",
+  "ALDH3A2"
+ ],
+ "n_significant_subject_level_fdr10": 0,
+ "n_significant_roi_level_fdr10_sensitivity": 0,
+ "note": "exploratory only: n=2 vs 2 subjects; primary inference is SUBJECT-level (n=4, ROI nested within subject -> pseudoreplication-free); ROI-level tests reported as sensitivity only; module scores use ONLY board-covered genes and are NOT comparable to full-KpyRN scores"
+}

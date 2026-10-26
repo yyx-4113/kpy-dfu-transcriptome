@@ -1,0 +1,11 @@
+﻿gsm,title,type,platform,characteristics
+GSM3138439,C1_7: acute wound circRNA 1,RNA,GPL21825,tissue=acute wound biopsy from healthy volunteer | gender=Male | age=26
+GSM3138440,C3_7: acute wound circRNA 2,RNA,GPL21825,tissue=acute wound biopsy from healthy volunteer | gender=Male | age=26
+GSM3138441,C4_7: acute wound circRNA 3,RNA,GPL21825,tissue=acute wound biopsy from healthy volunteer | gender=Female | age=27
+GSM3138442,C6_7: acute wound circRNA 4,RNA,GPL21825,tissue=acute wound biopsy from healthy volunteer | gender=Female | age=25
+GSM3138443,C7_7: acute wound circRNA 5,RNA,GPL21825,tissue=acute wound biopsy from healthy volunteer | gender=Female | age=43
+GSM3138444,W11: chronic wound circRNA 1,RNA,GPL21825,tissue=chronic wound biopsy from diabetic foot ulcer | gender=Male | age=90
+GSM3138445,W22: chronic wound circRNA 2,RNA,GPL21825,tissue=chronic wound biopsy from diabetic foot ulcer | gender=Male | age=60
+GSM3138446,W23: chronic wound circRNA 3,RNA,GPL21825,tissue=chronic wound biopsy from diabetic foot ulcer | gender=Male | age=54
+GSM3138447,W28: chronic wound circRNA 4,RNA,GPL21825,tissue=chronic wound biopsy from diabetic foot ulcer | gender=Female | age=61
+GSM3138448,W46: chronic wound circRNA 5,RNA,GPL21825,tissue=chronic wound biopsy from diabetic foot ulcer | gender=Female | age=74

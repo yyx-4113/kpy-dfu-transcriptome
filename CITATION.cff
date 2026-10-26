@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this dataset or software, please cite the manuscript and the Zenodo deposit listed in the repository README."
+title: "Transcriptomic Footprint of the Lysine-Pyruvylation Regulatory Network in Diabetic Foot Ulcer Tissue"
+abstract: >-
+  Reproducibility package for a public-data re-analysis of the lysine-pyruvylation
+  (Kpy) regulatory network in diabetic foot ulcer tissue across 10 GEO cohorts,
+  integrating differential-expression meta-analysis, weighted gene co-expression
+  network analysis, a four-algorithm consensus machine-learning framework,
+  immune deconvolution, single-cell and spatial transcriptomics, cis-eQTL Mendelian
+  randomisation and molecular docking. The package contains all analysis code,
+  derived result tables, figures, manuscript text and a machine-readable audit
+  ledger tracing every numeric claim to its source file. Kpy modification itself
+  was not measured; all findings concern the transcriptional footprint of the
+  network.
+type: software
+version: 1.0.0
+date-released: "2026-10-25"
+license: MIT
+repository-code: "https://github.com/yyx-4113/kpy-dfu-transcriptome"
+url: "https://github.com/yyx-4113/kpy-dfu-transcriptome"
+keywords:
+  - lysine-pyruvylation
+  - diabetic foot ulcer
+  - transcriptomics
+  - meta-analysis
+  - single-cell RNA-seq
+  - Mendelian randomisation
+  - molecular docking
+  - reproducibility
+authors:
+  - family-names: Yang
+    given-names: Yongxin
+    orcid: "https://orcid.org/0009-0004-9698-6552"
+    affiliation: >-
+      Department of Anesthesiology, The Second Affiliated Hospital of Fujian
+      University of Traditional Chinese Medicine, Fuzhou, Fujian 350003, China

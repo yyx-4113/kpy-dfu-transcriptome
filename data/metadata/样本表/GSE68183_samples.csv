@@ -1,0 +1,7 @@
+﻿gsm,title,type,platform,characteristics
+GSM1665311,Diabetic Foot Skin 01 gene expression profile,RNA,GPL16686,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665312,Diabetic Foot Skin 02 gene expression profile,RNA,GPL16686,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665313,Diabetic Foot Skin 03 gene expression profile,RNA,GPL16686,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665314,non-Diabetic Foot Skin 01 gene expression profile,RNA,GPL16686,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665315,non-Diabetic Foot Skin 02 gene expression profile,RNA,GPL16686,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665316,non-Diabetic Foot Skin 03 gene expression profile,RNA,GPL16686,tissue=healthy non-diabetic foot skin (NFS)

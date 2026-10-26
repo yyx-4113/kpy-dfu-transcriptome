@@ -1,0 +1,151 @@
+{
+ "script": "02_脚本/test_intersection_independence.py",
+ "seed": 20261025,
+ "n_perm": 10000,
+ "padj_cut": 0.05,
+ "design_note": "WGCNA 仅使用 5000 个高变基因，故每个子集的抽样数一律取「该子集 ∩ universe」的大小；若误用 128 会把背景外基因算作未富集，导致假阴性/假阳性。",
+ "layers": {
+  "L1_META1_sig": 2863,
+  "L2_sig_module_colors": [
+   "blue",
+   "magenta",
+   "red",
+   "yellow"
+  ],
+  "L2_sig_module_numbers": [
+   2,
+   4,
+   6,
+   9
+  ],
+  "L2_genes_in_sig_modules": 2055,
+  "L3_kpyrn_scored": 128,
+  "L3_kpyrn_in_universe": 56,
+  "L3_glycolysis_hsa00010": 66,
+  "L3_glycolysis_in_universe": 24,
+  "pool_S_size": 795,
+  "wgcna_universe": 5000,
+  "pool_fraction_of_universe": 0.159
+ },
+ "three_layer": {
+  "genes": [
+   "BPGM",
+   "LDHA",
+   "PFKP",
+   "PGAM1",
+   "PGM2",
+   "TPI1"
+  ],
+  "k": 6,
+  "n_glycolysis": 6,
+  "module_of_each": {
+   "BPGM": "M2_Pyruvate_supply",
+   "LDHA": "M2_Pyruvate_supply",
+   "PFKP": "M2_Pyruvate_supply",
+   "PGAM1": "M2_Pyruvate_supply",
+   "PGM2": "M2_Pyruvate_supply",
+   "TPI1": "M2_Pyruvate_supply"
+  },
+  "submodule_of_each": {
+   "BPGM": "KEGG:hsa00010",
+   "LDHA": "KEGG:hsa00010 + KEGG:hsa00620",
+   "PFKP": "KEGG:hsa00010",
+   "PGAM1": "KEGG:hsa00010",
+   "PGM2": "KEGG:hsa00010",
+   "TPI1": "KEGG:hsa00010"
+  }
+ },
+ "T1_exclude_M2": {
+  "kpyrn_size_without_M2": 38,
+  "kpyrn_without_M2_in_universe": 22,
+  "three_layer_genes": [],
+  "k": 0
+ },
+ "T2_hypergeometric": {
+  "KpyRN_all": {
+   "total": 128,
+   "in_universe": 56,
+   "observed_in_pool": 6,
+   "expected": 8.9,
+   "ratio_obs_exp": 0.674,
+   "p_two_sided_lesser_tail": 0.19078436682704952,
+   "direction": "depleted"
+  },
+  "glycolysis_hsa00010": {
+   "total": 66,
+   "in_universe": 24,
+   "observed_in_pool": 6,
+   "expected": 3.82,
+   "ratio_obs_exp": 1.572,
+   "p_two_sided_lesser_tail": 0.17013392644721645,
+   "direction": "enriched"
+  },
+  "M1_Kpy_machinery": {
+   "total": 4,
+   "in_universe": 1,
+   "observed_in_pool": 0,
+   "expected": 0.16,
+   "ratio_obs_exp": 0.0,
+   "p_two_sided_lesser_tail": 0.841,
+   "direction": "depleted"
+  },
+  "M2_Pyruvate_supply": {
+   "total": 90,
+   "in_universe": 34,
+   "observed_in_pool": 6,
+   "expected": 5.41,
+   "ratio_obs_exp": 1.11,
+   "p_two_sided_lesser_tail": 0.4609943774826912,
+   "direction": "enriched"
+  },
+  "M3_Kpy_targets": {
+   "total": 3,
+   "in_universe": 0,
+   "observed_in_pool": 0,
+   "expected": 0.0,
+   "ratio_obs_exp": null,
+   "p_two_sided_lesser_tail": NaN,
+   "direction": "depleted"
+  },
+  "M4_IFNI_readout": {
+   "total": 31,
+   "in_universe": 21,
+   "observed_in_pool": 0,
+   "expected": 3.34,
+   "ratio_obs_exp": 0.0,
+   "p_two_sided_lesser_tail": 0.02613707740729255,
+   "direction": "depleted"
+  },
+  "nonM2_combined": {
+   "total": 38,
+   "in_universe": 22,
+   "observed_in_pool": 0,
+   "expected": 3.5,
+   "p_depleted": 0.02196375414181804
+  }
+ },
+ "T3_permutation": {
+  "KpyRN_all": {
+   "n": 56,
+   "obs": 6,
+   "p_perm_ge": 0.9021097890210978
+  },
+  "glycolysis_hsa00010": {
+   "n": 24,
+   "obs": 6,
+   "p_perm_ge": 0.16868313168683133
+  },
+  "nonM2_combined": {
+   "n": 22,
+   "obs": 0,
+   "p_perm_ge": 1.0
+  }
+ },
+ "verdict": {
+  "T1_three_layer_driven_by_M2_only": true,
+  "T2_KpyRN_whole_enriched": false,
+  "T2_glycolysis_enriched": false,
+  "T2_M4_depleted": true,
+  "all_glycolytic_is_independent_evidence": false
+ }
+}

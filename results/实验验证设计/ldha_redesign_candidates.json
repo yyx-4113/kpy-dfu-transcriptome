@@ -1,0 +1,587 @@
+{
+ "date": "2026-10-25",
+ "script": "02_脚本/redesign_ldha_primers.py",
+ "reason": "原设计模板 NM_001135239.1 的 5'UTR 在 RefSeq 版本更新中重排，旧前向引物 AGCTGTTCCACTTAAGGCCC 在全部 6 条当前 LDHA RefSeq 转录本中匹配位置均为 -1（正反向互补均为 -1），无法扩增 LDHA cDNA；且旧反向引物与 LYST 的 8 条人源 RefSeq 转录本全长 20 bp 匹配、identity 19/20、错配位于中段（3' 端 5 nt 全匹配），存在真实共扩增风险 → 整对重新设计。",
+ "old_primers": {
+  "template": "NM_001135239.1",
+  "forward": "AGCTGTTCCACTTAAGGCCC",
+  "reverse": "AAGGAATCGGGAATGCACGT",
+  "f_match_in_current_tx": {
+   "NM_005566.4": -1,
+   "NM_001135239.2": -1,
+   "NM_001165414.2": -1,
+   "NM_001165415.2": -1,
+   "NM_001165416.2": -1,
+   "NR_028500.2": -1
+  }
+ },
+ "transcripts": {
+  "NM_005566.4": {
+   "header": "NM_005566.4 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 1, mRNA",
+   "len": 2241,
+   "cds": [
+    [
+     99,
+     1097
+    ]
+   ]
+  },
+  "NM_001135239.2": {
+   "header": "NM_001135239.2 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 2, mRNA",
+   "len": 2067,
+   "cds": [
+    [
+     99,
+     923
+    ]
+   ]
+  },
+  "NM_001165414.2": {
+   "header": "NM_001165414.2 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 3, mRNA",
+   "len": 2427,
+   "cds": [
+    [
+     198,
+     1283
+    ]
+   ]
+  },
+  "NM_001165415.2": {
+   "header": "NM_001165415.2 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 4, mRNA",
+   "len": 1762,
+   "cds": [
+    [
+     99,
+     923
+    ]
+   ]
+  },
+  "NM_001165416.2": {
+   "header": "NM_001165416.2 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 5, mRNA",
+   "len": 2117,
+   "cds": [
+    [
+     99,
+     824
+    ]
+   ]
+  },
+  "NR_028500.2": {
+   "header": "NR_028500.2 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 6, non-coding RNA",
+   "len": 2123,
+   "cds": []
+  }
+ },
+ "canonical": "NM_005566.4",
+ "shared_25mer_segments": [
+  [
+   73,
+   224
+  ],
+  [
+   514,
+   785
+  ],
+  [
+   1049,
+   2031
+  ]
+ ],
+ "shared_25mer_in_cds_segments": [
+  [
+   98,
+   224
+  ],
+  [
+   514,
+   785
+  ],
+  [
+   1049,
+   1097
+  ]
+ ],
+ "n_shared_25mer": 1332,
+ "n_shared_25mer_in_cds": 373,
+ "primer3_version": "2.4.0",
+ "primer3_params": {
+  "PRIMER_TASK": "generic",
+  "PRIMER_PICK_LEFT_PRIMER": 1,
+  "PRIMER_PICK_RIGHT_PRIMER": 1,
+  "PRIMER_PICK_INTERNAL_OLIGO": 0,
+  "PRIMER_NUM_RETURN": 5,
+  "PRIMER_MIN_SIZE": 18,
+  "PRIMER_MAX_SIZE": 25,
+  "PRIMER_OPT_SIZE": 20,
+  "PRIMER_MAX_POLY_X": 4,
+  "PRIMER_MIN_TM": 58.0,
+  "PRIMER_MAX_TM": 62.0,
+  "PRIMER_OPT_TM": 60.0,
+  "PRIMER_MIN_GC": 40.0,
+  "PRIMER_MAX_GC": 60.0,
+  "PRIMER_MAX_NS_ACCEPTED": 0,
+  "PRIMER_MAX_SELF_ANY_TH": 47.0,
+  "PRIMER_MAX_SELF_END_TH": 47.0,
+  "PRIMER_MAX_HAIRPIN_TH": 47.0,
+  "PRIMER_PAIR_MAX_COMPL_ANY_TH": 47.0,
+  "PRIMER_PAIR_MAX_COMPL_END_TH": 47.0,
+  "PRIMER_PRODUCT_SIZE_RANGE": [
+   [
+    80,
+    180
+   ]
+  ]
+ },
+ "candidates": [
+  {
+   "seg": [
+    514,
+    785
+   ],
+   "forward": "ACCGTGTTATTGGAAGCGGT",
+   "reverse": "CTCCATGTTCCCCAAGGACC",
+   "f_tm": 59.964260505926404,
+   "r_tm": 60.034088833403985,
+   "f_gc": 50.0,
+   "r_gc": 60.0,
+   "product_size": 117,
+   "canonical_f_start_1based": 565,
+   "canonical_f_end_1based": 584,
+   "canonical_r_start_1based": 681,
+   "canonical_r_end_1based": 700,
+   "f_self_any_th": 0.0,
+   "f_self_end_th": 0.0,
+   "f_hairpin_th": 46.13840286116044,
+   "r_self_any_th": 0.0,
+   "r_self_end_th": 0.0,
+   "r_hairpin_th": 43.90247481086442,
+   "pair_compl_any_th": 0.0,
+   "pair_compl_end_th": 0.0,
+   "penalty": 0.06982832747758039,
+   "transcript_coverage": {
+    "NM_005566.4": {
+     "F_pos": 564,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001135239.2": {
+     "F_pos": 390,
+     "R_rc_pos": 487,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165414.2": {
+     "F_pos": 750,
+     "R_rc_pos": 847,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165415.2": {
+     "F_pos": 564,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165416.2": {
+     "F_pos": 564,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NR_028500.2": {
+     "F_pos": 446,
+     "R_rc_pos": 543,
+     "in_CDS": false,
+     "is_coding": false,
+     "ok": true
+    }
+   },
+   "n_tx_covered": 6,
+   "n_coding_tx": 5,
+   "n_coding_covered": 5,
+   "all_coding_covered": true,
+   "all_tx_covered": true
+  },
+  {
+   "seg": [
+    514,
+    785
+   ],
+   "forward": "TTCAGCCCGATTCCGTTACC",
+   "reverse": "CTCCATGTTCCCCAAGGACC",
+   "f_tm": 60.10804139819629,
+   "r_tm": 60.034088833403985,
+   "f_gc": 55.0,
+   "r_gc": 60.0,
+   "product_size": 86,
+   "canonical_f_start_1based": 596,
+   "canonical_f_end_1based": 615,
+   "canonical_r_start_1based": 681,
+   "canonical_r_end_1based": 700,
+   "f_self_any_th": 0.0,
+   "f_self_end_th": 0.0,
+   "f_hairpin_th": 0.0,
+   "r_self_any_th": 0.0,
+   "r_self_end_th": 0.0,
+   "r_hairpin_th": 43.90247481086442,
+   "pair_compl_any_th": 0.0,
+   "pair_compl_end_th": 0.0,
+   "penalty": 0.1421302316002766,
+   "transcript_coverage": {
+    "NM_005566.4": {
+     "F_pos": 595,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001135239.2": {
+     "F_pos": 421,
+     "R_rc_pos": 487,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165414.2": {
+     "F_pos": 781,
+     "R_rc_pos": 847,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165415.2": {
+     "F_pos": 595,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165416.2": {
+     "F_pos": 595,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NR_028500.2": {
+     "F_pos": 477,
+     "R_rc_pos": 543,
+     "in_CDS": false,
+     "is_coding": false,
+     "ok": true
+    }
+   },
+   "n_tx_covered": 6,
+   "n_coding_tx": 5,
+   "n_coding_covered": 5,
+   "all_coding_covered": true,
+   "all_tx_covered": true
+  },
+  {
+   "seg": [
+    514,
+    785
+   ],
+   "forward": "TGACCTACGTGGCTTGGAAG",
+   "reverse": "CTCCATGTTCCCCAAGGACC",
+   "f_tm": 59.67962628585474,
+   "r_tm": 60.034088833403985,
+   "f_gc": 55.0,
+   "r_gc": 60.0,
+   "product_size": 156,
+   "canonical_f_start_1based": 526,
+   "canonical_f_end_1based": 545,
+   "canonical_r_start_1based": 681,
+   "canonical_r_end_1based": 700,
+   "f_self_any_th": 0.0,
+   "f_self_end_th": 0.0,
+   "f_hairpin_th": 40.2236773542964,
+   "r_self_any_th": 0.0,
+   "r_self_end_th": 0.0,
+   "r_hairpin_th": 43.90247481086442,
+   "pair_compl_any_th": 2.9730142687580496,
+   "pair_compl_end_th": 0.0,
+   "penalty": 0.35446254754924666,
+   "transcript_coverage": {
+    "NM_005566.4": {
+     "F_pos": 525,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001135239.2": {
+     "F_pos": 351,
+     "R_rc_pos": 487,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165414.2": {
+     "F_pos": 711,
+     "R_rc_pos": 847,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165415.2": {
+     "F_pos": 525,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165416.2": {
+     "F_pos": 525,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NR_028500.2": {
+     "F_pos": 407,
+     "R_rc_pos": 543,
+     "in_CDS": false,
+     "is_coding": false,
+     "ok": true
+    }
+   },
+   "n_tx_covered": 6,
+   "n_coding_tx": 5,
+   "n_coding_covered": 5,
+   "all_coding_covered": true,
+   "all_tx_covered": true
+  },
+  {
+   "seg": [
+    514,
+    785
+   ],
+   "forward": "TCTTGACCTACGTGGCTTGG",
+   "reverse": "CTCCATGTTCCCCAAGGACC",
+   "f_tm": 59.67962628585474,
+   "r_tm": 60.034088833403985,
+   "f_gc": 55.0,
+   "r_gc": 60.0,
+   "product_size": 159,
+   "canonical_f_start_1based": 523,
+   "canonical_f_end_1based": 542,
+   "canonical_r_start_1based": 681,
+   "canonical_r_end_1based": 700,
+   "f_self_any_th": 0.0,
+   "f_self_end_th": 0.0,
+   "f_hairpin_th": 40.2236773542964,
+   "r_self_any_th": 0.0,
+   "r_self_end_th": 0.0,
+   "r_hairpin_th": 43.90247481086442,
+   "pair_compl_any_th": 0.0,
+   "pair_compl_end_th": 0.0,
+   "penalty": 0.35446254754924666,
+   "transcript_coverage": {
+    "NM_005566.4": {
+     "F_pos": 522,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001135239.2": {
+     "F_pos": 348,
+     "R_rc_pos": 487,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165414.2": {
+     "F_pos": 708,
+     "R_rc_pos": 847,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165415.2": {
+     "F_pos": 522,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165416.2": {
+     "F_pos": 522,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NR_028500.2": {
+     "F_pos": 404,
+     "R_rc_pos": 543,
+     "in_CDS": false,
+     "is_coding": false,
+     "ok": true
+    }
+   },
+   "n_tx_covered": 6,
+   "n_coding_tx": 5,
+   "n_coding_covered": 5,
+   "all_coding_covered": true,
+   "all_tx_covered": true
+  },
+  {
+   "seg": [
+    514,
+    785
+   ],
+   "forward": "CTTGACCTACGTGGCTTGGA",
+   "reverse": "CTCCATGTTCCCCAAGGACC",
+   "f_tm": 59.67962628585474,
+   "r_tm": 60.034088833403985,
+   "f_gc": 55.0,
+   "r_gc": 60.0,
+   "product_size": 158,
+   "canonical_f_start_1based": 524,
+   "canonical_f_end_1based": 543,
+   "canonical_r_start_1based": 681,
+   "canonical_r_end_1based": 700,
+   "f_self_any_th": 0.0,
+   "f_self_end_th": 0.0,
+   "f_hairpin_th": 40.2236773542964,
+   "r_self_any_th": 0.0,
+   "r_self_end_th": 0.0,
+   "r_hairpin_th": 43.90247481086442,
+   "pair_compl_any_th": 2.9730142687580496,
+   "pair_compl_end_th": 0.7600050389452235,
+   "penalty": 0.35446254754924666,
+   "transcript_coverage": {
+    "NM_005566.4": {
+     "F_pos": 523,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001135239.2": {
+     "F_pos": 349,
+     "R_rc_pos": 487,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165414.2": {
+     "F_pos": 709,
+     "R_rc_pos": 847,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165415.2": {
+     "F_pos": 523,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NM_001165416.2": {
+     "F_pos": 523,
+     "R_rc_pos": 661,
+     "in_CDS": true,
+     "is_coding": true,
+     "ok": true
+    },
+    "NR_028500.2": {
+     "F_pos": 405,
+     "R_rc_pos": 543,
+     "in_CDS": false,
+     "is_coding": false,
+     "ok": true
+    }
+   },
+   "n_tx_covered": 6,
+   "n_coding_tx": 5,
+   "n_coding_covered": 5,
+   "all_coding_covered": true,
+   "all_tx_covered": true
+  }
+ ],
+ "selected": {
+  "seg": [
+   514,
+   785
+  ],
+  "forward": "ACCGTGTTATTGGAAGCGGT",
+  "reverse": "CTCCATGTTCCCCAAGGACC",
+  "f_tm": 59.964260505926404,
+  "r_tm": 60.034088833403985,
+  "f_gc": 50.0,
+  "r_gc": 60.0,
+  "product_size": 117,
+  "canonical_f_start_1based": 565,
+  "canonical_f_end_1based": 584,
+  "canonical_r_start_1based": 681,
+  "canonical_r_end_1based": 700,
+  "f_self_any_th": 0.0,
+  "f_self_end_th": 0.0,
+  "f_hairpin_th": 46.13840286116044,
+  "r_self_any_th": 0.0,
+  "r_self_end_th": 0.0,
+  "r_hairpin_th": 43.90247481086442,
+  "pair_compl_any_th": 0.0,
+  "pair_compl_end_th": 0.0,
+  "penalty": 0.06982832747758039,
+  "transcript_coverage": {
+   "NM_005566.4": {
+    "F_pos": 564,
+    "R_rc_pos": 661,
+    "in_CDS": true,
+    "is_coding": true,
+    "ok": true
+   },
+   "NM_001135239.2": {
+    "F_pos": 390,
+    "R_rc_pos": 487,
+    "in_CDS": true,
+    "is_coding": true,
+    "ok": true
+   },
+   "NM_001165414.2": {
+    "F_pos": 750,
+    "R_rc_pos": 847,
+    "in_CDS": true,
+    "is_coding": true,
+    "ok": true
+   },
+   "NM_001165415.2": {
+    "F_pos": 564,
+    "R_rc_pos": 661,
+    "in_CDS": true,
+    "is_coding": true,
+    "ok": true
+   },
+   "NM_001165416.2": {
+    "F_pos": 564,
+    "R_rc_pos": 661,
+    "in_CDS": true,
+    "is_coding": true,
+    "ok": true
+   },
+   "NR_028500.2": {
+    "F_pos": 446,
+    "R_rc_pos": 543,
+    "in_CDS": false,
+    "is_coding": false,
+    "ok": true
+   }
+  },
+  "n_tx_covered": 6,
+  "n_coding_tx": 5,
+  "n_coding_covered": 5,
+  "all_coding_covered": true,
+  "all_tx_covered": true
+ }
+}

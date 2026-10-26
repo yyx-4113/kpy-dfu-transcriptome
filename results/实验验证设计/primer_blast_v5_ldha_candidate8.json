@@ -1,0 +1,90 @@
+{
+ "date": "2026-10-25",
+ "script": "02_脚本/verify_ldha_c8_finalize.py",
+ "gene": "LDHA",
+ "template": "NM_005566.4",
+ "reuse_forward_from": "primer_blast_v5_ldha.json (verify_ldha_v5_specificity.py): P0=0, tgt_tx=6, LOC=0, n_human=3667",
+ "new_reverse_blasted": "CCAGCTTCCAGAGGACAAGAT",
+ "candidates": [
+  [
+   "ACCACTTCCATTGTAAGTCCCA",
+   "CCAGCTTCCAGAGGACAAGAT"
+  ]
+ ],
+ "results": [
+  {
+   "tag": "c8",
+   "forward": "ACCACTTCCATTGTAAGTCCCA",
+   "reverse": "CCAGCTTCCAGAGGACAAGAT",
+   "geometry": {
+    "f_pos_1based": 1832,
+    "r_rc_pos_1based": 1985,
+    "product_size": 174,
+    "f_gc": 45.5,
+    "r_gc": 52.4,
+    "gc_diff": 6.9,
+    "f_len": 22,
+    "r_len": 21,
+    "ok_in_canon": true
+   },
+   "forward_blast": {
+    "status": "READY",
+    "P0": 0,
+    "P1": 0,
+    "PARALOG": 1,
+    "PSEUDO": 0,
+    "tgt_tx": 6,
+    "LOC": 0,
+    "n_human": 3667
+   },
+   "reverse_blast": {
+    "status": "READY",
+    "P0": 0,
+    "P1": 2,
+    "PARALOG": 1,
+    "PSEUDO": 0,
+    "tgt_tx": 6,
+    "LOC": 0,
+    "n_human": 5198
+   },
+   "verdict": "USABLE"
+  }
+ ],
+ "selected": {
+  "tag": "c8",
+  "forward": "ACCACTTCCATTGTAAGTCCCA",
+  "reverse": "CCAGCTTCCAGAGGACAAGAT",
+  "geometry": {
+   "f_pos_1based": 1832,
+   "r_rc_pos_1based": 1985,
+   "product_size": 174,
+   "f_gc": 45.5,
+   "r_gc": 52.4,
+   "gc_diff": 6.9,
+   "f_len": 22,
+   "r_len": 21,
+   "ok_in_canon": true
+  },
+  "forward_blast": {
+   "status": "READY",
+   "P0": 0,
+   "P1": 0,
+   "PARALOG": 1,
+   "PSEUDO": 0,
+   "tgt_tx": 6,
+   "LOC": 0,
+   "n_human": 3667
+  },
+  "reverse_blast": {
+   "status": "READY",
+   "P0": 0,
+   "P1": 2,
+   "PARALOG": 1,
+   "PSEUDO": 0,
+   "tgt_tx": 6,
+   "LOC": 0,
+   "n_human": 5198
+  },
+  "verdict": "USABLE"
+ }
+}

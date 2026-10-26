@@ -1,0 +1,15 @@
+=== immune_deconv.R ===
+R version: R version 4.4.3 (2025-02-28 ucrt) 
+EPIC version: 1.1.7 
+MCPcounter: direct implementation of ebecht/MCPcounter Source/R/MCPcounter.R
+ESTIMATE: implemented in Python (immune_estimate_correlate.py)
+
+[GSE134431] matrix: 24390 genes x 21 samples
+  [GSE134431] EPIC: OK (18 cell types + s25/s27/s29)
+  [GSE134431] MCPcounter: OK (10 populations: T cells, CD8 T cells, Cytotoxic lymphocytes, B lineage, NK cells, Monocytic lineage, Myeloid dendritic cells, Neutrophils, Endothelial cells, Fibroblasts)
+
+[GSE199939] matrix: 39148 genes x 21 samples
+  [GSE199939] EPIC: OK (18 cell types + N9/N10/N11)
+  [GSE199939] MCPcounter: OK (10 populations: T cells, CD8 T cells, Cytotoxic lymphocytes, B lineage, NK cells, Monocytic lineage, Myeloid dendritic cells, Neutrophils, Endothelial cells, Fibroblasts)
+
+IMMUNE DECONV DONE

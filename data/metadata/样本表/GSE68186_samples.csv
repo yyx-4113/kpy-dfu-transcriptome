@@ -1,0 +1,21 @@
+﻿gsm,title,type,platform,characteristics
+GSM1665311,Diabetic Foot Skin 01 gene expression profile,RNA,GPL16686,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665312,Diabetic Foot Skin 02 gene expression profile,RNA,GPL16686,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665313,Diabetic Foot Skin 03 gene expression profile,RNA,GPL16686,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665314,non-Diabetic Foot Skin 01 gene expression profile,RNA,GPL16686,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665315,non-Diabetic Foot Skin 02 gene expression profile,RNA,GPL16686,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665316,non-Diabetic Foot Skin 03 gene expression profile,RNA,GPL16686,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665317,DFS 01 [RT-PCR],RNA,GPL19631,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665318,DFS 02 [RT-PCR],RNA,GPL19631,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665319,DFS 03 [RT-PCR],RNA,GPL19631,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS)
+GSM1665320,NFS 01 [RT-PCR],RNA,GPL19631,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665321,NFS 02 [RT-PCR],RNA,GPL19631,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665322,NFS 03 [RT-PCR],RNA,GPL19631,tissue=healthy non-diabetic foot skin (NFS)
+GSM1665323,Diabetic foot fibroblasts sample 20,RNA,GPL17537,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS) | cell type=fibroblast
+GSM1665324,Diabetic foot fibroblasts sample 24,RNA,GPL17537,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS) | cell type=fibroblast
+GSM1665325,Diabetic foot fibroblasts sample 05,RNA,GPL17537,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS) | cell type=fibroblast
+GSM1665326,Diabetic foot fibroblasts sample 09,RNA,GPL17537,tissue=non-ulcerated non-neuropathic diabetic foot skin (DFS) | cell type=fibroblast
+GSM1665327,Non diabetic foot fibroblasts sample 11,RNA,GPL17537,tissue=healthy non-diabetic foot skin (NFS) | cell type=fibroblast
+GSM1665328,Non diabetic foot fibroblasts sample 12,RNA,GPL17537,tissue=healthy non-diabetic foot skin (NFS) | cell type=fibroblast
+GSM1665329,Non diabetic foot fibroblasts sample 14,RNA,GPL17537,tissue=healthy non-diabetic foot skin (NFS) | cell type=fibroblast
+GSM1665330,Non diabetic foot fibroblasts sample 23,RNA,GPL17537,tissue=healthy non-diabetic foot skin (NFS) | cell type=fibroblast

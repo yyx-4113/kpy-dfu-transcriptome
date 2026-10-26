@@ -1,0 +1,1051 @@
+[06:49:05] ensg->symbol map loaded: 63086 entries
+[06:49:05] samples: 54; groups: {('Foot skin', 'Non-diabetic'): 11, ('Foot skin', 'DFU-healer'): 9, ('Foot skin', 'Non-DFU Diabetic'): 8, ('Foot skin', 'DFU-nonhealer'): 5, ('Forearm skin', 'Non-diabetic'): 4, ('PBMCs', 'DFU-healer'): 3, ('Forearm skin', 'DFU-healer'): 3, ('PBMCs', 'Non-diabetic'): 3, ('Forearm skin', 'Non-DFU Diabetic'): 2, ('Forearm skin', 'DFU-nonhealer'): 2, ('PBMCs', 'Non-DFU Diabetic'): 2, ('PBMCs', 'DFU-nonhealer'): 2}
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+[06:50:38] processed 10/54 samples (last: GSM5050530, 2279/2279 pass; 92s)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+[06:53:55] processed 20/54 samples (last: GSM5050540, 2922/2922 pass; 290s)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+[06:56:50] processed 30/54 samples (last: GSM5050550, 3669/3669 pass; 464s)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+[07:00:32] processed 40/54 samples (last: GSM5050560, 5248/5248 pass; 687s)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+[07:03:10] processed 50/54 samples (last: GSM5050570, 1160/1659 pass; 845s)
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+D:\2026.10\丙酮酰化与神经病理性疼痛\丙酮酰化与糖尿病足\02_脚本\scrna_load_qc.py:63: ParserWarning: Both a converter and dtype were specified for column None - only the converter will be used.
+  for chk in pd.read_csv(fp, header=None, skiprows=1, chunksize=CHUNK_GENES,
+[07:04:17] processed 54/54 samples (last: GSM5050574, 2940/3531 pass; 912s)
+[07:04:18] DONE: 167837/174962 cells pass QC (95.9%); ensg ids: 0; dup rows: 0; total 913s

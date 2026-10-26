@@ -1,0 +1,141 @@
+======================================================================
+immune_estimate_correlate.py — 启动
+======================================================================
+枢纽基因集合（16）: ADH1B, ALDH3A2, BPGM, DHX58, EP300, FAHD2B, GBP1, HAT1, LDHA, PFKP, PGAM1, PGM2, PKM2, SIRT3, STAT1, TPI1
+[GSE134431] EPIC fractions: (21, 7); MCPcounter: (21, 10); expr: (24390, 21)
+[ESTIMATE] signature genes available: 275 / 280
+[GSE134431] ESTIMATE 完成: 21 samples; median Immune=12.3, Stromal=17.8
+[GSE134431] Healer(n=7) vs Nonhealer(n=6): FDR<0.05 的指标: 无
+[GSE134431] DFS(n=8) vs DFU(n=13): FDR<0.05 的指标: EPIC_CD8_Tcells, MCP_T cells, MCP_CD8 T cells, MCP_Cytotoxic lymphocytes, MCP_NK cells, MCP_Myeloid dendritic cells
+[GSE134431] hub gene × immune: FDR<0.05 相关 60 对（共 300 对）
+    DHX58     ~ MCP_CD8 T cells        rho=+0.840 FDR=5.62e-04
+    DHX58     ~ MCP_T cells            rho=+0.809 FDR=1.34e-03
+    ALDH3A2   ~ MCP_Myeloid dendritic cells rho=+0.796 FDR=1.56e-03
+    DHX58     ~ MCP_Cytotoxic lymphocytes rho=+0.790 FDR=1.56e-03
+    DHX58     ~ EPIC_CD8_Tcells        rho=+0.783 FDR=1.62e-03
+    DHX58     ~ MCP_NK cells           rho=+0.775 FDR=1.83e-03
+    TPI1      ~ MCP_Neutrophils        rho=+0.769 FDR=2.00e-03
+    ADH1B     ~ MCP_NK cells           rho=+0.752 FDR=3.21e-03
+    PGAM1     ~ EPIC_CD8_Tcells        rho=-0.705 FDR=9.72e-03
+    PGM2      ~ MCP_NK cells           rho=-0.709 FDR=9.72e-03
+    FAHD2B    ~ EPIC_CD8_Tcells        rho=+0.706 FDR=9.72e-03
+    PGAM1     ~ MCP_Neutrophils        rho=+0.694 FDR=1.22e-02
+[GSE199939] EPIC fractions: (21, 7); MCPcounter: (21, 10); expr: (39148, 21)
+[ESTIMATE] signature genes available: 274 / 280
+[GSE199939] ESTIMATE 完成: 21 samples; median Immune=30.3, Stromal=-0.5
+[GSE199939] DFU(n=10) vs control(n=11): FDR<0.05 的指标: EPIC_CD4_Tcells, EPIC_Neutrophils, EPIC_otherCells, MCP_Monocytic lineage, MCP_Myeloid dendritic cells, MCP_Fibroblasts
+[GSE199939] hub gene × immune: FDR<0.05 相关 62 对（共 300 对）
+    SIRT3     ~ EPIC_otherCells        rho=+0.842 FDR=5.23e-04
+    ALDH3A2   ~ MCP_Fibroblasts        rho=-0.814 FDR=5.70e-04
+    FAHD2B    ~ EPIC_CD4_Tcells        rho=-0.812 FDR=5.70e-04
+    BPGM      ~ MCP_Fibroblasts        rho=+0.817 FDR=5.70e-04
+    PGM2      ~ EPIC_CD4_Tcells        rho=+0.808 FDR=5.70e-04
+    PFKP      ~ MCP_Fibroblasts        rho=+0.775 FDR=1.83e-03
+    FAHD2B    ~ MCP_Fibroblasts        rho=-0.762 FDR=2.04e-03
+    ALDH3A2   ~ EPIC_CD4_Tcells        rho=-0.768 FDR=2.04e-03
+    ADH1B     ~ EPIC_CD4_Tcells        rho=-0.761 FDR=2.04e-03
+    LDHA      ~ EPIC_Neutrophils       rho=+0.756 FDR=2.22e-03
+    LDHA      ~ EPIC_CD4_Tcells        rho=+0.739 FDR=2.78e-03
+    DHX58     ~ EPIC_CD4_Tcells        rho=-0.740 FDR=2.78e-03
+---- 方法一致性：EPIC vs MCPcounter（全部样本合并）----
+      gse             epic                   mcp       rho            p  n
+GSE134431      EPIC_Bcells         MCP_B lineage  0.871429 2.708908e-07 21
+GSE134431  EPIC_CD4_Tcells           MCP_T cells -0.090909 6.951311e-01 21
+GSE134431  EPIC_CD8_Tcells       MCP_CD8 T cells  0.909091 1.171162e-08 21
+GSE134431   EPIC_Monocytes MCP_Monocytic lineage  0.650649 1.403863e-03 21
+GSE134431 EPIC_Neutrophils       MCP_Neutrophils  0.541558 1.122576e-02 21
+GSE134431     EPIC_NKcells          MCP_NK cells -0.400000 7.239003e-02 21
+GSE199939      EPIC_Bcells         MCP_B lineage  0.896104 3.953026e-08 21
+GSE199939  EPIC_CD4_Tcells           MCP_T cells -0.033766 8.844723e-01 21
+GSE199939  EPIC_CD8_Tcells       MCP_CD8 T cells  0.946753 8.442873e-11 21
+GSE199939   EPIC_Monocytes MCP_Monocytic lineage  0.709091 3.195131e-04 21
+GSE199939 EPIC_Neutrophils       MCP_Neutrophils  0.933766 6.378436e-10 21
+GSE199939     EPIC_NKcells          MCP_NK cells  0.288312 2.050018e-01 21
+DONE — immune_estimate_correlate.py
+KpyRN 评分模块: {'M1_Kpy_machinery': 4, 'M2_Pyruvate_supply': 90, 'M3_Kpy_targets': 3, 'M4_IFNI_readout': 31}
+[GSE134431] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE134431] M2_Pyruvate_supply: 88/90 基因用于评分
+[GSE134431] M3_Kpy_targets: 3/3 基因用于评分
+[GSE134431] M4_IFNI_readout: 31/31 基因用于评分
+[GSE199939] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE199939] M2_Pyruvate_supply: 87/90 基因用于评分
+[GSE199939] M3_Kpy_targets: 3/3 基因用于评分
+[GSE199939] M4_IFNI_readout: 31/31 基因用于评分
+[GSE134431] KpyRN 模块 × 免疫 FDR<0.05: 8 对
+    M2_Pyruvate_supply     ~ MCP_Neutrophils        rho=+0.764 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Monocytic lineage  rho=+0.778 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Endothelial cells  rho=+0.691 FDR=1.68e-02
+    M2_Pyruvate_supply     ~ MCP_Monocytic lineage  rho=+0.696 FDR=1.68e-02
+    M4_IFNI_readout        ~ MCP_Fibroblasts        rho=+0.682 FDR=1.77e-02
+    M4_IFNI_readout        ~ EPIC_Monocytes         rho=+0.658 FDR=2.68e-02
+    M4_IFNI_readout        ~ MCP_Neutrophils        rho=+0.639 FDR=3.64e-02
+    M1_Kpy_machinery       ~ MCP_Monocytic lineage  rho=+0.622 FDR=4.63e-02
+[GSE199939] KpyRN 模块 × 免疫 FDR<0.05: 1 对
+    M2_Pyruvate_supply     ~ EPIC_CD4_Tcells        rho=-0.725 FDR=1.08e-02
+KpyRN 评分模块: {'M1_Kpy_machinery': 4, 'M2_Pyruvate_supply': 90, 'M3_Kpy_targets': 3, 'M4_IFNI_readout': 31}
+[GSE134431] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE134431] M2_Pyruvate_supply: 88/90 基因用于评分
+[GSE134431] M3_Kpy_targets: 3/3 基因用于评分
+[GSE134431] M4_IFNI_readout: 31/31 基因用于评分
+[GSE199939] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE199939] M2_Pyruvate_supply: 87/90 基因用于评分
+[GSE199939] M3_Kpy_targets: 3/3 基因用于评分
+[GSE199939] M4_IFNI_readout: 31/31 基因用于评分
+[GSE134431] KpyRN 模块 × 免疫 FDR<0.05: 8 对
+    M2_Pyruvate_supply     ~ MCP_Neutrophils        rho=+0.764 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Monocytic lineage  rho=+0.778 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Endothelial cells  rho=+0.691 FDR=1.68e-02
+    M2_Pyruvate_supply     ~ MCP_Monocytic lineage  rho=+0.696 FDR=1.68e-02
+    M4_IFNI_readout        ~ MCP_Fibroblasts        rho=+0.682 FDR=1.77e-02
+    M4_IFNI_readout        ~ EPIC_Monocytes         rho=+0.658 FDR=2.68e-02
+    M4_IFNI_readout        ~ MCP_Neutrophils        rho=+0.639 FDR=3.64e-02
+    M1_Kpy_machinery       ~ MCP_Monocytic lineage  rho=+0.622 FDR=4.63e-02
+[GSE199939] KpyRN 模块 × 免疫 FDR<0.05: 1 对
+    M2_Pyruvate_supply     ~ EPIC_CD4_Tcells        rho=-0.725 FDR=1.08e-02
+KpyRN 评分模块: {'M1_Kpy_machinery': 4, 'M2_Pyruvate_supply': 90, 'M3_Kpy_targets': 3, 'M4_IFNI_readout': 31}
+[GSE134431] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE134431] M2_Pyruvate_supply: 88/90 基因用于评分
+[GSE134431] M3_Kpy_targets: 3/3 基因用于评分
+[GSE134431] M4_IFNI_readout: 31/31 基因用于评分
+[GSE199939] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE199939] M2_Pyruvate_supply: 87/90 基因用于评分
+[GSE199939] M3_Kpy_targets: 3/3 基因用于评分
+[GSE199939] M4_IFNI_readout: 31/31 基因用于评分
+[GSE134431] KpyRN 模块 × 免疫 FDR<0.05: 8 对
+    M2_Pyruvate_supply     ~ MCP_Neutrophils        rho=+0.764 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Monocytic lineage  rho=+0.778 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Endothelial cells  rho=+0.691 FDR=1.68e-02
+    M2_Pyruvate_supply     ~ MCP_Monocytic lineage  rho=+0.696 FDR=1.68e-02
+    M4_IFNI_readout        ~ MCP_Fibroblasts        rho=+0.682 FDR=1.77e-02
+    M4_IFNI_readout        ~ EPIC_Monocytes         rho=+0.658 FDR=2.68e-02
+    M4_IFNI_readout        ~ MCP_Neutrophils        rho=+0.639 FDR=3.64e-02
+    M1_Kpy_machinery       ~ MCP_Monocytic lineage  rho=+0.622 FDR=4.63e-02
+[GSE199939] KpyRN 模块 × 免疫 FDR<0.05: 1 对
+    M2_Pyruvate_supply     ~ EPIC_CD4_Tcells        rho=-0.725 FDR=1.08e-02
+fig_immune_group_boxplots.png saved
+fig_hubgene_immune_heatmap.png saved
+KpyRN 评分模块: {'M1_Kpy_machinery': 4, 'M2_Pyruvate_supply': 90, 'M3_Kpy_targets': 3, 'M4_IFNI_readout': 31}
+[GSE134431] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE134431] M2_Pyruvate_supply: 88/90 基因用于评分
+[GSE134431] M3_Kpy_targets: 3/3 基因用于评分
+[GSE134431] M4_IFNI_readout: 31/31 基因用于评分
+[GSE199939] M1_Kpy_machinery: 4/4 基因用于评分
+[GSE199939] M2_Pyruvate_supply: 87/90 基因用于评分
+[GSE199939] M3_Kpy_targets: 3/3 基因用于评分
+[GSE199939] M4_IFNI_readout: 31/31 基因用于评分
+[GSE134431] KpyRN 模块 × 免疫 FDR<0.05: 8 对
+    M2_Pyruvate_supply     ~ MCP_Neutrophils        rho=+0.764 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Monocytic lineage  rho=+0.778 FDR=4.50e-03
+    M4_IFNI_readout        ~ MCP_Endothelial cells  rho=+0.691 FDR=1.68e-02
+    M2_Pyruvate_supply     ~ MCP_Monocytic lineage  rho=+0.696 FDR=1.68e-02
+    M4_IFNI_readout        ~ MCP_Fibroblasts        rho=+0.682 FDR=1.77e-02
+    M4_IFNI_readout        ~ EPIC_Monocytes         rho=+0.658 FDR=2.68e-02
+    M4_IFNI_readout        ~ MCP_Neutrophils        rho=+0.639 FDR=3.64e-02
+    M1_Kpy_machinery       ~ MCP_Monocytic lineage  rho=+0.622 FDR=4.63e-02
+[GSE199939] KpyRN 模块 × 免疫 FDR<0.05: 1 对
+    M2_Pyruvate_supply     ~ EPIC_CD4_Tcells        rho=-0.725 FDR=1.08e-02
+fig_immune_group_boxplots.png saved
+fig_hubgene_immune_heatmap.png saved
+fig_method_concordance.png saved
+fig_kpyrn_module_immune.png saved
+DONE — immune_figures.py

@@ -1,0 +1,24 @@
+# Large intermediates excluded from git (archived on Zenodo; see ZENODO_ARCHIVE_LIST.csv)
+01_数据/原始数据/
+01_数据/处理后数据/
+01_数据/MR/*.gz
+01_数据/工具/
+*.npz
+*.h5ad
+*.tar
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db

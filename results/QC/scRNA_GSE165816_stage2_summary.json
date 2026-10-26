@@ -1,0 +1,559 @@
+{
+  "n_cells_scored": 167837,
+  "n_lineages": 23,
+  "lineage_marker_coverage": {
+    "Adipocyte": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "B": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "Eccrine": {
+      "n_markers": 2,
+      "n_present": 2,
+      "missing": []
+    },
+    "Endothelial": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "Endothelial_lymphatic": {
+      "n_markers": 3,
+      "n_present": 3,
+      "missing": []
+    },
+    "Fibroblast": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "Fibroblast_papillary": {
+      "n_markers": 2,
+      "n_present": 2,
+      "missing": []
+    },
+    "Fibroblast_reticular": {
+      "n_markers": 2,
+      "n_present": 2,
+      "missing": []
+    },
+    "Keratinocyte_basal": {
+      "n_markers": 3,
+      "n_present": 3,
+      "missing": []
+    },
+    "Keratinocyte_suprabasal": {
+      "n_markers": 2,
+      "n_present": 2,
+      "missing": []
+    },
+    "Macrophage": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "Mast": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "Mono_CD14": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "Mono_CD16": {
+      "n_markers": 1,
+      "n_present": 1,
+      "missing": []
+    },
+    "NK": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "Neutrophil": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "Pericyte_SMC": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "Plasma": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "Schwann_neural": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "T_CD4": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "T_CD8": {
+      "n_markers": 5,
+      "n_present": 5,
+      "missing": []
+    },
+    "cDC": {
+      "n_markers": 4,
+      "n_present": 4,
+      "missing": []
+    },
+    "pDC": {
+      "n_markers": 3,
+      "n_present": 3,
+      "missing": []
+    }
+  },
+  "kpyrn_present": "135/140",
+  "margin_threshold": 0.25,
+  "ambiguous_fraction": 0.1265,
+  "tissue_sanity": [
+    {
+      "gsm": "GSM5050521",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.057,
+      "frac_skin": 0.836,
+      "frac_ambiguous": 0.1071,
+      "n_cells": 3054
+    },
+    {
+      "gsm": "GSM5050522",
+      "tissue": "Foot skin",
+      "frac_blood": 0.198,
+      "frac_skin": 0.7046,
+      "frac_ambiguous": 0.0975,
+      "n_cells": 985
+    },
+    {
+      "gsm": "GSM5050523",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0678,
+      "frac_skin": 0.7793,
+      "frac_ambiguous": 0.1529,
+      "n_cells": 3951
+    },
+    {
+      "gsm": "GSM5050524",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1494,
+      "frac_skin": 0.8081,
+      "frac_ambiguous": 0.0424,
+      "n_cells": 542
+    },
+    {
+      "gsm": "GSM5050525",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0731,
+      "frac_skin": 0.813,
+      "frac_ambiguous": 0.1139,
+      "n_cells": 1984
+    },
+    {
+      "gsm": "GSM5050526",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1701,
+      "frac_skin": 0.6113,
+      "frac_ambiguous": 0.2186,
+      "n_cells": 1011
+    },
+    {
+      "gsm": "GSM5050527",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1407,
+      "frac_skin": 0.741,
+      "frac_ambiguous": 0.1183,
+      "n_cells": 2865
+    },
+    {
+      "gsm": "GSM5050528",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.1293,
+      "frac_skin": 0.8244,
+      "frac_ambiguous": 0.0462,
+      "n_cells": 1384
+    },
+    {
+      "gsm": "GSM5050529",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0662,
+      "frac_skin": 0.8156,
+      "frac_ambiguous": 0.1183,
+      "n_cells": 2630
+    },
+    {
+      "gsm": "GSM5050530",
+      "tissue": "Foot skin",
+      "frac_blood": 0.3585,
+      "frac_skin": 0.4866,
+      "frac_ambiguous": 0.1549,
+      "n_cells": 2279
+    },
+    {
+      "gsm": "GSM5050531",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1915,
+      "frac_skin": 0.6507,
+      "frac_ambiguous": 0.1577,
+      "n_cells": 1775
+    },
+    {
+      "gsm": "GSM5050532",
+      "tissue": "Foot skin",
+      "frac_blood": 0.2197,
+      "frac_skin": 0.6649,
+      "frac_ambiguous": 0.1154,
+      "n_cells": 2417
+    },
+    {
+      "gsm": "GSM5050533",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0336,
+      "frac_skin": 0.8501,
+      "frac_ambiguous": 0.1163,
+      "n_cells": 4290
+    },
+    {
+      "gsm": "GSM5050534",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0073,
+      "frac_skin": 0.8162,
+      "frac_ambiguous": 0.1766,
+      "n_cells": 4825
+    },
+    {
+      "gsm": "GSM5050535",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.1284,
+      "frac_skin": 0.7562,
+      "frac_ambiguous": 0.1154,
+      "n_cells": 1620
+    },
+    {
+      "gsm": "GSM5050536",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.0109,
+      "frac_skin": 0.9467,
+      "frac_ambiguous": 0.0423,
+      "n_cells": 3566
+    },
+    {
+      "gsm": "GSM5050537",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.0599,
+      "frac_skin": 0.8314,
+      "frac_ambiguous": 0.1087,
+      "n_cells": 4289
+    },
+    {
+      "gsm": "GSM5050538",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0137,
+      "frac_skin": 0.8778,
+      "frac_ambiguous": 0.1085,
+      "n_cells": 5399
+    },
+    {
+      "gsm": "GSM5050539",
+      "tissue": "Foot skin",
+      "frac_blood": 0.4449,
+      "frac_skin": 0.3738,
+      "frac_ambiguous": 0.1813,
+      "n_cells": 2250
+    },
+    {
+      "gsm": "GSM5050540",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1879,
+      "frac_skin": 0.6656,
+      "frac_ambiguous": 0.1465,
+      "n_cells": 2922
+    },
+    {
+      "gsm": "GSM5050541",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.0084,
+      "frac_skin": 0.9432,
+      "frac_ambiguous": 0.0484,
+      "n_cells": 4404
+    },
+    {
+      "gsm": "GSM5050542",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.0541,
+      "frac_skin": 0.8362,
+      "frac_ambiguous": 0.1097,
+      "n_cells": 3774
+    },
+    {
+      "gsm": "GSM5050543",
+      "tissue": "PBMCs",
+      "frac_blood": 0.7659,
+      "frac_skin": 0.0545,
+      "frac_ambiguous": 0.1796,
+      "n_cells": 3870
+    },
+    {
+      "gsm": "GSM5050544",
+      "tissue": "PBMCs",
+      "frac_blood": 0.8916,
+      "frac_skin": 0.0065,
+      "frac_ambiguous": 0.1019,
+      "n_cells": 3377
+    },
+    {
+      "gsm": "GSM5050545",
+      "tissue": "PBMCs",
+      "frac_blood": 0.8935,
+      "frac_skin": 0.0013,
+      "frac_ambiguous": 0.1052,
+      "n_cells": 3812
+    },
+    {
+      "gsm": "GSM5050546",
+      "tissue": "PBMCs",
+      "frac_blood": 0.9155,
+      "frac_skin": 0.002,
+      "frac_ambiguous": 0.0825,
+      "n_cells": 3006
+    },
+    {
+      "gsm": "GSM5050547",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1227,
+      "frac_skin": 0.7702,
+      "frac_ambiguous": 0.1071,
+      "n_cells": 4630
+    },
+    {
+      "gsm": "GSM5050548",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0612,
+      "frac_skin": 0.8467,
+      "frac_ambiguous": 0.0922,
+      "n_cells": 3515
+    },
+    {
+      "gsm": "GSM5050549",
+      "tissue": "PBMCs",
+      "frac_blood": 0.8539,
+      "frac_skin": 0.0051,
+      "frac_ambiguous": 0.141,
+      "n_cells": 4278
+    },
+    {
+      "gsm": "GSM5050550",
+      "tissue": "PBMCs",
+      "frac_blood": 0.8904,
+      "frac_skin": 0.0055,
+      "frac_ambiguous": 0.1041,
+      "n_cells": 3669
+    },
+    {
+      "gsm": "GSM5050551",
+      "tissue": "PBMCs",
+      "frac_blood": 0.8266,
+      "frac_skin": 0.0132,
+      "frac_ambiguous": 0.1601,
+      "n_cells": 4609
+    },
+    {
+      "gsm": "GSM5050552",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0729,
+      "frac_skin": 0.82,
+      "frac_ambiguous": 0.1071,
+      "n_cells": 2483
+    },
+    {
+      "gsm": "GSM5050553",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.0413,
+      "frac_skin": 0.8815,
+      "frac_ambiguous": 0.0771,
+      "n_cells": 4837
+    },
+    {
+      "gsm": "GSM5050554",
+      "tissue": "PBMCs",
+      "frac_blood": 0.8803,
+      "frac_skin": 0.0051,
+      "frac_ambiguous": 0.1146,
+      "n_cells": 4527
+    },
+    {
+      "gsm": "GSM5050555",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1429,
+      "frac_skin": 0.7616,
+      "frac_ambiguous": 0.0955,
+      "n_cells": 3465
+    },
+    {
+      "gsm": "GSM5050556",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0501,
+      "frac_skin": 0.8483,
+      "frac_ambiguous": 0.1016,
+      "n_cells": 4192
+    },
+    {
+      "gsm": "GSM5050557",
+      "tissue": "Foot skin",
+      "frac_blood": 0.2854,
+      "frac_skin": 0.5834,
+      "frac_ambiguous": 0.1312,
+      "n_cells": 4268
+    },
+    {
+      "gsm": "GSM5050558",
+      "tissue": "Foot skin",
+      "frac_blood": 0.3434,
+      "frac_skin": 0.5207,
+      "frac_ambiguous": 0.136,
+      "n_cells": 3413
+    },
+    {
+      "gsm": "GSM5050559",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.132,
+      "frac_skin": 0.7422,
+      "frac_ambiguous": 0.1258,
+      "n_cells": 2902
+    },
+    {
+      "gsm": "GSM5050560",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.1631,
+      "frac_skin": 0.6669,
+      "frac_ambiguous": 0.17,
+      "n_cells": 5248
+    },
+    {
+      "gsm": "GSM5050561",
+      "tissue": "PBMCs",
+      "frac_blood": 0.7557,
+      "frac_skin": 0.05,
+      "frac_ambiguous": 0.1942,
+      "n_cells": 7537
+    },
+    {
+      "gsm": "GSM5050562",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1712,
+      "frac_skin": 0.6652,
+      "frac_ambiguous": 0.1635,
+      "n_cells": 1174
+    },
+    {
+      "gsm": "GSM5050563",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0269,
+      "frac_skin": 0.8793,
+      "frac_ambiguous": 0.0938,
+      "n_cells": 2453
+    },
+    {
+      "gsm": "GSM5050564",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1617,
+      "frac_skin": 0.696,
+      "frac_ambiguous": 0.1424,
+      "n_cells": 1707
+    },
+    {
+      "gsm": "GSM5050565",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0606,
+      "frac_skin": 0.8033,
+      "frac_ambiguous": 0.1361,
+      "n_cells": 1815
+    },
+    {
+      "gsm": "GSM5050566",
+      "tissue": "Foot skin",
+      "frac_blood": 0.1767,
+      "frac_skin": 0.646,
+      "frac_ambiguous": 0.1773,
+      "n_cells": 1822
+    },
+    {
+      "gsm": "GSM5050567",
+      "tissue": "Foot skin",
+      "frac_blood": 0.2616,
+      "frac_skin": 0.6405,
+      "frac_ambiguous": 0.0979,
+      "n_cells": 776
+    },
+    {
+      "gsm": "GSM5050568",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0503,
+      "frac_skin": 0.8427,
+      "frac_ambiguous": 0.107,
+      "n_cells": 1430
+    },
+    {
+      "gsm": "GSM5050569",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0324,
+      "frac_skin": 0.8834,
+      "frac_ambiguous": 0.0842,
+      "n_cells": 3361
+    },
+    {
+      "gsm": "GSM5050570",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0931,
+      "frac_skin": 0.7284,
+      "frac_ambiguous": 0.1784,
+      "n_cells": 1160
+    },
+    {
+      "gsm": "GSM5050571",
+      "tissue": "PBMCs",
+      "frac_blood": 0.7945,
+      "frac_skin": 0.0011,
+      "frac_ambiguous": 0.2044,
+      "n_cells": 4603
+    },
+    {
+      "gsm": "GSM5050572",
+      "tissue": "Forearm skin",
+      "frac_blood": 0.2516,
+      "frac_skin": 0.5159,
+      "frac_ambiguous": 0.2325,
+      "n_cells": 1828
+    },
+    {
+      "gsm": "GSM5050573",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0999,
+      "frac_skin": 0.7546,
+      "frac_ambiguous": 0.1455,
+      "n_cells": 2914
+    },
+    {
+      "gsm": "GSM5050574",
+      "tissue": "Foot skin",
+      "frac_blood": 0.0415,
+      "frac_skin": 0.8656,
+      "frac_ambiguous": 0.0929,
+      "n_cells": 2940
+    }
+  ],
+  "runtime_sec": 168.2
+}

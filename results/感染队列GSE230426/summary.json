@@ -1,0 +1,28 @@
+{
+  "main": {
+    "label": "main_unpaired (AFTER vs BEFORE, n=20/18)",
+    "n_genes": 57059,
+    "n_fdr05": 0,
+    "dir_up": 0,
+    "dir_down": 0
+  },
+  "paired": {
+    "label": "paired_inferred (17 对, ~donor+stage)",
+    "n_genes": 57059,
+    "n_fdr05": 0,
+    "dir_up": 0,
+    "dir_down": 0
+  },
+  "after8": {
+    "label": "after8wk_only (BEFORE n=20 vs AFTER-8wk n=15)",
+    "n_genes": 57059,
+    "n_fdr05": 0,
+    "dir_up": 0,
+    "dir_down": 0
+  },
+  "concordance_main_vs_paired": {
+    "spearman_logFC": 0.9304,
+    "direction_agreement": 0.8828,
+    "n_genes": 128
+  }
+}

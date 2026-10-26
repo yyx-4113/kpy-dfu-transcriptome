@@ -1,0 +1,22 @@
+﻿gsm,title,type,platform,characteristics
+GSM3946485,Diabetic Foot Skin Donor #11,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946486,Diabetic Foot Skin Donor #20,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946487,Diabetic Foot Skin Donor #21,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946488,Diabetic Foot Skin Donor #31,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946489,Diabetic Foot Skin Donor #32,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946490,Diabetic Foot Skin Donor #34,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946491,Diabetic Foot Skin Donor #37,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946492,Diabetic Foot Skin Donor #39,SRA,GPL18573,ulcer_or_skin=Skin
+GSM3946493,DFU Patient UM#7W4,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946494,DFU Patient UM#8W4,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946495,DFU Patient UM#15W0,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946496,DFU Patient UM#23W0,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946497,DFU Patient UM#24W0,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946498,DFU Patient UM#30W4,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946499,DFU Patient P2#13,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Healer
+GSM3946500,DFU Patient UM#27W4,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Nonhealer
+GSM3946501,DFU Patient UM#28W4,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Nonhealer
+GSM3946502,DFU Patient UM#31W4,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Nonhealer
+GSM3946503,DFU Patient P2#01,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Nonhealer
+GSM3946504,DFU Patient P2#03,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Nonhealer
+GSM3946505,DFU Patient P2#21,SRA,GPL18573,ulcer_or_skin=Ulcer | healer_or_nonhealer=Nonhealer

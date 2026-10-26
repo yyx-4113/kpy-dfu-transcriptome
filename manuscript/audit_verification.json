@@ -1,0 +1,12 @@
+{
+ "manuscript": "05_稿件/manuscript_en.md",
+ "n_facts_total_cn": 660,
+ "n_facts_covered_cn": 631,
+ "coverage_pct_cn": 95.6,
+ "n_facts_total": 660,
+ "n_facts_covered": 635,
+ "coverage_pct": 96.2,
+ "n_untraced_tokens": 0,
+ "n_untraced_distinct": 0,
+ "principle": "期望值全部由 audit_facts.json 动态派生；本脚本不硬编码任何期望数字。覆盖度 = 事实库数值在稿件中的出现；溯源度 = 稿件数字能否匹配到事实库。"
+}

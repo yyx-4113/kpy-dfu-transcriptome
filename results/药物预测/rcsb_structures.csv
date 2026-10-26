@@ -1,0 +1,95 @@
+gene,pdb_id,entity_id,description,resolution,method,n_ligands,title
+EP300,6PGU,1,Histone acetyltransferase p300,1.72,X-ray,2,Crystal structure of the p300 acetyltransferase domain with allosteric inhibitor CPI-076 a
+EP300,8FVS,1,Histone acetyltransferase,1.75,X-ray,3,Bromodomain of CBP liganded with CCS1477int
+EP300,4PZS,1,Histone acetyltransferase p300,1.94,X-ray,2,Crystal structure of p300 histone acetyltransferase domain in complex with Acetyl-Coenzyme
+EP300,5LKT,1,"Histone acetyltransferase p300,Histone acetyltransferase p300",2.04,X-ray,5,Crystal structure of the p300 acetyltransferase catalytic core with butyryl-coenzyme A.
+EP300,6V90,1,Histone acetyltransferase p300,2.04,X-ray,3,Crystal structure of the p300 acetyltransferase domain with AcCoA competitive inhibitor 12
+EP300,6ALB,1,CREB-binding protein,2.053,X-ray,3,CREBBP bromodomain in complex with Cpd 30 (1-(3-(3-(1-methyl-1H-pyrazol-4-yl)isoquinolin-8
+EP300,9JUT,1,Histone acetyltransferase p300,2.13,X-ray,1,X-ray crystal structure of Y16524 in EP300
+EP300,7SS8,1,Histone acetyltransferase p300,2.15,X-ray,3,Human P300 complexed with a proline-based inhibitor
+EP300,7VHY,1,Histone acetyltransferase p300,2.3,X-ray,2,Crystal structure of EP300 HAT domain in complex with compound (+)-3
+EP300,6PF1,1,Histone acetyltransferase p300,2.32,X-ray,2,Crystal structure of the p300 acetyltransferase domain with allosteric inhibitor CPI-090 a
+EP300,7SSK,1,Histone acetyltransferase p300,2.36,X-ray,4,Human P300 complexed with a glycine-based inhibitor
+EP300,5LKZ,1,"Histone acetyltransferase p300,Histone acetyltransferase p300",2.5,X-ray,3,Crystal structure of the p300 acetyltransferase catalytic core with crotonyl-coenzyme A.
+EP300,5LKX,1,"Histone acetyltransferase p300,Histone acetyltransferase p300",2.52,X-ray,4,Crystal structure of the p300 acetyltransferase catalytic core with propionyl-coenzyme A.
+EP300,7LJE,1,Histone acetyltransferase p300,2.607,X-ray,1,"Discovery of Spirohydantoins as Selective, Orally Bioavailable Inhibitors of p300/CBP Hist"
+EP300,7SZQ,1,Histone acetyltransferase p300,2.8,X-ray,1,Human P300 complexed with an azaindazole inhibitor
+EP300,4PZT,1,Histone acetyltransferase p300,2.8,X-ray,2,"Crystal structure of p300 histone acetyltransferase domain in complex with an inhibitor, A"
+EP300,6GYR,1,Histone acetyltransferase p300,3.1,X-ray,2,Transcription factor dimerization activates the p300 acetyltransferase
+EP300,5LKU,1,"Histone acetyltransferase p300,Histone acetyltransferase p300",3.5,X-ray,2,Crystal structure of the p300 acetyltransferase catalytic core with coenzyme A.
+LDHA,7DBJ,1,L-lactate dehydrogenase B chain,1.551,X-ray,4,"Crystal structure of human LDHB in complex with NADH, oxamate, and AXKO-0046"
+LDHA,4JNK,1,L-lactate dehydrogenase A chain,1.896,X-ray,5,Lactate Dehydrogenase A in complex with inhibitor compound 22
+LDHA,5W8L,1,L-lactate dehydrogenase A chain,1.95,X-ray,3,Crystal Structure of Lactate Dehydrogenase A in complex with inhibitor compound 59 and NAD
+LDHA,6MVA,1,L-lactate dehydrogenase A chain,2.02,X-ray,4,LDHA structure in complex with inhibitor 14
+LDHA,6Q0D,1,L-lactate dehydrogenase A chain,2.05,X-ray,4,CRYSTAL STRUCTURE OF LDHA IN COMPLEX WITH COMPOUND NCGC00384414-01 AT 2.05 A RESOLUTION
+LDHA,9QYK,1,L-lactate dehydrogenase B chain,2.06,X-ray,3,"Crystal structure of human L-lactate Dehydrogenase B protein in complex with NADH, oxamate"
+LDHA,1I0Z,1,L-LACTATE DEHYDROGENASE H CHAIN,2.1,X-ray,2,"HUMAN HEART L-LACTATE DEHYDROGENASE H CHAIN, TERNARY COMPLEX WITH NADH AND OXAMATE"
+LDHA,4OKN,1,L-lactate dehydrogenase A chain,2.1,X-ray,4,"Crystal structure of human muscle L-lactate dehydrogenase, ternary complex with NADH and o"
+LDHA,1I10,1,L-LACTATE DEHYDROGENASE M CHAIN,2.3,X-ray,3,"HUMAN MUSCLE L-LACTATE DEHYDROGENASE M CHAIN, TERNARY COMPLEX WITH NADH AND OXAMATE"
+LDHA,5ZJD,1,L-lactate dehydrogenase A chain,2.394,X-ray,2,Lactate dehydrogenase with NADH and MLA
+LDHA,4OJN,1,L-lactate dehydrogenase A chain,2.4,X-ray,2,Crystal structure of human muscle L-lactate dehydrogenase
+LDHA,6SBV,1,L-lactate dehydrogenase A chain,2.6,X-ray,1,X-ray Structure of Human LDH-A with an Allosteric Inhibitor (Compound 7)
+LDHA,5ZJF,1,L-lactate dehydrogenase A chain,2.602,X-ray,1,LDHA-MA
+LDHA,4L4S,1,L-lactate dehydrogenase A chain,2.9,X-ray,1,Structural characterisation of the NADH binary complex of human lactate dehydrogenase M is
+LDHA,6SBU,1,L-lactate dehydrogenase A chain,2.91,X-ray,2,X-ray Structure of Human LDHA with an Allosteric Inhibitor (Compound 3)
+LDHA,5ZJE,1,L-lactate dehydrogenase A chain,2.929,X-ray,1,LDHA-mla
+LDHA,8QDE,1,L-lactate dehydrogenase B chain,2.98,X-ray,5,Crystal structure of a truncated human L-Lactate Dehydrogenase B protein in complex with N
+LDHA,1T2F,1,L-lactate dehydrogenase B chain,3.0,X-ray,2,"Human B lactate dehydrogenase complexed with NAD+ and 4-hydroxy-1,2,5-oxadiazole-3-carboxy"
+PDK2,5J71,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",1.65,X-ray,2,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS3
+PDK2,4MPC,1,"[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 2, mitochondrial",1.699,X-ray,2,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS2
+PDK2,4MP2,1,"[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 2, mitochondrial",1.751,X-ray,2,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PA1
+PDK2,4MPN,1,"[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 2, mitochondrial",1.752,X-ray,2,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS1
+PDK2,9M3O,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial",1.762,X-ray,3,Crystal structure of human pyruvate dehydrogenase kinase isoform 1 in complex with ATP com
+PDK2,4MP7,1,"[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 2, mitochondrial",1.8,X-ray,2,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PA7
+PDK2,2Q8G,1,[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 1,1.9,X-ray,2,Structure of pyruvate dehydrogenase kinase isoform 1 in complex with glucose-lowering drug
+PDK2,4MPE,1,"[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 2, mitochondrial",1.953,X-ray,2,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS8
+PDK2,2Q8H,1,[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 1,2.0,X-ray,2,Structure of pyruvate dehydrogenase kinase isoform 1 in complex with dichloroacetate (DCA)
+PDK2,9M3P,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial",2.01,X-ray,3,Crystal structure of human pyruvate dehydrogenase kinase isoform 1 in complex with ATP com
+PDK2,2Q8F,1,[Pyruvate dehydrogenase [lipoamide]] kinase isozyme 1,2.03,X-ray,1,Structure of pyruvate dehydrogenase kinase isoform 1
+PDK2,5J6A,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",2.045,X-ray,1,Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS4
+PDK2,9M3T,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",2.08,X-ray,3,Crystal structure of human pyruvate dehydrogenase kinase isoform 2 in complex with ATP com
+PDK2,5M4P,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",2.3,X-ray,3,Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of
+PDK2,5M4M,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",2.4,X-ray,3,Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of
+PDK2,2BU2,1,PYRUVATE DEHYDROGENSAE KINASE ISOENZYME 2,2.4,X-ray,3,crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and s
+PDK2,4V26,1,"[PYRUVATE DEHYDROGENASE (ACETYL-TRANSFERRING)] KINASE ISOZYME 2, MITOCHONDRIAL",2.49,X-ray,3,"VER-246608, a novel pan-isoform ATP competitive inhibitor of pyruvate dehydrogenase kinase"
+PDK2,5M4K,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",2.6,X-ray,3,Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of
+PDK2,4V25,1,"[PYRUVATE DEHYDROGENASE (ACETYL-TRANSFERRING)] KINASE ISOZYME 2, MITOCHONDRIAL",2.6,X-ray,3,"VER-246608, a novel pan-isoform ATP competitive inhibitor of pyruvate dehydrogenase kinase"
+PDK2,5M4N,1,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",2.6,X-ray,3,Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of
+PKM2,8G2E,1,Pyruvate kinase PKM,1.838,X-ray,6,PKM2 bound to compound 2
+PKM2,9HIA,1,Pyruvate kinase PKM,2.02,X-ray,5,"K115 acetylated human muscle pyruvate kinase, isoform M2 (PKM2), in complex with FBP"
+PKM2,8HMS,1,Pyruvate kinase PKM,2.1,X-ray,5,Crystal Structure of PKM2 mutant C474S
+PKM2,4QGC,1,Pyruvate kinase PKM,2.296,X-ray,3,crystal structure of PKM2-K422R mutant
+PKM2,4G1N,1,Pyruvate kinase isozymes M1/M2,2.3,X-ray,3,PKM2 in complex with an activator
+PKM2,4QG8,1,Pyruvate kinase PKM,2.3,X-ray,4,crystal structure of PKM2-K305Q mutant
+PKM2,4JPG,1,Pyruvate kinase isozymes M1/M2,2.33,X-ray,2,"2-((1H-benzo[d]imidazol-1-yl)methyl)-4H-pyrido[1,2-a]pyrimidin-4-ones as Novel PKM2 Activa"
+PKM2,4QG9,1,Pyruvate kinase PKM,2.381,X-ray,2,crystal structure of PKM2-R399E mutant
+PKM2,4YJ5,1,Pyruvate kinase PKM,2.41,X-ray,4,Crystal structure of PKM2 mutant
+PKM2,9O3B,1,Pyruvate kinase PKM,2.416,X-ray,6,PKM2 bound to MCTI-566
+PKM2,8HMQ,1,Pyruvate kinase PKM,2.5,X-ray,5,Crystal Structure of PKM2 mutant P403A
+PKM2,8HMU,1,Pyruvate kinase PKM,2.5,X-ray,6,Crystal Structure of PKM2 mutant R516C
+PKM2,4RPP,1,Pyruvate kinase PKM,2.585,X-ray,1,crystal structure of PKM2-K422R mutant bound with FBP
+PKM2,8HMR,1,Pyruvate kinase PKM,2.6,X-ray,4,Crystal Structure of PKM2 mutant L144P
+PKM2,5X0I,1,Pyruvate kinase PKM,2.64,X-ray,5,Crystal structure of PKM2 R399E mutant complexed with FBP and serine
+PKM2,9IQQ,1,Pyruvate kinase PKM,2.7,X-ray,2,Crystal structure of PKM2 in complex with a natural activator
+PKM2,9HIC,1,Pyruvate kinase PKM,2.9,X-ray,2,"K166 acetylated human muscle pyruvate kinase, isoform M2 (PKM2), in complex with FBP"
+PKM2,4QG6,1,Pyruvate kinase PKM,3.207,X-ray,1,crystal structure of PKM2-Y105E mutant
+SIRT3,4BN4,1,"NAD-DEPENDENT PROTEIN DEACETYLASE SIRTUIN-3, MITOCHONDRIAL",1.3,X-ray,4,Structure of human SIRT3 in complex with ADP-ribose
+SIRT3,6EQS,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",1.32,X-ray,5,Human Sirt5 in complex with stalled peptidylimidate intermediate of inhibitory compound 29
+SIRT3,5BWL,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",1.548,X-ray,2,Crystal Structure of SIRT5 in Complex with a Coumarin-Labelled Succinyl Peptide
+SIRT3,7X3P,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",1.56,X-ray,3,Crystal structure of human SIRT5 in complex with diazirine inhibitor 9
+SIRT3,9V0H,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",1.665,X-ray,2,Crystal structure of human SIRT5 in complex with inhibitor 0904
+SIRT3,4F56,1,"NAD-dependent lysine demalonylase and desuccinylase sirtuin-5, mitochondrial",1.7,X-ray,2,The bicyclic intermediate structure provides insights into the desuccinylation mechanism o
+SIRT3,4F56,2,peptide from Histone H3.1,1.7,X-ray,2,The bicyclic intermediate structure provides insights into the desuccinylation mechanism o
+SIRT3,2B4Y,1,NAD-dependent deacetylase sirtuin-5,1.9,X-ray,3,Crystal Structure of Human Sirtuin homolog 5
+SIRT3,4G1C,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",1.944,X-ray,2,Human SIRT5 bound to Succ-IDH2 and Carba-NAD
+SIRT3,4F4U,1,"NAD-dependent lysine demalonylase and desuccinylase sirtuin-5, mitochondrial",2.0,X-ray,1,The bicyclic intermediate structure provides insights into the desuccinylation mechanism o
+SIRT3,4F4U,2,peptide from Histone H3.1,2.0,X-ray,1,The bicyclic intermediate structure provides insights into the desuccinylation mechanism o
+SIRT3,2NYR,1,NAD-dependent deacetylase sirtuin-5,2.06,X-ray,2,Crystal Structure of Human Sirtuin Homolog 5 in Complex with Suramin
+SIRT3,5XHS,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",2.19,X-ray,4,Crystal structure of SIRT5 complexed with a fluorogenic small-molecule substrate SuBKA
+SIRT3,4HD8,1,"NAD-dependent protein deacetylase sirtuin-3, mitochondrial",2.3,X-ray,3,Crystal structure of human Sirt3 in complex with Fluor-de-Lys peptide and piceatannol
+SIRT3,6FLG,2,3(S)-(naphthylthio)succinyl-CPS1 peptide,2.5,X-ray,4,Crystal structure of zebrafish Sirtuin 5 in complex with 3(S)-(naphthylthio)succinyl-CPS1 
+SIRT3,4HDA,1,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",2.601,X-ray,2,Crystal structure of human Sirt5 in complex with Fluor-de-Lys peptide and resveratrol
+SIRT3,6FKY,2,3(R)-(phenylthio)succinyl-CPS1 peptide,2.98,X-ray,6,Crystal structure of zebrafish Sirtuin 5 in complex with 3-(benzylthio)succinyl-CPS1 pepti
+SIRT3,4UTN,2,SUCCINYL-CPS1-PEPTIDE,3.0,X-ray,4,Crystal structure of zebrafish Sirtuin 5 in complex with succinylated CPS1-peptide
+SIRT3,6FKZ,2,3(S)-(phenylthio)succinyl-CPS1 peptide,3.3,X-ray,3,Crystal structure of zebrafish Sirtuin 5 in complex with 3-(phenylthio)succinyl-CPS1 pepti
+SIRT3,6FKZ,3,3(R)-(phenylthio)succinyl-CPS1 peptide,3.3,X-ray,3,Crystal structure of zebrafish Sirtuin 5 in complex with 3-(phenylthio)succinyl-CPS1 pepti

@@ -1,0 +1,1198 @@
+{
+ "primer3_version": "2.4.0",
+ "params": {
+  "PRIMER_TASK": "generic",
+  "PRIMER_PICK_LEFT_PRIMER": 1,
+  "PRIMER_PICK_RIGHT_PRIMER": 1,
+  "PRIMER_PICK_INTERNAL_OLIGO": 0,
+  "PRIMER_NUM_RETURN": 5,
+  "PRIMER_MIN_SIZE": 18,
+  "PRIMER_MAX_SIZE": 25,
+  "PRIMER_OPT_SIZE": 20,
+  "PRIMER_MAX_POLY_X": 4,
+  "PRIMER_MIN_TM": 58.0,
+  "PRIMER_MAX_TM": 62.0,
+  "PRIMER_OPT_TM": 60.0,
+  "PRIMER_MIN_GC": 40.0,
+  "PRIMER_MAX_GC": 60.0,
+  "PRIMER_MAX_NS_ACCEPTED": 0,
+  "PRIMER_MAX_SELF_ANY_TH": 47.0,
+  "PRIMER_MAX_SELF_END_TH": 47.0,
+  "PRIMER_MAX_HAIRPIN_TH": 47.0,
+  "PRIMER_PAIR_MAX_COMPL_ANY_TH": 47.0,
+  "PRIMER_PAIR_MAX_COMPL_END_TH": 47.0,
+  "PRIMER_PRODUCT_SIZE_RANGE": [
+   [
+    80,
+    180
+   ]
+  ]
+ },
+ "template_source": "NCBI RefSeq canonical NM_ (efetch, 2026-10-25)",
+ "genes": {
+  "LDHA": {
+   "accession": "NM_001135239.1",
+   "gene_id": 3939,
+   "role": "target",
+   "module": "M2_Pyruvate_supply",
+   "template_header": "NM_001135239.1 Homo sapiens lactate dehydrogenase A (LDHA), transcript variant 2, mRNA",
+   "template_len": 2052,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "AGCTGTTCCACTTAAGGCCC",
+    "reverse": "AAGGAATCGGGAATGCACGT",
+    "f_tm": 59.961689932627735,
+    "r_tm": 60.03543886311098,
+    "f_gc": 55.0,
+    "r_gc": 50.0,
+    "product_size": 120,
+    "f_pos": [
+     135,
+     20
+    ],
+    "r_pos": [
+     254,
+     20
+    ],
+    "self_any_th": 7.5310726491676405,
+    "hairpin_th": 0.0,
+    "pair_compl_any_th": 5.061995461113042,
+    "penalty": 0.07374893048324793
+   },
+   "all_candidates": [
+    {
+     "forward": "AGCTGTTCCACTTAAGGCCC",
+     "reverse": "AAGGAATCGGGAATGCACGT",
+     "f_tm": 59.961689932627735,
+     "r_tm": 60.03543886311098,
+     "f_gc": 55.0,
+     "r_gc": 50.0,
+     "product_size": 120,
+     "self_any_th": 7.5310726491676405,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 5.061995461113042,
+     "penalty": 0.07374893048324793
+    },
+    {
+     "forward": "GTTCCACTTAAGGCCCCTCC",
+     "reverse": "AAGGAATCGGGAATGCACGT",
+     "f_tm": 60.03438019631142,
+     "r_tm": 60.03543886311098,
+     "f_gc": 60.0,
+     "r_gc": 50.0,
+     "product_size": 116,
+     "self_any_th": 7.5310726491676405,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06981905942240019
+    },
+    {
+     "forward": "ACCGTGTTATTGGAAGCGGT",
+     "reverse": "CTCCATGTTCCCCAAGGACC",
+     "f_tm": 59.964260505926404,
+     "r_tm": 60.034088833403985,
+     "f_gc": 50.0,
+     "r_gc": 60.0,
+     "product_size": 117,
+     "self_any_th": 0.0,
+     "hairpin_th": 46.13840286116044,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06982832747758039
+    },
+    {
+     "forward": "AAAGGCTACACATCCTGGGC",
+     "reverse": "GTGCACCCGCCTAAGATTCT",
+     "f_tm": 60.034088833403985,
+     "r_tm": 60.10765438101839,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 81,
+     "self_any_th": 0.0,
+     "hairpin_th": 31.998175476503093,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1417432144223767
+    },
+    {
+     "forward": "TTCAGCCCGATTCCGTTACC",
+     "reverse": "CTCCATGTTCCCCAAGGACC",
+     "f_tm": 60.10804139819629,
+     "r_tm": 60.034088833403985,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 86,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1421302316002766
+    }
+   ]
+  },
+  "FAHD2B": {
+   "accession": "NM_001320848.2",
+   "gene_id": 151313,
+   "role": "target",
+   "module": "M2_Pyruvate_supply",
+   "template_header": "NM_001320848.2 Homo sapiens fumarylacetoacetate hydrolase domain containing 2B (FAHD2B), transcript variant 1, mRNA; nuclear gene for mitochondrial product",
+   "template_len": 1431,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "CAATGGGAAACAGTGGCTGC",
+    "reverse": "CATCTGGTTGGTGTTGCTGC",
+    "f_tm": 60.0379747013443,
+    "r_tm": 60.03889197182781,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 157,
+    "f_pos": [
+     913,
+     20
+    ],
+    "r_pos": [
+     1069,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 41.26754578531194,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.07686667317210549
+   },
+   "all_candidates": [
+    {
+     "forward": "CAATGGGAAACAGTGGCTGC",
+     "reverse": "CATCTGGTTGGTGTTGCTGC",
+     "f_tm": 60.0379747013443,
+     "r_tm": 60.03889197182781,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 157,
+     "self_any_th": 0.0,
+     "hairpin_th": 41.26754578531194,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07686667317210549
+    },
+    {
+     "forward": "GCAATGGGAAACAGTGGCTG",
+     "reverse": "CATCTGGTTGGTGTTGCTGC",
+     "f_tm": 60.0379747013443,
+     "r_tm": 60.03889197182781,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 158,
+     "self_any_th": 0.0,
+     "hairpin_th": 44.89818935814458,
+     "pair_compl_any_th": 2.9957536604496227,
+     "penalty": 0.07686667317210549
+    },
+    {
+     "forward": "AAGCACATCAAGGCCACAGA",
+     "reverse": "CAGCCACTGTTTCCCATTGC",
+     "f_tm": 59.8889387510481,
+     "r_tm": 60.0379747013443,
+     "f_gc": 50.0,
+     "r_gc": 55.0,
+     "product_size": 108,
+     "self_any_th": 5.008729417456038,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1490359502961951
+    },
+    {
+     "forward": "GCAGCAACACCAACCAGATG",
+     "reverse": "GAATACACCGACACCTGGGG",
+     "f_tm": 60.03889197182781,
+     "r_tm": 60.10784838567082,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 122,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.14674035749862924
+    },
+    {
+     "forward": "CCCCAGGTGTCGGTGTATTC",
+     "reverse": "TAGGCTGAGTGGGAGCAGAT",
+     "f_tm": 60.10784838567082,
+     "r_tm": 60.03171624309181,
+     "f_gc": 60.0,
+     "r_gc": 55.0,
+     "product_size": 161,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.13956462876262776
+    }
+   ]
+  },
+  "ADH1B": {
+   "accession": "NM_000668.5",
+   "gene_id": 125,
+   "role": "target",
+   "module": "M2_Pyruvate_supply",
+   "template_header": "NM_000668.5 Homo sapiens alcohol dehydrogenase 1B (class I), beta polypeptide (ADH1B), transcript variant 1, mRNA",
+   "template_len": 2707,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "TGGCCAAAATTGATGCAGCC",
+    "reverse": "AACACAGCACAGGTAGAGCC",
+    "f_tm": 60.03619939913324,
+    "r_tm": 59.96454244930567,
+    "f_gc": 50.0,
+    "r_gc": 55.0,
+    "product_size": 124,
+    "f_pos": [
+     583,
+     20
+    ],
+    "r_pos": [
+     706,
+     20
+    ],
+    "self_any_th": 0.6113025995672388,
+    "hairpin_th": 39.405151624706605,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.07165694982757032
+   },
+   "all_candidates": [
+    {
+     "forward": "TGGCCAAAATTGATGCAGCC",
+     "reverse": "AACACAGCACAGGTAGAGCC",
+     "f_tm": 60.03619939913324,
+     "r_tm": 59.96454244930567,
+     "f_gc": 50.0,
+     "r_gc": 55.0,
+     "product_size": 124,
+     "self_any_th": 0.6113025995672388,
+     "hairpin_th": 39.405151624706605,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07165694982757032
+    },
+    {
+     "forward": "TCACACAGATGACCACGTGG",
+     "reverse": "TCCAACACTCTCCACGATGC",
+     "f_tm": 59.96663411367348,
+     "r_tm": 60.0373256491867,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 94,
+     "self_any_th": 32.83295369696998,
+     "hairpin_th": 42.165315315364296,
+     "pair_compl_any_th": 9.72657841071316,
+     "penalty": 0.0706915355132196
+    },
+    {
+     "forward": "GGCTCTACCTGTGCTGTGTT",
+     "reverse": "CGCAATGATTCTGGCTGCTC",
+     "f_tm": 59.96454244930567,
+     "r_tm": 59.97096533686795,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 90,
+     "self_any_th": 0.0,
+     "hairpin_th": 35.67389209224825,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.0644922138263837
+    },
+    {
+     "forward": "TGAGGATGTGGAGGTTGCAC",
+     "reverse": "CCACGTGGTCATCTGTGTGA",
+     "f_tm": 59.96326795581331,
+     "r_tm": 59.96663411367348,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 89,
+     "self_any_th": 0.0,
+     "hairpin_th": 39.303963373083945,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07009793051321367
+    },
+    {
+     "forward": "CTGGTGGGCAGAGAAGACAG",
+     "reverse": "GTGCAACCTCCACATCCTCA",
+     "f_tm": 60.03657674141829,
+     "r_tm": 59.96326795581331,
+     "f_gc": 60.0,
+     "r_gc": 55.0,
+     "product_size": 118,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07330878560497922
+    }
+   ]
+  },
+  "DHX58": {
+   "accession": "NM_024119.3",
+   "gene_id": 79132,
+   "role": "target",
+   "module": "M4_IFNI_readout",
+   "template_header": "NM_024119.3 Homo sapiens DExH-box helicase 58 (DHX58), mRNA",
+   "template_len": 2591,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "TGACCTGCTCATCTGCACAG",
+    "reverse": "TGTAGACGGTGTCCTTGTGC",
+    "f_tm": 60.03667077476496,
+    "r_tm": 59.96704765653698,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 137,
+    "f_pos": [
+     494,
+     20
+    ],
+    "r_pos": [
+     630,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 38.11739326652855,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.06962311822798029
+   },
+   "all_candidates": [
+    {
+     "forward": "TGACCTGCTCATCTGCACAG",
+     "reverse": "TGTAGACGGTGTCCTTGTGC",
+     "f_tm": 60.03667077476496,
+     "r_tm": 59.96704765653698,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 137,
+     "self_any_th": 0.0,
+     "hairpin_th": 38.11739326652855,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06962311822798029
+    },
+    {
+     "forward": "TGACCTGCTCATCTGCACAG",
+     "reverse": "ATCCACCACGATCAGGGAGA",
+     "f_tm": 60.03667077476496,
+     "r_tm": 60.032116899560435,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 103,
+     "self_any_th": 0.0,
+     "hairpin_th": 38.11739326652855,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06878767432539235
+    },
+    {
+     "forward": "TCTCCGTGCCTGACTTTGAC",
+     "reverse": "GCAATGAGGTGGTCAGTCCA",
+     "f_tm": 59.96649591440473,
+     "r_tm": 59.96326795581331,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 80,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 1.2166050600270637,
+     "penalty": 0.0702361297819607
+    },
+    {
+     "forward": "TAACAGCCCTCGGGGTATCA",
+     "reverse": "CTTCTTGCTGGTCCCTCTGG",
+     "f_tm": 60.03191683636544,
+     "r_tm": 60.03562973326797,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 173,
+     "self_any_th": 6.338775657843712,
+     "hairpin_th": 46.505224821275306,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06754656963340722
+    },
+    {
+     "forward": "CCTTCTCCGTGCCTGACTTT",
+     "reverse": "GCAATGAGGTGGTCAGTCCA",
+     "f_tm": 59.96454244930567,
+     "r_tm": 59.96326795581331,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 83,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 1.2166050600270637,
+     "penalty": 0.07218959488102428
+    }
+   ]
+  },
+  "ALDH3A2": {
+   "accession": "NM_000382.3",
+   "gene_id": 224,
+   "role": "target",
+   "module": "M2_Pyruvate_supply",
+   "template_header": "NM_000382.3 Homo sapiens aldehyde dehydrogenase 3 family member A2 (ALDH3A2), transcript variant 2, mRNA",
+   "template_len": 3703,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "TGTGTTCCCAGCTGCTTAGG",
+    "reverse": "TTTCGGAGACAGGGTCTTGC",
+    "f_tm": 59.96326795581331,
+    "r_tm": 59.96510416451275,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 129,
+    "f_pos": [
+     2635,
+     20
+    ],
+    "r_pos": [
+     2763,
+     20
+    ],
+    "self_any_th": 8.663023832982674,
+    "hairpin_th": 0.0,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.07162787967394024
+   },
+   "all_candidates": [
+    {
+     "forward": "TGTGTTCCCAGCTGCTTAGG",
+     "reverse": "TTTCGGAGACAGGGTCTTGC",
+     "f_tm": 59.96326795581331,
+     "r_tm": 59.96510416451275,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 129,
+     "self_any_th": 8.663023832982674,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07162787967394024
+    },
+    {
+     "forward": "CCTGTGTTCCCAGCTGCTTA",
+     "reverse": "TTTCGGAGACAGGGTCTTGC",
+     "f_tm": 59.96326795581331,
+     "r_tm": 59.96510416451275,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 131,
+     "self_any_th": 8.663023832982674,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07162787967394024
+    },
+    {
+     "forward": "TCTATGTGGGGAAGGGAGGG",
+     "reverse": "CCACTGGTGAGATGGCACTT",
+     "f_tm": 60.030092158555476,
+     "r_tm": 59.96269673577672,
+     "f_gc": 60.0,
+     "r_gc": 55.0,
+     "product_size": 99,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06739542277875898
+    },
+    {
+     "forward": "CCACTGCGGTTGGTCATACT",
+     "reverse": "GCATTCCACAGGCCTCTTCT",
+     "f_tm": 60.03638831252107,
+     "r_tm": 60.03467042380777,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 144,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07105873632883686
+    },
+    {
+     "forward": "GGAGGTGTCACAGGCAATGA",
+     "reverse": "CATCCCACTGGAACCCACTC",
+     "f_tm": 59.96326795581331,
+     "r_tm": 60.03505563904906,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 81,
+     "self_any_th": 5.12372798889578,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07178768323575468
+    }
+   ]
+  },
+  "GBP1": {
+   "accession": "NM_002053.3",
+   "gene_id": 2633,
+   "role": "target",
+   "module": "M4_IFNI_readout",
+   "template_header": "NM_002053.3 Homo sapiens guanylate binding protein 1 (GBP1), mRNA",
+   "template_len": 2883,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "AAGGGAACAGCCTGGACATG",
+    "reverse": "ATTGCCACCACCACCATAGG",
+    "f_tm": 59.96125562726593,
+    "r_tm": 60.03320786519299,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 145,
+    "f_pos": [
+     51,
+     20
+    ],
+    "r_pos": [
+     195,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 36.65733061777672,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.07195223792706429
+   },
+   "all_candidates": [
+    {
+     "forward": "AAGGGAACAGCCTGGACATG",
+     "reverse": "ATTGCCACCACCACCATAGG",
+     "f_tm": 59.96125562726593,
+     "r_tm": 60.03320786519299,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 145,
+     "self_any_th": 0.0,
+     "hairpin_th": 36.65733061777672,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07195223792706429
+    },
+    {
+     "forward": "GATCCACATGACAGGCCCAA",
+     "reverse": "ATTGCCACCACCACCATAGG",
+     "f_tm": 60.03418608094097,
+     "r_tm": 60.03320786519299,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 117,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06739394613396144
+    },
+    {
+     "forward": "CAAGGGAACAGCCTGGACAT",
+     "reverse": "ATTGCCACCACCACCATAGG",
+     "f_tm": 59.96125562726593,
+     "r_tm": 60.03320786519299,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 146,
+     "self_any_th": 0.0,
+     "hairpin_th": 36.65733061777672,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07195223792706429
+    },
+    {
+     "forward": "GCAGGCTATGGACCAACTGT",
+     "reverse": "CTGCTTCCAAGTCCAGGGAG",
+     "f_tm": 60.03505563904906,
+     "r_tm": 60.03562973326797,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 167,
+     "self_any_th": 15.715526255390841,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07068537231702976
+    },
+    {
+     "forward": "CCTATGGTGGTGGTGGCAAT",
+     "reverse": "GCCCAGAGAGAAGCCCTTTT",
+     "f_tm": 60.03320786519299,
+     "r_tm": 59.96111048033731,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 96,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07209738485568096
+    }
+   ]
+  },
+  "ACTB": {
+   "accession": "NM_001101.3",
+   "gene_id": 60,
+   "role": "reference_candidate",
+   "module": "",
+   "template_header": "NM_001101.3 Homo sapiens actin beta (ACTB), mRNA",
+   "template_len": 1852,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "ATTGCCGACAGGATGCAGAA",
+    "reverse": "CGGACTCGTCATACTCCTGC",
+    "f_tm": 60.035151631133374,
+    "r_tm": 59.970433426198554,
+    "f_gc": 50.0,
+    "r_gc": 60.0,
+    "product_size": 172,
+    "f_pos": [
+     1008,
+     20
+    ],
+    "r_pos": [
+     1179,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 42.52778282883122,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.06471820493482028
+   },
+   "all_candidates": [
+    {
+     "forward": "ATTGCCGACAGGATGCAGAA",
+     "reverse": "CGGACTCGTCATACTCCTGC",
+     "f_tm": 60.035151631133374,
+     "r_tm": 59.970433426198554,
+     "f_gc": 50.0,
+     "r_gc": 60.0,
+     "product_size": 172,
+     "self_any_th": 0.0,
+     "hairpin_th": 42.52778282883122,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06471820493482028
+    },
+    {
+     "forward": "CTTCCAGCCTTCCTTCCTGG",
+     "reverse": "AATGCCAGGGTACATGGTGG",
+     "f_tm": 60.03467042380777,
+     "r_tm": 60.03320786519299,
+     "f_gc": 60.0,
+     "r_gc": 55.0,
+     "product_size": 145,
+     "self_any_th": 0.0,
+     "hairpin_th": 45.87883460417265,
+     "pair_compl_any_th": 1.6409290647329158,
+     "penalty": 0.06787828900075965
+    },
+    {
+     "forward": "CCACCATGTACCCTGGCATT",
+     "reverse": "ACTCCTGCTTGCTGATCCAC",
+     "f_tm": 60.03320786519299,
+     "r_tm": 60.03562973326797,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 177,
+     "self_any_th": 10.649926719284451,
+     "hairpin_th": 37.271780729276315,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06883759846095927
+    },
+    {
+     "forward": "CTTCCAGCCTTCCTTCCTGG",
+     "reverse": "CTGTGTTGGCGTACAGGTCT",
+     "f_tm": 60.03467042380777,
+     "r_tm": 59.96649591440473,
+     "f_gc": 60.0,
+     "r_gc": 55.0,
+     "product_size": 110,
+     "self_any_th": 0.0,
+     "hairpin_th": 45.87883460417265,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06817450940303615
+    },
+    {
+     "forward": "CCACCATGTACCCTGGCATT",
+     "reverse": "CTCCTGCTTGCTGATCCACA",
+     "f_tm": 60.03320786519299,
+     "r_tm": 60.03572498371517,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 176,
+     "self_any_th": 10.649926719284451,
+     "hairpin_th": 37.271780729276315,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06893284890816176
+    }
+   ]
+  },
+  "GAPDH": {
+   "accession": "NM_002046.6",
+   "gene_id": 2597,
+   "role": "reference_candidate",
+   "module": "",
+   "template_header": "NM_002046.6 Homo sapiens glyceraldehyde-3-phosphate dehydrogenase (GAPDH), transcript variant 1, mRNA",
+   "template_len": 1309,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "GATTTGGTCGTATTGGGCGC",
+    "reverse": "TTCCCGTTCTCAGCCTTGAC",
+    "f_tm": 59.97109789950406,
+    "r_tm": 59.96510416451275,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 169,
+    "f_pos": [
+     104,
+     20
+    ],
+    "r_pos": [
+     272,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 0.0,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.06379793598318884
+   },
+   "all_candidates": [
+    {
+     "forward": "GATTTGGTCGTATTGGGCGC",
+     "reverse": "TTCCCGTTCTCAGCCTTGAC",
+     "f_tm": 59.97109789950406,
+     "r_tm": 59.96510416451275,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 169,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06379793598318884
+    },
+    {
+     "forward": "TCTCTGCTCCTCCTGTTCGA",
+     "reverse": "GCGCCCAATACGACCAAATC",
+     "f_tm": 59.961689932627735,
+     "r_tm": 59.97109789950406,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 122,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06721216786820605
+    },
+    {
+     "forward": "GTCAAGGCTGAGAACGGGAA",
+     "reverse": "AAATGAGCCCCAGCCTTCTC",
+     "f_tm": 59.96510416451275,
+     "r_tm": 60.03369857178609,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 158,
+     "self_any_th": 0.0,
+     "hairpin_th": 30.140442293639296,
+     "pair_compl_any_th": 21.730250743346062,
+     "penalty": 0.06859440727333777
+    },
+    {
+     "forward": "CCAGCAAGAGCACAAGAGGA",
+     "reverse": "GGAGATTCAGTGTGGTGGGG",
+     "f_tm": 59.96411926156776,
+     "r_tm": 60.03505563904906,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 84,
+     "self_any_th": 0.0,
+     "hairpin_th": 45.488676854316,
+     "pair_compl_any_th": 4.911672067451946,
+     "penalty": 0.07093637748130277
+    },
+    {
+     "forward": "CCAGCAAGAGCACAAGAGGA",
+     "reverse": "GGGAGATTCAGTGTGGTGGG",
+     "f_tm": 59.96411926156776,
+     "r_tm": 60.03505563904906,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 85,
+     "self_any_th": 0.0,
+     "hairpin_th": 45.488676854316,
+     "pair_compl_any_th": 4.911672067451946,
+     "penalty": 0.07093637748130277
+    }
+   ]
+  },
+  "TBP": {
+   "accession": "NM_003194.5",
+   "gene_id": 6908,
+   "role": "reference_candidate",
+   "module": "",
+   "template_header": "NM_003194.5 Homo sapiens TATA-box binding protein (TBP), transcript variant 1, mRNA",
+   "template_len": 1857,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "TGCTGAGAAGAGTGTGCTGG",
+    "reverse": "TGGCAGGCTGTTGTTCTGAT",
+    "f_tm": 59.96552356176562,
+    "r_tm": 59.8889387510481,
+    "f_gc": 55.0,
+    "r_gc": 50.0,
+    "product_size": 124,
+    "f_pos": [
+     143,
+     20
+    ],
+    "r_pos": [
+     266,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 0.0,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.1455376871862768
+   },
+   "all_candidates": [
+    {
+     "forward": "TGCTGAGAAGAGTGTGCTGG",
+     "reverse": "TGGCAGGCTGTTGTTCTGAT",
+     "f_tm": 59.96552356176562,
+     "r_tm": 59.8889387510481,
+     "f_gc": 55.0,
+     "r_gc": 50.0,
+     "product_size": 124,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1455376871862768
+    },
+    {
+     "forward": "ACTCCACTGTATCCCTCCCC",
+     "reverse": "TATATTCGGCGTTTCGGGCA",
+     "f_tm": 60.031009961706786,
+     "r_tm": 59.89551276984406,
+     "f_gc": 60.0,
+     "r_gc": 50.0,
+     "product_size": 172,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.13549719186272569
+    },
+    {
+     "forward": "TCTTTGCAGTGACCCAGCAT",
+     "reverse": "CCAGCACACTCTTCTCAGCA",
+     "f_tm": 59.8889387510481,
+     "r_tm": 59.96552356176562,
+     "f_gc": 50.0,
+     "r_gc": 55.0,
+     "product_size": 85,
+     "self_any_th": 0.0,
+     "hairpin_th": 38.192214793547635,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1455376871862768
+    },
+    {
+     "forward": "ATCTTTGCAGTGACCCAGCA",
+     "reverse": "CCAGCACACTCTTCTCAGCA",
+     "f_tm": 59.8889387510481,
+     "r_tm": 59.96552356176562,
+     "f_gc": 50.0,
+     "r_gc": 55.0,
+     "product_size": 86,
+     "self_any_th": 0.0,
+     "hairpin_th": 36.31888645636229,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1455376871862768
+    },
+    {
+     "forward": "CGCTGGCCCATAGTGATCTT",
+     "reverse": "CCAGCACACTCTTCTCAGCA",
+     "f_tm": 59.892544310713106,
+     "r_tm": 59.96552356176562,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 101,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 12.88331115966821,
+     "penalty": 0.14193212752127238
+    }
+   ]
+  },
+  "HPRT1": {
+   "accession": "NM_000194.3",
+   "gene_id": 3251,
+   "role": "reference_candidate",
+   "module": "",
+   "template_header": "NM_000194.3 Homo sapiens hypoxanthine phosphoribosyltransferase 1 (HPRT1), mRNA",
+   "template_len": 1395,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "TTGCTTTCCTTGGTCAGGCA",
+    "reverse": "ATCCAACACTTCGTGGGGTC",
+    "f_tm": 60.10626791455405,
+    "r_tm": 59.96369443358856,
+    "f_gc": 50.0,
+    "r_gc": 55.0,
+    "product_size": 85,
+    "f_pos": [
+     582,
+     20
+    ],
+    "r_pos": [
+     666,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 43.55243210419388,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.1425734809654955
+   },
+   "all_candidates": [
+    {
+     "forward": "TTGCTTTCCTTGGTCAGGCA",
+     "reverse": "ATCCAACACTTCGTGGGGTC",
+     "f_tm": 60.10626791455405,
+     "r_tm": 59.96369443358856,
+     "f_gc": 50.0,
+     "r_gc": 55.0,
+     "product_size": 85,
+     "self_any_th": 0.0,
+     "hairpin_th": 43.55243210419388,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.1425734809654955
+    },
+    {
+     "forward": "CCTGGCGTCGTGATTAGTGA",
+     "reverse": "AGGGCTACAATGTGATGGCC",
+     "f_tm": 59.82742247996231,
+     "r_tm": 60.10651921155221,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 179,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.27909673158990245
+    },
+    {
+     "forward": "TTGCTTTCCTTGGTCAGGCA",
+     "reverse": "CAACACTTCGTGGGGTCCTT",
+     "f_tm": 60.10626791455405,
+     "r_tm": 60.17902882129704,
+     "f_gc": 50.0,
+     "r_gc": 55.0,
+     "product_size": 82,
+     "self_any_th": 0.0,
+     "hairpin_th": 43.55243210419388,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.28529673585109094
+    },
+    {
+     "forward": "CCTGGCGTCGTGATTAGTGA",
+     "reverse": "GGGCTACAATGTGATGGCCT",
+     "f_tm": 59.82742247996231,
+     "r_tm": 60.10651921155221,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 178,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.27909673158990245
+    },
+    {
+     "forward": "CCTGGCGTCGTGATTAGTGA",
+     "reverse": "TGGCCTCCCATCTCCTTCAT",
+     "f_tm": 59.82742247996231,
+     "r_tm": 60.327866580579894,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 164,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.5004441006175853
+    }
+   ]
+  },
+  "RPLP0": {
+   "accession": "NM_001002.4",
+   "gene_id": 6175,
+   "role": "reference_candidate",
+   "module": "",
+   "template_header": "NM_001002.4 Homo sapiens ribosomal protein lateral stalk subunit P0 (RPLP0), transcript variant 1, mRNA",
+   "template_len": 1105,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "AATCTCCAGGGGCACCATTG",
+    "reverse": "TCGAACACCTGCTGGATGAC",
+    "f_tm": 60.03281297656844,
+    "r_tm": 60.0373256491867,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 144,
+    "f_pos": [
+     514,
+     20
+    ],
+    "r_pos": [
+     657,
+     20
+    ],
+    "self_any_th": 8.311346097954981,
+    "hairpin_th": 44.850082284448774,
+    "pair_compl_any_th": 0.0,
+    "penalty": 0.07013862575513485
+   },
+   "all_candidates": [
+    {
+     "forward": "AATCTCCAGGGGCACCATTG",
+     "reverse": "TCGAACACCTGCTGGATGAC",
+     "f_tm": 60.03281297656844,
+     "r_tm": 60.0373256491867,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 144,
+     "self_any_th": 8.311346097954981,
+     "hairpin_th": 44.850082284448774,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07013862575513485
+    },
+    {
+     "forward": "AATCTCCAGGGGCACCATTG",
+     "reverse": "CAGGGTTGTAGATGCTGCCA",
+     "f_tm": 60.03281297656844,
+     "r_tm": 60.035151631133374,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 167,
+     "self_any_th": 8.311346097954981,
+     "hairpin_th": 44.850082284448774,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06796460770181056
+    },
+    {
+     "forward": "AATCTCCAGGGGCACCATTG",
+     "reverse": "GAACACCTGCTGGATGACCA",
+     "f_tm": 60.03281297656844,
+     "r_tm": 59.96326795581331,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 142,
+     "self_any_th": 8.311346097954981,
+     "hairpin_th": 44.850082284448774,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.06954502075512892
+    },
+    {
+     "forward": "AATCTCCAGGGGCACCATTG",
+     "reverse": "GTCGAACACCTGCTGGATGA",
+     "f_tm": 60.03281297656844,
+     "r_tm": 60.0373256491867,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 145,
+     "self_any_th": 8.311346097954981,
+     "hairpin_th": 44.850082284448774,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07013862575513485
+    },
+    {
+     "forward": "CCTGAGTGATGTGCAGCTGA",
+     "reverse": "CAGGGTTGTAGATGCTGCCA",
+     "f_tm": 60.03667077476496,
+     "r_tm": 60.035151631133374,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 143,
+     "self_any_th": 20.43302970681833,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 11.838977437351843,
+     "penalty": 0.071822405898331
+    }
+   ]
+  },
+  "SDHA": {
+   "accession": "NM_004168.4",
+   "gene_id": 6389,
+   "role": "reference_candidate",
+   "module": "",
+   "template_header": "NM_004168.4 Homo sapiens succinate dehydrogenase complex flavoprotein subunit A (SDHA), transcript variant 1, mRNA; nuclear gene for mitochondrial product",
+   "template_len": 2693,
+   "n_candidate_pairs": 5,
+   "selected": {
+    "forward": "GCTGTGGCCCTGAGAAAGAT",
+    "reverse": "TCTCTGAAATGCCAGGCAGG",
+    "f_tm": 60.03467042380777,
+    "r_tm": 60.0347669151393,
+    "f_gc": 55.0,
+    "r_gc": 55.0,
+    "product_size": 90,
+    "f_pos": [
+     1102,
+     20
+    ],
+    "r_pos": [
+     1191,
+     20
+    ],
+    "self_any_th": 0.0,
+    "hairpin_th": 0.0,
+    "pair_compl_any_th": 2.888549921379365,
+    "penalty": 0.06943733894706838
+   },
+   "all_candidates": [
+    {
+     "forward": "GCTGTGGCCCTGAGAAAGAT",
+     "reverse": "TCTCTGAAATGCCAGGCAGG",
+     "f_tm": 60.03467042380777,
+     "r_tm": 60.0347669151393,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 90,
+     "self_any_th": 0.0,
+     "hairpin_th": 0.0,
+     "pair_compl_any_th": 2.888549921379365,
+     "penalty": 0.06943733894706838
+    },
+    {
+     "forward": "TGGAGCTGCAGAACCTGATG",
+     "reverse": "CTCCAGTGCTCCTCAAAGGG",
+     "f_tm": 60.03572498371517,
+     "r_tm": 60.03562973326797,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 172,
+     "self_any_th": 20.43302970681833,
+     "hairpin_th": 32.440399544747606,
+     "pair_compl_any_th": 10.568197611326752,
+     "penalty": 0.07135471698313722
+    },
+    {
+     "forward": "TGGAGCTGCAGAACCTGATG",
+     "reverse": "CCTCCAGTGCTCCTCAAAGG",
+     "f_tm": 60.03572498371517,
+     "r_tm": 60.03562973326797,
+     "f_gc": 55.0,
+     "r_gc": 60.0,
+     "product_size": 173,
+     "self_any_th": 20.43302970681833,
+     "hairpin_th": 32.440399544747606,
+     "pair_compl_any_th": 10.568197611326752,
+     "penalty": 0.07135471698313722
+    },
+    {
+     "forward": "TGGAGCTGCAGAACCTGATG",
+     "reverse": "GTGCTCCTCAAAGGGCTTCT",
+     "f_tm": 60.03572498371517,
+     "r_tm": 59.96255346712093,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 167,
+     "self_any_th": 20.43302970681833,
+     "hairpin_th": 32.440399544747606,
+     "pair_compl_any_th": 10.568197611326752,
+     "penalty": 0.07317151659424326
+    },
+    {
+     "forward": "CGGGTCCATCCATCGCATAA",
+     "reverse": "GACGTGCAGCTGAAGTAGGT",
+     "f_tm": 59.9652441429393,
+     "r_tm": 60.03815908627445,
+     "f_gc": 55.0,
+     "r_gc": 55.0,
+     "product_size": 81,
+     "self_any_th": 0.0,
+     "hairpin_th": 38.11191835318118,
+     "pair_compl_any_th": 0.0,
+     "penalty": 0.07291494333514947
+    }
+   ]
+  }
+ }
+}

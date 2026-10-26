@@ -1,0 +1,13 @@
+﻿gsm,title,type,platform,characteristics
+GSM7847134,Diac32,SRA,GPL20301,tissue=Foot ulcer | genotype=Diabetic
+GSM7847135,Diac34,SRA,GPL20301,tissue=Foot ulcer | genotype=Diabetic
+GSM7847136,Diac35,SRA,GPL20301,tissue=Foot ulcer | genotype=Diabetic
+GSM7847137,Diac36,SRA,GPL20301,tissue=Foot ulcer | genotype=Diabetic
+GSM7847138,Diac37,SRA,GPL20301,tissue=Foot ulcer | genotype=Diabetic
+GSM7847139,Diac38,SRA,GPL20301,tissue=Foot ulcer | genotype=Non-Diabetic
+GSM7847140,Diac39,SRA,GPL20301,tissue=Foot ulcer | genotype=Non-Diabetic
+GSM7847141,Diac44a,SRA,GPL20301,tissue=Foot ulcer | genotype=Non-Diabetic
+GSM7847142,Diac44b,SRA,GPL20301,tissue=Foot ulcer | genotype=Non-Diabetic
+GSM7847143,Diac44c,SRA,GPL20301,tissue=Foot ulcer | genotype=Non-Diabetic
+GSM7847144,Diac50a,SRA,GPL20301,tissue=Foot ulcer | genotype=Non-Diabetic
+GSM7847145,Diac50b,SRA,GPL20301,tissue=Ankle ulcer | genotype=Non-Diabetic

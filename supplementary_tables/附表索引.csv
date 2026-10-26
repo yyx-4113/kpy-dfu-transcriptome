@@ -1,0 +1,29 @@
+table,n_rows,n_cols,content
+S1_KpyRN_gene_set.csv,140,8,KpyRN 五模块基因集（140 条目，128 计分），含来源与证据说明
+S2_sample_metadata_all_GSE.csv,283,6,全部 26 个 GEO 系列的样本级元数据（含未用于计算者）
+S3_meta_analysis_results.csv,21915,17,META1/META2 随机效应 meta 全表（pooled logFC/SE/z/p/FDR/I² + 队列特异）
+S4_ML_performance.csv,28,13,Task A/B 各算法 CV AUC（10 种子）与外部队列 AUC + DeLong CI
+S4b_ML_gene_selection.csv,26,3,26 基因候选池的算法选择频次与共识判定
+S5a_immune_group_stats.csv,60,14,三算法解卷积的组间统计（全部对比，含 FDR）
+S5b_hubgene_immune_correlation.csv,600,5,枢纽基因 × 免疫指标 Spearman 相关（含 FDR）
+S5c_method_concordance.csv,12,6,EPIC 与 MCP-counter 跨样本一致性
+S6a_scrna_composition.csv,98,13,GSE165816 受试体级细胞组成统计（足皮肤/前臂/PBMC/愈合结局/4 组）
+S6b_scrna_pseudobulk_footskin.csv,924,9,GSE165816 足皮肤 pseudobulk 基因×谱系统计（median1/median2/q/effect_rb）
+S6c_scrna223964_pseudobulk_stats.csv,32,10,GSE223964 供体级 细胞类型×模块 统计（Mann-Whitney U exact）
+S6d_scrna223964_permutation_check.csv,32,8,GSE223964 独立路径：供体级中位 pseudobulk + 10000 次标签置换
+S6e_geommx_roi_metadata.csv,23,13,GSE166120 23 个 ROI 的元数据（受试体/位置/结局）
+S6f_geommx_module_scores.csv,69,9,GSE166120 ROI 级模块评分
+S6g_geommx_region_stats.csv,6,14,GSE166120 区域统计（受试体级为主口径 + ROI 级敏感性）
+S7a_gse230426_deg_all_models.csv,171177,8,"GSE230426 三模型全基因组 DEG（各 57,059 基因，全阴性）"
+S7b_gse230426_camera_modules.csv,12,6,GSE230426 camera 模块检验（三模型 × 四模块）
+S7c_gse230426_hub_genes.csv,18,7,GSE230426 六个枢纽基因三模型结果（全不显著）
+S8a_MR_results.csv,34,17,MR 全部 34 对 gene×outcome 结果（含 BH-FDR）
+S8b_MR_instruments.csv,13,17,cis-eQTL 工具变量与 F 统计
+S8c_MR_harmonization_audit.csv,39,4,等位基因协调审计（含全部排除记录）
+S9a_docking_results.csv,55,11,全部 55 次对接（target/site/PDB/ligand/role/affinity/Δ/box）
+S9b_positive_control_rmsd.csv,8,6,阳性对照重对接 RMSD 验证（8/8 = 0.00 Å，验收阈值 < 2 Å）
+S10a_qpcr_primers.csv,12,19,12 对引物（6 目标 + 6 内参候选）
+S10b_primer_verification.csv,12,27,引物二级结构/自互补/GC/Tm 独立复算
+S10c_sample_size_calculation.csv,6,14,基于真实效应量的样本量计算（配对/独立/保守情景）
+S10d_primer_blast_specificity.csv,12,26,BLAST 单靶特异性 v3（core_nt 数据库，XML 完整描述；真脱靶=人源 RefSeq 转录本命中，同源旁系同源/假基因/基因组层面命中分层单列）
+S11_intersection_independence.csv,7,8,三层交集独立性检验（10000 次置换 + 超几何精确检验，seed 20261025）。抽样数一律取「该子集 ∩ WGCNA 5000 高变基因背景」的大小；pool = META1-padj<0.05 ∩ DFU 显著相关模块（magenta/yellow/red/blue）共 795 基因。
