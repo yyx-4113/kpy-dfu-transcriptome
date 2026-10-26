@@ -1,5 +1,7 @@
 # Transcriptomic Footprint of the Lysine-Pyruvylation Regulatory Network in Diabetic Foot Ulcer Tissue
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23677954.svg)](https://doi.org/10.5281/zenodo.23677954)
+
 **Reproducibility package** for the manuscript *"The lysine-pyruvylation regulatory network is transcriptionally dysregulated in diabetic foot ulcer tissue"*.
 
 This repository contains the full analysis code, derived result tables, figures, manuscript text, and a machine-readable **audit ledger** that traces every numeric claim in the manuscript back to the file it was computed from.

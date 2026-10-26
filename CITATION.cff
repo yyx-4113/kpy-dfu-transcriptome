@@ -14,6 +14,10 @@ abstract: >-
   network.
 type: software
 version: 1.0.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23677954
+    description: Concept DOI resolving to the versioned reproducibility deposit on Zenodo.
 date-released: "2026-10-25"
 license: MIT
 repository-code: "https://github.com/yyx-4113/kpy-dfu-transcriptome"
